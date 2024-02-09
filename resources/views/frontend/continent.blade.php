@@ -4,9 +4,13 @@
         <meta charset="UTF-8">
         <meta name="google-site-verification" content="kevV-HFG1JijHyuKnnkIeN6dY_Hb-ueXuqoUv-pPWUU"/>
         <meta name="ahrefs-site-verification" content="167ef56daf7b5a6af88ecea027be9df8f7a528cfe6be55f3f794a32094b792f2">
-        <meta name="keywords" content="Import Export Data, Export Import Data Provider, Business Intelligence Report, Import Export Trade Data, Best Market Research, Importers Exporters Data, Buyers List, List of Suppliers, Trade Data, Best Import Export Data" />
+          @foreach ($continentdata as $continent)
+          <meta name="keywords" content={{$continent->mf_content_metakeywords}} /> 
+          <meta name="description" content={{$continent->mf_content_metadescription}} />
+          @endforeach
+       
         <meta name="robots" content="index, follow" id="robots"/>
-        <meta name="description" content="TradeImeX is a leading Import Export Trade Data Provider. We Cover 70+ Countries Import Export Trade Data online. Discover the Growth Trend." />
+      
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
         <title>
             <?php
@@ -73,6 +77,12 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
+            }
+            .highcharts-exporting-group {
+                display: none !important;
+            }
+            .highcharts-credits {
+                display: none !important;
             }
         </style>
     </head>
@@ -1422,7 +1432,7 @@
                       {{$continent->sd_heading}}
                     </h2>
                     <p class="text-white">
-                      {!!$continent->sd_para!!}}
+                      {!!strip_tags(html_entity_decode($continent->sd_para))!!}
                     </p>
                 </div>
             </div>

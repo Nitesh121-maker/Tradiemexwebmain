@@ -5,13 +5,10 @@
         <meta charset="UTF-8">
         <meta name="google-site-verification" content="kevV-HFG1JijHyuKnnkIeN6dY_Hb-ueXuqoUv-pPWUU" />
         <meta name="ahrefs-site-verification" content="167ef56daf7b5a6af88ecea027be9df8f7a528cfe6be55f3f794a32094b792f2">
-        <meta name="keywords" content=
-        "Import Export Data, Export Import Data Provider, Business Intelligence Report, Import Export Trade Data, Best Market Research, Importers Exporters Data, Buyers List, List of Suppliers, Trade Data, Best Import Export Data" />
-        <meta name="robots" content="index, follow" id="robots"/>
-        {{-- @foreach ($collection as $item)
-            
+        @foreach ($countrydata as $country)
+        <meta name="keywords" content={{$country->mf_content_metakeywords}} /> 
+        <meta name="description" content={{$country->mf_content_metadescription}} />
         @endforeach
-        <meta name="description" content="{{ $countryData[0]['mf_content_metadescription'] }}" /> --}}
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
         <title>
             @foreach ($countrydata as $country)
