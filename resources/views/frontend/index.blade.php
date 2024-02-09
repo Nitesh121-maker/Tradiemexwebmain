@@ -450,7 +450,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="data-img">
-                                <img src="frontend/image/img/Customs Data.png" alt="customs-data | TradeImeX">
+                                <img src="frontend/image/img/Customs_Data.png" style="width: 100% !important" alt="customs-data | TradeImeX">
                             </div>
                         </div>
                     </div>
@@ -478,7 +478,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="data-img">
-                                <img src="frontend/image/img/Statistical_Data.png" alt="statistical-data | TradeImeX">
+                                <img src="frontend/image/img/Statistical Data.png" style="width: 100% !important" alt="statistical-data | TradeImeX">
                             </div>
                         </div>
                     </div>
@@ -510,7 +510,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="data-img">
-                                <img src="frontend/image/img/BL Data.png" alt="bl-data | TradeImeX">
+                                <img src="frontend/image/img/Bill of Ladding Database.png" style="width: 100% !important" alt="bl-data | TradeImeX">
                             </div>
                         </div>
                     </div>

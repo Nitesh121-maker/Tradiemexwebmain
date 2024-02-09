@@ -20,6 +20,12 @@
             })(window,document,'script','dataLayer','GTM-PVH9BTS');
         </script>
         <!-- End Google Tag Manager -->
+        <style>
+            video {
+                width: 100%;
+                height: auto;
+            }
+        </style>
     </head>
     <body>
        @include('frontend.header')
@@ -43,7 +49,11 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <video width="500" autoplay muted loop>
+                            <source src="frontend/image/img/Customs Analytical Report.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,7 +68,7 @@
                     </h2>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="text-content">
                             <p>
                                 Finding a first-mover advantage is necessary if one wants to stay ahead of the market

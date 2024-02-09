@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-    <?php
-        // if(isset($_GET['id'])) {
-        //     $id = $_GET['id'];
-        // } 
-    ?>
     <head>
         <meta charset="UTF-8">
         <meta name="google-site-verification" content="kevV-HFG1JijHyuKnnkIeN6dY_Hb-ueXuqoUv-pPWUU"/>
@@ -1400,9 +1395,7 @@
             <div class="container pdt-2">
                 <div  class="row">
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                        <div>
-                            <canvas id="10_partners"></canvas>
-                        </div>
+                        <div id="chart_div"></div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                         <div class="list">
@@ -1426,15 +1419,10 @@
                 <div class="text-content">
                     <span>Sample Data</span>
                     <h2 class="text-white">
-                        We help customers achieve measurable results
+                      {{$continent->sd_heading}}
                     </h2>
                     <p class="text-white">
-                        Integrate Stripe with your existing systems to support the entire 
-                        lifecycle of your business’s cash flow—from acquiring customers and 
-                        collecting revenue, to closing your books and filing sales taxes. 
-                        With Stripe’s comprehensive revenue and finance automation solution, 
-                        you don’t have to settle for oversized, arcane systems or small-scale, 
-                        piecemeal tools.
+                      {!!$continent->sd_para!!}}
                     </p>
                 </div>
             </div>
@@ -1746,29 +1734,50 @@
 
         </script>
         <!-- End of chart js -->
-
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
         <!-- Top 10 partners of country (Bar Chart) -->
         <script>
-            const ctx = document.getElementById('10_partners');
+                google.charts.load('current', {packages: ['corechart', 'bar']});
+                google.charts.setOnLoadCallback(drawColColors);
 
-            new Chart(ctx, {
-                type: 'bar',
-                data: {
-                labels: ['China', 'India', 'Singapore', 'Indonesia', 'UAE', 'USA', 'Malaysia', 'Japan', 'Brazil', 'Saudi Arabia'],
-                datasets: [{
-                    label: 'TOP 10 PARTNERS OF COUNTRIES',
-                    data: [24.58, 14.85, 5.47, 5.01, 3.23, 3.1, 4.24, 3.63, 3.38, 3.32],
-                    borderWidth: 1
-                }]
-                },
-                options: {
-                scales: {
-                    y: {
-                    beginAtZero: true
+                function drawColColors() {
+                    var data = new google.visualization.DataTable();
+                    data.addColumn('timeofday', 'Time of Day');
+                    data.addColumn('number', 'Motivation Level');
+                    data.addColumn('number', 'Energy Level');
+
+                    data.addRows([
+                        [{v: [8, 0, 0], f: '8 am'}, 1, .25],
+                        [{v: [9, 0, 0], f: '9 am'}, 2, .5],
+                        [{v: [10, 0, 0], f:'10 am'}, 3, 1],
+                        [{v: [11, 0, 0], f: '11 am'}, 4, 2.25],
+                        [{v: [12, 0, 0], f: '12 pm'}, 5, 2.25],
+                        [{v: [13, 0, 0], f: '1 pm'}, 6, 3],
+                        [{v: [14, 0, 0], f: '2 pm'}, 7, 4],
+                        [{v: [15, 0, 0], f: '3 pm'}, 8, 5.25],
+                        [{v: [16, 0, 0], f: '4 pm'}, 9, 7.5],
+                        [{v: [17, 0, 0], f: '5 pm'}, 10, 10],
+                    ]);
+
+                    var options = {
+                        title: 'Motivation and Energy Level Throughout the Day',
+                        colors: ['#9575cd', '#33ac71'],
+                        hAxis: {
+                        title: 'Time of Day',
+                        format: 'h:mm a',
+                        viewWindow: {
+                            min: [7, 30, 0],
+                            max: [17, 30, 0]
+                        }
+                        },
+                        vAxis: {
+                        title: 'Rating (scale of 1-10)'
+                        }
+                    };
+
+                    var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+                    chart.draw(data, options);
                     }
-                }
-                }
-            });
         </script>
         <!-- End of Bar chart js -->
 
