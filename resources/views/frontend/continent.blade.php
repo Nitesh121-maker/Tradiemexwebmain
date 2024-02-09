@@ -1407,7 +1407,7 @@
             <div class="container pdt-2">
                 <div  class="row">
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                        <div class="chart_wrap">
+                        <div id="chart_wrap">
                             <div id="chart_div"></div>
                         </div>
                     </div>
