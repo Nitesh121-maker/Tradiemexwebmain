@@ -65,7 +65,7 @@
         </script>
         <!-- End Google Tag Manager -->
         <style>
-            /* #chart_wrap {
+            #chart_wrap {
                 position: relative;
                 padding-bottom: 70%;
                 height: 0;
@@ -77,7 +77,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-            } */
+            }
             .highcharts-exporting-group {
                 display: none !important;
             }
@@ -1407,7 +1407,9 @@
             <div class="container pdt-2">
                 <div  class="row">
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                        <div id="chart_div"></div>
+                        <div class="chart_wrap">
+                            <div id="chart_div"></div>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                         <div class="list">
