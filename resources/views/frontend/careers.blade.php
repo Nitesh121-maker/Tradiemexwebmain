@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="google-site-verification" content="kevV-HFG1JijHyuKnnkIeN6dY_Hb-ueXuqoUv-pPWUU" />
+        <meta name="ahrefs-site-verification" content="167ef56daf7b5a6af88ecea027be9df8f7a528cfe6be55f3f794a32094b792f2">
+        <meta name="keywords" content="Import Export Data, Export Import Data Provider, Business Intelligence Report, Import Export Trade Data, Best Market Research, Importers Exporters Data, Buyers List, List of Suppliers, Trade Data, Best Import Export Data" />
+        <meta name="robots" content="index, follow" id="robots"/>
+        <meta name="description" content="Join TradeImeX - a leading global trade data-providing company and embark on a rewarding journey in the import-export industry. Gain insights into market research and access import-export data for over 80 countries. Start your career with TradeImeX today and unlock limitless growth opportunities in the world of international trade. Explore exciting opportunities in global trade data sources and become a part of our dynamic team!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+
+        <title>Explore Exciting Career Opportunities at TradeImeX - Careers</title>
+        
+        <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
+       @include('frontend.link')
+
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-PVH9BTS');
+        </script>
+        <!-- End Google Tag Manager -->
+    </head>
+    <body>
+        <!-- Header -->
+       
+        @include('frontend.header')
+        <!-- Why TradeImeX? -->
+        <div class="container-fluid bg-bluish pdt-5 pdb-2">
+            <div class="container">
+                <div class="text-content text-center">
+                    <h1>Why TradeImeX?</h1>
+                </div>
+                <div class="text-content">
+                    <p class="text-center">
+                        TradeImeX is a pioneer in the international trade industry, connecting businesses across the
+                        globe and facilitating seamless trade transactions while providing import-export and global
+                        trade data online. Our innovative platform enables businesses to explore new trade markets,
+                        connect with potential partners, and organize their force chain operations. By joining
+                        TradeImeX, you will become part of a dynamic team that is shaping the future of international
+                        trade.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Room For Growth -->
+        <div class="container-fluid bg-bluish pdt-5 pdb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 pdb-2" style="align-items: center;display: flex;">
+                        <div class="text-content content-highlight">
+                            <span>Room For Growth</span>
+                            <h2 class="text-white">
+                                Professional Growth and Benefits
+                            </h2>
+                            <p class="text-white">
+                                At TradeImeX, your career is not limited to a specific role or position. We&#39;re committed to
+                                furnishing our workers with ample openings for growth and development. We believe in
+                                investing in our people&#39;s implicit, and we offer a range of professional development programs
+                                to help them edge their chops and reach their full potential.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                        <img src="frontend/image/img/Professional Growth.png" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Where Your Work Life Is -->
+        <div class="container-fluid padding-tb">
+            <div class="container" style="display: flex;justify-content: center;">
+                <div class="row pd-rl-none">
+                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 pd-rl-none">
+                        <div class="career-img">
+                            <img src="frontend/image/img/Work Life.png" width="100%" class="card-img-top" alt="...">
+                        </div> 
+                    </div>
+                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 pd-rl-none">
+                        <div class="card-body-custom bg-dark-custom" style="display: flex;align-items: center;">
+                            <div class="container">
+                                <div class="text-content">
+                                    <h3 class="text-white">Work where your life is</h3>
+                                    <p class="text-white">
+                                        At TradeImeX, we believe that work should complement your life, not hinder it. We understand
+                                        the significance of work-life balance and strive to produce a terrain where our workers can
+                                        thrive in both their particular and professional lives. We provide extensive perks that promote
+                                        our workers&#39; general well-being at TradeImeX.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Benefits & perks -->
+        <div class="container-fluid bg-dark-custom pdt-5 pdb-2">
+            <div class="row">
+                <div class="text-content text-center">
+                    <h2 class="text-white">What are the benefits that you will get from joining TradeImeX?</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="benefit-content">
+                            <div class="image">
+                                <img src="frontend/image/img/work-life-balance.png" width="50%">
+                            </div>
+                            <h1 class="text-white">Work-Life Balance</h1>
+                            <p class="text-white">
+                                At TradeImeX, maintaining a healthy work-life balance is a priority. The company understands
+                                that employees perform at their best when they can find harmony between their professional
+                                and personal lives.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="benefit-content">
+                            <div class="image">
+                                <img src="frontend/image/img/collaborate.png" width="50%">
+                            </div>
+                            <h1 class="text-white">Collaborative Environment</h1>
+                            <p class="text-white">
+                                We believe that great ideas come from collaboration. Our work culture is built on teamwork,
+                                openness, and creativity. Our atmosphere is such that everyone&#39;s opinions and inputs are
+                                valued here, and where you can contribute with your unique ideas to make a real impact.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="benefit-content">
+                            <div class="image">
+                                <img src="frontend/image/img/business.png" width="50%">
+                            </div>
+                            <h1 class="text-white">Development and Growth</h1>
+                            <p class="text-white">
+                                We allow you the chance to grow professionally and advance your capacities by offering
+                                mentorship, training, and professional development openings. Our goal is to give you a fruitful
+                                and satisfying professional path and openings for advancement and growth within the
+                                company.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Core values -->
+        <div class="container-fluid bg-bluish pdt-5 pdb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                        <div class="text-content">
+                            <span>Core Value</span>
+                            <h2>What will you do in the company ahead?</h2>
+                            <p>
+                                These values keep us on track toward our personal, 
+                                team, and company goals. 
+                                We not only live by them, but also regularly
+                                recognize when people 
+                                embody them.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row col-sm-12 col-xs-12 col-md-12 col-lg-12" style="padding-top: 3%;">
+                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
+                            <div class="core-content content-highlight">
+                                <div class="image">
+                                    <img src="frontend/image/img/growth (1).png" style="width: 25%;">
+                                </div>
+                                <h2 class="text-white">Support and enhance the company’s growth</h2>
+                                <p class="text-white" style="padding: 0px 0px 0px 0px;">
+                                    Along with learning about a completely new trade environment, you will be collaborating and
+                                    working with your designated team of professionals. You will gain knowledge of worldwide
+                                    market trends and analysis, which will enable you to support the business&#39;s expansion.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
+                            <div class="core-content content-highlight">
+                                <div class="image">
+                                    <img src="frontend/image/img/link.png" style="width: 25%;">
+                                </div>
+                                <h2 class="text-white">Establishing Links</h2>
+                                <p class="text-white" style="padding: 0px 0px 0px 0px;">
+                                    To accomplish the goals and targets set by the organization, you must establish connections
+                                    with different international market leaders, collaborate with your team, and stay up to date on
+                                    the most recent developments and insights about the worldwide market.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
+                            <div class="core-content content-highlight">
+                                <div class="image">
+                                    <img src="frontend/image/img/data-report.png" style="width: 25%;">
+                                </div>
+                                <h2 class="text-white">Achieve business exposure</h2>
+                                <p class="text-white" style="padding: 0px 0px 0px 0px;">
+                                    Collaborating with your colleagues under one roof will provide you with corporate experience,
+                                    which will teach you to follow rules and develop into a responsible individual.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
+                            <div class="core-content content-highlight">
+                                <div class="image">
+                                    <img src="frontend/image/img/working.png" style="width: 25%;">
+                                </div>
+                                <h2 class="text-white">Exciting and Challenging Work</h2>
+                                <p class="text-white" style="padding: 0px 0px 0px 0px;">
+                                    At TradeImeX, no days are the same. You will always be encouraged to adapt and be on your
+                                    toes in our line of work because it moves quickly and is always changing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Perks of Working at TradeImeX -->
+        <div class="container-fluid bg-bluish pdt-5 pdb-2">
+            <div class="row">
+                <div class="text-content text-center">
+                    <h2>
+                        Additional Perks of Working at TradeImeX
+                    </h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
+                        <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
+                            <div class="image">
+                                <img src="frontend/image/img/vlogger.png" width="50%">
+                            </div>
+                            <h1 class="text-white">Opportunities for Travel and Networking</h1>
+                            <p class="text-white">
+                                TradeImeX operates on a global scale, and as an employee, you may have the opportunity to
+                                travel to different countries and interact with professionals from various industries and
+                                backgrounds. This exposure to international markets and networking opportunities can
+                                broaden your horizons, expand your professional network, and provide valuable insights and
+                                experiences.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
+                        <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
+                            <div class="image">
+                                <img src="frontend/image/img/incentive.png" width="50%">
+                            </div>
+                            <h1 class="text-white">Employee Recognition and Incentives</h1>
+                            <p class="text-white">
+                                TradeImeX values excellence and recognizes the achievements of its employees. The
+                                company has a robust employee recognition program in place to celebrate individual and
+                                team accomplishments by providing incentives. TradeImeX acknowledges and rewards hard
+                                work, dedication, and outstanding performance, creating a culture of appreciation and
+                                motivation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
+                        <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
+                            <div class="image">
+                                <img src="frontend/image/img/development.png" width="50%">
+                            </div>
+                            <h1 class="text-white">Dynamic and Innovative Work Environment</h1>
+                            <p class="text-white">
+                                Joining TradeImeX means being a part of a dynamic and innovative work environment. The
+                                company embraces new technologies, encourages creative thinking, and fosters an
+                                entrepreneurial spirit. By being a part of TradeImeX, you will have the opportunity to work
+                                on challenging projects, contribute to innovative solutions, and be at the forefront of industry
+                                advancements.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Friendly Environment and Timely Celebrations -->
+        <div class="container-fluid bg-bluish pdt-5 pdb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
+                        <img src="frontend/image/img/Celebration.png" width="100%">
+                    </div>
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
+                        <div class="text-content content-highlight">
+                            <h2 class="text-white">
+                                Friendly Environment and Timely Celebrations
+                            </h2>
+                            <p class="text-white">
+                                At TradeImeX ® Info Solution Pvt. Ltd., we take great pride in fostering a friendly environment
+                                and ensuring timely celebrations for our employees. We believe that a positive and
+                                supportive work atmosphere is crucial for productivity and overall well-being. Our team
+                                members are not just colleagues; we are a close-knit community that supports and
+                                encourages each other. From team-building activities to occasional celebrations, we make
+                                sure to cultivate a sense of camaraderie within our organization. Moreover, we understand
+                                the importance of timely celebrations in recognizing milestones and achievements. Whether
+                                it is an employee&#39;s work anniversary, a project completion, or a major company milestone,
+                                we take the time to acknowledge and appreciate these accomplishments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jobs Descriptions -->
+        <div class="container-fluid pdt-5 pdb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="hero-title">
+                            <h2>Join us and collaborate with the brightest, and kindest, minds in tech.</h2>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="accordion accordion-flush padding-tb" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="flush-headingOne">
+                                    <button style="background-color: whitesmoke;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#seo" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <h3>SEO (0-2 years of experience)</h3>&nbsp;
+                                        <span class="badge bg-secondary">1</span>
+                                    </button>
+                                </div>
+                                <div id="seo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <!-- <div class="accordion-body" style="font-size: 20px;">
+                                        We provide a stable infrastructure for our merchants, their customers, 
+                                        and the Recharge team. Our technical challenges include supporting billions 
+                                        of dollars in recurring payments while expanding our capabilities to meet 
+                                        the growing demands of ecommerce. Our culture proudly balances speed and quality.
+                                    </div> -->
+                                    <div class="department-jobs bg-bluish">
+                                        <button class="department-box" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <h4 class="department-job__title">
+                                                <b>SEO</b>
+                                            </h4>
+                                            <span class="department-job__location">OFFICE</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item pdt-2">
+                                <div class="accordion-header" id="flush-headingOne">
+                                    <button style="background-color: whitesmoke;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#react" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <h3>React developer (0-2 years of experience)</h3>&nbsp;
+                                        <span class="badge bg-secondary">1</span>
+                                    </button>
+                                </div>
+                                <div id="react" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <!-- <div class="accordion-body" style="font-size: 20px;">
+                                        We provide a stable infrastructure for our merchants, their customers, 
+                                        and the Recharge team. Our technical challenges include supporting billions 
+                                        of dollars in recurring payments while expanding our capabilities to meet 
+                                        the growing demands of ecommerce. Our culture proudly balances speed and quality.
+                                    </div> -->
+                                    <div class="department-jobs bg-bluish">
+                                        <button class="department-box" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <h4 class="department-job__title">
+                                                <b>React developer</b>
+                                            </h4>
+                                            <span class="department-job__location">OFFICE</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Career Modal Form -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Enter Your Details</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <?php if(!empty($statusMsg)){ ?>
+                        <p class="statusMsg<?php echo !empty($msgClass)?$msgClass:''; ?>">
+                            <?php echo $statusMsg; ?></p>
+                    <?php } ?>
+                    <div class="modal-body">
+                       <form action="{{ route('career.send') }}" method="POST" enctype="multipart/form-data">
+                            @csrf
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="recipient-name" class="col-form-label">Name</label>
+                                    <input required name="name" autocomplete="off" type="text" class="form-control" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="Name" required="">
+                                </div>
+                                <div class="col">
+                                    <label for="recipient-name" class="col-form-label">Phone No.</label>
+                                    <input required name="number" autocomplete="off" placeholder="Phone No." type="tel" class="form-control"  value="<?php echo !empty($postData['number'])?$postData['number']:''; ?>" placeholder="number" required="">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="recipient-name" class="col-form-label">Email</label>
+                                    <input required name="email" autocomplete="off" type="email" class="form-control" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" placeholder="Email address" required="">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="recipient-name" class="col-form-label">Date Of Birth</label>
+                                    <input required name="dob" autocomplete="off" type="date" class="form-control" value="<?php echo !empty($postData['dob'])?$postData['dob']:''; ?>" placeholder="dob" required="">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="recipient-name" class="col-form-label">Position To Apply</label>
+                                    <select required name="position" class="form-select" aria-label="Default select example">
+                                        <option selected>Choose...</option>
+                                        <option value="SEO">SEO</option>
+                                        <option value="React Developer">React Developer</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="recipient-name" class="col-form-label">Upload Your Resume*(Max. Size 3 MB)</label>
+                                    <input required name="cv" id="cv" type="file" class="form-control">
+                                </div>
+                            </div>
+                            <input type="hidden" name="recaptcha_response" id="recaptchaResponse" value="">
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="Submit" name="submit" id="submit" value="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Last Partner tab -->
+
+        @include('frontend.tab_inc')
+        @include('frontend.script')
+        @include('frontend.footer')
+
+        <script>
+            grecaptcha.ready(() => {
+                grecaptcha.execute('6Ld1Ax8pAAAAAJWU_TaW2gMhMvAOeRl885SXqVPT', { action: 'contact' }).then(token => 
+                {
+                    document.querySelector('#recaptchaResponse').value = token;
+                });
+            });
+        </script>
+    </body>
+</html>
