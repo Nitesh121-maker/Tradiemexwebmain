@@ -483,15 +483,13 @@
                         {{$country->sd_heading}}
                     </h2>
                     <p class="text-white">
-                        We obtain trustworthy data from organizations, shipping businesses, and customs ports. The
-                        trade data contains a wide range of fields, such as HS codes, product descriptions, prices,
-                        quantities, origin country, destination country, and port
-                        names together with currency values. For traders and marketers, this trade data is crucial
-                        information that helps them make informed decisions. From the HS codes and product
-                        descriptions to the quantity and cost of each product, everything can be obtained through this
-                        trade data. We have included a sample of the trade data for your convenience and greater
-                        understanding so that you can see what the trade data looks like as a whole, with complete
-                        details.
+                        We obtain trustworthy data from organizations, shipping businesses, and customs ports. This Trade Data
+                        contains a wide range of fields, such as HS codes, product descriptions, prices, quantities, origin country, 
+                        destination country, and port names together with currency values. For traders and marketers, this trade data is
+                        crucial information that helps them to make informed decisions. From the HS codes and product descriptions to 
+                        the quantity and cost of each product, everything can be obtained through this trade data. 
+                        We have included a sample of this trade data for your convenience and greater understanding so 
+                        that you can see what the trade data looks like as a whole, with complete details.
                     </p>
                     <p class="text-white">
                         {!! strip_tags(html_entity_decode($country->sd_para)) !!}
