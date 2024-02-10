@@ -1560,6 +1560,198 @@
         <script src="https://code.highcharts.com/modules/accessibility.js"></script>
         
         <!-- Top 10 imports of country (Pie Chart) -->
+        <script type="text/javascript">
+            (function (H) {
+            H.seriesTypes.pie.prototype.animate = function (init) {
+                const series = this,
+                    chart = series.chart,
+                    points = series.points,
+                    {
+                        animation
+                    } = series.options,
+                    {
+                        startAngleRad
+                    } = series;
+
+                function fanAnimate(point, startAngleRad) {
+                    const graphic = point.graphic,
+                        args = point.shapeArgs;
+
+                    if (graphic && args) {
+
+                        graphic
+                            // Set inital animation values
+                            .attr({
+                                start: startAngleRad,
+                                end: startAngleRad,
+                                opacity: 1
+                            })
+                            // Animate to the final position
+                            .animate({
+                                start: args.start,
+                                end: args.end
+                            }, {
+                                duration: animation.duration / points.length
+                            }, function () {
+                                // On complete, start animating the next point
+                                if (points[point.index + 1]) {
+                                    fanAnimate(points[point.index + 1], args.end);
+                                }
+                                // On the last point, fade in the data labels, then
+                                // apply the inner size
+                                if (point.index === series.points.length - 1) {
+                                    series.dataLabelsGroup.animate({
+                                        opacity: 1
+                                    },
+                                    void 0,
+                                    function () {
+                                        points.forEach(point => {
+                                            point.opacity = 1;
+                                        });
+                                        series.update({
+                                            enableMouseTracking: true
+                                        }, false);
+                                        chart.update({
+                                            plotOptions: {
+                                                pie: {
+                                                    innerSize: '40%',
+                                                    borderRadius: 8
+                                                }
+                                            }
+                                        });
+                                    });
+                                }
+                            });
+                    }
+                }
+
+                if (init) {
+                    // Hide points on init
+                    points.forEach(point => {
+                        point.opacity = 0;
+                    });
+                } else {
+                    fanAnimate(points[0], startAngleRad);
+                }
+            };
+            }(Highcharts));
+            var Tradedgoods = [
+                    @foreach($continentdata as $continent)
+                        @php
+                            $products = [];
+                            preg_match_all('/([A-Za-z\s]+):\s\$([\d\.]+) billion/', $continent->ci_product, $matches, PREG_SET_ORDER);
+                            foreach ($matches as $match) {
+                                $product = [
+                                    'category' => $match[1],
+                                    'value' => (float) $match[2]
+                                ];
+                                $products[] = $product;
+                            }
+                            echo json_encode($products) . ",";
+                        @endphp
+                    @endforeach
+                ];
+
+                // Now you can access the extracted data like this:
+                console.log("Tradedgoods",Tradedgoods);
+
+                var category = Tradedgoods.map(function(item) {
+                    return item.map(function(subItem) {
+                        return subItem.category;
+                    });
+                }).flat();
+
+                var value = Tradedgoods.map(function(item) {
+                    return item.map(function(subItem) {
+                        return subItem.value;
+                    });
+                }).flat();
+                
+            Highcharts.chart('container', {
+                chart: {
+                    type: 'pie'
+                },
+                title: {
+                    text: '',
+                    align: 'center'
+                },
+                tooltip: {
+                    pointFormat: ''
+                },
+                accessibility: {
+                    point: {
+                        valueSuffix: '%'
+                    }
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        borderWidth: 2,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>',
+                            distance: 20
+                        }
+                    }
+                },
+                series: [{
+                    // Disable mouse tracking on load, enable after custom animation
+                    enableMouseTracking: false,
+                    animation: {
+                        duration: 2000
+                    },
+                    colorByPoint: true,
+                    data: [
+                        {
+                            name: value[0],
+                            y: value[0]
+                        },
+                        {
+                            name: value[1],
+                            y: value[1]
+                        },
+                        {
+                            name: value[2],
+                            y: value[2]
+                        },
+                        {
+                            name: value[3],
+                            y:  value[2]
+                        },
+                        {
+                            name: value[4],
+                            y: value[4]
+                        },
+                        {
+                            name: value[5],
+                            y: value[5]
+                        },
+                        {
+                            name: value[6],
+                            y: value[6]
+                        },
+                        {
+                            name: value[7],
+                            y: value[7]
+                        },
+                        {
+                            name: value[8],
+                            y: value[8]
+                        },
+                        {
+                            name: value[9],
+                            y: value[9]
+                        },
+                    ]
+                }]
+            });
+
+        </script>
+        <!-- End of chart js -->
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <!-- Top 10 partners of country (Bar Chart) -->
         <script>
             Highcharts.chart('container-bar', {
                 chart: {
@@ -1632,53 +1824,6 @@
                     data: [1276, 1007, 4561, 746]
                 }]
             });
-        </script>
-        <!-- End of chart js -->
-
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <!-- Top 10 partners of country (Bar Chart) -->
-        <script>
-            google.charts.load('current', {packages: ['corechart', 'bar']});
-            google.charts.setOnLoadCallback(drawColColors);
-
-            function drawColColors() {
-                var data = new google.visualization.DataTable();
-                data.addColumn('timeofday', 'Time of Day');
-                data.addColumn('number', 'Motivation Level');
-                data.addColumn('number', 'Energy Level');
-
-                data.addRows([
-                    [{v: [8, 0, 0], f: '8 am'}, 1, .25],
-                    [{v: [9, 0, 0], f: '9 am'}, 2, .5],
-                    [{v: [10, 0, 0], f:'10 am'}, 3, 1],
-                    [{v: [11, 0, 0], f: '11 am'}, 4, 2.25],
-                    [{v: [12, 0, 0], f: '12 pm'}, 5, 2.25],
-                    [{v: [13, 0, 0], f: '1 pm'}, 6, 3],
-                    [{v: [14, 0, 0], f: '2 pm'}, 7, 4],
-                    [{v: [15, 0, 0], f: '3 pm'}, 8, 5.25],
-                    [{v: [16, 0, 0], f: '4 pm'}, 9, 7.5],
-                    [{v: [17, 0, 0], f: '5 pm'}, 10, 10],
-                ]);
-
-                var options = {
-                    title: 'Motivation and Energy Level Throughout the Day',
-                    colors: ['#9575cd', '#33ac71'],
-                    hAxis: {
-                    title: 'Time of Day',
-                    format: 'h:mm a',
-                    viewWindow: {
-                        min: [7, 30, 0],
-                        max: [17, 30, 0]
-                    }
-                    },
-                    vAxis: {
-                    title: 'Rating (scale of 1-10)'
-                    }
-                };
-
-                var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
-                chart.draw(data, options);
-                }
         </script>
         <!-- End of Bar chart js -->
 
