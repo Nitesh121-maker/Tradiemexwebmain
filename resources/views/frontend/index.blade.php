@@ -41,13 +41,13 @@
             }
 
             .container-globe {
-                height: 400px; /* Adjust the height as needed */
+                height: 200px; /* Adjust the height as needed */
                 position: relative;
             }
 
             .canvas-1 {
-                width: 100%;
-                height: 100%;
+                width: 50%;
+                height: 50%;
             }
         </style>
 
@@ -57,15 +57,15 @@
 
             <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
             <script type="importmap">
-            {
+              {
                 "imports": {
-                "three": "https://unpkg.com/three@0.151.0/build/three.module.js",
-                "three/addons/": "https://unpkg.com/three@0.151.0/examples/jsm/"
+                  "three": "https://unpkg.com/three@0.151.0/build/three.module.js",
+                  "three/addons/": "https://unpkg.com/three@0.151.0/examples/jsm/"
                 }
-            }
+              }
             </script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+        
     </head>
     <body>
         @include('frontend.header')
