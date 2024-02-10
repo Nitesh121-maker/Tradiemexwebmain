@@ -274,7 +274,20 @@
                 <div class="form-content">
                     <h1>Partnership Program Request Form</h1>
                 </div>
-                <form action="backend/partner_form.php" method="post" class="row mt-5">
+                @if (session()->has('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
+                
+                @if (session()->has('error'))
+                    <div class="alert alert-danger">
+                        {{ session('error') }}
+                    </div>
+                @endif
+            
+                <form action="{{ route('partner.send') }}" method="post" class="row mt-5" enctype="multipart/form-data">
+                    @csrf
                     <div class="form-floating mb-3 col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <input required autocomplete="off" name="fname" type="text" class="form-control" id="floatingInput" placeholder="First Name">
                         <label for="floatingInput" style="padding: 1rem 1.75rem !important;">First Name</label>
