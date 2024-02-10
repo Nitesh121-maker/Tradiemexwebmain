@@ -33,14 +33,14 @@
 </head>
 <body>
     <div class="container">
-        <h2>Mail from {{ $fname}}!</h2>
-        <ul>
-            <li><strong>First Name:</strong> {{ $fname }}</li>
-            <li><strong>Last Name:</strong> {{ $lname }}</li>
-            <li><strong>Email:</strong> {{ $email }}</li>
-            <li><strong>Phone:</strong> {{ $phone }}</li>
-            <li><strong>Message:</strong> {{ $msg }}</li>
-            <li><strong>Apply:</strong> {{ $apply }}</li>
+        <h2>Mail from {{$formData['fname']}}!</h2>
+        <ul style="list-style: none">
+            <li><strong>First Name:</strong> {{$formData['fname'] }}</li>
+            <li><strong>Last Name:</strong> {{$formData['lname'] }}</li>
+            <li><strong>Email:</strong> {{ $formData['email'] }}</li>
+            <li><strong>Phone:</strong> {{ $formData['number'] }}</li>
+            <li><strong>Message:</strong> {{ $formData['msg'] }}</li>
+            <li><strong>Apply:</strong> {{ $formData['apply'] }}</li>
         </ul>
        
     </div>

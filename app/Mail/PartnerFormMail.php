@@ -1,34 +1,33 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Mail;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
-use App\Mail\PartnerFormMail;
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Content;
+use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Queue\SerializesModels;
 
-class PartnerFormController extends Controller
+class PartnerFormMail extends Mailable
 {
-    public function PartnerForm(Request $request)
+    use Queueable, SerializesModels;
+
+    /**
+     * Create a new message instance.
+     *
+     * @return void
+     */
+    public $formData;
+
+    public function __construct($formData)
     {
-        $validatedData = $request->validate([
-            'fname'              => ['required', 'string'],
-            'lname'              => ['required', 'string'],
-            'email'              => ['required', 'email'],
-            'phone'              => ['required', 'numeric'],
-            'msg'                => ['required'],
-            'apply'              => ['required'],
-            'recaptcha_response' => ['required']
-        ]);
+        $this->formData = $formData;
+    }
 
-        if ($request->fails()) {
-            return redirect()->back()->with('error', 'Your message has not been sent, please check the form and try again!');
-        }
-
-        try {
-            Mail::to('info@tradeimex.in')->send(new PartnerFormMail($validatedData));
-            return redirect()->back()->with('success', 'Your message has been sent!');
-        } catch (\Exception $e) {
-            return redirect()->back()->with('error', 'An error occurred while sending your message. Please try again later.');
-        }
+    public function build()
+    {
+        return $this->subject('New Contact Form Submission')
+                    ->view('emails.partnerformmail');
     }
 }

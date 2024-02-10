@@ -7,7 +7,7 @@ use App\Http\Controllers\CountriesdataController;
 use App\Http\Controllers\ContinentDataController;
 use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\CareerFormController;
-use App\Http\Controllers\PartnerFormController;
+use App\Http\Controllers\PartnersFormController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -55,4 +55,4 @@ Route::get('/{continent}', [ContinentDataController::class, 'continentData'])->n
 Route::post('/contact', [ContactFormController::class, 'sendContactForm'])->name('contact.send');
 Route::post('/career', [CareerFormController::class, 'sendCareerApplication'])->name('career.send');
 
-Route::post('/partner', [PartnerFormController::class, 'PartnerForm'])->name('partner.send');
+Route::post('/partner', [PartnersFormController::class, 'PartnerForm'])->name('partner.send');
