@@ -45,7 +45,7 @@
                                 follows:
                             </p>
                             <li class="list">Consignment date</li>
-                            <li class="list">Name and address of the shipper</li>
+                            <li class="list">Name and address of the shipper and buyer.</li>
                             <li class="list">PKG unit</li>
                             <li class="list">Name of the commodity</li>
                             <li class="list">Detailed descriptions of every product.</li>
@@ -439,7 +439,7 @@
                                     <img src="frontend/image/flags/canada_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
-                                        @if ($country->country=='Canda' && $country->Datatype =='import')
+                                        @if ($country->country=='Canada' && $country->Datatype =='import')
                                             <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover custom">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>

@@ -50,7 +50,7 @@
                             <option class="form-control" value="">Kuwait</option>
                             <option class="form-control" value="">Malaysia</option>
                             <option class="form-control" value="">Pakistan</option>
-                            <option class="form-control" value="">Phillipines</option>
+                            <option class="form-control" value="">Philippines</option>
                             <option class="form-control" value="">Qatar</option>
                             <option class="form-control" value="">Saudi Arabia</option>
                             <option class="form-control" value="">Singapore</option>
