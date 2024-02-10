@@ -35,19 +35,28 @@
                             <h1>
                                 Speak with an expert
                             </h1>
+                            <p>
+                                We appreciate you visiting our Tradeimex website. At TradeImeX, we think that providing our
+                                users with individualized support is important. Our staff of knowledgeable trade experts is
+                                available at all times to offer advice and assistance. If you would like more information about
+                                who we are or have any queries about anything on our services, don&#39;t hesitate to contact us via
+                                email, chatbot, or our helpline numbers. Our specialists will get back to you right away. We
+                                promise to address any inquiries you might have regarding our offerings. We appreciate your
+                                support!
+                            </p>
                         </div>
                         <div class="card-content" style="padding-top: 6%;">
                             <div class="head">
-                                <h3>Our team can help you:</h3>
+                                <h3>Our Expertise team can help you in:</h3>
                             </div>
                             <div class="card-content-list">
-                                <li class="list text-white">Demo products of interest.</li>
-                                <li class="list text-white">Design a solution to accept and optimize payments, add new revenue streams and automate financial workflows.</li>
-                                <li class="list text-white">Access custom pricing including cost+ pricing, volume discounts, and more.</li>
-                                <li class="list text-white">Get started on Stripe faster with dedicated implementation and support services.</li>
+                                <li class="list text-white">Understanding International Trade Regulations with ease and command.</li>
+                                <li class="list text-white">Providing helpful insights on Market Research and Analysis.</li>
+                                <li class="list text-white">Finding Buyer/Supplier Sourcing and Verification for your business.</li>
+                                <li class="list text-white">Customization of data package as per the client’s needs and requirements.</li>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <!-- Contact Form -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="contact-form">
@@ -364,14 +373,11 @@
                 <div class="row">
                     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
                         <div class="text-content">
-                            <h1>Get In Touch</h1>
+                            <h1>Reach out to us and get in touch!</h1>
                             <p>
-                                Thanks for visiting tradeimex.in! It will be our pleasure to hear from you. 
-                                If you have any queries with respect to any element of the website or want 
-                                to know more about us, then feel free to contact us through our helpline numbers, 
-                                chatbot or via email. Our specialists will get in touch with you shortly. 
-                                We are committed to resolve every query that you have regarding our services. 
-                                Thankyou!
+                                Got a query, doubt, or Inquiry? We would adore hearing from you. Contacting TradeImeX is
+                                easy! We&#39;ve multiple mediums available for you to reach out to us. Just select the option that
+                                fits your convenience. Consider the following ways to communicate with us.
                             </p>
                         </div>
                     </div>
