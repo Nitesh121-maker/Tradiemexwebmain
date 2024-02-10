@@ -1421,8 +1421,8 @@ ul {
             background-color: #fff;
             border-radius: 2%;
             box-shadow: 0 50px 100px -20px rgba(50,50,93,0.25), 0 30px 60px -30px rgba(0,0,0,0.3);
-            position: relative;
-            z-index: 1000;
+            /* position: relative;
+            z-index: 1000; */
         }
     }
 
