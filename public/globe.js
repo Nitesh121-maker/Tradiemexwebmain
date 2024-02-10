@@ -165,9 +165,7 @@ const setMap = () => {
         lon = -180;
         lat--;
       }
-
     }
-
   }
 
   const visibilityForCoordinate = (lon, lat) => {
@@ -272,9 +270,13 @@ const resize = () => {
     height: container.offsetHeight
   };
 
-  if(window.innerWidth > 700) 
+  if (window.innerWidth > 700) {
+    // Adjust camera position for larger screens
     camera.position.z = 100;
-  else camera.position.z = 100;
+  } else {
+    // Adjust camera position for smaller screens
+    camera.position.z = 70;
+  }
 
   camera.aspect = sizes.width / sizes.height;
   camera.updateProjectionMatrix();
