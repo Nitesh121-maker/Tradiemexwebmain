@@ -224,7 +224,7 @@
                                 <img src="frontend/image/flags/philippines_rectangular_icon_with_shadow_64.png">
                                 <br>
                                 <a class="text-hover text-white">
-                                    <h4>Phillipines</h4>
+                                    <h4>Philippines</h4>
                                 </a>
                             </div>
                             <div class="col-sm-4 col-md-3 col-lg-2 Flag">
