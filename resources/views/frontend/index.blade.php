@@ -92,7 +92,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="container-1">
+                        <div class="container-globe">
                             <canvas class="canvas-1"></canvas>
                         </div>
                     </div>

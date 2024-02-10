@@ -40,7 +40,7 @@ const fragment = `
   }
 `;
 
-const container = document.querySelector('.container-1');
+const container = document.querySelector('.container-globe');
 const canvas    = document.querySelector('.canvas-1');
 
 let
