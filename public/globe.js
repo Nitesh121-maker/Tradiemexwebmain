@@ -249,7 +249,7 @@ const setMap = () => {
 
     image.needsUpdate  = true;
 
-    const imageCanvas  =  document.createElement('canvas');
+    const imageCanvas  =  document.createElement('canvas-1');
     imageCanvas.width  =  image.width;
     imageCanvas.height =  image.height;
       
