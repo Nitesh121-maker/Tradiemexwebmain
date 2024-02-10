@@ -1407,9 +1407,9 @@
             <div class="container pdt-2">
                 <div  class="row">
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                        <div id="chart_wrap">
-                            <div id="chart_div"></div>
-                        </div>
+                        <figure class="highcharts-figure">
+                            <div id="container-bar"></div>
+                        </figure>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                         <div class="list">
@@ -1560,193 +1560,78 @@
         <script src="https://code.highcharts.com/modules/accessibility.js"></script>
         
         <!-- Top 10 imports of country (Pie Chart) -->
-        <script type="text/javascript">
-            (function (H) {
-            H.seriesTypes.pie.prototype.animate = function (init) {
-                const series = this,
-                    chart = series.chart,
-                    points = series.points,
-                    {
-                        animation
-                    } = series.options,
-                    {
-                        startAngleRad
-                    } = series;
-
-                function fanAnimate(point, startAngleRad) {
-                    const graphic = point.graphic,
-                        args = point.shapeArgs;
-
-                    if (graphic && args) {
-
-                        graphic
-                            // Set inital animation values
-                            .attr({
-                                start: startAngleRad,
-                                end: startAngleRad,
-                                opacity: 1
-                            })
-                            // Animate to the final position
-                            .animate({
-                                start: args.start,
-                                end: args.end
-                            }, {
-                                duration: animation.duration / points.length
-                            }, function () {
-                                // On complete, start animating the next point
-                                if (points[point.index + 1]) {
-                                    fanAnimate(points[point.index + 1], args.end);
-                                }
-                                // On the last point, fade in the data labels, then
-                                // apply the inner size
-                                if (point.index === series.points.length - 1) {
-                                    series.dataLabelsGroup.animate({
-                                        opacity: 1
-                                    },
-                                    void 0,
-                                    function () {
-                                        points.forEach(point => {
-                                            point.opacity = 1;
-                                        });
-                                        series.update({
-                                            enableMouseTracking: true
-                                        }, false);
-                                        chart.update({
-                                            plotOptions: {
-                                                pie: {
-                                                    innerSize: '40%',
-                                                    borderRadius: 8
-                                                }
-                                            }
-                                        });
-                                    });
-                                }
-                            });
-                    }
-                }
-
-                if (init) {
-                    // Hide points on init
-                    points.forEach(point => {
-                        point.opacity = 0;
-                    });
-                } else {
-                    fanAnimate(points[0], startAngleRad);
-                }
-            };
-            }(Highcharts));
-            var Tradedgoods = [
-                    @foreach($continentdata as $continent)
-                        @php
-                            $products = [];
-                            preg_match_all('/([A-Za-z\s]+):\s\$([\d\.]+) billion/', $continent->ci_product, $matches, PREG_SET_ORDER);
-                            foreach ($matches as $match) {
-                                $product = [
-                                    'category' => $match[1],
-                                    'value' => (float) $match[2]
-                                ];
-                                $products[] = $product;
-                            }
-                            echo json_encode($products) . ",";
-                        @endphp
-                    @endforeach
-                ];
-
-                // Now you can access the extracted data like this:
-                console.log("Tradedgoods",Tradedgoods);
-
-                var category = Tradedgoods.map(function(item) {
-                    return item.map(function(subItem) {
-                        return subItem.category;
-                    });
-                }).flat();
-
-                var value = Tradedgoods.map(function(item) {
-                    return item.map(function(subItem) {
-                        return subItem.value;
-                    });
-                }).flat();
-                
-            Highcharts.chart('container', {
+        <script>
+            Highcharts.chart('container-bar', {
                 chart: {
-                    type: 'pie'
+                    type: 'bar'
                 },
                 title: {
-                    text: '',
-                    align: 'center'
+                    text: 'Historic World Population by Region',
+                    align: 'left'
+                },
+                subtitle: {
+                    text: 'Source: <a ' +
+                        'href="https://en.wikipedia.org/wiki/List_of_continents_and_continental_subregions_by_population"' +
+                        'target="_blank">Wikipedia.org</a>',
+                    align: 'left'
+                },
+                xAxis: {
+                    categories: ['Africa', 'America', 'Asia', 'Europe'],
+                    title: {
+                        text: null
+                    },
+                    gridLineWidth: 1,
+                    lineWidth: 0
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: 'Population (millions)',
+                        align: 'high'
+                    },
+                    labels: {
+                        overflow: 'justify'
+                    },
+                    gridLineWidth: 0
                 },
                 tooltip: {
-                    pointFormat: ''
-                },
-                accessibility: {
-                    point: {
-                        valueSuffix: '%'
-                    }
+                    valueSuffix: ' millions'
                 },
                 plotOptions: {
-                    pie: {
-                        allowPointSelect: true,
-                        borderWidth: 2,
-                        cursor: 'pointer',
+                    bar: {
+                        borderRadius: '50%',
                         dataLabels: {
-                            enabled: true,
-                            format: '<b>{point.name}</b>',
-                            distance: 20
-                        }
+                            enabled: true
+                        },
+                        groupPadding: 0.1
                     }
                 },
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -40,
+                    y: 80,
+                    floating: true,
+                    borderWidth: 1,
+                    backgroundColor:
+                        Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF',
+                    shadow: true
+                },
+                credits: {
+                    enabled: false
+                },
                 series: [{
-                    // Disable mouse tracking on load, enable after custom animation
-                    enableMouseTracking: false,
-                    animation: {
-                        duration: 2000
-                    },
-                    colorByPoint: true,
-                    data: [
-                        {
-                            name: value[0],
-                            y: value[0]
-                        },
-                        {
-                            name: value[1],
-                            y: value[1]
-                        },
-                        {
-                            name: value[2],
-                            y: value[2]
-                        },
-                        {
-                            name: value[3],
-                            y:  value[2]
-                        },
-                        {
-                            name: value[4],
-                            y: value[4]
-                        },
-                        {
-                            name: value[5],
-                            y: value[5]
-                        },
-                        {
-                            name: value[6],
-                            y: value[6]
-                        },
-                        {
-                            name: value[7],
-                            y: value[7]
-                        },
-                        {
-                            name: value[8],
-                            y: value[8]
-                        },
-                        {
-                            name: value[9],
-                            y: value[9]
-                        },
-                    ]
+                    name: 'Year 1990',
+                    data: [631, 727, 3202, 721]
+                }, {
+                    name: 'Year 2000',
+                    data: [814, 841, 3714, 726]
+                }, {
+                    name: 'Year 2018',
+                    data: [1276, 1007, 4561, 746]
                 }]
             });
-
         </script>
         <!-- End of chart js -->
 
