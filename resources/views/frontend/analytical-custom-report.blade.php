@@ -150,7 +150,7 @@
                                 The analytical reports offered by TradeImeX provide a
                                 comprehensive view of the market, empowering businesses with valuable insights that
                                 can drive growth and profitability. Gain profitable and comprehensive insights for your
-                                business with our customized analytical reports and stay ahead in the global market.
+                                business with our customized analytical reports.
                             </p>
                         </div>
                     </div>
