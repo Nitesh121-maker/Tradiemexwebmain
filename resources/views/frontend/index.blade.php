@@ -418,11 +418,8 @@
                             </div>
                             <p>
                                 TradeImeX Sources Data from Various Customs Agencies and shipping manifests. We
-                                collaborate with customs agencies across the globe to obtain accurate and reliable import
-                                and export data. This includes information on the quantity, value, origin, and destination of
-                                goods. By sourcing data directly from customs agencies, TradeImeX ensures that businesses
-                                have access to the most authentic, accurate, and real-time trade data information available.
-                                We ensure to provide you with the most accurate data possible in the world of global trade.
+                                collaborate with customs agencies across the globe to obtain accurate and reliable import and
+                                export data. This includes information on the quantity, value, origin, and destination of goods.
                             </p>
                         </div>
                     </div>
@@ -467,12 +464,12 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6" style="display: flex;align-items: center;">
                             <div class="data-img">
                                 <img src="frontend/image/img/Customs_Data.png" style="width: 100% !important" alt="customs-data | TradeImeX">
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12">
+                        <div class="col-lg-12 col-md-12 pdt-2">
                             <p class="text-white">
                                 TradeImeX provides an exclusive customs database covering over 80 countries, including the
                                 US, Mexico, Vietnam, Turkey, and many more. Finding exporters and importers worldwide
@@ -506,7 +503,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6" style="display: flex;align-items: center;">
                             <div class="data-img">
                                 <img src="frontend/image/img/Statistical Data.png" style="width: 100% !important" alt="statistical-data | TradeImeX">
                             </div>
@@ -538,7 +535,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6" style="display: flex;align-items: center;">
                             <div class="data-img">
                                 <img src="frontend/image/img/Bill of Ladding Database.png" style="width: 100% !important" alt="bl-data | TradeImeX">
                             </div>
