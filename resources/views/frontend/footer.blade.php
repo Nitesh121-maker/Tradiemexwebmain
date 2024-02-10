@@ -1,4 +1,4 @@
-<a href="#" id="scroll" style="display: none;"><span></span></a>
+<a href="#" id="scroll" style="display: inline;"><span></span></a>
 <footer class="text-center text-lg-start bg-bluish">
     <!-- Forms & Links -->
     <div class="container text-center">
