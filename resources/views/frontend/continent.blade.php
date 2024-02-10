@@ -1755,7 +1755,32 @@
         <script>
             google.charts.load('current', {packages: ['corechart', 'bar']});
             google.charts.setOnLoadCallback(drawColColors);
+         
+            var data = [
+                @foreach($continentdata as $continent)
+                    @php
+                        // Extract the continent_partner_name property from the $continent object
+                        $continentName = $continent->continent_partner_name;
+                        
+                        // Define variables to store country name, export, and import data
+                        $countryName = '';
+                        $exportsValue = '';
+                        $importsValue = '';
 
+                        // Use regular expression to extract country name, export, and import values
+                        preg_match('/(.+):\sExports\s\(\$([\d,\.]+)\sbillion\),\sImports\s\(\$([\d,\.]+)\sbillion\)/', $continentName, $matches);
+
+                        // If there is a match
+                        if (count($matches) === 4) {
+                            $countryName = $matches[1];
+                            $exportsValue = $matches[2];
+                            $importsValue = $matches[3];
+                        }
+                    @endphp
+                 
+                @endforeach
+            ];
+            console.log('Data',data)
             function drawColColors() {
                 var data = new google.visualization.DataTable();
                 data.addColumn('timeofday', 'Import Export data');
