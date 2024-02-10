@@ -40,12 +40,8 @@
                 height: 100%;
             }
 
-            /* .container-globe {
-                height: 200px;
-                position: relative;
-            }
 
-            .canvas-1 {
+            /* .canvas-1 {
                 width: 50%;
                 height: 50%;
             } */
