@@ -2190,16 +2190,12 @@
             <iframe src=https://www.googletagmanager.com/ns.html?id=GTM-PVH9BTS height="0" width="0" style="display:none;visibility:hidden"></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
-
-                {{-- Globe Code starts Here --}}
-       
-                {{-- Globe Codes Starts Here --}}
-                <script src="https://www.google.com/recaptcha/api.js"></script>
-                <script>
-                    function onSubmit(token) {
-                      document.getElementById("demo-form").submit();
-                    }
-                  </script>
-                      <script src="{{asset("globe.js")}}" type="module"></script> 
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script>
+            function onSubmit(token) {
+                document.getElementById("demo-form").submit();
+            }
+        </script>
+        <script src="{{asset("globe.js")}}" type="module"></script> 
     </body>
 </html>
