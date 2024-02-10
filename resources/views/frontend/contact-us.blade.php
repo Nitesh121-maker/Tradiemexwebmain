@@ -68,10 +68,6 @@
                                     <input autocomplete="off" required type="email" class="form-control" name="email" id="floatingInput" placeholder="Email">
                                     <label for="floatingInput">Email</label>
                                 </div>
-                                <div class="form-floating mb-3 col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <input autocomplete="off" required maxlength="10" type="tel" class="form-control" name="number" id="floatingInput" placeholder="Mobile Number">
-                                    <label for="floatingInput">Mobile Number</label>
-                                </div>
                                 <div class="input-group mb-3">
                                     <select name="country_region" required class="form-select" id="inputGroupSelect02">
                                         <option value="" Selected>Select Country Region</option>
@@ -324,6 +320,11 @@
                                         <option value="Zimbabwe">Zimbabwe</option>
                                     </select>
                                 </div>
+                                <div class="form-floating mb-3 col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <input autocomplete="off" required maxlength="10" type="tel" class="form-control" name="number" id="floatingInput" placeholder="Mobile Number">
+                                    <label for="floatingInput">Mobile Number</label>
+                                </div>
+
                                 <div class="form-floating mb-3 col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <input autocomplete="off" required type="text" class="form-control" name="company" id="floatingInput" placeholder="Company Name">
                                     <label for="floatingInput">Company Name</label>

@@ -17,9 +17,6 @@
                         <input name="email" autocomplete="off" required type="text" class="form-control" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
                     <div class="input-group mb-3">
-                        <input name="number" autocomplete="off" maxlength="10" required type="text" class="form-control" placeholder="Mobile Number" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                    </div>
-                    <div class="input-group mb-3">
                         <select name="country_region" required class="form-select" id="inputGroupSelect02">
                             <option value="" Selected>Select Country Region</option>
                             <option value="United States">United States</option>
@@ -271,6 +268,10 @@
                             <option value="Zimbabwe">Zimbabwe</option>
                         </select>
                     </div>
+                    <div class="input-group mb-3">
+                        <input name="number" autocomplete="off" maxlength="10" required type="text" class="form-control" placeholder="Mobile Number" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+
                     <div class="input-group mb-3">
                         <input name="company" autocomplete="off" required type="text" class="form-control" placeholder="Company Name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
