@@ -41,6 +41,22 @@
             }
 
         </style>
+
+            <link rel="icon" href="Cimg/favicon.png">
+                
+            <link rel="stylesheet" type="text/css" href={{ asset('index.css') }}>
+
+            <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+            <script type="importmap">
+            {
+                "imports": {
+                "three": "https://unpkg.com/three@0.151.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.151.0/examples/jsm/"
+                }
+            }
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     </head>
     <body>
         @include('frontend.header')
@@ -75,9 +91,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12"   >
-                        <div class="app-wrapper"id="glob">
-                            
+                    <div class="col-lg-6 col-md-12">
+                        <div class="container-1">
+                            <canvas class="canvas-1"></canvas>
                         </div>
                     </div>
                 </div>
@@ -2176,41 +2192,7 @@
         <!-- End Google Tag Manager (noscript) -->
 
                 {{-- Globe Code starts Here --}}
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/106/three.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.4.0/Tween.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.3.2/fabric.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.0.4/chroma.min.js"></script>
-                <script src="libs/THREE.MeshLine.js"></script>
-                <script src="https://d3js.org/d3-array.v1.min.js"></script>
-                <script src="https://d3js.org/d3-geo.v1.min.js"></script>
-              
-                <script src= {{ asset('libs/orbit-controls.js') }}></script>
-                <script src={{asset('libs/trackball-controls.js')}}></script>
-                <script src={{asset('libs/perlin-noise.js')}}></script>
-              
-                <script src={{asset('assets/data/processing.js')}}></script>
-              
-                <script src={{asset('scripts/config.js')}}></script>
-                <script src={{asset('scripts/app.js')}}></script>
-                <script src={{asset('scripts/shaders.js')}}></script>
-                <script src={{asset('scripts/index.js')}}></script>
-              
-                <script src={{asset('assets/data/countries.js')}}></script>
-                <script src={{asset('assets/data/connections.js')}}></script>
-                <script src={{asset('assets/data/grid.js')}}></script>
-              
-              
-                <script src={{asset("scripts/globe.js")}}></script>
-                <script src={{asset("scripts/points.js")}}></script>
-                <script src={{asset("scripts/marker.js")}}></script>
-                <script src={{asset("scripts/markers.js")}}></script>
-                <script src={{asset("scripts/lines.js")}}></script>
-                <script src={{asset("scripts/dots.js")}}></script>
-                <script src={{asset("scripts/camera.js")}}></script>
-              
-                <script src={{asset("scripts/utils.js")}}></script>
+       
                 {{-- Globe Codes Starts Here --}}
                 <script src="https://www.google.com/recaptcha/api.js"></script>
                 <script>
@@ -2218,5 +2200,6 @@
                       document.getElementById("demo-form").submit();
                     }
                   </script>
+                      <script src="{{asset("globe.js")}}" type="module"></script> 
     </body>
 </html>
