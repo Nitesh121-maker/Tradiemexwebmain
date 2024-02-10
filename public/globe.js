@@ -105,7 +105,7 @@ const setScene = () => {
 const setControls = () => {
   controls                 = new OrbitControls(camera, renderer.domElement);
   controls.autoRotate      = true;
-  controls.autoRotateSpeed = 1000;
+  controls.autoRotateSpeed = 12;
   controls.enableDamping   = true;
   controls.enableRotate    = true;
   controls.enablePan       = false;
