@@ -148,10 +148,10 @@
         </div>
 
         <!-- TradeImeX: Democratizing B/L Data -->
-        <div class="container-fluid padding-tb" style="background-color: #00506E;">
+        <div class="container-fluid padding-tb">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-color: #00506E;">
                         <div class="text-content">
                             <h2 class="text-white">TradeImeX: Democratizing B/L Data</h2>
                             <p class="text-white">
@@ -162,12 +162,24 @@
                             </p>
                         </div>
                     </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-color: #007E89;">
+                        <div class="text-content">
+                            <h2 class="text-white">Using B/L data to enhance business.</h2>
+                            <p class="text-white">
+                                B/L data is crucial for businesses to thrive. TradeImeX offers a game-changing solution by
+                                democratizing B/L data, providing businesses with unparalleled insights, and empowering them
+                                to make informed decisions. By leveraging the B/L data of the advanced platform of TradeImeX,
+                                businesses can gain a competitive edge, optimize their supply chain, and navigate the
+                                complexities of international trade with confidence.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Using B/L data to enhance business. -->
-        <div class="container-fluid padding-tb" style="background-color: #007E89;">
+        {{-- <div class="container-fluid padding-tb" style="background-color: #007E89;">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -184,7 +196,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <!-- Countries Covered Under B/L Data -->
         <div class="container-fluid  bg-dark-custom pdt-2 pdb-5">
