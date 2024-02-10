@@ -79,10 +79,10 @@ const setScene = () => {
   });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
-  const pointLight = new THREE.PointLight(0x081b26, 17, 200);
+  const pointLight = new THREE.PointLight(0xffffff, 17, 200);
   pointLight.position.set(-50, 0, 60);
   scene.add(pointLight);
-  scene.add(new THREE.HemisphereLight(0xffffbb, 0x080820, 1.5));
+  scene.add(new THREE.HemisphereLight(0xffffff, 0xffffff, 1.5));
 
   raycaster         = new THREE.Raycaster();
   mouse             = new THREE.Vector2();
