@@ -69,9 +69,8 @@ const setScene = () => {
 
   scene = new THREE.Scene();
 
-  camera             = new THREE.PerspectiveCamera(45, sizes.width / sizes.height, 1, 1000);
-  camera.position.z  = 50;
-  // camera.position.x  = -5;
+  camera             = new THREE.PerspectiveCamera(30, sizes.width / sizes.height, 1, 1000);
+  camera.position.set(-50, 0, 100); // Adjust the camera position here
   
   renderer = new THREE.WebGLRenderer({
     canvas:     canvas,
@@ -102,6 +101,7 @@ const setScene = () => {
 
 }
 
+
 const setControls = () => {
 
   controls                 = new OrbitControls(camera, renderer.domElement);
@@ -120,7 +120,7 @@ const setBaseSphere = () => {
 
   const baseSphere   = new THREE.SphereGeometry(19.5, 35, 35);
   const baseMaterial = new THREE.MeshStandardMaterial({
-    color:        ffff, 
+    color: 0xffffff,
     transparent:  true, 
     opacity:      0.9
   });
@@ -212,7 +212,7 @@ const setMap = () => {
 
   const setDots = () => {
 
-    const dotDensity  = 2.5;
+    const dotDensity  = 3.5;
     let   vector      = new THREE.Vector3();
 
     for (let lat = 90, i = 0; lat > -90; lat--, i++) {
@@ -249,7 +249,7 @@ const setMap = () => {
 
     image.needsUpdate  = true;
 
-    const imageCanvas  =  document.createElement('canvas-1');
+    const imageCanvas  =  document.createElement('canvas');
     imageCanvas.width  =  image.width;
     imageCanvas.height =  image.height;
       

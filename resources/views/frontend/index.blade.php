@@ -18,22 +18,38 @@
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
         {{-- <script src="frontend/globe/main.js"></script>
         <script src="frontend/globe/src/main.js"></script> --}}
-        <style>
+        {{-- <style>
+            #glob {
+                max-width: 100%; /* Limit the maximum width to the screen width */
+                /* overflow: hidden;  */
+            }
 
-            /* canvas {
+            .app-wrapper {
+                position: relative;
+                width: 100%;
+                padding-bottom: 75%; /* Set a fixed aspect ratio (adjust as needed) */
+                /* overflow: hidden; */
+            }
+
+            canvas {
+                position: absolute;
                 position: absolute;
                 top: -10vh;
                 left: -50vh;
                 width: 100%;
                 height: 100%;
             }
- */
 
-            /* .canvas-1 {
+            .container-globe {
+                height: 200px; /* Adjust the height as needed */
+                position: relative;
+            }
+
+            .canvas-1 {
                 width: 50%;
                 height: 50%;
-            } */
-        </style>
+            }
+        </style> --}}
 
             <link rel="icon" href="Cimg/favicon.png">
                 
@@ -41,15 +57,15 @@
 
             <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
             <script type="importmap">
-            {
+              {
                 "imports": {
-                "three": "https://unpkg.com/three@0.151.0/build/three.module.js",
-                "three/addons/": "https://unpkg.com/three@0.151.0/examples/jsm/"
+                  "three": "https://unpkg.com/three@0.151.0/build/three.module.js",
+                  "three/addons/": "https://unpkg.com/three@0.151.0/examples/jsm/"
                 }
-            }
+              }
             </script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+        
     </head>
     <body>
         @include('frontend.header')
