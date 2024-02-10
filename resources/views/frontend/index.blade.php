@@ -40,15 +40,15 @@
                 height: 100%;
             }
 
-            .container-globe {
-                height: 400px; /* Adjust the height as needed */
+            /* .container-globe {
+                height: 200px;
                 position: relative;
             }
 
             .canvas-1 {
-                width: 100%;
-                height: 100%;
-            }
+                width: 50%;
+                height: 50%;
+            } */
         </style>
 
             <link rel="icon" href="Cimg/favicon.png">
