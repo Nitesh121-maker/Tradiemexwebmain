@@ -120,7 +120,7 @@ const setBaseSphere = () => {
 
   const baseSphere   = new THREE.SphereGeometry(19.5, 35, 35);
   const baseMaterial = new THREE.MeshStandardMaterial({
-    color:        0x0b2636, 
+    color:        ffff, 
     transparent:  true, 
     opacity:      0.9
   });
