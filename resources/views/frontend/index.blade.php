@@ -414,7 +414,7 @@
                                 <img src="frontend/image/img/data-source.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
-                                <h3>Data Sourcing and privacy</h3>
+                                <h3>Data Sourcing and accuracy</h3>
                             </div>
                             <p>
                                 TradeImeX Sources Data from Various Customs Agencies and shipping manifests. We
