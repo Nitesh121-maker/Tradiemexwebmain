@@ -103,7 +103,6 @@ const setScene = () => {
 
 
 const setControls = () => {
-
   controls                 = new OrbitControls(camera, renderer.domElement);
   controls.autoRotate      = true;
   controls.autoRotateSpeed = 1.2;
@@ -113,7 +112,6 @@ const setControls = () => {
   controls.enableZoom      = false;
   controls.minPolarAngle   = (Math.PI / 2) - 0.5;
   controls.maxPolarAngle   = (Math.PI / 2) + 0.5;
-
 };
 
 const setBaseSphere = () => {
@@ -212,7 +210,7 @@ const setMap = () => {
 
   const setDots = () => {
 
-    const dotDensity  = 3.5;
+    const dotDensity  = 1.5;
     let   vector      = new THREE.Vector3();
 
     for (let lat = 90, i = 0; lat > -90; lat--, i++) {
@@ -274,8 +272,9 @@ const resize = () => {
     height: container.offsetHeight
   };
 
-  if(window.innerWidth > 700) camera.position.z = 100;
-  else camera.position.z = 140;
+  if(window.innerWidth > 700) 
+    camera.position.z = 100;
+  else camera.position.z = 100;
 
   camera.aspect = sizes.width / sizes.height;
   camera.updateProjectionMatrix();
