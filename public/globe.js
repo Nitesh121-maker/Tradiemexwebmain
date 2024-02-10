@@ -212,7 +212,7 @@ const setMap = () => {
 
   const setDots = () => {
 
-    const dotDensity  = 2.5;
+    const dotDensity  = 3.5;
     let   vector      = new THREE.Vector3();
 
     for (let lat = 90, i = 0; lat > -90; lat--, i++) {
