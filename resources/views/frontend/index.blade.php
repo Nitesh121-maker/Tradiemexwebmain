@@ -19,27 +19,17 @@
         {{-- <script src="frontend/globe/main.js"></script>
         <script src="frontend/globe/src/main.js"></script> --}}
         <style>
-            #glob {
-                max-width: 100%; /* Limit the maximum width to the screen width */
-                /* overflow: hidden;  */
-            }
 
-            .app-wrapper {
-                position: relative;
-                width: 100%;
-                padding-bottom: 75%; /* Set a fixed aspect ratio (adjust as needed) */
-                /* overflow: hidden; */
-            }
-
-            canvas {
-                position: absolute;
+            /* canvas {
                 position: absolute;
                 top: -10vh;
                 left: -50vh;
                 width: 100%;
                 height: 100%;
             }
+ */
 
+<<<<<<< HEAD
             .container-globe {
                 height: 200px; /* Adjust the height as needed */
                 position: relative;
@@ -49,6 +39,12 @@
                 width: 50%;
                 height: 50%;
             }
+=======
+            /* .canvas-1 {
+                width: 50%;
+                height: 50%;
+            } */
+>>>>>>> 700cb0a9f13f1f339e5bbb0fc4df1748d91a14c0
         </style>
 
             <link rel="icon" href="Cimg/favicon.png">
