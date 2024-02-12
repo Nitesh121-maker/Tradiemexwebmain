@@ -46,7 +46,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 img-aspect">
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 img-aspect" style="aspect-ratio: 2/2 !important;">
                         <img src="/frontend/image/img/Why Choose Us.gif" width="100%">
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                     <div class="card bg-dark-custom">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
-                                <div class="card-img-cstm img-aspect">
+                                <div class="card-img-cstm">
                                     <img src="/frontend/image/img/Extensive Global Trade Database.gif" style="width: 60%;">
                                 </div>
                             </div>
@@ -170,7 +170,7 @@
                     <div class="card bg-dark-custom">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
-                                <div class="card-img-cstm img-aspect">
+                                <div class="card-img-cstm">
                                     <img src="/frontend/image/img/Advance Search Analysis.gif" style="width: 60%;">
                                 </div>
                             </div>
@@ -193,7 +193,7 @@
                     <div class="card bg-dark-custom">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
-                                <div class="card-img-cstm img-aspect">
+                                <div class="card-img-cstm">
                                     <img src="/frontend/image/img/Realtime Notifcation.gif" style="width: 60%;" >
                                 </div>
                             </div>
@@ -217,7 +217,7 @@
                     <div class="card bg-dark-custom">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
-                                <div class="card-img-cstm img-aspect">
+                                <div class="card-img-cstm">
                                     <img src="/frontend/image/img/Buyer Supplier.gif" style="width: 60%;">
                                 </div>
                             </div>
@@ -239,7 +239,7 @@
                     <div class="card bg-dark-custom">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
-                                <div class="card-img-cstm img-aspect">
+                                <div class="card-img-cstm">
                                     <img src="/frontend/image/img/Dedicated Customer Support.gif" style="width: 60%;">
                                 </div>
                             </div>
