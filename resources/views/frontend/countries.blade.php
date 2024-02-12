@@ -637,42 +637,42 @@
                     <h2 class="text-white">You might be interested in other continents as well</h2>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
                             <a href="/Asia" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Asia Trade Data
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
                             <a href="/africa" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Africa Trade Data
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
                             <a href="/Europe" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Europe Trade Data
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
                             <a href="/North America" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 North America Trade Data
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
                             <a href="/Oceania" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Oceania Trade Data
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
                             <a href="/South America" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 South America Trade Data
