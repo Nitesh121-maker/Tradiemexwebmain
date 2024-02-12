@@ -469,7 +469,7 @@
                                 <img src="frontend/image/img/Customs_Data.png" style="width: 100% !important" alt="customs-data | TradeImeX">
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12 pdt-2">
+                        <div class="col-lg-12 col-md-12">
                             <p class="text-white">
                                 TradeImeX provides an exclusive customs database covering over 80 countries, including the
                                 US, Mexico, Vietnam, Turkey, and many more. Finding exporters and importers worldwide
