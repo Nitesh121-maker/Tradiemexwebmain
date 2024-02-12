@@ -152,10 +152,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="card" style="background-color: #00506E;">
+                        <div class="card">
                             <div class="text-content">
-                                <h2 class="text-white">TradeImeX: Democratizing B/L Data</h2>
-                                <p class="text-white">
+                                <h2>TradeImeX: Democratizing B/L Data</h2>
+                                <p>
                                     TradeImeX is revolutionizing the way businesses access and analyze B/L data. With their
                                     advanced platform, they provide users with seamless access to a comprehensive database of
                                     B/L records. Their user-friendly interface allows users to quickly search for specific shipments
@@ -165,9 +165,9 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="text-content" style="background-color: #007E89;">
-                            <h2 class="text-white">Using B/L data to enhance business.</h2>
-                            <p class="text-white">
+                        <div class="text-content">
+                            <h2>Using B/L data to enhance business.</h2>
+                            <p>
                                 B/L data is crucial for businesses to thrive. TradeImeX offers a game-changing solution by
                                 democratizing B/L data, providing businesses with unparalleled insights, and empowering them
                                 to make informed decisions. By leveraging the B/L data of the advanced platform of TradeImeX,
