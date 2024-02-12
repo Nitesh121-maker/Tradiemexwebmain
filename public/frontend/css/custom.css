@@ -2352,6 +2352,7 @@ ul {
         margin-top: -50px;
     }
     .img-aspect {
+        display: flex;
         aspect-ratio: 3/2;
     }
     .img-aspect img{
