@@ -111,7 +111,6 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="text-content">
-
                             <span>{{$country->country}} {{$country->Datatype}}</span>
                             <h1 class="gradient-h2" style="font-size: 48px;font-weight: 900;">
                                 {{$country->mf_content_heading}}
@@ -140,7 +139,7 @@
         </div>
 
         <!-- Key Points-->
-        <div class="container-fluid padding-tb">
+        <div class="container-fluid pdt-2">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
@@ -380,7 +379,7 @@
         </div> --}}
 
         <!-- Top 10 products of country -->
-        <div class="container-fluid pdt-5 pdb-2">
+        <div class="container-fluid pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">
                     <span>{{$country->Datatype}}</span>
@@ -640,35 +639,50 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="searchbox">
-                            <a class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a href="/Asia" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Asia Trade Data
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="searchbox">
-                            <a class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a href="/africa" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Africa Trade Data
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="searchbox">
-                            <a class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a href="/Europe" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                Europe Trade Data
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        <div class="searchbox">
+                            <a href="/North America" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                North America Trade Data
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        <div class="searchbox">
+                            <a href="/Oceania" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Oceania Trade Data
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="searchbox">
-                            <a class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
-                                Europe Trade Data
+                            <a href="/South America" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                South America Trade Data
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         @endforeach
         @include('frontend.footer')
         @include('frontend.script')
