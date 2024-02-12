@@ -49,7 +49,8 @@ Route::get('/{country}-{Datatype}', [CountriesdataController::class, 'countryall
 
 
 // Get Continent Data
-Route::get('/{continent}', [ContinentDataController::class, 'continentData'])->name('continent.tradeData');
+Route::get('/{continent}-trade-data', [ContinentDataController::class, 'continentData'])->name('continent.tradeData');
+
 
 // Contact Form
 Route::post('/contact', [ContactFormController::class, 'sendContactForm'])->name('contact.send');

@@ -57,7 +57,7 @@
     </head>
     <body>
         @include('frontend.header')
-
+        {{-- @dd($continentdata) --}}
         <!-- Breadcrumb -->
         <div class="container-fluid bg-bluish pdt-2">
             <div class="container">
@@ -1721,19 +1721,19 @@
 
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
         <!-- Top 10 partners of country (Bar Chart) -->
+
         <script>
             Highcharts.chart('container-bar', {
                 chart: {
                     type: 'bar'
                 },
                 title: {
-                    text: 'Historic World Population by Region',
+                    text: 'Import Export Data',
                     align: 'left'
                 },
                 subtitle: {
                     text: 'Source: <a ' +
-                        'href="https://en.wikipedia.org/wiki/List_of_continents_and_continental_subregions_by_population"' +
-                        'target="_blank">Wikipedia.org</a>',
+                        '',
                     align: 'left'
                 },
                 xAxis: {
@@ -1793,7 +1793,7 @@
                     data: [1276, 1007, 4561, 746]
                 }]
             });
-        </script>
+        </script> 
 
         <!-- End of Bar chart js -->
 

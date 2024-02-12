@@ -638,7 +638,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
-                            <a href="/Asia" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Asia Trade Data
                             </a>
                         </div>
