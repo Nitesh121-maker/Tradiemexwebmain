@@ -1546,25 +1546,20 @@
         <!-- Leveraging -->
         <div class="container-fluid pdt-2 pdb-2 bg-dark-custom">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                        <div class="text-content">
-                            <span>Leveraging</span>
-                            <h2 class="text-white">Leveraging TradeImeX Global Trade Data</h2>
-                            <p class="text-white">
-                                Global trade data provides vital insights into international markets, helping businesses identify
-                                emerging trends, evaluate their competitors, and make data-driven decisions. Having access to
-                                accurate and comprehensive trade data is essential for businesses looking to expand into new
-                                markets, optimize supply chains, and identify potential partners or suppliers. Global trade data
-                                is a valuable resource for businesses seeking to seize new opportunities, expand into new
-                                markets, and optimize their operations. TradeImeX, with its comprehensive and accurate trade
-                                data insights, empowers importers and exporters by providing them with the means to make
-                                informed decisions. By leveraging the power of global trade data, businesses can stay ahead of
-                                the competition, boost their growth, and thrive in the dynamic world of international trade.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6"></div>
+                <div class="text-content">
+                    <span>Leveraging</span>
+                    <h2 class="text-white">Leveraging TradeImeX Global Trade Data</h2>
+                    <p class="text-white">
+                        Global trade data provides vital insights into international markets, helping businesses identify
+                        emerging trends, evaluate their competitors, and make data-driven decisions. Having access to
+                        accurate and comprehensive trade data is essential for businesses looking to expand into new
+                        markets, optimize supply chains, and identify potential partners or suppliers. Global trade data
+                        is a valuable resource for businesses seeking to seize new opportunities, expand into new
+                        markets, and optimize their operations. TradeImeX, with its comprehensive and accurate trade
+                        data insights, empowers importers and exporters by providing them with the means to make
+                        informed decisions. By leveraging the power of global trade data, businesses can stay ahead of
+                        the competition, boost their growth, and thrive in the dynamic world of international trade.
+                    </p>
                 </div>
             </div>
         </div>
