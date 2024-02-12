@@ -663,9 +663,18 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="searchbox">
-                            <a class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
-                                Asia Trade Data
-                            </a>
+                            @if (!empty($continents))
+                                @foreach ($continents  as $continent)
+                                    @if ($continent->continent == 'Asia')
+                                    
+                                    <a href="{{ route('continent.tradeData', ['continent' => $continent->continent]) }}" class="td-none text-uppercase text-hover">
+                                        {{ $continent->continent }} Trade Data
+                                    </a>
+                                    @endif
+                                @endforeach  
+                            @else
+                                <a href="/asia-trade-data">Data Fetching error</a>
+                            @endif 
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">

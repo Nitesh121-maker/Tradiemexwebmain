@@ -9,9 +9,11 @@ class ContinentDataController extends Controller
     //
     public function continentData($continent)
     {
+        $continentName = str_replace('-trade-data', '', $continent);
+
         try {
             // Fetch data based on the continent name
-            $result = DB::select('SELECT * FROM continent WHERE continent = ?', [$continent]);
+            $result = DB::select('SELECT * FROM continent WHERE continent = ?', [$continentName]);
             $countrydata = DB::table('import')
             -> select('country','country_code','Datatype')
             -> union(DB::table('export')->select('country','country_code','Datatype'))
