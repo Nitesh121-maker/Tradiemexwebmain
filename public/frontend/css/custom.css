@@ -2733,7 +2733,7 @@ ul {
             text-align: start;
         }
         .text-white-p {
-            font-size: 14px;
+            font-size: 15px;
         }
         .PartnersHeroGraphic {
             left: 31% !important;
@@ -2741,6 +2741,6 @@ ul {
     }
     @media (min-width: 1300px) {
         .text-white-p {
-            font-size: 14px;
+            font-size: 13px;
         }
     }
