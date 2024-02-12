@@ -2043,7 +2043,7 @@
         </div>
 
         <!-- Blog slider -->
-        <div class="container-fluid bg-dark-custom pdt-2 pdb-2 slanted-bottom">
+        <div class="container-fluid bg-dark-custom pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">
                     <!-- <span style="color: #e6f328;">Our Blogs</span> -->
