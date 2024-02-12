@@ -148,7 +148,7 @@
                     <div class="card bg-dark-custom">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
-                                <div class="card-img-cstm">
+                                <div class="card-img-cstm img-aspect">
                                     <img src="/frontend/image/img/Extensive Global Trade Database.gif" style="width: 60%;">
                                 </div>
                             </div>
@@ -170,7 +170,7 @@
                     <div class="card bg-dark-custom">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
-                                <div class="card-img-cstm">
+                                <div class="card-img-cstm img-aspect">
                                     <img src="/frontend/image/img/Advance Search Analysis.gif" style="width: 60%;">
                                 </div>
                             </div>
@@ -193,7 +193,7 @@
                     <div class="card bg-dark-custom">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
-                                <div class="card-img-cstm">
+                                <div class="card-img-cstm img-aspect">
                                     <img src="/frontend/image/img/Realtime Notifcation.gif" style="width: 60%;" >
                                 </div>
                             </div>
@@ -217,7 +217,7 @@
                     <div class="card bg-dark-custom">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
-                                <div class="card-img-cstm">
+                                <div class="card-img-cstm img-aspect">
                                     <img src="/frontend/image/img/Buyer Supplier.gif" style="width: 60%;">
                                 </div>
                             </div>
@@ -239,7 +239,7 @@
                     <div class="card bg-dark-custom">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
-                                <div class="card-img-cstm">
+                                <div class="card-img-cstm img-aspect">
                                     <img src="/frontend/image/img/Dedicated Customer Support.gif" style="width: 60%;">
                                 </div>
                             </div>

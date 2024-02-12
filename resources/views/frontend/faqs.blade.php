@@ -40,7 +40,7 @@
     <section class="bg-light py-3 py-md-5">
         <div class="container">
             <div class="row gy-5 gy-lg-0 align-items-lg-center">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 img-aspect">
                     <img class="img-fluid rounded" loading="lazy" src="frontend/image/img/FAQ.png" alt="How can we help you?">
                 </div>
                 <div class="col-12 col-lg-6">

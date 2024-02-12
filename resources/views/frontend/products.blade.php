@@ -51,7 +51,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 img-aspect">
                         <img src="frontend/image/img/Our Product.gif" width="100%">
                     </div>
                 </div>

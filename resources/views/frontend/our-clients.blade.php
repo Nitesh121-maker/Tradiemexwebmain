@@ -452,7 +452,7 @@
                             </p>
                         </div>
                     </div>  
-                    <div class="col-sm-12 col-lg-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                    <div class="col-sm-12 col-lg-md-6 col-lg-6 img-aspect" style="justify-content: center;display: flex;align-items: baseline;">
                         <img src="/frontend/image/img/Global Reach (1).gif" style="width: 60%;">
                     </div>
                 </div>
@@ -460,10 +460,10 @@
         </div>
 
         <!-- Satisfied Clients -->
-        <div class="container-fluid pdb-5 pdt-2">
+        <div class="container-fluid pdb-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                    <div class="col-sm-12 col-lg-md-6 col-lg-6 img-aspect" style="justify-content: center;display: flex;align-items: baseline">
                         <img src="/frontend/image/img/Client_Retention.gif" style="width: 60%;">
                     </div>  
                     <div class="col-sm-12 col-lg-md-6 col-lg-6" style="align-items: center;display: flex;">

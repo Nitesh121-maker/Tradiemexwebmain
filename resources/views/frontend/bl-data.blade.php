@@ -151,8 +151,8 @@
         <div class="container-fluid padding-tb">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-color: #00506E;">
-                        <div class="text-content">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="text-content" style="background-color: #00506E;">
                             <h2 class="text-white">TradeImeX: Democratizing B/L Data</h2>
                             <p class="text-white">
                                 TradeImeX is revolutionizing the way businesses access and analyze B/L data. With their
@@ -162,8 +162,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-color: #007E89;">
-                        <div class="text-content">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="text-content" style="background-color: #007E89;">
                             <h2 class="text-white">Using B/L data to enhance business.</h2>
                             <p class="text-white">
                                 B/L data is crucial for businesses to thrive. TradeImeX offers a game-changing solution by

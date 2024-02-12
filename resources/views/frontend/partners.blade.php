@@ -50,7 +50,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="col-sm-12 col-md-12 col-lg-6 img-aspect">
                         <img src="frontend/image/img/Partners (1).png" width="100%">
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                             <li class="list">Dynamic assistance for partners.</li>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6" style="padding-top: 2%;">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6 img-aspect" style="padding-top: 2%;">
                         <img src="frontend/image/img/Sales Partners.png" width="100%">
                     </div>
                 </div>
@@ -167,7 +167,7 @@
         <div class="container-fluid pdb-5 pdt-2 bg-white" id="referral">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 img-aspect">
                         <img src="frontend/image/img/Data Partners.png" width="100%">
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
