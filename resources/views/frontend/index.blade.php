@@ -9,66 +9,27 @@
         <meta name="robots" content="index, follow" id="robots" />
         <meta name="description" content="Discover the power of global trade data with TradeImeX - the leading import-export data provider for 80+ countries. Uncover market insights, make informed business decisions, and expand your reach worldwide with our comprehensive market research and data services. Join the industry experts and unlock new opportunities today!"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
-       
         <link rel="icon" type="image/x-icon" href="frontend/img/Favicon Logo.png">
 
-       
         @include('frontend.link')
         {{-- <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script> --}}
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-        {{-- <script src="frontend/globe/main.js"></script>
-        <script src="frontend/globe/src/main.js"></script> --}}
-        {{-- <style>
-            #glob {
-                max-width: 100%; /* Limit the maximum width to the screen width */
-                /* overflow: hidden;  */
-            }
-
-            .app-wrapper {
-                position: relative;
-                width: 100%;
-                padding-bottom: 75%; /* Set a fixed aspect ratio (adjust as needed) */
-                /* overflow: hidden; */
-            }
-
-            canvas {
-                position: absolute;
-                position: absolute;
-                top: -10vh;
-                left: -50vh;
-                width: 100%;
-                height: 100%;
-            }
-
-            .container-globe {
-                height: 200px; /* Adjust the height as needed */
-                position: relative;
-            }
-
-            .canvas-1 {
-                width: 50%;
-                height: 50%;
-            }
-        </style> --}}
-
-            <link rel="icon" href="Cimg/favicon.png">
-                
-            <link rel="stylesheet" type="text/css" href={{ asset('index.css') }}>
-
-            <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
-            <script type="importmap">
-              {
+        <link rel="icon" href="Cimg/favicon.png">
+        <link rel="stylesheet" type="text/css" href={{ asset('index.css') }}>
+        <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+        <script type="importmap">
+            {
                 "imports": {
-                  "three": "https://unpkg.com/three@0.151.0/build/three.module.js",
-                  "three/addons/": "https://unpkg.com/three@0.151.0/examples/jsm/"
+                    "three": "https://unpkg.com/three@0.151.0/build/three.module.js",
+                    "three/addons/": "https://unpkg.com/three@0.151.0/examples/jsm/"
                 }
-              }
-            </script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        
+            }
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
     <body>
         @include('frontend.header')
+
         <!-- Overview section -->
         <div class="container-fluid padding-tb bg-bluish">
             <div class="container">
@@ -546,7 +507,7 @@
             </div>
         </div>
 
-        <!-- country covered -->
+        <!-- Country covered -->
         <div class="container-fluid bg-bluish padding-tb">
             <div class="container">
                 <div class="row">
@@ -2146,8 +2107,8 @@
         </div>
 
         <!-- Last Contact Us -->
-   
         @include('frontend.tab_inc')
+        
         <!-- Alert For Link Detection -->
         <div id="snackbar">
             <svg class="bi flex-shrink-0 me-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">

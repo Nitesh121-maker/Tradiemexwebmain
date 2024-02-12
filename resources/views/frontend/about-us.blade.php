@@ -8,16 +8,6 @@
         <link rel="icon" type="image/x-icon" href="/frontend/image/img/Favicon Logo.png">
 
        @include('frontend.link')
-
-        <!-- Google Tag Manager -->
-        <script>
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-PVH9BTS');
-        </script>
-        <!-- End Google Tag Manager -->
     </head>
 
     <body>
@@ -63,7 +53,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                        <div class="card card-bg">
+                        <div class="card card-bg cdh-20">
                             <div class="card-img">
                                 <img src="frontend/image/img/one_step.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -79,7 +69,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                        <div class="card card-bg">
+                        <div class="card card-bg cdh-20">
                             <div class="card-img">
                                 <img src="frontend/image/img/access.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -97,7 +87,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                        <div class="card card-bg">
+                        <div class="card card-bg cdh-20">
                             <div class="card-img">
                                 <img src="frontend/image/img/advance_analytics.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -113,7 +103,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                        <div class="card card-bg">
+                        <div class="card card-bg cdh-20">
                             <div class="card-img">
                                 <img src="frontend/image/img/support.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>

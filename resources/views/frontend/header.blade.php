@@ -115,7 +115,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/North_America">
+                                <a class="dropdown-item" href="/North America">
                                     <i class="fa-solid fa-earth-americas fa-lg"></i> &nbsp;North America Trade Data
                                 </a>
                             </li>

@@ -54,37 +54,6 @@
 
         @include('frontend.link')
         <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
-        
-        <!-- Google Tag Manager -->
-        <script>
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-PVH9BTS');
-        </script>
-        <!-- End Google Tag Manager -->
-        <style>
-            #chart_wrap {
-                position: relative;
-                padding-bottom: 70%;
-                height: 0;
-                overflow:hidden;
-            }
-            #chart_div {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
-            .highcharts-exporting-group {
-                display: none !important;
-            }
-            .highcharts-credits {
-                display: none !important;
-            }
-        </style>
     </head>
     <body>
         @include('frontend.header')

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <meta charset="UTF-8">
         <meta name="google-site-verification" content="kevV-HFG1JijHyuKnnkIeN6dY_Hb-ueXuqoUv-pPWUU" />
@@ -20,29 +19,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         @include('frontend.link')
         <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
-
-        <!-- Google Tag Manager -->
-        <script>
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-PVH9BTS');
-        </script>
-        <!-- End Google Tag Manager -->
-        <style>
-/* 
-            li::marker {
-                content: none; 
-            } */
-            .highcharts-exporting-group {
-                display: none !important;
-            }
-            .highcharts-credits {
-                display: none !important;
-            }
-            
-        </style>
     </head>
     <body>
         @include('frontend.header')
@@ -134,7 +110,6 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="text-content">
-
                             <span>{{$country->country}} {{$country->Datatype}}</span>
                             <h1 class="gradient-h2" style="font-size: 48px;font-weight: 900;">
                                 {{$country->mf_content_heading}}
@@ -163,7 +138,7 @@
         </div>
 
         <!-- Key Points-->
-        <div class="container-fluid padding-tb">
+        <div class="container-fluid pdt-2">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
@@ -403,7 +378,7 @@
         </div> --}}
 
         <!-- Top 10 products of country -->
-        <div class="container-fluid pdt-5 pdb-2">
+        <div class="container-fluid pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">
                     <span>{{$country->Datatype}}</span>
@@ -661,46 +636,52 @@
                     <h2 class="text-white">You might be interested in other continents as well</h2>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                        <div class="searchbox">
-                            @if (!empty($continents))
-                                @foreach ($continents  as $continent)
-                                    @if ($continent->continent == 'Asia')
-                                    
-                                    <a href="{{ route('continent.tradeData', ['continent' => $continent->continent]) }}" class="td-none text-uppercase text-hover">
-                                        {{ $continent->continent }} Trade Data
-                                    </a>
-                                    @endif
-                                @endforeach  
-                            @else
-                                <a href="/asia-trade-data">Data Fetching error</a>
-                            @endif 
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
                             <a class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                Asia Trade Data
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                        <div class="searchbox">
+                            <a href="/africa" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Africa Trade Data
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
-                            <a class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a href="/Europe" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                Europe Trade Data
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                        <div class="searchbox">
+                            <a href="/North America" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                North America Trade Data
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                        <div class="searchbox">
+                            <a href="/Oceania" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Oceania Trade Data
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
-                            <a class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
-                                Europe Trade Data
+                            <a href="/South America" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                South America Trade Data
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         @endforeach
         @include('frontend.footer')
         @include('frontend.script')
