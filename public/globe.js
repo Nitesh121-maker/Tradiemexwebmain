@@ -77,7 +77,7 @@ const setScene = () => {
     antialias:  false,
     alpha:      true
   });
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1));
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
   const pointLight = new THREE.PointLight(0xffffff, 17, 200);
   pointLight.position.set(-50, 0, 60);
@@ -105,7 +105,7 @@ const setScene = () => {
 const setControls = () => {
   controls                 = new OrbitControls(camera, renderer.domElement);
   controls.autoRotate      = true;
-  controls.autoRotateSpeed = 8;
+  controls.autoRotateSpeed = 6;
   controls.enableDamping   = true;
   controls.enableRotate    = true;
   controls.enablePan       = false;
@@ -343,12 +343,7 @@ const mouseup = () => {
 
 const listenTo = () => {
 
-  window.addEventListener('resize', () => {
-    resize();
-    renderer.setSize(sizes.width, sizes.height);
-  });
-
-  // window.addEventListener('resize',     resize.bind(this));
+  window.addEventListener('resize',     resize.bind(this));
   window.addEventListener('mousemove',  mousemove.bind(this));
   window.addEventListener('mousedown',  mousedown.bind(this));
   window.addEventListener('mouseup',    mouseup.bind(this));
