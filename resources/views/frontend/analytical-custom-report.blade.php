@@ -129,7 +129,7 @@
                         <h3>Benefits of Customized Analytical Reports from TradeImeX</h3>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-15">
+                        <div class="card-content cdh-16">
                             <div class="head">
                                 <h3>Tailored to Specific Needs</h3>
                             </div>
@@ -142,7 +142,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-15"> 
+                        <div class="card-content cdh-16"> 
                             <div class="head">
                                 <h3>Comprehensive Insights</h3>
                             </div>
@@ -155,7 +155,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-15">
+                        <div class="card-content cdh-16">
                             <div class="head">
                                 <h3>Timesaving</h3>
                             </div>
@@ -163,12 +163,12 @@
                                 Conducting in-depth market research can be a time-consuming process.
                                 TradeImeX simplifies this by offering ready-to-use reports that save businesses valuable
                                 time and resources. Save your precious time and energy using our customized
-                                analytical reports and remain ahead of your competition in the global market.
+                                analytical reports and remain ahead of your competition.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-15">
+                        <div class="card-content cdh-16">
                             <div class="head">
                                 <h3>Cost-Effective</h3>
                             </div>

@@ -1233,6 +1233,10 @@ ul {
     .benefit-content .image {
         display: flex;
         justify-content: center;
+        aspect-ratio: 3/2;
+    }
+    .benefit-content .image img{
+        object-fit: contain;
     }
     .benefit-content h1 {
         font-size: 20px;
@@ -2346,6 +2350,12 @@ ul {
     }
     .proud-client {
         margin-top: -50px;
+    }
+    .img-aspect {
+        aspect-ratio: 3/2;
+    }
+    .img-aspect img{
+        object-fit: cover;
     }
 
     /* Mobile Responsive */

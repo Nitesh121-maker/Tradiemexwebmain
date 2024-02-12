@@ -65,7 +65,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 img-aspect">
                         <img src="frontend/image/img/Professional Growth.png" width="100%">
                     </div>
                 </div>
@@ -174,7 +174,7 @@
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
                             <div class="core-content content-highlight">
                                 <div class="image">
-                                    <img src="frontend/image/img/growth (1).png" style="width: 25%;">
+                                    <img src="frontend/image/img/growth (1).png" style="width: 15%;">
                                 </div>
                                 <h2 class="text-white">Support and enhance the company’s growth</h2>
                                 <p class="text-white" style="padding: 0px 0px 0px 0px;">
@@ -187,7 +187,7 @@
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
                             <div class="core-content content-highlight">
                                 <div class="image">
-                                    <img src="frontend/image/img/link.png" style="width: 25%;">
+                                    <img src="frontend/image/img/link.png" style="width: 15%;">
                                 </div>
                                 <h2 class="text-white">Establishing Links</h2>
                                 <p class="text-white" style="padding: 0px 0px 0px 0px;">
@@ -200,7 +200,7 @@
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
                             <div class="core-content content-highlight">
                                 <div class="image">
-                                    <img src="frontend/image/img/data-report.png" style="width: 25%;">
+                                    <img src="frontend/image/img/data-report.png" style="width: 15%;">
                                 </div>
                                 <h2 class="text-white">Achieve business exposure</h2>
                                 <p class="text-white" style="padding: 0px 0px 0px 0px;">
@@ -212,7 +212,7 @@
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
                             <div class="core-content content-highlight">
                                 <div class="image">
-                                    <img src="frontend/image/img/working.png" style="width: 25%;">
+                                    <img src="frontend/image/img/working.png" style="width: 15%;">
                                 </div>
                                 <h2 class="text-white">Exciting and Challenging Work</h2>
                                 <p class="text-white" style="padding: 0px 0px 0px 0px;">
@@ -290,7 +290,7 @@
         <div class="container-fluid bg-bluish pdt-5 pdb-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6 img-aspect">
                         <img src="frontend/image/img/Celebration.png" width="100%">
                     </div>
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">

@@ -658,7 +658,7 @@
         <div class="container-fluid bg-gradient-custom bg-bluish pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content text-center">
-                    <h2 class="text-white">You might be intrested in other continents as well</h2>
+                    <h2 class="text-white">You might be interested in other continents as well</h2>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
