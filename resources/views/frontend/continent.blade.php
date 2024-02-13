@@ -1708,7 +1708,22 @@
                 @endforeach
             ];
             console.log("Tradeddata",Tradeddata);
+                var country = Tradeddata.map(function(item) {
+                    return item.map(function(subItem) {
+                        return subItem.country;
+                    });
+                }).flat();
 
+                var exports = Tradeddata.map(function(item) {
+                    return item.map(function(subItem) {
+                        return subItem.exports;
+                    });
+                }).flat();
+                var imports = Tradeddata.map(function(item) {
+                    return item.map(function(subItem) {
+                        return subItem.imports;
+                    });
+                }).flat();
             Highcharts.chart('container-bar', {
                 chart: {
                     type: 'bar'
@@ -1723,7 +1738,7 @@
                     align: 'left'
                 },
                 xAxis: {
-                    categories: ['Africa', 'America', 'Asia', 'Europe'],
+                    categories: country,
                     title: {
                         text: null
                     },
@@ -1755,7 +1770,7 @@
                 },
                 legend: {
                     layout: 'vertical',
-                    align: 'left',
+                    align: 'right',
                     verticalAlign: 'top',
                     x: -40,
                     y: 80,
@@ -1769,11 +1784,11 @@
                     enabled: false
                 },
                 series: [{
-                    name: '',
-                    data: [631, 727, 3202, 721,631, 727, 3202, 721,721,631]
+                    name: 'Export',
+                    data: exports
                 }, {
-                    name: '',
-                    data: [814, 841, 3714, 726,631, 727, 3202, 721,721,631]
+                    name: 'Import',
+                    data: imports
                 }, ]
             });
         </script> 
