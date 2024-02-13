@@ -38,10 +38,11 @@ Route::get('/customs-data',[CountriesdataController::class,'customsdata']);
 Route::get('/statistical-data',[CountriesdataController::class,'statisticaldata']);
 Route::get('/bl-data',[CountriesdataController::class,'blreport']);
 Route::get('/analytical-custom-report',[LinkController::class,'customizedanalyticaldata']);
-// Get Continent Data
-Route::get('/{continent}-trade-data', [ContinentDataController::class, 'continentData'])->name('continent.tradeData');
 // Trade
 Route::get('/global-trade-data',[CountriesdataController::class,'globaltradedata']);
+// Get Continent Data
+Route::get('/{continent}-trade-data', [ContinentDataController::class, 'continentData'])->name('continent.tradeData');
+
 
 // Get Country Data
 Route::get('/', [CountriesdataController::class, 'countrydata'])->name('countrydata');

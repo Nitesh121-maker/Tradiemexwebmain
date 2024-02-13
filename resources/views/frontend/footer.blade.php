@@ -336,7 +336,7 @@
                     Our data
                 </h5>
                 <p>
-                    <a href="global-trade-data" class="td-none text-uppercase text-hover">Global Trade Data</a>
+                    <a href="/global-trade-data" class="td-none text-uppercase text-hover">Global Trade Data</a>
                 </p>
                 <p>
                     @if (!empty($continents))

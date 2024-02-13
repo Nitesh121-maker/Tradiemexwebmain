@@ -5,50 +5,17 @@
         <meta name="google-site-verification" content="kevV-HFG1JijHyuKnnkIeN6dY_Hb-ueXuqoUv-pPWUU"/>
         <meta name="ahrefs-site-verification" content="167ef56daf7b5a6af88ecea027be9df8f7a528cfe6be55f3f794a32094b792f2">
           @foreach ($continentdata as $continent)
-          <meta name="keywords" content={{$continent->mf_content_metakeywords}} /> 
-          <meta name="description" content={{$continent->mf_content_metadescription}} />
+          <meta name="keywords" content="{{$continent->mf_content_metakeywords}}" /> 
+          <meta name="description" content="{{$continent->mf_content_metadescription}}" />
           @endforeach
        
         <meta name="robots" content="index, follow" id="robots"/>
       
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
         <title>
-            <?php
-              
-
-                foreach ($continentdata as $continent) {
-                    # code...
-                    $country_id = $continent->continent_code;
-                        switch ($country_id) {
-                        case "AS-24" :
-                            echo 
-                            'Asia Trade Data';
-                        break;
-                        case "AF-24" :
-                            echo 
-                            'Africa Trade Data';
-                        break;
-                        case "EU-34" :
-                            echo 
-                            'Europe Trade Data';
-                        break;
-                        case "NA-8" :
-                            echo 
-                            'North America Trade Data';
-                        break;
-                        case "OC-3" :
-                            echo 
-                            'Oceania Trade Data';
-                        break;
-                        case "SA-11" :
-                            echo 
-                            'South America Trade Data';
-                        break;
-                        default:
-                            echo "Error 404 ";
-                    }
-                }
-            ?>
+            @foreach ($continentdata as $continent)
+                {{$continent->mf_content_metatitle}}
+            @endforeach
         </title>
         <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
 
@@ -1723,6 +1690,25 @@
         <!-- Top 10 partners of country (Bar Chart) -->
 
         <script>
+            var Tradeddata = [
+                @foreach($continentdata as $continent)
+                    @php
+                        $products = [];
+                        preg_match_all('/([A-Za-z\s]+):\sExports \(\$([\d\.]+) billion\), Imports \(\$([\d\.]+) billion\)/', $continent->continent_partner_name, $matches, PREG_SET_ORDER);
+                        foreach ($matches as $match) {
+                            $product = [
+                                'country' => $match[1],
+                                'exports' => (float) $match[2],
+                                'imports' => (float) $match[3]
+                            ];
+                            $products[] = $product;
+                        }
+                        echo json_encode($products) . ",";
+                    @endphp
+                @endforeach
+            ];
+            console.log("Tradeddata",Tradeddata);
+
             Highcharts.chart('container-bar', {
                 chart: {
                     type: 'bar'
@@ -1747,7 +1733,7 @@
                 yAxis: {
                     min: 0,
                     title: {
-                        text: 'Population (millions)',
+                        text: '',
                         align: 'high'
                     },
                     labels: {
@@ -1769,7 +1755,7 @@
                 },
                 legend: {
                     layout: 'vertical',
-                    align: 'right',
+                    align: 'left',
                     verticalAlign: 'top',
                     x: -40,
                     y: 80,
@@ -1783,15 +1769,12 @@
                     enabled: false
                 },
                 series: [{
-                    name: 'Year 1990',
-                    data: [631, 727, 3202, 721]
+                    name: '',
+                    data: [631, 727, 3202, 721,631, 727, 3202, 721,721,631]
                 }, {
-                    name: 'Year 2000',
-                    data: [814, 841, 3714, 726]
-                }, {
-                    name: 'Year 2018',
-                    data: [1276, 1007, 4561, 746]
-                }]
+                    name: '',
+                    data: [814, 841, 3714, 726,631, 727, 3202, 721,721,631]
+                }, ]
             });
         </script> 
 
