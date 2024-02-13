@@ -431,7 +431,7 @@
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-12">
-                            <div class="text-content">
+                            <div class="text-content pdt-2">
                                 <p class="text-white">
                                     TradeImeX provides an exclusive customs database covering over 80 countries, including the
                                     US, Mexico, Vietnam, Turkey, and many more. Finding exporters and importers worldwide
