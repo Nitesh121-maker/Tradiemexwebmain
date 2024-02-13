@@ -343,7 +343,12 @@
                         @foreach ($continents  as $continent)
 
                             @if ($continent->continent == 'Africa')
-                               <a href="{{ route('continent.tradeData', ['continent' => $continent->continent]) }}"class="td-none text-uppercase text-hover">Africa Trade Data</a>
+                            @php
+                                $suffix='trade-data'  
+                            @endphp                        
+                                <a href="{{ route('continent.tradeData', [strtolower($continent->continent)]) }}" class="td-none text-uppercase text-hover">
+                                    {{ $continent->continent }} Trade Data
+                                </a>
                             @endif
                         @endforeach  
                     @else
@@ -353,11 +358,10 @@
                 <p>
                     @if (!empty($continents))
                         @foreach ($continents  as $continent)
-                            @if ($continent->continent == 'Asia')
-                            
-                            <a href="{{ route('continent.tradeData', ['continent' => $continent->continent]) }}" class="td-none text-uppercase text-hover">
-                                {{ $continent->continent }} Trade Data
-                            </a>
+                            @if ($continent->continent == 'Asia')                         
+                                <a href="{{ route('continent.tradeData', [strtolower($continent->continent)]) }}" class="td-none text-uppercase text-hover">
+                                    {{ $continent->continent }} Trade Data
+                                </a>
                             @endif
                         @endforeach  
                     @else
@@ -368,7 +372,7 @@
                     @if (!empty($continents))
                         @foreach ($continents  as $continent)
                             @if ($continent->continent == 'Europe')
-                                <a href="{{ route('continent.tradeData', ['continent' => $continent->continent]) }}" class="td-none text-uppercase text-hover">
+                                <a href="{{ route('continent.tradeData', [strtolower($continent->continent)]) }}" class="td-none text-uppercase text-hover">
                                     Europe Trade Data
                                 </a>
                             @endif
@@ -381,7 +385,7 @@
                     @if (!empty($continents))
                         @foreach ($continents  as $continent)
                             @if ($continent->continent == 'North America')
-                            <a href="{{ route('continent.tradeData', ['continent' => $continent->continent]) }}" class="td-none text-uppercase text-hover">
+                            <a href="{{ route('continent.tradeData', [strtolower($continent->continent)]) }}" class="td-none text-uppercase text-hover">
                                 north america trade data
                             </a>
                             @endif
@@ -395,10 +399,11 @@
                     @if (!empty($continents))
                         @foreach ($continents  as $continent)
                             @if ($continent->continent == 'Oceania')
-                            <a href="{{ route('continent.tradeData', ['continent' => $continent->continent]) }}" class="td-none text-uppercase text-hover">
+                            <a href="{{ route('continent.tradeData', [strtolower($continent->continent)]) }}" class="td-none text-uppercase text-hover">
                                 oceania trade data
                             </a>
                             @endif
+                            
                         @endforeach  
                     @else
                         <a href="/africa-trade-data">Data Fetching error</a>
@@ -408,7 +413,7 @@
                     @if (!empty($continents))
                         @foreach ($continents  as $continent)
                             @if ($continent->continent == 'South America')
-                            <a href="{{ route('continent.tradeData', ['continent' => $continent->continent]) }}" class="td-none text-uppercase text-hover">
+                            <a href="{{ route('continent.tradeData', [strtolower($continent->continent)]) }}" class="td-none text-uppercase text-hover">
                                 south america data
                             </a>
                             @endif

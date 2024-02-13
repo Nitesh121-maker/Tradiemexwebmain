@@ -48,6 +48,8 @@ class LinkController extends Controller
         return view('frontend.analytical-custom-report');
     }
 
-
+    function test()  {
+        return view('frontend.bl-data');
+    }
 
 }

@@ -97,6 +97,4 @@ class CountriesdataController extends Controller
             Log::error('Error in countrydata method: ' . $e->getMessage());
         }
     }
-
-
 }
