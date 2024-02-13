@@ -100,32 +100,32 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/Asia">
+                                <a class="dropdown-item" href="/asia-trade-data">
                                     <i class="fa-solid fa-earth-asia fa-lg"></i> &nbsp; Asia Trade Data
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/africa">
+                                <a class="dropdown-item" href="/africa-trade-data">
                                     <i class="fa-solid fa-earth-africa fa-lg"></i> &nbsp;Africa Trade Data
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/Europe">
+                                <a class="dropdown-item" href="/europe-trade-data">
                                     <i class="fa-solid fa-earth-europe fa-lg"></i> &nbsp;Europe Trade Data
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/North America">
+                                <a class="dropdown-item" href="/north america-trade-data">
                                     <i class="fa-solid fa-earth-americas fa-lg"></i> &nbsp;North America Trade Data
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/Oceania">
+                                <a class="dropdown-item" href="/oceania-trade-data">
                                     <i class="fa-solid fa-earth-oceania fa-lg"></i>&nbsp;Oceania Trade Data
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/South America">
+                                <a class="dropdown-item" href="/south america-trade-data">
                                     <i class="fa-solid fa-earth-americas fa-lg"></i> &nbsp;South America Trade Data
                                 </a>
                             </li>
