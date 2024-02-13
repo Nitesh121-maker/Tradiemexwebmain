@@ -5,8 +5,8 @@
         <meta name="google-site-verification" content="kevV-HFG1JijHyuKnnkIeN6dY_Hb-ueXuqoUv-pPWUU"/>
         <meta name="ahrefs-site-verification" content="167ef56daf7b5a6af88ecea027be9df8f7a528cfe6be55f3f794a32094b792f2">
           @foreach ($continentdata as $continent)
-          <meta name="keywords" content={{$continent->mf_content_metakeywords}} /> 
-          <meta name="description" content={{$continent->mf_content_metadescription}} />
+          <meta name="keywords" content="{{$continent->mf_content_metakeywords}}" /> 
+          <meta name="description" content="{{$continent->mf_content_metadescription}}" />
           @endforeach
        
         <meta name="robots" content="index, follow" id="robots"/>
