@@ -431,15 +431,17 @@
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-12">
-                            <p class="text-white">
-                                TradeImeX provides an exclusive customs database covering over 80 countries, including the
-                                US, Mexico, Vietnam, Turkey, and many more. Finding exporters and importers worldwide
-                                who could be potential buyers or sellers of a specific product, analyzing competitors&#39; trade
-                                activity and keeping an eye on their creative strategies, getting a comprehensive
-                                understanding of the market regarding profit margins and level of competition, and gaining
-                                strategies and recommendations for entering new markets through self-observation and
-                                learning from others are all made possible by customs data.
-                            </p>
+                            <div class="text-content">
+                                <p class="text-white">
+                                    TradeImeX provides an exclusive customs database covering over 80 countries, including the
+                                    US, Mexico, Vietnam, Turkey, and many more. Finding exporters and importers worldwide
+                                    who could be potential buyers or sellers of a specific product, analyzing competitors&#39; trade
+                                    activity and keeping an eye on their creative strategies, getting a comprehensive
+                                    understanding of the market regarding profit margins and level of competition, and gaining
+                                    strategies and recommendations for entering new markets through self-observation and
+                                    learning from others are all made possible by customs data.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
