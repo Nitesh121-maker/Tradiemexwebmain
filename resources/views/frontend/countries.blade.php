@@ -638,7 +638,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
-                            <a class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a href="/asia" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Asia Trade Data
                             </a>
                         </div>
@@ -660,7 +660,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
                             <a href="/North America" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
-                                North America Trade Data
+                                North America
                             </a>
                         </div>
                     </div>
@@ -674,7 +674,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
                             <a href="/South America" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
-                                South America Trade Data
+                                South America
                             </a>
                         </div>
                     </div>
