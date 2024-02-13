@@ -13,42 +13,9 @@
       
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
         <title>
-            <?php
-              
-
-                foreach ($continentdata as $continent) {
-                    # code...
-                    $country_id = $continent->continent_code;
-                        switch ($country_id) {
-                        case "AS-24" :
-                            echo 
-                            'Asia Trade Data';
-                        break;
-                        case "AF-24" :
-                            echo 
-                            'Africa Trade Data';
-                        break;
-                        case "EU-34" :
-                            echo 
-                            'Europe Trade Data';
-                        break;
-                        case "NA-8" :
-                            echo 
-                            'North America Trade Data';
-                        break;
-                        case "OC-3" :
-                            echo 
-                            'Oceania Trade Data';
-                        break;
-                        case "SA-11" :
-                            echo 
-                            'South America Trade Data';
-                        break;
-                        default:
-                            echo "Error 404 ";
-                    }
-                }
-            ?>
+            @foreach ($continentdata as $continent)
+                {{$continent->mf_content_metatitle}}
+            @endforeach
         </title>
         <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
 
@@ -1723,6 +1690,40 @@
         <!-- Top 10 partners of country (Bar Chart) -->
 
         <script>
+            var Tradeddata = [
+                @foreach($continentdata as $continent)
+                    @php
+                        $products = [];
+                        preg_match_all('/([A-Za-z\s]+):\sExports \(\$([\d\.]+) billion\), Imports \(\$([\d\.]+) billion\)/', $continent->continent_partner_name, $matches, PREG_SET_ORDER);
+                        foreach ($matches as $match) {
+                            $product = [
+                                'country' => $match[1],
+                                'exports' => (float) $match[2],
+                                'imports' => (float) $match[3]
+                            ];
+                            $products[] = $product;
+                        }
+                        echo json_encode($products) . ",";
+                    @endphp
+                @endforeach
+            ];
+            console.log("Tradeddata",Tradeddata);
+                var country = Tradeddata.map(function(item) {
+                    return item.map(function(subItem) {
+                        return subItem.country;
+                    });
+                }).flat();
+
+                var exports = Tradeddata.map(function(item) {
+                    return item.map(function(subItem) {
+                        return subItem.exports;
+                    });
+                }).flat();
+                var imports = Tradeddata.map(function(item) {
+                    return item.map(function(subItem) {
+                        return subItem.imports;
+                    });
+                }).flat();
             Highcharts.chart('container-bar', {
                 chart: {
                     type: 'bar'
@@ -1737,7 +1738,7 @@
                     align: 'left'
                 },
                 xAxis: {
-                    categories: ['Africa', 'America', 'Asia', 'Europe'],
+                    categories: country,
                     title: {
                         text: null
                     },
@@ -1747,7 +1748,7 @@
                 yAxis: {
                     min: 0,
                     title: {
-                        text: 'Population (millions)',
+                        text: '',
                         align: 'high'
                     },
                     labels: {
@@ -1783,15 +1784,12 @@
                     enabled: false
                 },
                 series: [{
-                    name: 'Year 1990',
-                    data: [631, 727, 3202, 721]
+                    name: 'Export',
+                    data: exports
                 }, {
-                    name: 'Year 2000',
-                    data: [814, 841, 3714, 726]
-                }, {
-                    name: 'Year 2018',
-                    data: [1276, 1007, 4561, 746]
-                }]
+                    name: 'Import',
+                    data: imports
+                }, ]
             });
         </script> 
 
