@@ -399,11 +399,13 @@
         <!-- Product Tab -->
         <div class="container-fluid bg-dark-custom padding-tb">
             <div class="container">
+                <div class="progress">
+                    <div id="progress-bar" class="progress-bar bg-danger" role="progressbar" style="width: 100%"></div>
+                </div>
                 <div class="product-tab bg-dark-custom">
                     <button class="product-tablink active-1" onclick="openLink(event, 'custom')">
                         <i class="fa-solid fa-file-pen fa-lg"></i> &nbsp;Custom Data
                     </button>
-                    <div id="progress-bar"></div>
                     <button class="product-tablink" onclick="openLink(event, 'stat')">
                         <i class="fa-solid fa-magnifying-glass-chart fa-lg"></i> &nbsp;Statistical Data
                     </button>
