@@ -2010,6 +2010,11 @@
                                             <img src="frontend/image/client_transparent/TVS.png">
                                         </div>
                                     </div>
+                                    <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                        <div class="client-img zoom">
+                                            <img src="frontend/image/client_transparent/Deloitte.png">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
