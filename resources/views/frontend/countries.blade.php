@@ -473,7 +473,7 @@
             </div>
             <div class="container pdt-2">
                 <div class="flex" style="justify-content: center;">
-                    <img src="assets/img/BL Data.png" width="60%" style="border-radius: 12px;">
+                    <img src="frontend/image/img/Statistical Data.png" width="60%" style="border-radius: 12px;">
                 </div>
             </div>
         </div>
