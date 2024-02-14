@@ -473,7 +473,7 @@
             </div>
             <div class="container">
                 <div class="flex img-aspect" style="justify-content: center;">
-                    <img src="frontend/image/img/Statistical Data.png" width="100%" style="border-radius: 12px;">
+                    <img src="frontend/image/img/Statistical Data.png" width="80%" style="border-radius: 12px;object-fit: scale-down !important;">
                 </div>
             </div>
         </div>
