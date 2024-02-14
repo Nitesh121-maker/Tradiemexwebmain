@@ -471,9 +471,9 @@
                     </p>
                 </div>
             </div>
-            <div class="container pdt-2">
-                <div class="flex" style="justify-content: center;">
-                    <img src="frontend/image/img/Statistical Data.png" width="60%" style="border-radius: 12px;">
+            <div class="container">
+                <div class="flex img-aspect" style="justify-content: center;">
+                    <img src="frontend/image/img/Statistical Data.png" width="100%" style="border-radius: 12px;">
                 </div>
             </div>
         </div>
