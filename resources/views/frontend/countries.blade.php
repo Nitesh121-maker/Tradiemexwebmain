@@ -472,8 +472,8 @@
                 </div>
             </div>
             <div class="container">
-                <div class="flex img-aspect" style="justify-content: center;">
-                    <img src="frontend/image/img/Statistical Data.png" width="80%" style="border-radius: 12px;object-fit: scale-down !important;">
+                <div class="flex" style="justify-content: center;">
+                    <img src="frontend/image/img/Statistical Data.png" width="80%" style="border-radius: 12px;">
                 </div>
             </div>
         </div>
@@ -638,42 +638,42 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
-                            <a href="/asia" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a href="/asia-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Asia Trade Data
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
-                            <a href="/africa" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a href="/africa-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Africa Trade Data
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
-                            <a href="/Europe" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a href="/europe-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Europe Trade Data
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
-                            <a href="/North America" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a href="/North America-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 North America
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
-                            <a href="/Oceania" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a href="/oceania-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Oceania Trade Data
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                         <div class="searchbox">
-                            <a href="/South America" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                            <a href="/south america-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 South America
                             </a>
                         </div>
