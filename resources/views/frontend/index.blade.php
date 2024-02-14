@@ -402,8 +402,8 @@
                 <div class="product-tab bg-dark-custom">
                     <button class="product-tablink active-1" onclick="openLink(event, 'custom')">
                         <i class="fa-solid fa-file-pen fa-lg"></i> &nbsp;Custom Data
-                        <div id="progress-bar"></div>
                     </button>
+                    <div id="progress-bar"></div>
                     <button class="product-tablink" onclick="openLink(event, 'stat')">
                         <i class="fa-solid fa-magnifying-glass-chart fa-lg"></i> &nbsp;Statistical Data
                     </button>
