@@ -49,22 +49,22 @@
 
                                 @foreach ($countrydata as $country)
                                     @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TAS')
-                                        <a href="/Asia" class="text-hover">Asia Trade Data</a>
+                                        <a href="/asia-trade-data" class="text-hover">Asia Trade Data</a>
                                     @endif   
                                     @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TNA')
-                                     <a href="/North_America" class="text-hover">North America Trade Data</a>
+                                     <a href="//north america-trade-data" class="text-hover">North America Trade Data</a>
                                     @endif    
                                     @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TAF')
-                                    <a href="/africa" class="text-hover">Africa Trade Data</a>
+                                    <a href="/africa-trade-data" class="text-hover">Africa Trade Data</a>
                                     @endif   
                                     @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TEU')
-                                    <a href="/Europe" class="text-hover">Europe Trade Data</a>
+                                    <a href="/europe-trade-data" class="text-hover">Europe Trade Data</a>
                                     @endif 
                                     @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TSA')
-                                    <a href="/South America" class="text-hover">South America Trade Data</a>
+                                    <a href="/south america-trade-data" class="text-hover">South America Trade Data</a>
                                     @endif   
                                     @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TOC')
-                                    <a href="/Oceania" class="text-hover">Oceania Trade Data</a>
+                                    <a href="/oceania-trade-data" class="text-hover">Oceania Trade Data</a>
                                     @endif                              
                                 @endforeach
                                 </li>
