@@ -144,7 +144,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-14">
                             <div class="icon">
-                                {{-- <img src="frontend/image/img/rank.jpg" width="20%" style="padding: 0px 0px 0px 10px;"> --}}
+                                <img src="frontend/image/img/rank.png" width="20%" style="padding: 0px 0px 0px 10px;">
                                 @if ($country->kpimages)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
@@ -167,6 +167,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-14">
                             <div class="icon">
+                                <img src="frontend/image/img/shares.png" width="20%" style="padding: 0px 0px 0px 10px;">
                                 @if ($country->kpimages_two)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
@@ -189,6 +190,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-14">
                             <div class="icon">
+                                <img src="frontend/image/img/countries.png" width="20%" style="padding: 0px 0px 0px 10px;">
                                 @if ($country->kpimages_three)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
@@ -211,6 +213,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-14">
                             <div class="icon">
+                                <img src="frontend/image/img/products.png" width="20%" style="padding: 0px 0px 0px 10px;">
                                 @if ($country->kpimages_four)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
