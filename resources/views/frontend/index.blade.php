@@ -26,6 +26,13 @@
             }
         </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <style>
+            #progress-bar {
+                width: 50%;
+                color: #fff !important;
+                border-radius: 8%;
+            }
+        </style>
     </head>
     <body>
         @include('frontend.header')
@@ -2182,7 +2189,7 @@
             }
 
             function startAutoPlay() {
-                intervalId = setInterval(openLinkAutomatically, 3000); // Adjust the interval as needed
+                intervalId = setInterval(openLinkAutomatically, 5000); // Adjust the interval as needed
 
                 // Start progress bar
                 var progressBar = document.getElementById("progress-bar");
