@@ -395,6 +395,7 @@
                 <div class="product-tab bg-dark-custom">
                     <button class="product-tablink active-1" onclick="openLink(event, 'custom')">
                         <i class="fa-solid fa-file-pen fa-lg"></i> &nbsp;Custom Data
+                        <div id="progress-bar"></div>
                     </button>
                     <button class="product-tablink" onclick="openLink(event, 'stat')">
                         <i class="fa-solid fa-magnifying-glass-chart fa-lg"></i> &nbsp;Statistical Data
@@ -2160,6 +2161,9 @@
 
             // autoplay tab
             var currentIndex = 0; // Initialize the index of the active tab
+            var intervalId; // Variable to store the interval ID
+            var progressBarInterval; // Variable to store the progress bar interval ID
+
             function openLinkAutomatically() {
                 var x, tablinks;
                 x = document.getElementsByClassName("product-tabcontent");
@@ -2177,11 +2181,45 @@
                 tablinks[currentIndex].className += " active-1";
             }
 
-            // Set interval to change tabs every 3000 milliseconds (adjust as needed)
-            var intervalId = setInterval(openLinkAutomatically, 3000);
+            function startAutoPlay() {
+                intervalId = setInterval(openLinkAutomatically, 3000); // Adjust the interval as needed
 
-            // Uncomment the line below if you want to stop the auto-play on tab click
-            // document.addEventListener("click", function() { clearInterval(intervalId); });
+                // Start progress bar
+                var progressBar = document.getElementById("progress-bar");
+                var width = 1; // Initial width
+                progressBarInterval = setInterval(function () {
+                    if (width >= 100) {
+                        clearInterval(progressBarInterval);
+                    } else {
+                        width++;
+                        progressBar.style.width = width + "%";
+                    }
+                }, 30); // Adjust the interval as needed
+            }
+
+            function stopAutoPlay() {
+                clearInterval(intervalId);
+                clearInterval(progressBarInterval);
+
+                // Reset progress bar
+                var progressBar = document.getElementById("progress-bar");
+                progressBar.style.width = "0%";
+            }
+
+            // Set interval to change tabs automatically
+            startAutoPlay();
+
+            // Add event listeners for stopping on hover
+            document.getElementById("custom").addEventListener("mouseenter", stopAutoPlay);
+            document.getElementById("custom").addEventListener("mouseleave", startAutoPlay);
+
+            // Add event listeners for stopping on hover
+            document.getElementById("stat").addEventListener("mouseenter", stopAutoPlay);
+            document.getElementById("stat").addEventListener("mouseleave", startAutoPlay);
+
+            // Add event listeners for stopping on hover
+            document.getElementById("bl").addEventListener("mouseenter", stopAutoPlay);
+            document.getElementById("bl").addEventListener("mouseleave", startAutoPlay);
         </script>
 
         <!-- Google Tag Manager (noscript) -->
