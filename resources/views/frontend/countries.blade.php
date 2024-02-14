@@ -145,7 +145,7 @@
                         <div class="card-content cdh-14">
                             <div class="icon">
                                 <img src="frontend/image/img/rank.png" width="20%" style="padding: 0px 0px 0px 10px;">
-                                @if ($country->kpimages)
+                                {{-- @if ($country->kpimages)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
                                         $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages);
@@ -154,7 +154,7 @@
                                 @endif
                                 @if (!empty($imageURL))
                                 <img src="{{ $imageURL }}"  style="width: 100%">
-                                @endif
+                                @endif --}}
                             </div>
                             <div class="head">
                                 <h3>{{$country->kp_head}}</h3>
@@ -168,16 +168,16 @@
                         <div class="card-content cdh-14">
                             <div class="icon">
                                 <img src="frontend/image/img/shares.png" width="20%" style="padding: 0px 0px 0px 10px;">
-                                @if ($country->kpimages_two)
-                                @php
-                                    // Construct the full image URL using the base URL and the image filename.
-                                    $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_two);
-                                    
-                                @endphp
-                            @endif
-                            @if (!empty($imageURL))
-                            <img src="{{ $imageURL }}" style="width: 100%">
-                            @endif
+                                {{-- @if ($country->kpimages_two)
+                                    @php
+                                        // Construct the full image URL using the base URL and the image filename.
+                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_two);
+                                        
+                                    @endphp
+                                @endif
+                                @if (!empty($imageURL))
+                                    <img src="{{ $imageURL }}" style="width: 100%">
+                                @endif --}}
                             </div>  
                             <div class="head">
                                 <h3>{{$country->kp_head_two}}</h3>
@@ -190,17 +190,17 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-14">
                             <div class="icon">
-                                <img src="frontend/image/img/countries.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                {{-- <img src="frontend/image/img/countries.png" width="20%" style="padding: 0px 0px 0px 10px;"> --}}
                                 @if ($country->kpimages_three)
-                                @php
-                                    // Construct the full image URL using the base URL and the image filename.
-                                    $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_three);
-                                    
-                                @endphp
-                            @endif
-                            @if (!empty($imageURL))
-                            <img src="{{ $imageURL }}" style="width: 100%">
-                            @endif
+                                    @php
+                                        // Construct the full image URL using the base URL and the image filename.
+                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_three);
+                                        
+                                    @endphp
+                                @endif
+                                @if (!empty($imageURL))
+                                <img src="{{ $imageURL }}" style="width: 100%">
+                                @endif
                             </div>
                             <div class="head">
                                 <h3>{{$country->kp_head_three}}</h3>
@@ -214,16 +214,15 @@
                         <div class="card-content cdh-14">
                             <div class="icon">
                                 <img src="frontend/image/img/products.png" width="20%" style="padding: 0px 0px 0px 10px;">
-                                @if ($country->kpimages_four)
+                                {{-- @if ($country->kpimages_four)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
                                         $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_four);
-                                        
                                     @endphp
                                 @endif
-                            @if (!empty($imageURL))
-                            <img src="{{ $imageURL }}" style="width: 100%">
-                            @endif
+                                @if (!empty($imageURL))
+                                    <img src="{{ $imageURL }}" style="width: 100%">
+                                @endif --}}
                             </div>
                             <div class="head">
                                 <h3>{{$country->kp_head_four}}</h3>
