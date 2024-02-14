@@ -2157,6 +2157,31 @@
                 document.getElementById(animName).style.display = "flex";
                 evt.currentTarget.className += " active-1"
             }
+
+            // autoplay tab
+            var currentIndex = 0; // Initialize the index of the active tab
+            function openLinkAutomatically() {
+                var x, tablinks;
+                x = document.getElementsByClassName("product-tabcontent");
+                tablinks = document.getElementsByClassName("product-tablink");
+
+                // Hide all tabs
+                for (var i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                    tablinks[i].className = tablinks[i].className.replace(" active-1", "");
+                }
+
+                // Show the next tab
+                currentIndex = (currentIndex + 1) % x.length;
+                x[currentIndex].style.display = "flex";
+                tablinks[currentIndex].className += " active-1";
+            }
+
+            // Set interval to change tabs every 3000 milliseconds (adjust as needed)
+            var intervalId = setInterval(openLinkAutomatically, 3000);
+
+            // Uncomment the line below if you want to stop the auto-play on tab click
+            // document.addEventListener("click", function() { clearInterval(intervalId); });
         </script>
 
         <!-- Google Tag Manager (noscript) -->
