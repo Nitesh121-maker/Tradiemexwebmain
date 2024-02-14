@@ -395,21 +395,21 @@
                 <div class="product-tab bg-dark-custom">
                     <button class="product-tablink active-1" id="btn-custom" onclick="openLink(event, 'custom')">
                         <i class="fa-solid fa-file-pen fa-lg"></i> &nbsp;Custom Data.
-                        <div class="progress">
+                        {{-- <div class="progress">
                             <div id="progress-bar" class="progress-bar bg-danger" role="progressbar"></div>
-                        </div>
+                        </div> --}}
                     </button>
                     <button class="product-tablink" id="btn-stat" onclick="openLink(event, 'stat')">
                         <i class="fa-solid fa-magnifying-glass-chart fa-lg"></i> &nbsp;Statistical Data
-                        <div class="progress">
+                        {{-- <div class="progress">
                             <div id="progress-bar" class="progress-bar bg-danger" role="progressbar"></div>
-                        </div>
+                        </div> --}}
                     </button>
                     <button class="product-tablink" id="btn-bl" onclick="openLink(event, 'bl')">
                         <i class="fa-solid fa-chart-simple fa-lg"></i> &nbsp;B/L Data
-                        <div class="progress">
+                        {{-- <div class="progress">
                             <div id="progress-bar" class="progress-bar bg-danger" role="progressbar"></div>
-                        </div>
+                        </div> --}}
                     </button>
                 </div>
                 <!-- Custom -->
