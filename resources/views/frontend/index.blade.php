@@ -393,16 +393,16 @@
         <div class="container-fluid bg-dark-custom padding-tb">
             <div class="container">
                 <div class="progress">
-                    <div id="progress-bar" class="progress-bar bg-danger" role="progressbar" style="width: 100%"></div>
+                    <div id="progress-bar" class="progress-bar bg-danger" role="progressbar"></div>
                 </div>
                 <div class="product-tab bg-dark-custom">
-                    <button class="product-tablink active-1" onclick="openLink(event, 'custom')">
+                    <button class="product-tablink active-1" id="btn-custom" onclick="openLink(event, 'custom')">
                         <i class="fa-solid fa-file-pen fa-lg"></i> &nbsp;Custom Data
                     </button>
-                    <button class="product-tablink" onclick="openLink(event, 'stat')">
+                    <button class="product-tablink" id="btn-stat" onclick="openLink(event, 'stat')">
                         <i class="fa-solid fa-magnifying-glass-chart fa-lg"></i> &nbsp;Statistical Data
                     </button>
-                    <button class="product-tablink" onclick="openLink(event, 'bl')">
+                    <button class="product-tablink" id="btn-bl" onclick="openLink(event, 'bl')">
                         <i class="fa-solid fa-chart-simple fa-lg"></i> &nbsp;B/L Data
                     </button>
                 </div>
@@ -2211,17 +2211,31 @@
             // Set interval to change tabs automatically
             startAutoPlay();
 
-            // Add event listeners for stopping on hover
-            document.getElementById("custom").addEventListener("mouseenter", stopAutoPlay);
-            document.getElementById("custom").addEventListener("mouseleave", startAutoPlay);
+            // For Tab Containers
+                // Add event listeners for stopping on hover
+                document.getElementById("custom").addEventListener("mouseenter", stopAutoPlay);
+                document.getElementById("custom").addEventListener("mouseleave", startAutoPlay);
 
-            // Add event listeners for stopping on hover
-            document.getElementById("stat").addEventListener("mouseenter", stopAutoPlay);
-            document.getElementById("stat").addEventListener("mouseleave", startAutoPlay);
+                // Add event listeners for stopping on hover
+                document.getElementById("stat").addEventListener("mouseenter", stopAutoPlay);
+                document.getElementById("stat").addEventListener("mouseleave", startAutoPlay);
 
-            // Add event listeners for stopping on hover
-            document.getElementById("bl").addEventListener("mouseenter", stopAutoPlay);
-            document.getElementById("bl").addEventListener("mouseleave", startAutoPlay);
+                // Add event listeners for stopping on hover
+                document.getElementById("bl").addEventListener("mouseenter", stopAutoPlay);
+                document.getElementById("bl").addEventListener("mouseleave", startAutoPlay);
+
+            // For Tab Buttons
+                // Add event listeners for stopping on hover
+                document.getElementById("btn-custom").addEventListener("mouseenter", stopAutoPlay);
+                document.getElementById("btn-custom").addEventListener("mouseleave", startAutoPlay);
+
+                // Add event listeners for stopping on hover
+                document.getElementById("btn-stat").addEventListener("mouseenter", stopAutoPlay);
+                document.getElementById("btn-stat").addEventListener("mouseleave", startAutoPlay);
+
+                // Add event listeners for stopping on hover
+                document.getElementById("btn-bl").addEventListener("mouseenter", stopAutoPlay);
+                document.getElementById("btn-bl").addEventListener("mouseleave", startAutoPlay);
         </script>
 
         <!-- Google Tag Manager (noscript) -->
