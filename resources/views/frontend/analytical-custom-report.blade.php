@@ -25,7 +25,7 @@
         <div class="container-fluid padding-tb bg-bluish slanted-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="text-content">
                             <h1 class="gradient-h2">
                                 GROW YOUR BUSINESS WITH THESE CUSTOMIZED TRADE INSIGHTS
@@ -40,7 +40,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <video width="500" autoplay muted loop>
                             <source src="frontend/image/img/Customs Analytical Report.mp4" type="video/mp4">
                         </video>

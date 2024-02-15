@@ -431,6 +431,9 @@
         <div class="container-fluid pdb-2">
             <div class="container">
                 <div class="row">
+                    <div class="col-sm-12 col-lg-md-6 col-lg-6 img-aspect" style="justify-content: center;display: flex;align-items: baseline;">
+                        <img src="/frontend/image/img/Global Reach (1).gif" style="width: 60%;">
+                    </div>
                     <div class="col-sm-12 col-lg-md-6 col-lg-6">
                         <div class="text-content content-highlight">
                             <h2 class="text-white">Global Reach</h2>
@@ -442,10 +445,7 @@
                                 Asia, Europe, America, Africa, or any other part of the world.
                             </p>
                         </div>
-                    </div>  
-                    <div class="col-sm-12 col-lg-md-6 col-lg-6 img-aspect" style="justify-content: center;display: flex;align-items: baseline;">
-                        <img src="/frontend/image/img/Global Reach (1).gif" style="width: 60%;">
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>
