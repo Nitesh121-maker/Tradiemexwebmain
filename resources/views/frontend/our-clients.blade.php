@@ -337,6 +337,30 @@
             </div>
         </div>
 
+        <!-- Satisfied Clients -->
+        <div class="container-fluid pdb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-md-6 col-lg-6 img-aspect" style="justify-content: center;display: flex;align-items: baseline">
+                        <img src="/frontend/image/img/Client_Retention.gif" style="width: 60%;">
+                    </div> 
+                    <div class="col-sm-12 col-lg-md-6 col-lg-6" style="align-items: center;display: flex;">
+                        <div class="text-content content-highlight">
+                            <h2 class="text-white">
+                                Client Retention
+                            </h2>
+                            <p class="text-white">
+                                Client retention is our primary goal. Maximum brands are associated with us from the day of
+                                inception. When it comes to client retention, we take a proactive and professional approach.
+                                With a deep understanding of the importance of maintaining long-term relationships,
+                                TradeImeX goes above and beyond to ensure client satisfaction.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Clients Tab -->
         <div class="container-fluid padding-tb">
             <div class="container">
@@ -449,31 +473,7 @@
                 </div>
             </div>
         </div>
-
-        <!-- Satisfied Clients -->
-        <div class="container-fluid pdb-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-md-6 col-lg-6" style="align-items: center;display: flex;">
-                        <div class="text-content content-highlight">
-                            <h2 class="text-white">
-                                Client Retention
-                            </h2>
-                            <p class="text-white">
-                                Client retention is our primary goal. Maximum brands are associated with us from the day of
-                                inception. When it comes to client retention, we take a proactive and professional approach.
-                                With a deep understanding of the importance of maintaining long-term relationships,
-                                TradeImeX goes above and beyond to ensure client satisfaction.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-md-6 col-lg-6 img-aspect" style="justify-content: center;display: flex;align-items: baseline">
-                        <img src="/frontend/image/img/Client_Retention.gif" style="width: 60%;">
-                    </div> 
-                </div>
-            </div>
-        </div>
-
+ 
         <div class="container-fluid pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">

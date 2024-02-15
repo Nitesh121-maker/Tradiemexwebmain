@@ -118,7 +118,7 @@
         <!-- <div class="container-fluid bg-gradient-custom padding-tb"></div> -->
 
         <!-- Sales Partner -->
-        <div class="container-fluid pdt-5 pdb-2 bg-white" id="sales">
+        <div class="container-fluid pdt-5 pdb-2 bg-bluish" id="sales">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
