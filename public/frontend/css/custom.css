@@ -2641,7 +2641,7 @@ ul {
             display: flex;
         }
     }
-    @media screen and (max-width: 700px) {
+    @media screen and (min-width: 768px) {
         .nav-center {
             justify-content: center;
             display: flex;
