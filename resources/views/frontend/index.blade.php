@@ -73,8 +73,8 @@
                                 helping them make informed decisions and stay ahead in the competitive international market.
                                 With TradeImeX, you&#39;ll have access to accurate and up-to-date data that is crucial for successful
                                 global trade operations. TradeImeX gives you the most recent, accurate, and updated trade
-                                data. We provide you with our three flagship products to access the trade data: the Bill of
-                                Lading, Statistical, and Customs databases according to the adaptations required by your
+                                data. We provide you with our three flagship products to access the trade data: the Customs,
+                                Statistical and Bill of Lading databases. according to the adaptations required by your
                                 trade customizations.  Whether you are looking to expand your market, identify potential
                                 partners, or stay updated with the latest trade trends, TradeImeX is here to help you navigate
                                 the world of international trade with ease and confidence.
@@ -554,7 +554,7 @@
                     </div>
                     <div class="col-xs-12 text-center">
                         <div class="text-content">
-                            <h3 class="text-start">IMPORT-EXPORT DATA PROVIDER FOR GLOBAL TRADE INTELLIGENCE DATA</h3>
+                            <h3 class="text-start">IMPORT-EXPORT DATA PROVIDER FOR GLOBAL TRADE INTELLIGENCE</h3>
                             <p class="lh-8">
                                 TradeImeX provides firms from all sectors and locations with access to international trade data, exceeding your expectations.
                             </p>
