@@ -220,7 +220,7 @@
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-18">
                             <div class="head">
-                                <h3>DATA EFFICIENCY SAVING</h3>
+                                <h3>DATA EFFICIENCY</h3>
                             </div>
                             <p>
                                 Marketers used to thoroughly research every nation before deciding on a possible market and
