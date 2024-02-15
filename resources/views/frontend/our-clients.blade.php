@@ -170,83 +170,83 @@
                         <!-- For Mobile -->
                         <div id="client_mobile" class="container-fluid padding-tb" style="display: none;">
                             <div class="row">
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/Aditya_Birla.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/BASF.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/Counterpoint.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/Deloitte.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/DHL.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/Dow.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/Exxon_Mobil.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/EY.png" width="60%">
                                     </div>
                                 </div>
                                 <!-- Second row -->
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/Realme.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/Nikon.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/Samsung.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/LG.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/Hyundai.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/Mahindra.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/Tata.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="frontend/image/client_transparent/TVS.png" width="60%">
                                     </div>
@@ -323,7 +323,7 @@
         <div class="container-fluid pdt-2">
             <div class="container">
                 <div class="text-content text-center">
-                    <h2>Extensive Network of Clients</h2>
+                    <h2>Extensive Network of Clients</h2>   
                 </div>
                 <div class="text-content">
                     <p class="text-center">
@@ -341,84 +341,84 @@
         <div class="container-fluid padding-tb">
             <div class="container">
                 <div class="row">
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/Aditya_Birla.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/BASF.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/Counterpoint.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/Deloitte.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/DHL.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/Dow.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/Exxon_Mobil.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/EY.png" width="60%">
                         </div>
                     </div>
 
                     <!-- Second row -->
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/Realme.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/Nikon.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/Samsung.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/LG.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/Hyundai.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/Mahindra.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/Tata.png" width="60%">
                         </div>
                     </div>
-                    <div class="client-mb col-xs-12 col-sm-3 col-md-6 col-lg-3">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="client-img zoom">
                             <img src="frontend/image/client_transparent/TVS.png" width="60%">
                         </div>
