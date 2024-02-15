@@ -51,6 +51,9 @@
         <div class="container-fluid bg-white padding-tb" style="margin-top: 2rem;">
             <div class="container">
                 <div class="row">
+                    <div class="text-content">
+                        <h2>What makes TradeImeX the best option?</h2>
+                    </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="card card-bg">
                             <div class="card-img">
@@ -264,10 +267,10 @@
 
 
         <!-- What makes TradeImeX the best option? -->
-        <div class="container-fluid padding-tb bg-bluish">
+        {{-- <div class="container-fluid padding-tb bg-bluish">
             <div class="container">
                 <div class="row">
-                        <div class="text-content">
+                    <div class="text-content">
                         <h2>What makes TradeImeX the best option?</h2>
                     </div>
                     <div class="row">
@@ -342,7 +345,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <!-- Last Partner tab -->
      
