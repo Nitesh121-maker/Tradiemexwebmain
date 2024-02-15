@@ -554,7 +554,7 @@
                     </div>
                     <div class="col-xs-12 text-center">
                         <div class="text-content">
-                            <h3 class="text-start">IMPORT-EXPORT DATA PROVIDER FOR GLOBAL TRADE INTELLIGENCE DATA</h3>
+                            <h3 class="text-start">IMPORT-EXPORT DATA PROVIDER FOR GLOBAL TRADE INTELLIGENCE</h3>
                             <p class="lh-8">
                                 TradeImeX provides firms from all sectors and locations with access to international trade data, exceeding your expectations.
                             </p>
