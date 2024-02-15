@@ -12,6 +12,17 @@
         <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
         @include('frontend.link')
     </head>
+    <style>
+            .card {
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .center-on-ipad-mini {
+            justify-content: center;
+        }
+    }
+    </style>
     <body>
         @include('frontend.header')
           
@@ -197,7 +208,7 @@
                     </div>
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="card card-bg cdh-20">
                                     <div class="card-img">
                                         <img src="frontend/image/img/business (1).png" class="card-img-top" alt="..." style="width: 25%;">
@@ -215,7 +226,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="card card-bg cdh-20">
                                     <div class="card-img">
                                         <img src="frontend/image/img/market.png" class="card-img-top" alt="..." style="width: 25%;">
@@ -234,7 +245,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="card card-bg cdh-20">
                                     <div class="card-img">
                                         <img src="frontend/image/img/customer-service.png" class="card-img-top" alt="..." style="width: 25%;">
