@@ -387,7 +387,7 @@
         <div class="container-fluid pdt-2 pdb-2 bg-bluish">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
                         <div class="text-content">
                             <span>Grow your network.</span>
                             <h1>
@@ -403,7 +403,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 img-aspect">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6 img-aspect">
                         <img src="/frontend/image/img/Grow Your Network.gif" width="100%">
                     </div>
                 </div>
