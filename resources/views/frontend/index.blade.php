@@ -49,6 +49,18 @@
                     transform: translate(-50%, -50%);
                 }
             }
+            @media screen and (max-width: 992px) {
+                .nav-center {
+                    justify-content: center;
+                    display: flex;
+                }
+            }
+            @media screen and (max-width: 700px) {
+                .nav-center {
+                    justify-content: center;
+                    display: flex;
+                }
+            }
         </style>
     </head>
     <body>
