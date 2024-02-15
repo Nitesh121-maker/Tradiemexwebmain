@@ -1981,47 +1981,47 @@
                         <div id="client_mobile" class="container-fluid padding-tb" style="display: none;">
                             <div class="container">
                                 <div class="row">
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
                                         <div class="client-img zoom">
                                             <img src="frontend/image/client_transparent/Realme.png">
                                         </div>
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
                                         <div class="client-img zoom">
                                             <img src="frontend/image/client_transparent/Nikon.png">
                                         </div>
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
                                         <div class="client-img zoom">
                                             <img src="frontend/image/client_transparent/Samsung.png">
                                         </div>
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
                                         <div class="client-img zoom">
                                             <img src="frontend/image/client_transparent/LG.png">
                                         </div>
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
                                         <div class="client-img zoom">
                                             <img src="frontend/image/client_transparent/Hyundai.png">
                                         </div>
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
                                         <div class="client-img zoom">
                                             <img src="frontend/image/client_transparent/Mahindra.png">
                                         </div>
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
                                         <div class="client-img zoom">
                                             <img src="frontend/image/client_transparent/Tata.png">
                                         </div>
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
                                         <div class="client-img zoom">
                                             <img src="frontend/image/client_transparent/TVS.png">
                                         </div>
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
                                         <div class="client-img zoom">
                                             <img src="frontend/image/client_transparent/Deloitte.png">
                                         </div>
