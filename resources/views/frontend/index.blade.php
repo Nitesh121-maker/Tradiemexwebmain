@@ -430,7 +430,7 @@
                 <!-- Custom -->
                 <div id="custom" class="product-tabcontent bg-dark-custom" style="display:flex">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-12">
                             <div class="text-content">
                                 <h2 class="text-white">CUSTOMS DATA</h2>
                                 <p class="text-white">
@@ -449,7 +449,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6" style="display: flex;align-items: center;">
+                        <div class="col-lg-6 col-md-12" style="display: flex;align-items: center;">
                             <div class="data-img">
                                 <img src="frontend/image/img/Customs_Data.png" style="width: 100% !important" alt="customs-data | TradeImeX">
                             </div>
@@ -472,7 +472,7 @@
                 <!-- Stat -->
                 <div id="stat" class="product-tabcontent bg-dark-custom">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-12">
                             <div class="text-content font">
                                 <h2 class="text-white">STATISTICAL DATA</h2>
                                 <p class="text-white">
@@ -490,7 +490,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6" style="display: flex;align-items: center;">
+                        <div class="col-lg-6 col-md-12" style="display: flex;align-items: center;">
                             <div class="data-img">
                                 <img src="frontend/image/img/Statistical Data.png" style="width: 100% !important" alt="statistical-data | TradeImeX">
                             </div>
@@ -500,7 +500,7 @@
                 <!-- BL -->
                 <div id="bl" class="product-tabcontent bg-dark-custom">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-12">
                             <div class="text-content">
                                 <h2 class="text-white">B/L DATA</h2>
                                 <p class="text-white">
@@ -522,7 +522,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6" style="display: flex;align-items: center;">
+                        <div class="col-lg-6 col-md-12" style="display: flex;align-items: center;">
                             <div class="data-img">
                                 <img src="frontend/image/img/Bill of Ladding Database.png" style="width: 100% !important" alt="bl-data | TradeImeX">
                             </div>
