@@ -504,7 +504,7 @@
                             <div class="text-content">
                                 <h2 class="text-white">B/L DATA</h2>
                                 <p class="text-white">
-                                    While this report lacks pricing information, BL Data, also known as Bill of Lading data, is focused
+                                    BL Data, also known as Bill of Lading data, is focused
                                     on providing information on shipping papers and primarily has insights regarding shipment.
                                     Date, shipper name, shipper address, sea shipments/sea frights, commodity name, and many
                                     other relevant details are among the main significant elements mentioned in this data. By
