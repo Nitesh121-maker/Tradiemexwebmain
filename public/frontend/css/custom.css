@@ -721,7 +721,7 @@ ul {
     z-index: -1;
 }
 
-/* grayscale hover effect  */
+    /* grayscale hover effect  */
     .zoom img {
         transition: all 0.2s;
         -webkit-transition: all 0.2s;
@@ -2370,6 +2370,10 @@ ul {
     .highcharts-credits {
         display: none !important;
     }
+    .breadcrumb-mobile {
+        display: flex;
+        justify-content: end;
+    }
     /* End of Chart CSS */
 
     /* Mobile Responsive */
@@ -2420,6 +2424,12 @@ ul {
         }
     }
     @media (max-width: 573px) {
+        /* Breamcrumb Center in mobile view */
+        .breadcrumb-mobile {
+            display: flex;
+            justify-content: center;
+        }
+
         .slanted-bottom {
             -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
             clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
