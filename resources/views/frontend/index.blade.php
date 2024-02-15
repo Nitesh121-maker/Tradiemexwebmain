@@ -27,16 +27,27 @@
         </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <style>
-            @media screen and (max-width: 700px) {
-            .container-globe {
-                /* Adjust the size and position of the globe for smaller screens */
-                width: 100vw;
-                height: 50vh;
-                /* position: absolute; */
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
+             @media screen and (max-width: 992px) {
+                .container-globe {
+                    /* Adjust the size and position of the globe for smaller screens */
+                    width: 100vw;
+                    height: 50vh;
+                    /* position: absolute; */
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
             }
+            @media screen and (max-width: 700px) {
+                .container-globe {
+                    /* Adjust the size and position of the globe for smaller screens */
+                    width: 100vw;
+                    height: 50vh;
+                    /* position: absolute; */
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
             }
         </style>
     </head>
