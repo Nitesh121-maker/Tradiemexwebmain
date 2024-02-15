@@ -49,7 +49,7 @@
         <div id="ifeatures" class="container-fluid padding-tb bg-white">
             <div class="container">
                 <div class="text-content">
-                    <h2 class="text-black text-center">Why choose TradeImeX?</h2>
+                    <h2 class="text-black text-center">Exclusive Features of TradeImeX</h2>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
