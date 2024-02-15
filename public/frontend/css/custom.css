@@ -2635,13 +2635,7 @@ ul {
             border-radius: 10px
         }
     }
-    @media screen and (max-width: 992px) {
-        .nav-center {
-            justify-content: center;
-            display: flex;
-        }
-    }
-    @media screen and (min-width: 768px) {
+    @media screen and (max-width: 768px) {
         .nav-center {
             justify-content: center;
             display: flex;
