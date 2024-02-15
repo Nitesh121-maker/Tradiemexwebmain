@@ -728,7 +728,7 @@ ul {
         -moz-transition: all 0.2s;
     }
     .zoom img {
-        width: 100%;
+        width: 80%;
         float: left;
     }
     .zoom img:hover {
