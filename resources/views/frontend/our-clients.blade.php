@@ -432,7 +432,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-lg-md-6 col-lg-6 img-aspect" style="justify-content: center;display: flex;align-items: baseline;">
-                        <img src="/frontend/image/img/Global Reach (1).gif" style="width: 60%;">
+                        <img src="/frontend/image/img/Global Reach (1).gif" style="width: 55%;">
                     </div>
                     <div class="col-sm-12 col-lg-md-6 col-lg-6">
                         <div class="text-content content-highlight">
@@ -468,7 +468,7 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-lg-md-6 col-lg-6 img-aspect" style="justify-content: center;display: flex;align-items: baseline">
-                        <img src="/frontend/image/img/Client_Retention.gif" style="width: 60%;">
+                        <img src="/frontend/image/img/Client_Retention.gif" style="width: 55%;">
                     </div> 
                 </div>
             </div>
