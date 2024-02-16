@@ -153,12 +153,12 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-26">
+                        <div class="card card-bg-2 cdh-24">
                             <div class="card-img">
                                 <img src="/frontend/image/img/prospecting.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title text-white" style="font-size: 16px;font-weight: 600;">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Supplier Search
                                 </h5>
                                 <p class="card-text text-white-p text-adjust-16">
@@ -172,30 +172,31 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-26">
+                        <div class="card card-bg-2 cdh-24">
                             <div class="card-img">
                                 <img src="/frontend/image/img/search.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title text-white" style="font-size: 16px;font-weight: 600;">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Verified Supplier Information
                                 </h5>
                                 <p class="card-text text-white-p text-adjust-16">
                                     TradeImeX provides verified information on suppliers, including their product 
                                     portfolios, and certification status. This ensures that you're dealing with 
                                     secure suppliers and minimizes the threat of fraudulent deals. With TradeImeX, 
-                                    you can be confident that the supplier information you receive is accurate.
+                                    you can be confident that the supplier information you receive is accurate, 
+                                    up-to-date, and thoroughly verified.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-26">
+                        <div class="card card-bg-2 cdh-24">
                             <div class="card-img">
                                 <img src="/frontend/image/img/competitive-landscape.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title text-white" style="font-size: 16px;font-weight: 600;">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Competitive Analysis
                                 </h5>
                                 <p class="card-text text-white-p text-adjust-16">
@@ -203,18 +204,18 @@
                                     and supplier performance.This information enables you to compare different 
                                     suppliers and make informed decisions. Choose the right supplier to ensure 
                                     quality and timely shipment of your products.Stay ahead in your business by 
-                                    availing yourself of the benefits of competitive analysis.
+                                    availing yourself of the benefits of competitive analysis on our platform.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-26">
+                        <div class="card card-bg-2 cdh-24">
                             <div class="card-img">
                                 <img src="/frontend/image/img/recruitment.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title text-white" style="font-size: 16px;font-weight: 600;">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Final selection of possible suppliers and buyers
                                 </h5>
                                 <p class="card-text text-white-p text-adjust-16">
