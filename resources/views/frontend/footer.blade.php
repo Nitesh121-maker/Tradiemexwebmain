@@ -3,7 +3,7 @@
     <!-- Forms & Links -->
     <div class="container text-center">
         <div class="row">
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4" style="margin-top: 2.5rem;">
+            <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-4" style="margin-top: 2.5rem;">
                 <h5 class="text-uppercase mb-4 col-xs-12" style="font-weight: 600;">
                     Contact us
                 </h5>
@@ -301,7 +301,7 @@
                 </form>
             </div>
 
-            <div class="col-sm-6 col-xs-6 col-md-3 col-lg-3 col-xl-2 mx-auto mb-4 mobile-footer" style="margin-top: 2.5rem;text-align: start;">
+            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-3 col-xl-2 mx-auto mb-4 mobile-footer" style="margin-top: 2.5rem;text-align: start;">
                 <h5 class="text-uppercase fw-bold mb-4" style="margin-bottom: 2rem;font-weight: 600;">
                     Company
                 </h5>
@@ -331,7 +331,7 @@
                 </p>
             </div>
 
-            <div class="col-sm-6 col-xs-6 col-md-3 col-lg-3 col-xl-2 mx-auto mb-4 mobile-footer" style="margin-top: 2.5rem;text-align: start;">
+            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-3 col-xl-2 mx-auto mb-4 mobile-footer" style="margin-top: 2.5rem;text-align: start;">
                 <h5 class="text-uppercase fw-bold mb-4" style="margin-bottom: 2rem;font-weight: 600;">
                     Our data
                 </h5>
@@ -428,7 +428,7 @@
                 </p>
             </div>
 
-            <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3 col-xl-2 mx-auto mb-4 mobile-footer" style="margin-top: 2.5rem;text-align: start;">
+            <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 col-xl-2 mx-auto mb-4 mobile-footer" style="margin-top: 2.5rem;text-align: start;">
                 <h5 class="text-uppercase fw-bold mb-4" style="margin-bottom: 2rem;font-weight: 600;">Countries</h5>
                 <p>
                     <a href="/Turkey-export" class="td-none text-uppercase text-hover">Turkey Export data</a>
