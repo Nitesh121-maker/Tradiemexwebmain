@@ -495,7 +495,6 @@
             </div>
             <div class="container">
                 <div class="text-content">
-       
                     @php
                     $benifits = explode("\n", $country->benifit_name);
                     @endphp
@@ -507,56 +506,6 @@
                         @endif
                     @endforeach   
                 </div>
-                <!-- <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                        <div class="card-content pdb-2">
-                            <div class="head">
-                                <h3>UI Optimizations</h3>
-                            </div>
-                            <li class="list">Client-side input validation</li>
-                            <li class="list">Input masking</li>
-                            <li class="list">Card-specific CVC hints</li>
-                            <li class="list">Built-in accessibility (ARIA)</li>
-                            <li class="list">Autofill via browser</li>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                        <div class="card-content pdb-2">
-                            <div class="head">
-                                <h3>UI Optimizations</h3>
-                            </div>
-                            <li class="list">Client-side input validation</li>
-                            <li class="list">Input masking</li>
-                            <li class="list">Card-specific CVC hints</li>
-                            <li class="list">Built-in accessibility (ARIA)</li>
-                            <li class="list">Autofill via browser</li>
-                        </div> 
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                        <div class="card-content pdb-2">
-                            <div class="head">
-                                <h3>UI Optimizations</h3>
-                            </div>
-                            <li class="list">Client-side input validation</li>
-                            <li class="list">Input masking</li>
-                            <li class="list">Card-specific CVC hints</li>
-                            <li class="list">Built-in accessibility (ARIA)</li>
-                            <li class="list">Autofill via browser</li>
-                        </div> 
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                        <div class="card-content pdb-2">
-                            <div class="head">
-                                <h3>UI Optimizations</h3>
-                            </div>
-                            <li class="list">Client-side input validation</li>
-                            <li class="list">Input masking</li>
-                            <li class="list">Card-specific CVC hints</li>
-                            <li class="list">Built-in accessibility (ARIA)</li>
-                            <li class="list">Autofill via browser</li>
-                        </div> 
-                    </div>
-                </div> -->
             </div>
         </div>
 
