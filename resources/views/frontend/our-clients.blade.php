@@ -323,9 +323,7 @@
         <div class="container-fluid pdt-2">
             <div class="container">
                 <div class="text-content text-center">
-                    <h2>Extensive Network of Clients</h2>   
-                </div>
-                <div class="text-content">
+                    <h2>Extensive Network of Clients</h2>
                     <p class="text-center">
                         TradeImeX takes great pride in its diverse and ever-growing client base. With over 10000 clients
                         from a wide range of industries, TradeImeX has successfully established itself as a trusted
