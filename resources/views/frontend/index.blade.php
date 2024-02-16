@@ -50,7 +50,7 @@
                 }
             }
             .globe-responsive {
-                margin-top: -2em;
+                margin-top: -4em;
             }
             @media screen and  (max-width: 576px) {
                 .globe-responsive {
