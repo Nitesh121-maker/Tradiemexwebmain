@@ -23,7 +23,7 @@
                         <div class="text-content">
                             <span>Become A Partner</span>
                             <h1 class="gradient-h2">
-                                Partner
+                                The Power of Strategic and Trusted Partnerships with TradeImeX
                             </h1>
                             <p>
                                 If you are looking to expand your business globally or want to connect with trusted partners in
