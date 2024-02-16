@@ -184,8 +184,7 @@
                                     TradeImeX provides verified information on suppliers, including their product 
                                     portfolios, and certification status. This ensures that you're dealing with 
                                     secure suppliers and minimizes the threat of fraudulent deals. With TradeImeX, 
-                                    you can be confident that the supplier information you receive is accurate, 
-                                    up-to-date, and thoroughly verified.
+                                    you can be confident that the supplier information you receive is accurate.
                                 </p>
                             </div>
                         </div>
@@ -204,7 +203,7 @@
                                     and supplier performance.This information enables you to compare different 
                                     suppliers and make informed decisions. Choose the right supplier to ensure 
                                     quality and timely shipment of your products.Stay ahead in your business by 
-                                    availing yourself of the benefits of competitive analysis on our platform.
+                                    availing yourself of the benefits of competitive analysis.
                                 </p>
                             </div>
                         </div>
