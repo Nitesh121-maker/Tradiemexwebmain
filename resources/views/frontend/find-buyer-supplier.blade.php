@@ -294,7 +294,7 @@
                     </p>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card card-bg-2 cdh-20">
                             <div class="card-img">
                                 <img src="/frontend/image/img/market-research.png" class="card-img-top" alt="..." style="width: 25%;">
@@ -312,7 +312,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card card-bg-2 cdh-20">
                             <div class="card-img">
                                 <img src="/frontend/image/img/filter.png" class="card-img-top" alt="..." style="width: 25%;">
@@ -330,7 +330,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card card-bg-2 cdh-20">
                             <div class="card-img">
                                 <img src="/frontend/image/img/networking.png" class="card-img-top" alt="..." style="width: 25%;">
@@ -348,7 +348,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card card-bg-2 cdh-20">
                             <div class="card-img">
                                 <img src="/frontend/image/img/server.png" class="card-img-top" alt="..." style="width: 25%;">
