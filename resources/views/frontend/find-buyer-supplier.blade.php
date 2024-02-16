@@ -348,37 +348,25 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="card-content cdh-17">
-                            <div class="icon">
-                                <img src="/frontend/image/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
-                            </div>  
-                            <div class="head">
-                                <h3>Utilize Advanced Filters</h3>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="card card-bg-2 cdh-20">
+                            <div class="card-img">
+                                <img src="/frontend/image/img/server.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
-                            <p>
-                                TradeImeX offers various filters to refine your search results. Take advantage 
-                                of these filters to narrow down your options and connect with the most 
-                                suitable trading partners. With our advanced filters, you can enhance your 
-                                overall trading experience to stay ahead in your business.
-                            </p>
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-adjust-h" style="font-size: 18px;font-weight: 600;">
+                                    Acquire Extensive Database
+                                </h5>
+                                <p class="card-text text-white-p">
+                                    TradeImeX boasts an extensive database of import and export data for more than 80
+                                    countries and 6 continents. This vast repository of information allows businesses to access
+                                    trade records, identify potential partners, and gain a deep understanding of market trends.
+                                    By utilizing the TradeImeX database, businesses can gain a competitive advantage and make
+                                    well-informed decisions about their import and export strategies.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="card-content cdh-17">
-                            <div class="icon">
-                                <img src="/frontend/image/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
-                            </div>
-                            <div class="head">
-                                <h3>Expand Your Network</h3>
-                            </div>
-                            <p>
-                                Building connections within the TradeImeX platform can lead to valuable opportunities. Engage
-                                with potential buyers or suppliers through messages or inquiries and develop mutually
-                                beneficial relationships for long-term business growth.
-                            </p>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
