@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="container-globe">
+                        <div class="container-globe globe-responsive">
                             <canvas class="canvas-1"></canvas>
                         </div>
                     </div>
