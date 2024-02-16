@@ -153,7 +153,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-28">
+                        <div class="card card-bg-2 cdh-24">
                             <div class="card-img">
                                 <img src="/frontend/image/img/prospecting.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-28">
+                        <div class="card card-bg-2 cdh-24">
                             <div class="card-img">
                                 <img src="/frontend/image/img/search.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -191,7 +191,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-28">
+                        <div class="card card-bg-2 cdh-24">
                             <div class="card-img">
                                 <img src="/frontend/image/img/competitive-landscape.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -210,7 +210,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-28">
+                        <div class="card card-bg-2 cdh-24">
                             <div class="card-img">
                                 <img src="/frontend/image/img/recruitment.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
