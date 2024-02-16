@@ -49,6 +49,11 @@
                     transform: translate(-50%, -50%);
                 }
             }
+            @media (min-width: 576px) {
+                .globe-responsive {
+                    margin-top: 0em !important;
+                }
+            }
         </style>
     </head>
     <body>
