@@ -20,6 +20,12 @@
   left: 0px;
 }
 
+@media (min-width: 576px) {
+  .globe-responsive {
+    margin-top: 0em !important;
+  }
+}
+
 /* .source_btn {
   position: absolute;
   bottom: 30px;
