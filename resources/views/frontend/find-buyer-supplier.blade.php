@@ -361,8 +361,6 @@
                                     TradeImeX boasts an extensive database of import and export data for more than 80
                                     countries and 6 continents. This vast repository of information allows businesses to access
                                     trade records, identify potential partners, and gain a deep understanding of market trends.
-                                    By utilizing the TradeImeX database, businesses can gain a competitive advantage and make
-                                    well-informed decisions about their import and export strategies.
                                 </p>
                             </div>
                         </div>
