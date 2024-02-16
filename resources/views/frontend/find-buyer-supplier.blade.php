@@ -228,55 +228,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-21">
-                            <div class="head">
-                                <h3>
-                                    Verified Supplier Information
-                                </h3>
-                            </div>
-                            <p>
-                                TradeImeX provides verified information on suppliers, including their 
-                                product portfolios, and certification status. This ensures that you&#39;re 
-                                dealing with secure suppliers and minimizes the threat of fraudulent deals. 
-                                With TradeImeX, you can be confident that the supplier information you 
-                                receive is accurate, up-to-date, and thoroughly verified.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-12 c1ol-md-6 col-lg-3">
-                        <div class="card-content cdh-21">
-                            <div class="head">
-                                <h3>
-                                    Competitive Analysis
-                                </h3>           
-                            </div>
-                            <p>
-                                TradeImeX offers a comprehensive analysis of pricing, market trends, and 
-                                supplier performance.This information enables you to compare different 
-                                suppliers and make informed decisions. Choose the right supplier to 
-                                ensure quality and timely shipment of your products.Stay ahead in your 
-                                business by availing yourself of the benefits of competitive 
-                                analysis on our platform.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-21">
-                            <div class="head">
-                                <h3>
-                                    Final selection of possible suppliers and buyers
-                                </h3>
-                            </div>
-                            <p>
-                                We conduct the final screening tests once we have compiled a list of the 
-                                world&#39;s top prospects for you. To ensure that you can continue 
-                                trading without experiencing any lag, we further filter down the list 
-                                under this screening process and get just the finest one for you. 
-                                Our goal is to give our clients the greatest supplier list possible.
-                            </p>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -295,7 +246,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-20">
+                        <div class="card card-bg-2 cdh-23">
                             <div class="card-img">
                                 <img src="/frontend/image/img/market-research.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -313,7 +264,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-20">
+                        <div class="card card-bg-2 cdh-23">
                             <div class="card-img">
                                 <img src="/frontend/image/img/filter.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -331,7 +282,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-20">
+                        <div class="card card-bg-2 cdh-23">
                             <div class="card-img">
                                 <img src="/frontend/image/img/networking.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -349,7 +300,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card card-bg-2 cdh-20">
+                        <div class="card card-bg-2 cdh-23">
                             <div class="card-img">
                                 <img src="/frontend/image/img/server.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
