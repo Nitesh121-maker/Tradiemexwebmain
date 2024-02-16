@@ -49,7 +49,7 @@
                     transform: translate(-50%, -50%);
                 }
             }
-            @media (min-width: 576px) {
+            @media screen and  (max-width: 576px) {
                 .globe-responsive {
                     margin-top: 0em !important;
                 }
