@@ -62,7 +62,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="card card-bg cdh-22">
+                        <div class="card card-bg cdh-19">
                             <div class="card-img">
                                 <img src="/frontend/image/img/keyword.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -80,7 +80,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="card card-bg cdh-22">
+                        <div class="card card-bg cdh-19">
                             <div class="card-img">
                                 <img src="/frontend/image/img/metrics.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="card card-bg cdh-22">
+                        <div class="card card-bg cdh-19">
                             <div class="card-img">
                                 <img src="/frontend/image/img/profile.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="card card-bg cdh-22">
+                        <div class="card card-bg cdh-19">
                             <div class="card-img">
                                 <img src="/frontend/image/img/identify.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
