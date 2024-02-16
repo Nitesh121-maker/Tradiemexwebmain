@@ -49,6 +49,9 @@
                     transform: translate(-50%, -50%);
                 }
             }
+            .globe-responsive {
+                margin-top: -2em;
+            }
             @media screen and  (max-width: 576px) {
                 .globe-responsive {
                     margin-top: 0em !important;
