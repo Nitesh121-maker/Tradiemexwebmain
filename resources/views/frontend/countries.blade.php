@@ -430,12 +430,12 @@
             </div>
             <div class="container pdt-2">
                 <div  class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                        <div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                        <div style="justify-content: center;display: flex;">
                             <canvas id="10_partners"></canvas>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                         @php
                         $partners = explode("\n", $country->country_partner_name);
                         @endphp
@@ -905,7 +905,7 @@
                 labels: [countryNames[0], countryNames[1], countryNames[2], countryNames[3], countryNames[4], countryNames[5], countryNames[6], countryNames[7], countryNames[8]],
                 datasets: [{
                     label: '{{$country->cp_heading}}',
-                    data: [percentageData[0], percentageData[1], percentageData[2], percentageData[3], percentageData[4],percentageData[5], percentageData[6], percentageData[7],percentageData[8], percentageData[9] ,percentageData[10]]
+                    data: [percentageData[0], percentageData[1], percentageData[2], percentageData[3], percentageData[4],percentageData[5], percentageData[6], percentageData[7],percentageData[8], percentageData[9] ,percentageData[10]],
                     borderWidth: 1
                 }]
                 },
