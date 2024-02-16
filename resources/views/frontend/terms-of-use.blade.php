@@ -11,11 +11,10 @@
         <title>Terms Of Use - Tradeimex</title>
         <link rel="icon" type="image/x-icon" href="/model/Favicon Logo.png">
 
-        <?php include 'link.php';?>
+        @include('frontend.link')
     </head>
     <body>
-        <?php include 'header.php';?>
-        
+        @include('frontend.header')
         <div class="container-fluid bg-bluish pdt-2 pdb-2">
             <div class="container">
                 <div class="hero-title text-center">
@@ -69,8 +68,8 @@
                 </div>
             </div>
         </div>
-
-        <?php include 'footer.php';?>
-        <?php include 'script.php';?>
+        @include('frontend.footer')      
+        @include('frontend.script')
+        
     </body>
 </html>

@@ -10,10 +10,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
         <title>Disclaimer - TradeImeX</title>
         <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
-        <?php include 'link.php';?>    
+        @include('frontend.link')
     </head>
     <body>
-        <?php include 'header.php';?>
+       @include('frontend.header')
 
         <div class="container-fluid pdt-2 pdb-2 bg-bluish">
             <div class="container">
@@ -63,7 +63,7 @@
             </div>
         </div>
 
-        <?php include 'footer.php';?>
-        <?php include 'script.php';?>
+        @include('frontend.footer')
+        @include('frontend.script')
     </body>
 </html>

@@ -509,9 +509,9 @@
                 <div style="text-align: center;padding: 20px 0px 0px 0px;">
                     <p style="font-size:14px;font-weight: 600;">
                         Please Read Our
-                        <a class="text-hover" href="terms-of-use.php">Terms of use</a>,
-                        <a class="text-hover" href="privacy-policy.php">Privacy Policy</a> &
-                        <a class="text-hover" href="disclaimer.php">Disclaimer</a>
+                        <a class="text-hover" href="/terms-of-use">Terms of use</a>,
+                        <a class="text-hover" href="/privacy-policy">Privacy Policy</a> &
+                        <a class="text-hover" href="/disclaimer">Disclaimer</a>
                     </p>
                 </div>
             </div>

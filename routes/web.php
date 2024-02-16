@@ -30,6 +30,9 @@ Route::get('/careers',[LinkController::class,'carrers']);
 Route::get('/our-clients',[LinkController::class,'clients']);
 Route::get('/partners',[LinkController::class,'partners']);
 Route::get('/faqs',[LinkController::class,'FAQ']);
+Route::get('/disclaimer',[LinkController::class,'disclaimer']);
+Route::get('/terms-of-use',[LinkController::class,'tou']);
+Route::get('/privacy-policy',[LinkController::class,'privacy']);
 // Contact Us
 Route::get('/contact-us',[LinkController::class,'contactus']);
 // Products
