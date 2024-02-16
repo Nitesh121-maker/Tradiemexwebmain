@@ -39,7 +39,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 img-aspect">
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 img-aspect pdb-2">
                         <img src="/frontend/image/img/Find Buyer Supplier Page.gif" width="100%">
                     </div>
                 </div>
