@@ -194,7 +194,7 @@
                                 @if ($country->kpimages_three)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.9:8000/frontend/img/import/' . $country->kpimages_three);
+                                        $imageURL = asset('http://192.168.1.9:8000/frontend/img/import/' . $country->kpimages_three);
                                         
                                     @endphp
                                 @endif
