@@ -78,6 +78,7 @@
                             </ol>
                         </nav>
                     </div>
+                    {{-- @dd("countrydata",$countrydata) --}}
                     @foreach ($countrydata as $country)
                     <!-- Import Export Button -->
                     <div class="col-sm-6 col-md-6 col-lg-6 breadcrumb-mobile">
@@ -213,16 +214,16 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-14">
                             <div class="icon">
-                                <img src="frontend/image/img/products.png" width="20%" style="padding: 0px 0px 0px 10px;">
-                                {{-- @if ($country->kpimages_four)
+                                {{-- <img src="frontend/image/img/products.png" width="20%" style="padding: 0px 0px 0px 10px;"> --}}
+                                @if ($country->kpimages_four)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_four);
+                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages_four);
                                     @endphp
                                 @endif
                                 @if (!empty($imageURL))
-                                    <img src="{{ $imageURL }}" style="width: 100%">
-                                @endif --}}
+                                    <img src="{{ $imageURL }}" style="width: 20%">
+                                @endif
                             </div>
                             <div class="head">
                                 <h3>{{$country->kp_head_four}}</h3>
@@ -632,7 +633,7 @@
                 </div>
             </div>
         </div>
-        
+
         @endforeach
         @include('frontend.footer')
         @include('frontend.script')
@@ -642,7 +643,7 @@
         <script src="https://code.highcharts.com/modules/exporting.js"></script>
         <script src="https://code.highcharts.com/modules/export-data.js"></script>
         <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-
+     
         <!-- Top 10 imports of country (Pie Chart) -->
         <script type="text/javascript">
             (function (H) {

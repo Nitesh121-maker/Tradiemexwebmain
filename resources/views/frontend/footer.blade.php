@@ -384,7 +384,7 @@
                 <p>
                     @if (!empty($continents))
                         @foreach ($continents  as $continent)
-                            @if ($continent->continent == 'North America')
+                            @if ($continent->continent == 'North-America')
                             <a href="{{ route('continent.tradeData', [strtolower($continent->continent)]) }}" class="td-none text-uppercase text-hover">
                                 north america trade data
                             </a>
@@ -412,7 +412,7 @@
                 <p>
                     @if (!empty($continents))
                         @foreach ($continents  as $continent)
-                            @if ($continent->continent == 'South America')
+                            @if ($continent->continent == 'South-America')
                             <a href="{{ route('continent.tradeData', [strtolower($continent->continent)]) }}" class="td-none text-uppercase text-hover">
                                 south america data
                             </a>

@@ -23,6 +23,8 @@ use App\Http\Controllers\PartnersFormController;
 //     return view('frontend.index');
 // });
 Route::get('/',[LinkController::class,'index']);
+// Get Country Data
+Route::get('/', [CountriesdataController::class, 'countrydata'])->name('countrydata');
 Route::get('/about-us',[LinkController::class,'aboutus']);
 Route::get('/why-choose-us',[LinkController::class,'whychooseus']);
 Route::get('/find-buyer-supplier',[LinkController::class,'fbs']);
@@ -46,13 +48,13 @@ Route::get('/analytical-custom-report',[LinkController::class,'customizedanalyti
 // Trade
 Route::get('/global-trade-data',[CountriesdataController::class,'globaltradedata']);
 // Get Continent Data
-Route::get('/{continent}-trade-data', [ContinentDataController::class, 'continentData'])->name('continent.tradeData');
-
-
+Route::get('/{continent}-trade-data', [ContinentDataController::class, 'continentData'])
+->where('continent', '[a-zA-Z\-]+')
+->name('continent.tradeData');
 // Get Country Data
-Route::get('/', [CountriesdataController::class, 'countrydata'])->name('countrydata');
-
-Route::get('/{country}-{Datatype}', [CountriesdataController::class, 'countryalldata'])->name('countryalldata');
+Route::get('/{country}-{Datatype}', [CountriesdataController::class, 'countryalldata'])
+    ->where('country', '[a-zA-Z\-]+')
+    ->name('countryalldata');
 
 
 // Contact Form
