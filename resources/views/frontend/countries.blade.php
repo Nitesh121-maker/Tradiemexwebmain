@@ -194,7 +194,7 @@
                                 @if ($country->kpimages_three)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.9:8000/frontend/img/import/' . $country->kpimages_three);
+                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages_three);
                                         
                                     @endphp
                                 @endif
@@ -431,7 +431,7 @@
             <div class="container pdt-2">
                 <div  class="row">
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                        <div>
+                        <div style="justify-content: center;display:flex;">
                             <canvas id="10_partners"></canvas>
                         </div>
                     </div>
