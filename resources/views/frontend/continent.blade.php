@@ -100,7 +100,7 @@
                                 <br>
                                 @foreach($countrydata as $country)
                                     @if ($country->country=='China' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -111,7 +111,7 @@
                                 <br>
                                 @foreach($countrydata as $country)
                                     @if ($country->country=='Egypt' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -124,7 +124,7 @@
                                 <br>
                                 @foreach($countrydata as $country)
                                     @if ($country->country=='Indonesia' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -135,7 +135,7 @@
                                 <br>
                                 @foreach($countrydata as $country)
                                     @if ($country->country=='Iran' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -146,7 +146,7 @@
                                     <br>
                                     @foreach ($countrydata as $country)
                                         @if ($country->country=='Iraq' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                         @endif
@@ -157,7 +157,7 @@
                                     <br>
                                     @foreach ($countrydata as $country)
                                         @if ($country->country=='Japan' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                         @endif
@@ -169,7 +169,7 @@
                                     <br>
                                     @foreach ($countrydata as $country)
                                         @if ($country->country=='Kazakhstan' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country)y, $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                         @endif
@@ -180,7 +180,7 @@
                                     <br>
                                     @foreach ($countrydata as $country)
                                         @if ($country->country=='Kuwait' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                         @endif
@@ -192,7 +192,7 @@
 
                                 @foreach ($countrydata as $country)
                                    @if($country->country=="Malaysia" && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -203,7 +203,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                 @if ($country->country=='Pakistan' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -215,7 +215,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                 @if ($country->country=='Philippines' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -226,7 +226,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                 @if ($country->country=='Qatar' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -238,7 +238,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                 @if ($country->country=='Saudi Arabia' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -250,7 +250,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                 @if ($country->country=='Singapore' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -261,7 +261,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                 @if ($country->country=='South Korea' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -273,7 +273,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                 @if ($country->country=='Sri Lanka' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -284,7 +284,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                 @if ($country->country=='Taiwan' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -295,7 +295,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                 @if ($country->country=='Thailand' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -306,7 +306,7 @@
                                 <br>
                                 @foreach($countrydata as $country)
                                     @if ($country->country=='Turkey' && $country->Datatype =='import')
-                                    <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                    <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                         <h4>{{ $country->country }}</h4>
                                     </a>
                                     @endif
@@ -317,7 +317,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='UAE' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -328,7 +328,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Ukraine' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -339,7 +339,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Uzbekistan' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -350,7 +350,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Vietnam' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -369,7 +369,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Botswana' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -380,7 +380,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Cameroon' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -391,7 +391,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Central Africa' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -403,7 +403,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Chad' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -414,7 +414,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='DR Congo' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -425,7 +425,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Ethiopia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -436,7 +436,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Ghana' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -447,7 +447,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Ivory Coast' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -458,7 +458,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Kenya' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -470,7 +470,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Lesotho' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -482,7 +482,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Liberia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -493,7 +493,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Malawi' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -504,7 +504,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Namibia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -516,7 +516,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Niger' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -528,7 +528,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Nigeria' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -540,7 +540,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Sao Tome' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -551,7 +551,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Senegal' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -563,7 +563,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Sierra Leone' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -574,7 +574,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='South Africa' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -585,7 +585,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Tanzania' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -596,7 +596,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Togo' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -608,7 +608,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Uganda' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -620,7 +620,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Zambia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -640,7 +640,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Austria' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -651,7 +651,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Belgium' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -662,7 +662,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Bulgaria' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -673,7 +673,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Croatia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -684,7 +684,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Cyprus' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -695,7 +695,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Czech' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -706,7 +706,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Denmark' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -717,7 +717,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Estonia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -728,7 +728,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Finland' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -739,7 +739,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='France' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -750,7 +750,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Germany' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -761,7 +761,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Greece' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -772,7 +772,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Hungary' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -783,7 +783,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Ireland' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -794,7 +794,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Italy' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -805,7 +805,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Kazakhstan' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -816,7 +816,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Kosovo' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -827,7 +827,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Latvia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -839,7 +839,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Lithuania' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -850,7 +850,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='LuxemBourg' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -861,7 +861,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Malta' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -872,7 +872,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Moldova' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -883,7 +883,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Netherlands' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -894,7 +894,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Poland' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -905,7 +905,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Portugal' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -916,7 +916,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Russia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -927,7 +927,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Romania' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -938,7 +938,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Slovakia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -949,7 +949,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Slovenia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -960,7 +960,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Spain' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -971,7 +971,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Sweden' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -982,7 +982,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='UK' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -993,7 +993,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Ukraine' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1004,7 +1004,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Uzbekistan' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1023,7 +1023,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Canada' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1034,7 +1034,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Costa Rica' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1045,7 +1045,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='EL Salvador' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1056,7 +1056,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Guatemala' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1067,7 +1067,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Honduras' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1078,7 +1078,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Mexico' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1090,7 +1090,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Panama' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1101,7 +1101,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='US' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1120,7 +1120,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Australia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1131,7 +1131,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Fiji' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1142,7 +1142,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='New Zealand' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1161,7 +1161,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Argentina' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1172,7 +1172,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Bolivia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1184,7 +1184,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Brazil' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1196,7 +1196,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Chile' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1207,7 +1207,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Colombia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1219,7 +1219,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Ecuador' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1230,7 +1230,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Guyana' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1241,7 +1241,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Paraguay' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1252,7 +1252,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Peru' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1263,7 +1263,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Uruguay' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1274,7 +1274,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Venezuela' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ $country->country, $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
