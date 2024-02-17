@@ -21,14 +21,15 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
+                background-color: #f6f9fc;
             }
 
             .thank-you-container {
                 text-align: center;
                 padding: 50px;
-                background-color: rgba(255, 255, 255, 0.8);
+                background-color: #f6f9fc;
                 border-radius: 10px;
-                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
             }
 
             .thank-you-heading {
