@@ -157,7 +157,7 @@
     font-weight: 500;
     color: #425466;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.8 !important; 
     text-align: start;
 }
 

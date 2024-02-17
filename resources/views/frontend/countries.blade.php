@@ -430,8 +430,8 @@
             </div>
             <div class="container pdt-2">
                 <div  class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                        <div style="justify-content: center;display:flex;">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                        <div style="justify-content: center;display: flex;">
                             <canvas id="10_partners"></canvas>
                         </div>
                     </div>

@@ -57,4 +57,7 @@ class LinkController extends Controller
     function privacy()  {
         return view('frontend.privacy-policy');
     }
+    function thankyou()  {
+        return view('frontend.thankyou');
+    }
 }
