@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         @include('frontend.link')
         <style>
-        body {
+        /* body {
             font-family: 'Arial', sans-serif;
             background-color: #f7f7f7;
             color: #333;
@@ -24,7 +24,7 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-        }
+        } */
 
         .container {
             background-color: #fff;
