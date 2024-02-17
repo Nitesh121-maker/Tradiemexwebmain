@@ -1772,7 +1772,7 @@
                     align: 'right',
                     verticalAlign: 'top',
                     x: -40,
-                    y: 80,
+                    y: 100,
                     floating: true,
                     borderWidth: 1,
                     backgroundColor:
