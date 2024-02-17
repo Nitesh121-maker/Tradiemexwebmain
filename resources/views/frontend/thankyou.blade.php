@@ -26,7 +26,7 @@
             height: 100vh;
         } */
 
-        .container {
+        .container-thank {
             background-color: #fff;
             padding: 30px;
             border-radius: 10px;
@@ -58,7 +58,7 @@
     <body>
         @include('frontend.header')
         
-        <div class="container">
+        <div class="container-thank">
             <h1>Thank You!</h1>
             <p>Your message has been received. We appreciate your time and effort.</p>
             <p>For more information, visit our <a href="#">website</a>.</p>
