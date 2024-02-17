@@ -12,57 +12,62 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         @include('frontend.link')
         <style>
-        /* body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f7f7f7;
-            color: #333;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        } */
+            .thank-you-section {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-image: url('thank-you-bg.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
 
-        .container-thank {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            width: 100%;
-        }
+            .thank-you-container {
+                text-align: center;
+                padding: 50px;
+                background-color: rgba(255, 255, 255, 0.8);
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
 
-        h1 {
-            color: #4CAF50;
-        }
+            .thank-you-heading {
+                font-size: 48px;
+                margin-bottom: 30px;
+                color: #585858;
+            }
 
-        p {
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
+            .thank-you-message {
+                font-size: 24px;
+                margin-bottom: 50px;
+                color: #585858;
+            }
 
-        a {
-            text-decoration: none;
-            color: #4CAF50;
-            font-weight: bold;
-        }
+            .back-to-home-button {
+                display: inline-block;
+                padding: 15px 30px;
+                border-radius: 10px;
+                background-color: #585858;
+                color: #ffffff;
+                text-decoration: none;
+                transition: background-color 0.3s ease;
+            }
 
-        a:hover {
-            color: #45a049;
-        }
-    </style>
+            .back-to-home-button:hover {
+                background-color: #3b3b3b;
+            }
+        </style>
     </head>
     <body>
         @include('frontend.header')
         
-        <div class="container-thank">
-            <h1>Thank You!</h1>
-            <p>Your message has been received. We appreciate your time and effort.</p>
-            <p>For more information, visit our <a href="#">website</a>.</p>
-        </div>
+        <section class="thank-you-section">
+            <div class="thank-you-container">
+                <h1 class="thank-you-heading">Thank you for your purchase!</h1>
+                <p class="thank-you-message">Your order is being processed and will be shipped to you shortly. Thank you for choosing us!</p>
+                <a href="index.html" class="back-to-home-button">Back to Home</a>
+            </div>
+        </section>
 
         @include('frontend.footer')
         @include('frontend.script')
