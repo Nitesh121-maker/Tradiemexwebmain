@@ -16,7 +16,7 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-center text-black fw-600" href="/about-us" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-center text-black fw-600" href="/about-us" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About Us
                         </a>
                         <ul class="dropdown-menu">
