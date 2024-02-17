@@ -35,7 +35,7 @@
             .thank-you-heading {
                 font-size: 48px;
                 margin-bottom: 30px;
-                color: #585858;
+                color: #3fbf08;
             }
 
             .thank-you-message {
@@ -64,9 +64,12 @@
         
         <section class="thank-you-section">
             <div class="thank-you-container">
-                <h1 class="thank-you-heading">Thank you for your purchase!</h1>
-                <p class="thank-you-message">Your order is being processed and will be shipped to you shortly. Thank you for choosing us!</p>
-                <a href="index.html" class="back-to-home-button">Back to Home</a>
+                <h1 class="thank-you-heading">
+                    Thank you for submitting the form!
+                </h1>
+                <p class="thank-you-message">
+                    We Will Connect With You Soon.
+                </p>
             </div>
         </section>
 
