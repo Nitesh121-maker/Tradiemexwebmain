@@ -12,70 +12,57 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         @include('frontend.link')
         <style>
-            .thankyou-wrapper{
-              width:100%;
-              height:auto;
-              margin:auto;
-              background:#ffffff; 
-              padding:10px 0px 50px;
-            }
-            .thankyou-wrapper h1{
-              font:100px Arial, Helvetica, sans-serif;
-              text-align:center;
-              color:#333333;
-              padding:0px 10px 10px;
-            }
-            .thankyou-wrapper p{
-              font:26px Arial, Helvetica, sans-serif;
-              text-align:center;
-              color:#333333;
-              padding:5px 10px 10px;
-            }
-            .thankyou-wrapper a{
-              font:26px Arial, Helvetica, sans-serif;
-              text-align:center;
-              color:#ffffff;
-              display:block;
-              text-decoration:none;
-              width:250px;
-              background:#E47425;
-              margin:10px auto 0px;
-              padding:15px 20px 15px;
-              border-bottom:5px solid #F96700;
-            }
-            .thankyou-wrapper a:hover{
-              font:26px Arial, Helvetica, sans-serif;
-              text-align:center;
-              color:#ffffff;
-              display:block;
-              text-decoration:none;
-              width:250px;
-              background:#F96700;
-              margin:10px auto 0px;
-              padding:15px 20px 15px;
-              border-bottom:5px solid #F96700;
-            }
-        </style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #45a049;
+        }
+    </style>
     </head>
     <body>
         @include('frontend.header')
         
-        <section class="login-main-wrapper">
-            <div class="main-container">
-                <div class="login-process">
-                    <div class="login-main-container">
-                        <div class="thankyou-wrapper">
-                            <h1><img src="http://montco.happeningmag.com/wp-content/uploads/2014/11/thankyou.png" alt="thanks" /></h1>
-                              <p>for contacting us, we will get in touch with you soon... </p>
-                              <a href="index.html">Back to home</a>
-                              <div class="clr"></div>
-                          </div>
-                          <div class="clr"></div>
-                        </div>
-                    </div>
-                <div class="clr"></div>
-            </div>
-        </section>
+        <div class="container">
+            <h1>Thank You!</h1>
+            <p>Your message has been received. We appreciate your time and effort.</p>
+            <p>For more information, visit our <a href="#">website</a>.</p>
+        </div>
 
         @include('frontend.footer')
         @include('frontend.script')
