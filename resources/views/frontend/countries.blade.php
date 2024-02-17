@@ -83,17 +83,17 @@
                     <div class="col-sm-6 col-md-6 col-lg-6 breadcrumb-mobile">
                         <div class="btn btn-group">
                              @if ($country->Datatype == 'import')
-                                <a href="{{ route('countryalldata', [$country->country, 'import']) }}" class="btn btn-primary">
+                                <a href="{{ route('countryalldata', [strtolower($country->country), 'import']) }}" class="btn btn-primary">
                                     IMPORT
                                 </a>
-                                <a href="{{ route('countryalldata', [$country->country, 'export']) }}" class="btn btn-outline">
+                                <a href="{{ route('countryalldata', [strtolower($country->country), 'export']) }}" class="btn btn-outline">
                                     EXPORT
                                 </a>                                  
                              @else
-                                <a href="{{ route('countryalldata', [$country->country, 'import']) }}" class="btn btn-outline">
+                                <a href="{{ route('countryalldata', [strtolower($country->country), 'import']) }}" class="btn btn-outline">
                                     IMPORT
                                 </a>
-                                <a href="{{ route('countryalldata', [$country->country, 'export']) }}" class="btn btn-primary">
+                                <a href="{{ route('countryalldata', [strtolower($country->country), 'export']) }}" class="btn btn-primary">
                                     EXPORT
                                 </a>
                              @endif
