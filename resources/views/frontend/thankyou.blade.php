@@ -16,7 +16,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 100vh;
+                height: auto;
                 background-image: url('thank-you-bg.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
