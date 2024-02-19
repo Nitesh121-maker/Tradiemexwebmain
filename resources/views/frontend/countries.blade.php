@@ -143,7 +143,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-14">
+                        <div class="card-content cdh-15">
                             <div class="icon">
                                 <img src="frontend/image/img/rank.png" width="20%" style="padding: 0px 0px 0px 10px;">
                                 {{-- @if ($country->kpimages)
@@ -166,7 +166,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-14">
+                        <div class="card-content cdh-15">
                             <div class="icon">
                                 <img src="frontend/image/img/shares.png" width="20%" style="padding: 0px 0px 0px 10px;">
                                 {{-- @if ($country->kpimages_two)
@@ -189,7 +189,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-14">
+                        <div class="card-content cdh-15">
                             <div class="icon">
                                 {{-- <img src="frontend/image/img/countries.png" width="20%" style="padding: 0px 0px 0px 10px;"> --}}
                                 @if ($country->kpimages_three)
@@ -212,7 +212,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-14">
+                        <div class="card-content cdh-15">
                             <div class="icon">
                                 {{-- <img src="frontend/image/img/products.png" width="20%" style="padding: 0px 0px 0px 10px;"> --}}
                                 @if ($country->kpimages_four)
