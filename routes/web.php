@@ -46,7 +46,7 @@ Route::get('/statistical-data',[CountriesdataController::class,'statisticaldata'
 Route::get('/bl-data',[CountriesdataController::class,'blreport']);
 Route::get('/analytical-custom-report',[LinkController::class,'customizedanalyticaldata']);
 // HS - Code
-Route::get('/hs-code',[CountriesdataController::class,'hscode']);
+Route::get('/hs-code',[LinkController::class,'hscode']);
 // Trade
 Route::get('/global-trade-data',[CountriesdataController::class,'globaltradedata']);
 // Get Continent Data
