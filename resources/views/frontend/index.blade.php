@@ -2042,6 +2042,7 @@
                 </div>
             </div>
         </div>
+        <!-- End of Client floating list -->
 
         <!-- Blog slider -->
         <div class="container-fluid bg-dark-custom pdt-2 pdb-2">

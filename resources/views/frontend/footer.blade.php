@@ -424,7 +424,7 @@
                 
                 </p>
                 <p>
-                    <a href="hs-code.php" class="td-none text-uppercase text-hover">HS CODE</a>
+                    <a href="/hs-code" class="td-none text-uppercase text-hover">HS CODE</a>
                 </p>
             </div>
 
