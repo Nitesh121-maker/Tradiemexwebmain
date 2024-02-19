@@ -13,7 +13,7 @@
         <?php include 'link.php';?>
     </head>
     <body>
-        <?php include 'header.php';?>
+        @include('frontend.header')
 
         <!-- Search Live Import Export -->
         <div class="container-fluid pdt-2 pdt-2">
@@ -531,10 +531,10 @@
         </div>
 
         <!-- Last Partner tab -->
-        <?php include 'tab_inc.php';?>
+        @include('frontend.tab_inc')
 
-        <?php include 'footer.php';?>
-        <?php include 'script.php';?>
+        @include('frontend.footer')
+        @include('frontend.script')
 
         <script>
             //faq js
