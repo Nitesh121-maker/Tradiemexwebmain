@@ -125,12 +125,12 @@
                             @if ($country->mf_content_images)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
-                                    $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->mf_content_images);
+                                    $imageURL = asset('http://192.168.1.20:8000/frontend/img/import/' . $country->mf_content_images);
                                     
                                 @endphp
                             @endif
                             @if (!empty($imageURL))
-                            <img src="{{ $imageURL }}">
+                            <img src="{{ $imageURL }}" alt=" {{$country->mf_content_metatitle}}">
                             @endif
                         </div>
                     </div>
@@ -195,7 +195,7 @@
                                 @if ($country->kpimages_three)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages_three);
+                                        $imageURL = asset('http://192.168.1.20:8000/frontend/img/import/' . $country->kpimages_three);
                                         
                                     @endphp
                                 @endif
@@ -218,7 +218,7 @@
                                 @if ($country->kpimages_four)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages_four);
+                                        $imageURL = asset('http://192.168.1.20:8000/frontend/img/import/' . $country->kpimages_four);
                                     @endphp
                                 @endif
                                 @if (!empty($imageURL))
