@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
         <title>Harmonised System (HS) Code | HSC - TradeImeX</title>
         <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
-        <?php include 'link.php';?>
+        @include('frontend.link')
     </head>
     <body>
         @include('frontend.header')
