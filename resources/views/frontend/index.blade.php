@@ -14,7 +14,7 @@
         @include('frontend.link')
         {{-- <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script> --}}
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-        <link rel="icon" href="Cimg/favicon.png">
+        <link rel="icon" href="frontend/image/img/favicon.png">
         <link rel="stylesheet" type="text/css" href={{ asset('index.css') }}>
         <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
         <script type="importmap">
