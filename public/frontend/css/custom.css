@@ -1389,7 +1389,7 @@ ul {
         position: relative;
         list-style: none;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 16px;
     }
     .text-hover:after {    
         background: none repeat scroll 0 0 transparent;

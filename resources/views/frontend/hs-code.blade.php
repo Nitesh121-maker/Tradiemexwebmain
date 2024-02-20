@@ -24,7 +24,8 @@
             </div>
             <div class="container">
                 <div class="row bg-green" style="border-radius: 1rem;">
-                    <div class="searchbox col-sm-2 col-md-2  col-lg-2">
+                    {{-- Country select page --}}
+                    {{-- <div class="searchbox col-sm-2 col-md-2  col-lg-2">
                         <select class="form-control"  style="border: 0px transparent !important;">
                             <option class="form-control" value="">Select Country</option>
                             <!-- Asia -->
@@ -136,17 +137,19 @@
                             <option class="form-control" value="">Fiji</option>
                             <option class="form-control" value="">New Zealand</option>
                         </select>
-                    </div>
-                    <div class="searchbox col-sm-2 col-md-2 col-lg-2">
+                    </div> --}}
+
+                    {{-- This tab will be used in database page --}}
+                    {{-- <div class="searchbox col-sm-2 col-md-2 col-lg-2">
                         <select class="form-control" style="border: 0px transparent !important;">
                             <option class="form-control" value="">Import</option>
                             <option class="form-control" value="">Export</option>
                         </select>
-                    </div>
-                    <div class="searchbox col-sm-3 col-md-3 col-lg-3">
+                    </div> --}}
+                    <div class="searchbox col-sm-3 col-md-3 col-lg-6">
                         <input type="text" placeholder="Description" class="form-control">
                     </div>
-                    <div class="searchbox col-sm-2 col-md-2 col-lg-2">
+                    <div class="searchbox col-sm-2 col-md-2 col-lg-3">
                         <input type="text" placeholder="HS Code" class="form-control">
                     </div>
                     <div class="searchbox col-sm-3 col-md-3 col-lg-3">
