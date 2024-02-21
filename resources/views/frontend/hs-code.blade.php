@@ -186,10 +186,10 @@
                         @foreach ($chapters as $chapterCode => $chapter)
                         <tr>
                             <th class="table-primary">
-                                <a class="text-hover" href="{{ route('subchapter.list', ['chapter_code' => $chapterCode]) }}">{{ $chapterCode }}</a>
+                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode]) }}">{{ $chapterCode }}</a>
                             </th>
                             <th>
-                                <a class="text-hover" href="{{ route('subchapter.list', ['chapter_code' => $chapterCode]) }}">{{ $chapter['description'] }}</a>
+                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode]) }}">{{ $chapter['description'] }}</a>
                             </th>
                         </tr>
                         @endforeach   
