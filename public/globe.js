@@ -118,7 +118,7 @@ const setBaseSphere = () => {
 
   const baseSphere   = new THREE.SphereGeometry(19.5, 35, 35);
   const baseMaterial = new THREE.MeshStandardMaterial({
-    color: 0xffffff,
+    color: 0xf5f5f5,
     transparent:  true, 
     opacity:      0.9
   });

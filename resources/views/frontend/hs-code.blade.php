@@ -178,38 +178,16 @@
                         </tr>
                     </thead>
                     <tbody>
+                        @foreach ($chapters as $chapterCode => $chapter)
                         <tr>
                             <th class="table-primary">
-                                <a class="text-hover" href="#">Chapter 01</a>
+                                <a class="text-hover" href="#">{{ $chapterCode }}</a>
                             </th>
                             <th>
-                                <a class="text-hover" href="#">Live Animals</a>
+                                <a class="text-hover" href="#">{{ $chapter['description'] }}</a>
                             </th>
                         </tr>
-                        <tr>
-                            <th class="table-primary">
-                                <a class="text-hover" href="#">Chapter 02</a>
-                            </th>
-                            <th>
-                                <a class="text-hover" href="#">MEAT AND EDIBLE MEAT OFFAL</a>
-                            </th>
-                        </tr>
-                        <tr>
-                            <th class="table-primary">
-                                <a class="text-hover" href="#">Chapter 03</a>
-                            </th>
-                            <th>
-                                <a class="text-hover" href="#">FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES</a>
-                            </th>
-                        </tr>
-                        <tr>
-                            <th class="table-primary">
-                                <a class="text-hover" href="#">Chapter 02</a>
-                            </th>
-                            <th>
-                                <a class="text-hover" href="#">DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED</a>
-                            </th>
-                        </tr>
+                        @endforeach
                     </tbody>
                 </table>
             </div>

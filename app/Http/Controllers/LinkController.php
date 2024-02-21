@@ -60,7 +60,5 @@ class LinkController extends Controller
     function thankyou()  {
         return view('frontend.thankyou');
     }
-    function hscode()  {
-        return view('frontend.hs-code');
-    }
+
 }
