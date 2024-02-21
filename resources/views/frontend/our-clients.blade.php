@@ -168,7 +168,7 @@
                         </div>
 
                         <!-- For Mobile -->
-                        <div id="client_mobile" class="container-fluid padding-tb" style="display: none;">
+                        <div id="client_mobile" class="container-fluid pdt-2 pdb-5" style="display: none;">
                             <div class="row">
                                 <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <div class="client-img zoom">
