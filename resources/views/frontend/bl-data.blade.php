@@ -43,8 +43,8 @@
                             <li class="list">POD codes, trunk POL codes, etc.</li>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bg-bluish padding-tb flex" style="justify-content: center;">
-                        <div class="data-img" >
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bg-bluish flex" style="justify-content: center;">
+                        <div class="data-img pdb-2">
                             <img src="frontend/image/img/Bill of Ladding Database.png">
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                     </p>
                 </div>
             </div>
-            <div class="container pdt-2">
+            <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
@@ -192,7 +192,7 @@
         <!-- Countries Covered Under B/L Data -->
         <div class="container-fluid  bg-dark-custom pdt-2 pdb-5">
             <div class="container">
-                <div class="text-content">
+                <div class="text-content pdt-2">
                     <h2 class="text-center text-white">Countries Covered Under B/L Data</h2>
                 </div>
                 <!-- BL Data -->
