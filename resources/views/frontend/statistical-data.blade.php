@@ -613,7 +613,7 @@
                                     <img src="frontend/image/flags/new_zealand_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
-                                        @if ($country->country=='New Zealand' && $country->Datatype =='import')
+                                        @if ($country->country=='New-Zealand' && $country->Datatype =='import')
                                             <a href="{{ route('countryalldata', [strtolower($country->country), $country->Datatype]) }}" class="text-hover stat">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>

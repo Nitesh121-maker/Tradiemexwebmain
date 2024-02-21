@@ -48,7 +48,7 @@ Route::get('/bl-data',[CountriesdataController::class,'blreport']);
 Route::get('/analytical-custom-report',[LinkController::class,'customizedanalyticaldata']);
 // HS - Code
 Route::get('/hs-code',[HsCodeController::class,'hscode']);
-// Route::get('/{chapter_code}', [HsCodeController::class, 'subchap'])->name('subchapter.list');
+
 
 // Trade
 Route::get('/global-trade-data',[CountriesdataController::class,'globaltradedata']);
@@ -60,7 +60,7 @@ Route::get('/{continent}-trade-data', [ContinentDataController::class, 'continen
 Route::get('/{country}-{Datatype}', [CountriesdataController::class, 'countryalldata'])
     ->where('country', '[a-zA-Z\-]+')
     ->name('countryalldata');
-
+Route::get('/{chapterCode}', [HsCodeController::class, 'subchapterPage'])->name('subchapter.list');
 
 // Contact Form
 Route::post('/contact', [ContactFormController::class, 'sendContactForm'])->name('contact.send');

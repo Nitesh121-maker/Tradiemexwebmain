@@ -38,38 +38,16 @@ class HsCodeController extends Controller
         // Pass the organized data to the view
       return view('frontend.hs-code', compact('chapters'));
     }
-    function subchap(){
-        $hscodeData = DB::table('taric')->get();
-        $subchapters = [];
-        foreach ($hscodeData as $row) {
-            $hsCode = $row->hs_code;
-            $description = $row->Description;
-    
-            // Determine the level of the entry (chapter, sub-chapter, or list)
-            $level = strlen($hsCode);
-    
-            // Add the entry to the appropriate array based on the level
-            switch ($level) {
-                case 2:
-                    // Chapter
-                    $chapters[$hsCode] = ['description' => $description, 'subchapters' => []];
-                    break;
-                case 4:
-                    // Sub-chapter
-                    $chapter = substr($hsCode, 0, 2);
-                    $subchapters[$chapter][$hsCode] = ['description' => $description, 'lists' => []];
-                    break;
-                case 6:
-                    // List
-                    $chapter = substr($hsCode, 0, 2);
-                    $subchapter = substr($hsCode, 0, 4);
-                    $lists[$subchapter][$hsCode] = ['description' => $description];
-                    break;
-                default:
-                    // Handle invalid HS_code values
-                    break;
-            }
-        }
-        return view('frontend.hscode-subchpter', compact('subchapters'));
+ 
+    function subchapterPage($chapterCode)
+    {
+        
+        $subchapters = DB::table('taric')
+            ->select('hs_code', 'Description')
+            ->where('hs_code', 'like', $chapterCode . '__')
+            ->whereRaw('LENGTH(hs_code) = 4') 
+            ->get();
+
+         return view('frontend.hscode-subchapter', compact('subchapters'));
     }
 }
