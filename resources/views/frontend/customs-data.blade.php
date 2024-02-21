@@ -293,7 +293,7 @@
                                     <img src="frontend/image/flags/central_african_republic_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
-                                        @if ($country->country=='Central Africa' && $country->Datatype =='import')
+                                        @if ($country->country=='Central-Africa' && $country->Datatype =='import')
                                             <a href="{{ route('countryalldata', [strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>
@@ -315,7 +315,7 @@
                                     <img src="frontend/image/flags/democratic_republic_of_the_congo_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
-                                        @if ($country->country=='DR Congo' && $country->Datatype =='import')
+                                        @if ($country->country=='DR-Congo' && $country->Datatype =='import')
                                             <a href="{{ route('countryalldata', [strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>
@@ -348,7 +348,7 @@
                                     <img src="frontend/image/flags/cote_d_Ivoire_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
-                                        @if ($country->country=='Ivory Coast' && $country->Datatype =='import')
+                                        @if ($country->country=='Ivory-Coast' && $country->Datatype =='import')
                                             <a href="{{ route('countryalldata', [strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>
@@ -436,7 +436,7 @@
                                     <img src="frontend/image/flags/sao_tome_and_principe_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
-                                        @if ($country->country=='Sao Tome' && $country->Datatype =='import')
+                                        @if ($country->country=='Sao-Tome' && $country->Datatype =='import')
                                             <a href="{{ route('countryalldata', [strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>
@@ -458,7 +458,7 @@
                                     <img src="frontend/image/flags/sierra_leone_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
-                                        @if ($country->country=='Sierra Leone' && $country->Datatype =='import')
+                                        @if ($country->country=='Sierra-Leone' && $country->Datatype =='import')
                                             <a href="{{ route('countryalldata', [strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>
@@ -686,6 +686,7 @@
                                     <br>
                                     @foreach ($countrydata as $country)
                                         @if ($country->country=='kosovo' && $country->Datatype =='import')
+                                        @dd($country->country)
                                             <a href="{{ route('countryalldata', [strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>
@@ -771,7 +772,7 @@
                                     <img src="frontend/image/flags/el_salvador_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
-                                        @if ($country->country=='EL Salvador' && $country->Datatype =='import')
+                                        @if ($country->country=='EL-Salvador' && $country->Datatype =='import')
                                             <a href="{{ route('countryalldata', [strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>
