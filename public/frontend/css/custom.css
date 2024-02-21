@@ -52,7 +52,15 @@
     text-align: start;
     padding: 5px;
 }
-.list li{
+/* .list-pd {
+    font-weight: 600;
+    line-height: 1.8;
+    font-size: 13px;
+    list-style-image: url(../image/img/tick.png); 
+    color: #425466;
+    text-align: start;
+} */
+.list-pd li{
     font-weight: 600;
     line-height: 1.8;
     font-size: 13px;
@@ -60,6 +68,15 @@
     color: #425466;
     text-align: start;
     padding: 5px;
+}
+.list li{
+    font-weight: 600;
+    line-height: 1.8;
+    padding: 5px;
+    font-size: 13px;
+    list-style-image: url(../image/img/tick.png); 
+    color: #425466;
+    text-align: start;
 }
 
 
