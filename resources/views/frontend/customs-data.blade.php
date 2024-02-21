@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 flex" style="justify-content: center;">
-                        <div class="data-img">
+                        <div class="data-img pdb-2">
                             <img src="frontend/image/img/Customs_Data.png">
                         </div>
                     </div>
