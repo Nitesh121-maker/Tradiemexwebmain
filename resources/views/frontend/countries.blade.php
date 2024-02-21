@@ -401,7 +401,7 @@
                         @endphp
                         @foreach($country_import as $country_imports)
                             @if(trim($country_imports) !== "")
-                            <div class="list" >{!! $country_imports !!}</div>
+                                <div class="list-pd" >{!! $country_imports !!}</div>
                             @endif
                         @endforeach
                     </div>
@@ -442,7 +442,7 @@
                         @endphp
                         @foreach($partners as $partner)
                             @if(trim($partner) !== "")                            
-                                <div class="list">
+                                <div class="list-pd">
                                     {!! $partner !!}
                                 </div>
                             @endif
@@ -501,7 +501,7 @@
                     @endphp
                     @foreach($benifits as $benifit)
                         @if(trim($benifit) !== "")
-                            <div class="list">
+                            <div class="list-pd">
                                 {!! $benifit !!}
                             </div>
                         @endif

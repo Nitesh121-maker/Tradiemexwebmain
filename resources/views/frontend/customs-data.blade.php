@@ -61,13 +61,13 @@
                         The information contained in Customs Data is diverse and mostly consists of comprehensive
                         facts about the goods, their suppliers, and other relevant information like
                     </p>
-                    <li class="list" style="padding: 5px">The importer&#39;s name.</li>
-                    <li class="list" style="padding: 5px">The exporter&#39;s name.</li>
-                    <li class="list" style="padding: 5px">Details of import and export shipments</li>
-                    <li class="list" style="padding: 5px">Customs charges</li>
-                    <li class="list" style="padding: 5px">Tariff plans in force</li>
-                    <li class="list" style="padding: 5px">Every product&#39;s HS code</li>
-                    <li class="list" style="padding: 5px">Number of goods shipped or imported, etc.</li>
+                    <li class="list">The importer&#39;s name.</li>
+                    <li class="list">The exporter&#39;s name.</li>
+                    <li class="list">Details of import and export shipments</li>
+                    <li class="list">Customs charges</li>
+                    <li class="list">Tariff plans in force</li>
+                    <li class="list">Every product&#39;s HS code</li>
+                    <li class="list">Number of goods shipped or imported, etc.</li>
                 </div>
             </div>
             <div class="container pdt-2">

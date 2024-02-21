@@ -1312,7 +1312,7 @@
                             @endphp
                             @foreach($continent_import as $continent_import)
                                 @if(trim($continent_import) !== "")
-                                <div class="list" >{!! $continent_import !!}</div>
+                                <div class="list-pd" >{!! $continent_import !!}</div>
                                 @endif
                             @endforeach
                         </div>
@@ -1353,7 +1353,7 @@
                             @endphp
                             @foreach($continent_partner as $continent_partner)
                                 @if(trim($continent_partner) !== "")
-                                <div class="list" >{!! $continent_partner !!}</div>
+                                <div class="list-pd" >{!! $continent_partner !!}</div>
                                 @endif
                             @endforeach
                         </div>
