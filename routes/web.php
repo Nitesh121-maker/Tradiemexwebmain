@@ -48,6 +48,8 @@ Route::get('/bl-data',[CountriesdataController::class,'blreport']);
 Route::get('/analytical-custom-report',[LinkController::class,'customizedanalyticaldata']);
 // HS - Code
 Route::get('/hs-code',[HsCodeController::class,'hscode']);
+// Route::get('/{chapter_code}', [HsCodeController::class, 'subchap'])->name('subchapter.list');
+
 // Trade
 Route::get('/global-trade-data',[CountriesdataController::class,'globaltradedata']);
 // Get Continent Data

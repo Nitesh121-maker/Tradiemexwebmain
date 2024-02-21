@@ -311,7 +311,7 @@
                                         <img src="frontend/image/flags/korea_south_rectangular_icon_with_shadow_64.png">
                                         <br>
                                         @foreach ($countrydata as $country)
-                                        @if ($country->country=='South Korea' && $country->Datatype =='import')
+                                        @if ($country->country=='South-Korea' && $country->Datatype =='import')
                                             <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover stat">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>
@@ -463,7 +463,7 @@
                                     <img src="frontend/image/flags/el_salvador_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
-                                        @if ($country->country=='EL Salvador' && $country->Datatype =='import')
+                                        @if ($country->country=='EL-Salvador' && $country->Datatype =='import')
                                             <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover stat">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>
