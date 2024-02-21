@@ -193,7 +193,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-21">
                             <div class="icon">
-                                <img src="frontend/image/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/Managing Supply Chain.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Managing Supply Chain</h3>
@@ -208,7 +208,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-21">
                             <div class="icon">
-                                <img src="frontend/image/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/mitigating-risk.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Mitigating Risks</h3>
