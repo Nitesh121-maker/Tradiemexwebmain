@@ -147,10 +147,10 @@
                         </select>
                     </div> --}}
                     <div class="searchbox col-sm-2 col-md-2 col-lg-5">
-                        <input type="text" placeholder="HS Code" class="form-control">
+                        <input type="text" placeholder="Search By HS Code" class="form-control">
                     </div>
                     <div class="searchbox col-sm-3 col-md-3 col-lg-5">
-                        <input type="text" placeholder="Description" class="form-control">
+                        <input type="text" placeholder="Search By Description" class="form-control">
                     </div>
                     <div class="searchbox col-sm-3 col-md-3 col-lg-2">
                         <a class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
