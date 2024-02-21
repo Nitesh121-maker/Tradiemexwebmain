@@ -178,13 +178,13 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($chapters as $chapterCode => $chapter)
+                        @foreach ($subchapters as $chapterCode => $chapter)
                         <tr>
                             <th class="table-primary">
                                 <a class="text-hover" href="#">{{ $chapterCode }}</a>
                             </th>
                             <th>
-                                <a class="text-hover" href="#">{{ $chapter['description'] }}</a>
+                                <a class="text-hover" href="#"></a>
                             </th>
                         </tr>
                         @endforeach
