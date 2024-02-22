@@ -120,13 +120,13 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/oceania-trade-data">
-                                    <i class="fa-solid fa-earth-oceania fa-lg"></i>&nbsp;Oceania Trade Data
+                                <a class="dropdown-item" href="/south-america-trade-data">
+                                    <i class="fa-solid fa-earth-americas fa-lg"></i> &nbsp;South America Trade Data
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/south-america-trade-data">
-                                    <i class="fa-solid fa-earth-americas fa-lg"></i> &nbsp;South America Trade Data
+                                <a class="dropdown-item" href="/oceania-trade-data">
+                                    <i class="fa-solid fa-earth-oceania fa-lg"></i>&nbsp;Oceania Trade Data
                                 </a>
                             </li>
                         </ul>
