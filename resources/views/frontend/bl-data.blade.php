@@ -156,15 +156,17 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="text-content">
-                            <h2>Using B/L data to enhance business.</h2>
-                            <p>
-                                B/L data is crucial for businesses to thrive. TradeImeX offers a game-changing solution by
-                                democratizing B/L data, providing businesses with unparalleled insights, and empowering them
-                                to make informed decisions. By leveraging the B/L data of the advanced platform of TradeImeX,
-                                businesses can gain a competitive edge, optimize their supply chain, and navigate the
-                                complexities of international trade with confidence.
-                            </p>
+                        <div class="card-content">
+                            <div class="text-content">
+                                <h2>Using B/L data to enhance business.</h2>
+                                <p>
+                                    B/L data is crucial for businesses to thrive. TradeImeX offers a game-changing solution by
+                                    democratizing B/L data, providing businesses with unparalleled insights, and empowering them
+                                    to make informed decisions. By leveraging the B/L data of the advanced platform of TradeImeX,
+                                    businesses can gain a competitive edge, optimize their supply chain, and navigate the
+                                    complexities of international trade with confidence.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
