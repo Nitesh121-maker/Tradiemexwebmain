@@ -180,8 +180,8 @@
                     </div>
                 </div>
             </div>
+            <!-- End Of Content With Key Points -->
         </div>
-        <!-- End Of Content With Key Points -->
 
         <!-- Search Live Import Export -->
         <!-- <div class="container-fluid padding-tb bg-img">
@@ -1260,7 +1260,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Zambia' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover stat">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
@@ -1271,7 +1271,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Nicaragua' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover custom">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
