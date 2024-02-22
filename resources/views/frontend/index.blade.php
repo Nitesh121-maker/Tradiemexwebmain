@@ -521,8 +521,6 @@
                                     receipt for the products being shipped and the document&#39;s title are produced using B/L data. A
                                     bill of lading serves as formal documentation between a supplier and a buyer. This paperwork
                                     acts as approval for financial shipments and customs clearances. The date of consignment, the
-                                </p>
-                                <p class="text-white">
                                     shipper&#39;s name, and address, the PKG unit, the commodity name, and a detailed description of
                                     each product are among the details found in the B/L data reports. B/L data is important to
                                     keep around as it serves as a receipt for goods that have been shipped. Aside from this, B/L
