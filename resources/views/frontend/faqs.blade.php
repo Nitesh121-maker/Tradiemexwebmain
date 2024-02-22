@@ -10,7 +10,7 @@
     <meta name="description" content="Need answers to your global trade questions? TradeImeX - FAQs has got you covered! We are the leading global trade data provider, offering import-export data for 80+ countries. Our market research experts provide valuable insights to help you make informed business decisions. Find all the answers you&#39;re looking for with our doubt-clearing section." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
     <title>TradeImeX - FAQs | Global Trade Data Provider</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
+    <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
    
     @include('frontend.link')
 </head>

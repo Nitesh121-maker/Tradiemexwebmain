@@ -17,7 +17,7 @@
                 {{$continent->mf_content_metatitle}}
             @endforeach
         </title>
-        <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
+        <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
 
         @include('frontend.link')
         <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
@@ -1118,7 +1118,17 @@
                                         </a>
                                     @endif
                                 @endforeach
-
+                            </div>
+                            <div class="col-sm-4 col-md-3 col-lg-3 Flag">
+                                <img src="frontend/image/flags/nicaragua_rectangular_icon_with_shadow_64.png">
+                                <br>
+                                @foreach ($countrydata as $country)
+                                    @if ($country->country=='Nicaragua' && $country->Datatype =='import')
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
+                                            <h4>{{ $country->country }}</h4>
+                                        </a>
+                                    @endif
+                                @endforeach
                             </div>
                         </div>
                         @endif

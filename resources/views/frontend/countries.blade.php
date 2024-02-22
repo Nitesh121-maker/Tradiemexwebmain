@@ -15,7 +15,7 @@
             @endforeach
         </title>
 
-        <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
+        <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         @include('frontend.link')
         <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
