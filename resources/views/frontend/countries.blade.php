@@ -411,7 +411,6 @@
                             <div id="container"></div>
                         </figure>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -588,45 +587,63 @@
                     <h2 class="text-white">You might be interested in other continents as well</h2>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
-                        <div class="searchbox">
-                            <a href="/asia-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
-                                Asia Trade Data
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                    @foreach ($countrydata as $country)
+                        @if ($country=='China'||$country=='Japan')
+                            {{$country}}
+                        @else
+                            break;
+                        @endif
+                        {{-- @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TAS')
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="searchbox">
+                                    <a href="/asia-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                        China
+                                    </a>
+                                </div>
+                            </div>
+                        @endif    --}}
+                        @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TNA')
+                            <a href="//north america-trade-data" class="text-hover">North America Trade Data</a>
+                        @endif    
+                        @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TAF')
+                        <a href="/africa-trade-data" class="text-hover">Africa Trade Data</a>
+                        @endif   
+                        @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TEU')
+                        <a href="/europe-trade-data" class="text-hover">Europe Trade Data</a>
+                        @endif 
+                        @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TSA')
+                        <a href="/south america-trade-data" class="text-hover">South America Trade Data</a>
+                        @endif   
+                        @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TOC')
+                        <a href="/oceania-trade-data" class="text-hover">Oceania Trade Data</a>
+                        @endif                              
+                    @endforeach
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="searchbox">
                             <a href="/africa-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Africa Trade Data
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="searchbox">
                             <a href="/europe-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Europe Trade Data
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="searchbox">
                             <a href="/North America-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 North America
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="searchbox">
                             <a href="/oceania-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Oceania Trade Data
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
-                        <div class="searchbox">
-                            <a href="/south america-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
-                                South America
                             </a>
                         </div>
                     </div>
