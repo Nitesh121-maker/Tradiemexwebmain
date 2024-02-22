@@ -164,7 +164,7 @@
             <div class="container padding-tb">
                 <div class="text-content text-center bg-color">
                     <h1 style="font-size: 38px;">
-                        HS Code Of Live Animals 0102
+                        HS CODE
                     </h1>
                 </div>
                 <table class="table table-responsive table-hover table-rounded">
@@ -184,12 +184,15 @@
                     </thead>
                     <tbody>
                         @foreach ($chapters as $chapterCode => $chapter)
+                        @php
+                            $description = $chapter['description']
+                        @endphp
                         <tr>
                             <th class="table-primary">
-                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode]) }}">Chapter {{ $chapterCode }}</a>
+                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode , 'description' => Str::lower($description)]) }}">Chapter {{ $chapterCode }}</a>
                             </th>
                             <th>
-                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode]) }}">{{ $chapter['description'] }}</a>
+                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode, 'description' => Str::lower($description)]) }}">{{ $chapter['description'] }}</a>
                             </th>
                         </tr>
                         @endforeach   

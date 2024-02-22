@@ -164,7 +164,7 @@
             <div class="container padding-tb">
                 <div class="text-content text-center bg-color">
                     <h1 style="font-size: 38px;">
-                        HS Code  {{$subchaptercode}}
+                        HS Code for {{$subchapterdescription}} {{$subchaptercode}}
                     </h1>
                 </div>
                 <table class="table table-responsive table-hover table-rounded">

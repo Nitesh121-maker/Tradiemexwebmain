@@ -60,8 +60,9 @@ Route::get('/{continent}-trade-data', [ContinentDataController::class, 'continen
 Route::get('/{country}-{Datatype}', [CountriesdataController::class, 'countryalldata'])
     ->where('country', '[a-zA-Z\-]+')
     ->name('countryalldata');
-Route::get('/hs-code/{chapterCode}', [HsCodeController::class, 'subchapterPage'])->name('subchapter.list');
-Route::get('/hs-code-subchapter/{subchapterdescription}-{subchaptercode}', [HsCodeController::class, 'subchapterListPage'])->name('subchapterlist.list');
+Route::get('/hs-code/{subchapterdescription}-{subchaptercode}', [HsCodeController::class, 'subchapterListPage'])->name('subchapterlist.list');
+Route::get('/hs-code/{description}-{chapterCode}', [HsCodeController::class, 'subchapterPage'])->name('subchapter.list');
+
 // Contact Form
 Route::post('/contact', [ContactFormController::class, 'sendContactForm'])->name('contact.send');
 Route::post('/career', [CareerFormController::class, 'sendCareerApplication'])->name('career.send');

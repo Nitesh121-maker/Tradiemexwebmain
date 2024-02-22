@@ -39,7 +39,7 @@ class HsCodeController extends Controller
       return view('frontend.hs-code', compact('chapters'));
     }
  
-    function subchapterPage($chapterCode)
+    function subchapterPage($chapterCode,$description)
     {
         
         $subchapters = DB::table('taric')
@@ -48,7 +48,7 @@ class HsCodeController extends Controller
             ->whereRaw('LENGTH(hs_code) = 4') 
             ->get();
 
-         return view('frontend.hscode-subchapter', ['subchapters' =>  $subchapters,'chapterCode' => $chapterCode]);
+         return view('frontend.hscode-subchapter', ['subchapters' =>  $subchapters,'chapterCode' => $chapterCode , 'description' => $description]);
     }
     function subchapterListPage($subchapterdescription,$subchaptercode)
     {
@@ -58,7 +58,7 @@ class HsCodeController extends Controller
         ->whereRaw('LENGTH(hs_code) >= 6 AND LENGTH(hs_code) <= 8')
         ->distinct()
         ->get();
-
-         return view('frontend.hscode-subchapterlist', ['subchapterslist' => $subchapterslist, 'subchaptercode' =>$subchaptercode]);
+         
+         return view('frontend.hscode-subchapterlist', ['subchapterslist' => $subchapterslist, 'subchaptercode' =>$subchaptercode, 'subchapterdescription' => $subchapterdescription]);
     }
 }
