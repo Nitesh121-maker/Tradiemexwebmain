@@ -6,9 +6,10 @@
         <meta name="google-site-verification" content="kevV-HFG1JijHyuKnnkIeN6dY_Hb-ueXuqoUv-pPWUU"/>
         <meta name="ahrefs-site-verification" content="167ef56daf7b5a6af88ecea027be9df8f7a528cfe6be55f3f794a32094b792f2">
         <meta name="keywords" content="Import Export Data,Export Import Data, Import Export Data Provider, Export Import Data Provider, Business Intelligence Report, Import Export Trade Data, Best Market Research, Importers Exporters Data, Buyers List, List of Suppliers, Trade Data, Best Import Export Data" />
-        <meta name="robots" content="index, follow" id="robots" />
+        <meta name="robots" content="index, follow" id="robots"/>
         <meta name="description" content="Discover the power of global trade data with TradeImeX - the leading import-export data provider for 80+ countries. Uncover market insights, make informed business decisions, and expand your reach worldwide with our comprehensive market research and data services. Join the industry experts and unlock new opportunities today!"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+        <title>Import Export Data, Global Trade Data of 70+ Countries - TradeImeX</title>
         <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
 
         @include('frontend.link')
