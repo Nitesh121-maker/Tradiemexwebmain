@@ -50,7 +50,7 @@ class HsCodeController extends Controller
 
          return view('frontend.hscode-subchapter', ['subchapters' =>  $subchapters,'chapterCode' => $chapterCode]);
     }
-    function subchapterListPage($subchaptercode)
+    function subchapterListPage($subchapterdescription,$subchaptercode)
     {
         $subchapterslist = DB::table('taric')
         ->select('hs_code', 'Description')
