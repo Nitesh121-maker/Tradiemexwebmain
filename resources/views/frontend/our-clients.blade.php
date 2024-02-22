@@ -426,7 +426,7 @@
         </div>
 
         <!-- Global Search -->
-        <div class="container-fluid pdb-2">
+        <div class="container-fluid">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-lg-md-6 col-lg-6 img-aspect" style="justify-content: center;display: flex;align-items: baseline;">
@@ -449,7 +449,7 @@
         </div>
 
         <!-- Satisfied Clients -->
-        <div class="container-fluid pdb-2">
+        <div class="container-fluid">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-lg-md-6 col-lg-6" style="align-items: center;display: flex;">

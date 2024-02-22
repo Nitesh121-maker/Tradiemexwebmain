@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Page Not Found!</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
+        <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
         <?php include 'link.php';?>
         <style>
             footer {

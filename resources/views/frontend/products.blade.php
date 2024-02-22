@@ -9,7 +9,7 @@
         <meta name="description" content="Looking for reliable import-export data? Look no further! TradeImeX is the leading global trade data provider, offering comprehensive market research with our exclusive products such as customs data, statistical analysis, and B/L data. With our extensive coverage in 80+ countries, we help businesses make informed decisions and seize new opportunities. Our Flagship products will empower your business with accurate and timely export-import data. Get started today!" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
         <title>Our Exclusive products - TradeImeX</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
+        <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
 
         @include('frontend.link')
     </head>
@@ -41,7 +41,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 img-aspect">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 img-aspect pdb-2">
                         <img src="frontend/image/img/Our Product.gif" width="100%">
                     </div>
                 </div>
