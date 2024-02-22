@@ -143,14 +143,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="text-content">
-                            <h2>TradeImeX: Democratizing B/L Data</h2>
-                            <p>
-                                TradeImeX is revolutionizing the way businesses access and analyze B/L data. With their
-                                advanced platform, they provide users with seamless access to a comprehensive database of
-                                B/L records. Their user-friendly interface allows users to quickly search for specific shipments
-                                based on various parameters, making the search process efficient and timesaving.
-                            </p>
+                        <div class="card-content">
+                            <div class="text-content">
+                                <h2>TradeImeX: Democratizing B/L Data</h2>
+                                <p>
+                                    TradeImeX is revolutionizing the way businesses access and analyze B/L data. With their
+                                    advanced platform, they provide users with seamless access to a comprehensive database of
+                                    B/L records. Their user-friendly interface allows users to quickly search for specific shipments
+                                    based on various parameters, making the search process efficient and timesaving.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
