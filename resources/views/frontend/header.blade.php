@@ -115,7 +115,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/north america-trade-data">
+                                <a class="dropdown-item" href="/north-america-trade-data">
                                     <i class="fa-solid fa-earth-americas fa-lg"></i> &nbsp;North America Trade Data
                                 </a>
                             </li>
@@ -125,7 +125,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/south america-trade-data">
+                                <a class="dropdown-item" href="/south-america-trade-data">
                                     <i class="fa-solid fa-earth-americas fa-lg"></i> &nbsp;South America Trade Data
                                 </a>
                             </li>

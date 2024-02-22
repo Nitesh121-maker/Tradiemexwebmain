@@ -19,7 +19,7 @@
         <div class="container-fluid pdt-2 pdt-2">
             <div class="text-content text-center bg-color">
                 <h1 style="font-size: 38px;">
-                    Search By Harmonized Code System
+                    Search By Harmonized Code System for List
                 </h1>
             </div>
             <div class="container">
@@ -162,6 +162,11 @@
 
             <!-- Table Of HS Code -->
             <div class="container padding-tb">
+                <div class="text-content text-center bg-color">
+                    <h1 style="font-size: 38px;">
+                        HS Code  {{$subchaptercode}}
+                    </h1>
+                </div>
                 <table class="table table-responsive table-hover table-rounded">
                     <thead>
                         <tr>
@@ -178,16 +183,18 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($chapters as $chapterCode => $chapter)
-                        <tr>
-                            <th class="table-primary">
-                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode]) }}">{{ $chapterCode }}</a>
-                            </th>
-                            <th>
-                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode]) }}">{{ $chapter['description'] }}</a>
-                            </th>
-                        </tr>
-                        @endforeach                        
+
+                        @foreach ($subchapterslist as $subchapter)
+                            <tr>
+                                <th class="table-primary">
+                                    <a class="text-hover" href="#">{{ $subchapter->hs_code }}</a>
+                                </th>
+                                <th>
+                                    <a class="text-hover" href="#">{{ $subchapter->Description }}</a>
+                                </th>
+                            </tr>
+                        @endforeach
+                                
                     </tbody>
                 </table>
             </div>

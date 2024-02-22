@@ -13,7 +13,7 @@ class CountriesdataController extends Controller
             -> select('country','country_code','Datatype')
             -> union(DB::table('export')->select('country','country_code','Datatype'))
             -> get();
-
+            
             return view('frontend.index', ['countrydata' => $countrydata]);
         } catch (\Exception $e) {
             // Log the error
@@ -88,10 +88,14 @@ class CountriesdataController extends Controller
             -> where('Datatype'    , $Datatype)   
             )
             ->get();
-  
+
+            $countryname = DB::table('import')
+            -> select('country','country_code')
+            -> union(DB::table('export')->select('country','country_code'))
+            -> get();
+            
             $continentData = DB::select('select * from continent');
-           
-            return view('frontend.countries', ['countrydata' => $countrydata,'continentData' => $continentData]);
+            return view('frontend.countries', ['countrydata' => $countrydata,'continentData' => $continentData , 'countryname' => $countryname]);
         } catch (\Exception $e) {
             // Log the error
             Log::error('Error in countrydata method: ' . $e->getMessage());

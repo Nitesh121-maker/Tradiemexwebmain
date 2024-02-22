@@ -48,6 +48,17 @@ class HsCodeController extends Controller
             ->whereRaw('LENGTH(hs_code) = 4') 
             ->get();
 
-         return view('frontend.hscode-subchapter', compact('subchapters'));
+         return view('frontend.hscode-subchapter', ['subchapters' =>  $subchapters,'chapterCode' => $chapterCode]);
+    }
+    function subchapterListPage($subchaptercode)
+    {
+        $subchapterslist = DB::table('taric')
+        ->select('hs_code', 'Description')
+        ->where('hs_code', 'like', $subchaptercode . '%')
+        ->whereRaw('LENGTH(hs_code) >= 6 AND LENGTH(hs_code) <= 8')
+        ->distinct()
+        ->get();
+
+         return view('frontend.hscode-subchapterlist', ['subchapterslist' => $subchapterslist, 'subchaptercode' =>$subchaptercode]);
     }
 }

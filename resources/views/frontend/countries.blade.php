@@ -588,38 +588,87 @@
                 </div>
                 <div class="row">
                     @foreach ($countrydata as $country)
-                        @if ($country=='China'||$country=='Japan')
-                            {{$country}}
-                        @else
-                            break;
-                        @endif
-                        {{-- @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TAS')
-                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                <div class="searchbox">
-                                    <a href="/asia-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
-                                        China
-                                    </a>
+                        @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TAS')
+                            @foreach ($countryname as $countries)
+                                @if ($countries->country == 'South-Korea'||$countries->country == "China"||$countries->country == "Japan"||$countries->country == "Singapore"||$countries->country == "Vietnam"||$countries->country == "Philippines")
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                                    <div class="searchbox">
+                                        <a href="/{{Str::lower($countries->country)}}-import" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                            {{ $countries->country }}
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                        @endif    --}}
+                                @endif
+                            @endforeach
+                        @endif   
                         @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TNA')
-                            <a href="//north america-trade-data" class="text-hover">North America Trade Data</a>
+                            @foreach ($countryname as $countries)
+                                @if ($countries->country == 'US'||$countries->country == "Canada"||$countries->country == "Mexico"||$countries->country == "Costa-Rica"||$countries->country == "EL-Salvador"||$countries->country == "Guatemala")
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                                    <div class="searchbox">
+                                        <a href="/{{Str::lower($countries->country)}}-import" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                            {{ $countries->country }}
+                                        </a>
+                                    </div>
+                                </div>
+                                @endif
+                            @endforeach
                         @endif    
                         @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TAF')
-                        <a href="/africa-trade-data" class="text-hover">Africa Trade Data</a>
+                            @foreach ($countryname as $countries)
+                                @if ($countries->country == 'South-Africa'||$countries->country == "Ghana"||$countries->country == "Kenya"||$countries->country == "Ivory-Coast"||$countries->country == "Algeria"||$countries->country == "Ethiopia"||$countries->country == "Nigeria")
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                                    <div class="searchbox">
+                                        <a href="/{{Str::lower($countries->country)}}-import" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                            {{ $countries->country }}
+                                        </a>
+                                    </div>
+                                </div>
+                                @endif
+                            @endforeach
                         @endif   
                         @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TEU')
-                        <a href="/europe-trade-data" class="text-hover">Europe Trade Data</a>
+                            @foreach ($countryname as $countries)
+                                @if ($countries->country == 'Germany'||$countries->country == "UK"||$countries->country == "Netherlands"||$countries->country == "Italy"||$countries->country == "France"||$countries->country == "Finland")
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                                    <div class="searchbox">
+                                        <a href="/{{Str::lower($countries->country)}}-import" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                            {{ $countries->country }}
+                                        </a>
+                                    </div>
+                                </div>
+                                @endif
+                            @endforeach
                         @endif 
                         @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TSA')
-                        <a href="/south america-trade-data" class="text-hover">South America Trade Data</a>
+                            @foreach ($countryname as $countries)
+                                @if ($countries->country == 'Brazil'||$countries->country == "Chile"||$countries->country == "Argentina"||$countries->country == "Colombia"||$countries->country == "Peru"||$countries->country == "Venezuela")
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                                    <div class="searchbox">
+                                        <a href="/{{Str::lower($countries->country)}}-import" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                            {{ $countries->country }}
+                                        </a>
+                                    </div>
+                                </div>
+                                @endif
+                            @endforeach
                         @endif   
                         @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TOC')
-                        <a href="/oceania-trade-data" class="text-hover">Oceania Trade Data</a>
+                            @foreach ($countryname as $countries)
+                                @if ($countries->country == 'Australia'||$countries->country == "New-Zealand"||$countries->country == "Fiji")
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                                    <div class="searchbox">
+                                        <a href="/{{Str::lower($countries->country)}}-import" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
+                                            {{ $countries->country }}
+                                        </a>
+                                    </div>
+                                </div>
+                                @endif
+                            @endforeach
                         @endif                              
                     @endforeach
                     
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    {{-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="searchbox">
                             <a href="/africa-trade-data" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Africa Trade Data
@@ -646,7 +695,7 @@
                                 Oceania Trade Data
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

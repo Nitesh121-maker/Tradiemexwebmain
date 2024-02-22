@@ -1013,7 +1013,7 @@
                           
                         </div>
                         @endif
-                        @if ($continent->continent_code === 'NA-8')
+                        @if ($continent->continent_code === 'NA-9')
                         <div class="row padding-tb">
                             <div class="text-content">
                                 <h2 class="text-white text-center">Countries Covered Under North America Trade Data</h2>
@@ -1101,6 +1101,18 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='US' && $country->Datatype =='import')
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
+                                            <h4>{{ $country->country }}</h4>
+                                        </a>
+                                    @endif
+                                @endforeach
+
+                            </div>
+                            <div class="col-sm-4 col-md-3 col-lg-3 Flag">
+                                <img src="frontend/image/flags/zambia_rectangular_icon_with_shadow_64.png">
+                                <br>
+                                @foreach ($countrydata as $country)
+                                    @if ($country->country=='Zambia' && $country->Datatype =='import')
                                         <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
