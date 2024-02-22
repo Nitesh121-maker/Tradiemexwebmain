@@ -9,7 +9,7 @@
         <meta name="robots" content="index, follow" id="robots"/>
         <meta name="description" content="Discover the power of global trade data with TradeImeX - the leading import-export data provider for 80+ countries. Uncover market insights, make informed business decisions, and expand your reach worldwide with our comprehensive market research and data services. Join the industry experts and unlock new opportunities today!"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
-        <title>Import Export Data, Global Trade Data of 70+ Countries - TradeImeX</title>
+        <title>Import Export Data, Global Trade Data of 80+ Countries - TradeImeX</title>
         <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
 
         @include('frontend.link')
