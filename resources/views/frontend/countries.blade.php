@@ -471,7 +471,7 @@
                     <p class="text-white">
                         {!! strip_tags(html_entity_decode($country->sd_para)) !!}
                     </p>
-                    <div class="buttons-holder">
+                    <div class="buttons-holder download-sample">
                         <a class="ybtn ybtn-accent-color">
                             Download Sample &nbsp;
                             <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
@@ -481,7 +481,7 @@
             </div>
             <div class="container" style="padding-top: 1%;">
                 <div class="flex" style="justify-content: center;">
-                    <img src="frontend/image/img/Statistical Data.png" width="80%" style="border-radius: 12px;">
+                    <img class="sample-img" src="frontend/image/img/Statistical Data.png" style="border-radius: 12px;">
                 </div>
             </div>
         </div>

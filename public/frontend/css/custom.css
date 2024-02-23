@@ -2405,7 +2405,12 @@ ul {
     }
 
     .download-sample {
-        width: 4%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sample-img {
+        width: 80%;
     }
 
     /* Mobile Responsive */
@@ -2479,8 +2484,9 @@ ul {
         .form-flex {
             display: block !important;
         }
-        .download-sample {
-            width: 10% !important;
+
+        .sample-img {
+            width: 100% !important;
         }
 
         /* Cards Text Control */
@@ -2691,9 +2697,6 @@ ul {
         .nav-center {
             justify-content: center !important;
             display: flex !important;
-        }
-        .download-sample {
-            width: 7%;
         }
     }
     @media (min-width: 820px) {
