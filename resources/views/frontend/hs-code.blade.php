@@ -186,6 +186,9 @@
                         </tr>
                     </thead>
                     <tbody>
+                        @if ($results)
+                            @dd($results)
+                        @else
                         @foreach ($chapters as $chapterCode => $chapter)
                         @php
                             $description = $chapter['description']
@@ -199,6 +202,8 @@
                             </th>
                         </tr>
                         @endforeach   
+                        @endif
+
                     </tbody>
                 </table>
             </div>

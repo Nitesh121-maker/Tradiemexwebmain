@@ -93,7 +93,6 @@ class HsCodeController extends Controller
         } else{
             $results = DB::table('taric')->orderBy('id','DESC')->paginate(10);
         }
-        dd($results);
         return view ('frontend.hs-code', ['results'=>$results]);
     }
 }
