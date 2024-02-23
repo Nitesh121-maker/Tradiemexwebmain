@@ -607,7 +607,7 @@
                                         @endif
                                     @endforeach
                                 </div>
-                                <div class="col-sm-4 col-md-3 col-lg-3 Flag">
+                                <div class="col-sm-4 col-md-3 col-lg-2 Flag">
                                     <img src="frontend/image/flags/united_states_of_america_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
