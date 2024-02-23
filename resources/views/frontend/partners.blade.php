@@ -263,6 +263,24 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                                <div class="card card-bg cdh-18">
+                                    <div class="card-img">
+                                        <img src="frontend/image/img/business-and-trade.png" class="card-img-top" alt="..." style="width: 25%;">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                            Successful Trade Promotion
+                                        </h5>
+                                        <p class="card-text text-white-p">
+                                            TradeImeX will assist you in deciding where to put your resources for the best return and
+                                            efficiency with instant access to data across 6 continents and more than 80 countries. With
+                                            TradeImeX, businesses can enhance their brand visibility, attract new customers, and boost
+                                            their sales through targeted promotional activities..
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
