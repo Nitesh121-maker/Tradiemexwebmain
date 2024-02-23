@@ -1789,7 +1789,7 @@
                         return subItem.country;
                     });
                 }).flat();
-
+               
                 var exports = Tradeddata.map(function(item) {
                     return item.map(function(subItem) {
                         return subItem.exports;

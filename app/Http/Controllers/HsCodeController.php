@@ -80,17 +80,25 @@ class HsCodeController extends Controller
             $desc = $request['description'];
             
             $results = DB::table('taric')
-                ->select('*')
-                ->where('hs_code','=',$hscode)
-                ->Where('Description','LIKE','%'.$desc.'%')
-                ->paginate(10);
-                
+            ->select('*')
+            ->where('hs_code', 'like', $hscode . '%')
+            ->where('Description', 'LIKE', '%' . $desc . '%')
+            ->get();
+
         } elseif ($request['hs-code']) {
             $hscode = strtoupper($request['hs-code']);
-            $results = DB::table('taric')->where('hs_code','=',$hscode)->paginate(10);
+            $results = DB::table('taric')
+            ->select('*')
+            ->where('hs_code', 'like', $hscode . '%')
+            ->get();
+
         } elseif ($request['description']) {
             $desc = $request['description'];
-            $results = DB::table('taric')->where('Description','LIKE','%'.$desc.'%')->paginate(10);
+            $results = DB::table('taric')
+            ->select('*')
+            ->where('Description', 'LIKE', '%' . $desc . '%')
+            ->get();
+
         } else{
             $results = DB::table('taric')->orderBy('id','DESC')->paginate(10);
         }
