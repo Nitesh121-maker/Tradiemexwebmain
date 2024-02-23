@@ -2480,7 +2480,7 @@ ul {
             display: block !important;
         }
         .download-sample {
-            width: 10%;
+            width: 10% !important;
         }
 
         /* Cards Text Control */
