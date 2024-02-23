@@ -209,7 +209,7 @@
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                                <div class="card card-bg cdh-18">
+                                <div class="card card-bg cdh-20">
                                     <div class="card-img">
                                         <img src="frontend/image/img/business (1).png" class="card-img-top" alt="..." style="width: 25%;">
                                     </div>
@@ -227,7 +227,7 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                                <div class="card card-bg cdh-18">
+                                <div class="card card-bg cdh-20">
                                     <div class="card-img">
                                         <img src="frontend/image/img/market.png" class="card-img-top" alt="..." style="width: 25%;">
                                     </div>
@@ -246,7 +246,7 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                                <div class="card card-bg cdh-18">
+                                <div class="card card-bg cdh-20">
                                     <div class="card-img">
                                         <img src="frontend/image/img/customer-service.png" class="card-img-top" alt="..." style="width: 25%;">
                                     </div>
@@ -264,7 +264,7 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                                <div class="card card-bg cdh-18">
+                                <div class="card card-bg cdh-20">
                                     <div class="card-img">
                                         <img src="frontend/image/img/business-and-trade.png" class="card-img-top" alt="..." style="width: 25%;">
                                     </div>
@@ -275,8 +275,7 @@
                                         <p class="card-text text-white-p">
                                             TradeImeX will assist you in deciding where to put your resources for the best return and
                                             efficiency with instant access to data across 6 continents and more than 80 countries. With
-                                            TradeImeX, businesses can enhance their brand visibility, attract new customers, and boost
-                                            their sales through targeted promotional activities..
+                                            TradeImeX, businesses can enhance their brand visibility.
                                         </p>
                                     </div>
                                 </div>
