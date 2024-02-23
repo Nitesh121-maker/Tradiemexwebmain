@@ -473,7 +473,7 @@
                     </p>
                     <div class="buttons-holder">
                         <a class="ybtn ybtn-accent-color">
-                            Download Sample
+                            Download Sample &nbsp;
                             <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
                         </a>
                     </div>
