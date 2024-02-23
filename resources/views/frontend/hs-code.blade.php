@@ -186,7 +186,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @if ($results)
+                        @if (isset($results) && $results->count() > 0)
                             @dd($results)
                         @else
                         @foreach ($chapters as $chapterCode => $chapter)
