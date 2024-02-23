@@ -471,8 +471,8 @@
                     <p class="text-white">
                         {!! strip_tags(html_entity_decode($country->sd_para)) !!}
                     </p>
-                    <div class="btn-grp">
-                        <button class="btn-primary">
+                    <div class="buttons-holder">
+                        <button class="btn btn-primary">
                             <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
                             Download Sample
                         </button>
