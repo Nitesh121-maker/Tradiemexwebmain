@@ -2400,6 +2400,10 @@ ul {
     }
     /* End of Chart CSS */
 
+    .form-flex {
+        display: flex;
+    }
+
     /* Mobile Responsive */
     @media screen and (max-width: 280px){
         .question {
@@ -2465,6 +2469,13 @@ ul {
         }
     }
     @media (max-width: 576px) {
+        .searchbox{
+            width: 100%;
+        }
+        .form-flex {
+            display: block !important;
+        }
+
         /* Cards Text Control */
         .mobile-breadcrumb {
             justify-content: center;
