@@ -472,8 +472,9 @@
                         {!! strip_tags(html_entity_decode($country->sd_para)) !!}
                     </p>
                     <span>
-                        <img class="download-sample" src="frontend/image/img/download.png" width="50%">
-                        <p class="text-white" style="font-size: 12px;font-weight: 600;">Download Sample</p>
+                        <i class="bi bi-plus"></i>
+                        {{-- <img class="download-sample" src="frontend/image/img/download.png" width="50%">
+                        <p class="text-white" style="font-size: 12px;font-weight: 600;">Download Sample</p> --}}
                     </span>
                 </div>
             </div>
