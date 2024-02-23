@@ -266,7 +266,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                                 <div class="card card-bg cdh-20">
                                     <div class="card-img">
-                                        <img src="frontend/image/img/business-and-trade.png" class="card-img-top" alt="..." style="width: 25%;">
+                                        <img src="frontend/image/img/promotion_2221270.png" class="card-img-top" alt="..." style="width: 25%;">
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
