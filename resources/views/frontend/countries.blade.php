@@ -471,11 +471,12 @@
                     <p class="text-white">
                         {!! strip_tags(html_entity_decode($country->sd_para)) !!}
                     </p>
-                    <span>
-                        <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
-                        {{-- <img class="download-sample" src="frontend/image/img/download.png" width="50%">--}}
-                        <p class="text-white" style="font-size: 12px;font-weight: 600;">Download Sample</p> 
-                    </span>
+                    <div class="btn-grp">
+                        <button class="btn-primary">
+                            <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
+                            Download Sample
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="container">
