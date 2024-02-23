@@ -479,7 +479,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container pdt-2">
+            <div class="container" style="padding-top: 1%;">
                 <div class="flex" style="justify-content: center;">
                     <img src="frontend/image/img/Statistical Data.png" width="80%" style="border-radius: 12px;">
                 </div>
