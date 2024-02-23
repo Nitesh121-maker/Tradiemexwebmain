@@ -2404,6 +2404,10 @@ ul {
         display: flex;
     }
 
+    .download-sample {
+        width: 4%;
+    }
+
     /* Mobile Responsive */
     @media screen and (max-width: 280px){
         .question {
@@ -2474,6 +2478,9 @@ ul {
         }
         .form-flex {
             display: block !important;
+        }
+        .download-sample {
+            width: 10% !important;
         }
 
         /* Cards Text Control */

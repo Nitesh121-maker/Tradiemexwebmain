@@ -472,7 +472,7 @@
                         {!! strip_tags(html_entity_decode($country->sd_para)) !!}
                     </p>
                     <span>
-                        <img src="frontend/image/img/download.png" width="50%">
+                        <img class="download-sample" src="frontend/image/img/download.png" width="50%">
                     </span>
                 </div>
             </div>
