@@ -473,6 +473,7 @@
                     </p>
                     <span>
                         <img class="download-sample" src="frontend/image/img/download.png" width="50%">
+                        <p class="text-white">Download Sample</p>
                     </span>
                 </div>
             </div>
