@@ -208,7 +208,7 @@
                     </div>
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                                 <div class="card card-bg cdh-18">
                                     <div class="card-img">
                                         <img src="frontend/image/img/business (1).png" class="card-img-top" alt="..." style="width: 25%;">
@@ -226,7 +226,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                                 <div class="card card-bg cdh-18">
                                     <div class="card-img">
                                         <img src="frontend/image/img/market.png" class="card-img-top" alt="..." style="width: 25%;">
@@ -245,7 +245,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                                 <div class="card card-bg cdh-18">
                                     <div class="card-img">
                                         <img src="frontend/image/img/customer-service.png" class="card-img-top" alt="..." style="width: 25%;">
@@ -263,7 +263,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                                 <div class="card card-bg cdh-18">
                                     <div class="card-img">
                                         <img src="frontend/image/img/business-and-trade.png" class="card-img-top" alt="..." style="width: 25%;">
