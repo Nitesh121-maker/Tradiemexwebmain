@@ -69,6 +69,7 @@ class HsCodeController extends Controller
     // Search function
 
     function searchHSCode(Request $request){
+        $results = [];
         $validate = $request->validate([
             'hs-code' => 'nullable',
             'description' => 'nullable'
