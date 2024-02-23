@@ -41,15 +41,15 @@ class HsCodeController extends Controller
  
     // Subchapter Page
 
-    function subchapterPage($chapterCode,$description)
+    function subchapterPage($description,$chapterCode)
     {
-        
+
         $subchapters = DB::table('taric')
             ->select('hs_code', 'Description')
             ->where('hs_code', 'like', $chapterCode . '__')
             ->whereRaw('LENGTH(hs_code) = 4') 
             ->get();
-
+            // dd($subchapters);
          return view('frontend.hscode-subchapter', ['subchapters' =>  $subchapters,'chapterCode' => $chapterCode , 'description' => $description]);
     }
 

@@ -46,12 +46,19 @@ Route::get('/customs-data',[CountriesdataController::class,'customsdata']);
 Route::get('/statistical-data',[CountriesdataController::class,'statisticaldata']);
 Route::get('/bl-data',[CountriesdataController::class,'blreport']);
 Route::get('/analytical-custom-report',[LinkController::class,'customizedanalyticaldata']);
-// HS - Code
-Route::get('/hs-code',[HsCodeController::class,'hscode']);
+
 
 
 // Trade
 Route::get('/global-trade-data',[CountriesdataController::class,'globaltradedata']);
+
+// HS - Code
+Route::get('/hs-code',[HsCodeController::class,'hscode']);
+Route::get('/hs-code-subchapter-list/{subchapterdescription}-{subchaptercode}', [HsCodeController::class, 'subchapterListPage'])->name('subchapterlist.list');
+
+Route::get('/hs-code-subchapter/{description}-{chapterCode}', [HsCodeController::class, 'subchapterPage'])->name('subchapter.list');
+Route::get('/hs-code-search', [HsCodeController::class, 'searchHSCode'])
+->name('searchHSCode');
 // Get Continent Data
 Route::get('/{continent}-trade-data', [ContinentDataController::class, 'continentData'])
 ->where('continent', '[a-zA-Z\-]+')
@@ -60,11 +67,6 @@ Route::get('/{continent}-trade-data', [ContinentDataController::class, 'continen
 Route::get('/{country}-{Datatype}', [CountriesdataController::class, 'countryalldata'])
     ->where('country', '[a-zA-Z\-]+')
     ->name('countryalldata');
-Route::get('/hs-code/{subchapterdescription}-{subchaptercode}', [HsCodeController::class, 'subchapterListPage'])->name('subchapterlist.list');
-Route::get('/hs-code/{description}-{chapterCode}', [HsCodeController::class, 'subchapterPage'])->name('subchapter.list');
-
-Route::get('/hs-code/search', [HsCodeController::class, 'searchHSCode'])
-     ->name('searchHSCode');
 
 // Contact Form
 Route::post('/contact', [ContactFormController::class, 'sendContactForm'])->name('contact.send');

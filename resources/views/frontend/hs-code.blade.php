@@ -187,7 +187,19 @@
                     </thead>
                     <tbody>
                         @if (isset($results) && $results->count() > 0)
-                            @dd($results)
+                            @foreach ($results as $result)
+                                @php
+                                    $description = $result->Description;
+                                @endphp
+                                <tr>
+                                    <th class="table-primary">
+                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->hs_code }}</a>
+                                    </th>
+                                    <td>
+                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->Description }}</a>
+                                    </td>
+                                </tr>
+                            @endforeach
                         @else
                         @foreach ($chapters as $chapterCode => $chapter)
                         @php

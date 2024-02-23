@@ -190,6 +190,7 @@
                         @endphp
                         <tr>
                             <th class="table-primary">
+                          
                                 <a class="text-hover" href="{{ route('subchapterlist.list', ['subchapterdescription' => $subchapterdescription, 'subchaptercode' => $subchaptercode]) }}">{{ $subchaptercode }}</a>
                             </th>
                             <th>

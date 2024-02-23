@@ -1402,17 +1402,72 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
                             <div class="flex" style="justify-content: center;">
-                                <img src="assets/img/BL Data.png" width="60%" style="border-radius: 12px;">
+                             @if ($continent->slider_images_one)
+                                @php
+                                    // Construct the full image URL using the base URL and the image filename.
+                                    $imageURL = asset('http://192.168.1.4:8000/frontend/img/continent/' . $continent->slider_images_one);
+                                    
+                                @endphp
+                            @endif
+                            @if (!empty($imageURL))
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}">
+                            @endif
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="10000">
                             <div class="flex" style="justify-content: center;">
-                                <img src="assets/img/BL Data.png" width="60%" style="border-radius: 12px;">
+                             @if ($continent->slider_images_two)
+                                @php
+                                    // Construct the full image URL using the base URL and the image filename.
+                                    $imageURL = asset('http://192.168.1.4:8000/frontend/img/continent/' . $continent->slider_images_two);
+                                    
+                                @endphp
+                            @endif
+                            @if (!empty($imageURL))
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}">
+                            @endif
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="10000">
                             <div class="flex" style="justify-content: center;">
-                                <img src="assets/img/BL Data.png" width="60%" style="border-radius: 12px;">
+                             @if ($continent->slider_images_three)
+                                @php
+                                    // Construct the full image URL using the base URL and the image filename.
+                                    $imageURL = asset('http://192.168.1.4:8000/frontend/img/continent/' . $continent->slider_images_three);
+                                    
+                                @endphp
+                            @endif
+                            @if (!empty($imageURL))
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}">
+                            @endif
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <div class="flex" style="justify-content: center;">
+                            @if ($continent->slider_images_four)
+                                @php
+                                    // Construct the full image URL using the base URL and the image filename.
+                                    $imageURL = asset('http://192.168.1.4:8000/frontend/img/continent/' . $continent->slider_images_four);
+                                    
+                                @endphp
+                            @endif
+                            @if (!empty($imageURL))
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}">
+                            @endif
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <div class="flex" style="justify-content: center;">
+                            @if ($continent->slider_images_five)
+                                @php
+                                    // Construct the full image URL using the base URL and the image filename.
+                                    $imageURL = asset('http://192.168.1.4:8000/frontend/img/continent/' . $continent->slider_images_five);
+                                    
+                                @endphp
+                            @endif
+                            @if (!empty($imageURL))
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}">
+                            @endif
                             </div>
                         </div>
                     </div>
@@ -1516,7 +1571,7 @@
         <script src="https://code.highcharts.com/modules/export-data.js"></script>
         <script src="https://code.highcharts.com/modules/accessibility.js"></script>
         
-        <!-- Top 10 imports of country (Pie Chart) -->
+        <!-- Top 10 imports of continent (Pie Chart) -->
         <script type="text/javascript">
             (function (H) {
             H.seriesTypes.pie.prototype.animate = function (init) {

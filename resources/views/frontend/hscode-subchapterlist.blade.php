@@ -183,14 +183,13 @@
                         </tr>
                     </thead>
                     <tbody>
-
-                        @foreach ($subchapterslist as $subchapter)
+                        @foreach ($subchapterslist as $subchapterlist)
                             <tr>
                                 <th class="table-primary">
-                                    <a class="text-hover" href="#">{{ $subchapter->hs_code }}</a>
+                                    <a class="text-hover" href="#">{{ $subchapterlist->hs_code }}</a>
                                 </th>
                                 <th>
-                                    <a class="text-hover" href="#">{{ $subchapter->Description }}</a>
+                                    <a class="text-hover" href="#">{{ $subchapterlist->Description }}</a>
                                 </th>
                             </tr>
                         @endforeach
