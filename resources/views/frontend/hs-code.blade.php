@@ -146,15 +146,15 @@
                             <option class="form-control" value="">Export</option>
                         </select>
                     </div> --}}
-                     <form action="{{route('searchHSCode')}}" method="get" enctype="multipart/form-data" style="display: flex;">
+                     <form class="form-control form-flex" action="{{route('searchHSCode')}}" method="get" enctype="multipart/form-data">
                         @csrf
-                        <div class="searchbox col-sm-2 col-md-2 col-lg-3">
+                        <div class="searchbox col-sm-5 col-md-5 col-lg-5">
                             <input type="text" name="hs-code" placeholder="Search By HS Code" class="form-control">
                         </div>
-                        <div class="searchbox col-sm-3 col-md-3 col-lg-3">
+                        <div class="searchbox col-sm-5 col-md-5 col-lg-5">
                             <input type="text" name="description" placeholder="Search By Description" class="form-control">
                         </div>
-                        <div class="searchbox col-sm-3 col-md-3 col-lg-2">
+                        <div class="searchbox col-sm-2 col-md-2 col-lg-2">
                             <button class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
                                 Search
                             </button>
