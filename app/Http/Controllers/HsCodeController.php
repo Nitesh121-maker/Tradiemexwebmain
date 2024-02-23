@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class HsCodeController extends Controller
 {
-    //
+    // Hs code
     function hscode() {
         // Fetch all data from the 'taric' table
         $hscodeData = DB::table('taric')->get();
@@ -39,6 +39,8 @@ class HsCodeController extends Controller
       return view('frontend.hs-code', compact('chapters'));
     }
  
+    // Subchapter Page
+
     function subchapterPage($chapterCode,$description)
     {
         
@@ -50,6 +52,8 @@ class HsCodeController extends Controller
 
          return view('frontend.hscode-subchapter', ['subchapters' =>  $subchapters,'chapterCode' => $chapterCode , 'description' => $description]);
     }
+
+    // Subchapter list page
     function subchapterListPage($subchapterdescription,$subchaptercode)
     {
         $subchapterslist = DB::table('taric')
@@ -60,5 +64,36 @@ class HsCodeController extends Controller
         ->get();
          
          return view('frontend.hscode-subchapterlist', ['subchapterslist' => $subchapterslist, 'subchaptercode' =>$subchaptercode, 'subchapterdescription' => $subchapterdescription]);
+    }
+
+    // Search function
+
+    function searchHSCode(Request $request){
+        $validate = $request->validate([
+            'hs-code' => 'nullable',
+            'description' => 'nullable'
+        ]);
+
+        if ($request['hs-code'] && $request['description']) {
+            $hscode = $request['hs-code'];
+            $desc = $request['description'];
+            
+            $results = DB::table('taric')
+                ->select('*')
+                ->where('hs_code','=',$hscode)
+                ->Where('Description','LIKE','%'.$desc.'%')
+                ->paginate(10);
+                
+        } elseif ($request['hs-code']) {
+            $hscode = strtoupper($request['hs-code']);
+            $results = DB::table('taric')->where('hs_code','=',$hscode)->paginate(10);
+        } elseif ($request['description']) {
+            $desc = $request['description'];
+            $results = DB::table('taric')->where('Description','LIKE','%'.$desc.'%')->paginate(10);
+        } else{
+            $results = DB::table('taric')->orderBy('id','DESC')->paginate(10);
+        }
+        dd($results);
+        return view ('frontend.hs-code', ['results'=>$results]);
     }
 }

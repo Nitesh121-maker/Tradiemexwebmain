@@ -63,6 +63,9 @@ Route::get('/{country}-{Datatype}', [CountriesdataController::class, 'countryall
 Route::get('/hs-code/{subchapterdescription}-{subchaptercode}', [HsCodeController::class, 'subchapterListPage'])->name('subchapterlist.list');
 Route::get('/hs-code/{description}-{chapterCode}', [HsCodeController::class, 'subchapterPage'])->name('subchapter.list');
 
+Route::get('/hs-code/search', [HsCodeController::class, 'searchHSCode'])
+     ->name('searchHSCode');
+
 // Contact Form
 Route::post('/contact', [ContactFormController::class, 'sendContactForm'])->name('contact.send');
 Route::post('/career', [CareerFormController::class, 'sendCareerApplication'])->name('career.send');
