@@ -2480,7 +2480,7 @@ ul {
             display: block !important;
         }
         .download-sample {
-            width: 10% !important;
+            width: 10%;
         }
 
         /* Cards Text Control */
@@ -2691,6 +2691,9 @@ ul {
         .nav-center {
             justify-content: center !important;
             display: flex !important;
+        }
+        .download-sample {
+            width: 7%;
         }
     }
     @media (min-width: 820px) {
