@@ -11,6 +11,11 @@
         <title>Harmonised System (HS) Code | HSC - TradeImeX</title>
         <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
         @include('frontend.link')
+        <style>
+            .tbl-dark {
+                background-color: #92fe9d !important;
+            }
+        </style>
     </head>
     <body>
         @include('frontend.header')
@@ -193,10 +198,9 @@
                         @endphp
                         <tr>
                             <th class="table-primary">
-                          
                                 <a class="text-hover" href="{{ route('subchapterlist.list', ['subchapterdescription' => $subchapterdescription, 'subchaptercode' => $subchaptercode]) }}">{{ $subchaptercode }}</a>
                             </th>
-                            <th>
+                            <th class="tbl-dark">
                                 <a class="text-hover" href="{{ route('subchapterlist.list', ['subchapterdescription' => $subchapterdescription, 'subchaptercode' => $subchaptercode]) }}">{{$subchapter->Description}}</a>
                             </th>
                         </tr>

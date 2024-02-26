@@ -12,11 +12,8 @@
         <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
         @include('frontend.link')
         <style>
-            .tbl-grey {
-                background-color: lightgrey !important;
-            }
             .tbl-dark {
-                background-color: #a5eaf0 !important;
+                background-color: #2dd9e0 !important;
             }
         </style>
     </head>
@@ -184,7 +181,7 @@
                 <table class="table table-responsive table-hover table-rounded">
                     <thead>
                         <tr>
-                            <th scope="col" class="tbl-grey">
+                            <th scope="col" class="table-primary">
                                 <h4>
                                     <b>HS Code</b>
                                 </h4>
@@ -218,7 +215,7 @@
                             $description = $chapter['description']
                         @endphp
                         <tr>
-                            <th class="tbl-grey">
+                            <th class="table-primary">
                                 <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode , 'description' => Str::lower($description)]) }}">Chapter {{ $chapterCode }}</a>
                             </th>
                             <th class="tbl-dark">
