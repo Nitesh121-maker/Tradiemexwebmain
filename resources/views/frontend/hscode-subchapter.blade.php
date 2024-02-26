@@ -175,7 +175,7 @@
                         <tr>
                             <th scope="col" class="table-primary">
                                 <h4>
-                                    <b>HS Code</b>
+                                    <b>HS Code-</b>
                                 </h4>
                             </th>
                             <th scope="col">

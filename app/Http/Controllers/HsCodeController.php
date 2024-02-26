@@ -74,10 +74,10 @@ class HsCodeController extends Controller
             'hs-code' => 'nullable',
             'description' => 'nullable'
         ]);
-
+        $hscode = $request['hs-code'];
+        $desc = $request['description'];
         if ($request['hs-code'] && $request['description']) {
-            $hscode = $request['hs-code'];
-            $desc = $request['description'];
+
             
             $results = DB::table('taric')
             ->select('*')
@@ -102,6 +102,17 @@ class HsCodeController extends Controller
         } else{
             $results = DB::table('taric')->select('*')->where('hs_code','description')->get();
         }
-        return view ('frontend.hs-code', ['results'=>$results]);
+        return view ('frontend.hs-code', ['results'=>$results , 'hscode' => $hscode, 'desc' => $desc]);
+    }
+    function searchlist($description,$hsCode)
+    {
+        $results = DB::table('taric')
+        ->select('hs_code', 'Description')
+        ->where('hs_code', 'like', $hsCode . '%')
+        ->whereRaw('LENGTH(hs_code) >= 2 AND LENGTH(hs_code) <= 8')
+        ->distinct()
+        ->get();
+         
+         return view('frontend.hs-code', ['searchlist' => $results]);
     }
 }

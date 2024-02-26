@@ -174,9 +174,12 @@
             <!-- Table Of HS Code -->
             <div class="container padding-tb">
                 <div class="text-content text-center bg-color">
-                    <h1 style="font-size: 38px;">
-                        HS CODE
-                    </h1>
+                    @if (!empty($hscode))
+                        <h1 style="font-size: 38px;">
+                            HS Code - {{ $hscode }}
+                        </h1>
+                    @endif
+                    
                 </div>
                 <table class="table table-responsive table-hover table-rounded">
                     <thead>
@@ -195,15 +198,16 @@
                     </thead>
                     <tbody>
                         @if (isset($results) && $results->count() > 0)
+               
                             @foreach ($results as $result)
                                 @php
                                     $description = $result->Description;
                                 @endphp
                                 <tr>
-                                    <th class="tbl-grey">
+                                    <th class="table-primary">
                                         <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->hs_code }}</a>
                                     </th>
-                                    <td class="tbl-dark">
+                                    <td>
                                         <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->Description }}</a>
                                     </td>
                                 </tr>
