@@ -166,9 +166,12 @@
             <!-- Table Of HS Code -->
             <div class="container padding-tb">
                 <div class="text-content text-center bg-color">
-                    <h1 style="font-size: 38px;">
-                        HS CODE
-                    </h1>
+                    @if (!empty($hscode))
+                        <h1 style="font-size: 38px;">
+                            HS Code - {{ $hscode }}
+                        </h1>
+                    @endif
+                    
                 </div>
                 <table class="table table-responsive table-hover table-rounded">
                     <thead>
@@ -187,6 +190,7 @@
                     </thead>
                     <tbody>
                         @if (isset($results) && $results->count() > 0)
+                        @dd($result->hs_code)
                             @foreach ($results as $result)
                                 @php
                                     $description = $result->Description;
