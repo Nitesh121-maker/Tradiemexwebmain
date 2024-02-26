@@ -15,6 +15,9 @@
             .tbl-grey {
                 background-color: lightgrey !important;
             }
+            .tbl-dark {
+                background-color: #a5eaf0 !important;
+            }
         </style>
     </head>
     <body>
@@ -197,10 +200,10 @@
                                     $description = $result->Description;
                                 @endphp
                                 <tr>
-                                    <th class="table-primary">
+                                    <th class="tbl-grey">
                                         <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->hs_code }}</a>
                                     </th>
-                                    <td>
+                                    <td class="tbl-dark">
                                         <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->Description }}</a>
                                     </td>
                                 </tr>
