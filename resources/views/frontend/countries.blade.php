@@ -52,7 +52,7 @@
                                         <a href="/asia-trade-data" class="text-hover">Asia Trade Data</a>
                                     @endif   
                                     @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TNA')
-                                     <a href="//north-america-trade-data" class="text-hover">North America Trade Data</a>
+                                     <a href="/north-america-trade-data" class="text-hover">North America Trade Data</a>
                                     @endif    
                                     @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TAF')
                                     <a href="/africa-trade-data" class="text-hover">Africa Trade Data</a>
