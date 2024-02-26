@@ -104,6 +104,7 @@ class HsCodeController extends Controller
         }
         return view ('frontend.hs-code', ['results'=>$results , 'hscode' => $hscode, 'desc' => $desc]);
     }
+    // Data Table after Search 
     function searchlist($description,$hsCode)
     {
         $results = DB::table('taric')
@@ -113,6 +114,6 @@ class HsCodeController extends Controller
         ->distinct()
         ->get();
          
-         return view('frontend.hs-code', ['searchlist' => $results]);
+         return view('frontend.hs-code', ['results' => $results]);
     }
 }

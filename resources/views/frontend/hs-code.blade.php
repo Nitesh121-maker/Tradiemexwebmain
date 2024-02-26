@@ -197,6 +197,7 @@
                         </tr>
                     </thead>
                     <tbody>
+                     
                         @if (isset($results) && $results->count() > 0)
                
                             @foreach ($results as $result)
@@ -205,27 +206,31 @@
                                 @endphp
                                 <tr>
                                     <th class="table-primary">
-                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->hs_code }}</a>
+                                        <a class="text-hover" href="{{ route('search.list', ['hsCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->hs_code }}</a>
                                     </th>
                                     <td>
-                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->Description }}</a>
+                                        <a class="text-hover" href="{{ route('search.list', ['hsCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->Description }}</a>
                                     </td>
                                 </tr>
                             @endforeach
+                        @elseif (isset($chapters))
+                            @foreach ($chapters as $chapterCode => $chapter)
+                                @php
+                                    $description = $chapter['description']
+                                @endphp
+                                <tr>
+                                    <th class="tbl-grey">
+                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode , 'description' => Str::lower($description)]) }}">Chapter {{ $chapterCode }}</a>
+                                    </th>
+                                    <th class="tbl-dark">
+                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode, 'description' => Str::lower($description)]) }}">{{ $chapter['description'] }}</a>
+                                    </th>
+                                </tr>
+                            @endforeach   
                         @else
-                        @foreach ($chapters as $chapterCode => $chapter)
-                        @php
-                            $description = $chapter['description']
-                        @endphp
-                        <tr>
-                            <th class="tbl-grey">
-                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode , 'description' => Str::lower($description)]) }}">Chapter {{ $chapterCode }}</a>
-                            </th>
-                            <th class="tbl-dark">
-                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode, 'description' => Str::lower($description)]) }}">{{ $chapter['description'] }}</a>
-                            </th>
-                        </tr>
-                        @endforeach   
+                                <div class="text-content ">
+                                    <h3 class="text-center">HS-Code ends here...</h3>
+                                </div>
                         @endif
 
                     </tbody>
