@@ -13,7 +13,10 @@
         @include('frontend.link')
         <style>
             .tbl-grey {
-                color: #425466;
+                background-color: lightgrey !important;
+            }
+            .tbl-dark {
+                background-color: #a5eaf0 !important;
             }
         </style>
     </head>
@@ -202,10 +205,10 @@
                                 @endphp
                                 <tr>
                                     <th class="table-primary">
-                                        <a class="text-hover" href="{{ route('search.list', ['hsCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->hs_code }}</a>
+                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->hs_code }}</a>
                                     </th>
                                     <td>
-                                        <a class="text-hover" href="{{ route('search.list', ['hsCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->Description }}</a>
+                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->Description }}</a>
                                     </td>
                                 </tr>
                             @endforeach
