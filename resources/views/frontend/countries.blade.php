@@ -195,7 +195,7 @@
                                 @if ($country->kpimages_three)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.4:8000/frontend/img/import/' . $country->kpimages_three);
+                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_three);
                                         
                                     @endphp
                                 @endif
@@ -218,7 +218,7 @@
                                 @if ($country->kpimages_four)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.4:8000/frontend/img/import/' . $country->kpimages_four);
+                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_four);
                                     @endphp
                                 @endif
                                 @if (!empty($imageURL))

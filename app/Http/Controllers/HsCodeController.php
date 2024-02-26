@@ -100,7 +100,7 @@ class HsCodeController extends Controller
             ->get();
 
         } else{
-            $results = DB::table('taric')->orderBy('id','DESC')->paginate(10);
+            $results = DB::table('taric')->select('*')->where('hs_code','description')->get();
         }
         return view ('frontend.hs-code', ['results'=>$results]);
     }
