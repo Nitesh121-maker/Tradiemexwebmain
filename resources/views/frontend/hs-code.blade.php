@@ -195,17 +195,17 @@
                     </thead>
                     <tbody>
                         @if (isset($results) && $results->count() > 0)
-                        @dd($result->hs_code)
+               
                             @foreach ($results as $result)
                                 @php
                                     $description = $result->Description;
                                 @endphp
                                 <tr>
                                     <th class="table-primary">
-                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->hs_code }}</a>
+                                        <a class="text-hover" href="{{ route('search.list', ['hsCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->hs_code }}</a>
                                     </th>
                                     <td>
-                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->Description }}</a>
+                                        <a class="text-hover" href="{{ route('search.list', ['hsCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->Description }}</a>
                                     </td>
                                 </tr>
                             @endforeach

@@ -104,4 +104,15 @@ class HsCodeController extends Controller
         }
         return view ('frontend.hs-code', ['results'=>$results , 'hscode' => $hscode, 'desc' => $desc]);
     }
+    function searchlist($description,$hsCode)
+    {
+        $results = DB::table('taric')
+        ->select('hs_code', 'Description')
+        ->where('hs_code', 'like', $hsCode . '%')
+        ->whereRaw('LENGTH(hs_code) >= 2 AND LENGTH(hs_code) <= 8')
+        ->distinct()
+        ->get();
+         
+         return view('frontend.hs-code', ['searchlist' => $results]);
+    }
 }
