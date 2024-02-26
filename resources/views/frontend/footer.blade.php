@@ -414,7 +414,7 @@
                         @foreach ($continents  as $continent)
                             @if ($continent->continent == 'South-America')
                             <a href="{{ route('continent.tradeData', [strtolower($continent->continent)]) }}" class="td-none text-uppercase text-hover">
-                                south america data
+                                south america trade data
                             </a>
                             @endif
                         @endforeach  
@@ -431,10 +431,10 @@
             <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3 col-xl-2 mx-auto mb-4 mobile-footer" style="margin-top: 2.5rem;text-align: start;">
                 <h5 class="text-uppercase fw-bold mb-4" style="margin-bottom: 2rem;font-weight: 600;">Countries</h5>
                 <p>
-                    <a href="/turkey-export" class="td-none text-uppercase text-hover">Turkey Export data</a>
+                    <a href="/turkey-import" class="td-none text-uppercase text-hover">Turkey Import data</a>
                 </p>
                 <p>
-                    <a href="/turkey-import" class="td-none text-uppercase text-hover">Turkey Import data</a>
+                    <a href="/turkey-export" class="td-none text-uppercase text-hover">Turkey Export data</a>
                 </p>
                 <p>
                     <a href="/philippines-import" class="td-none text-uppercase text-hover">Philippines Import data</a>
@@ -449,10 +449,10 @@
                     <a href="/vietnam-export" class="td-none text-uppercase text-hover">Vietnam export data</a>
                 </p>
                 <p>
-                    <a href="/us-import" class="td-none text-uppercase text-hover">USA export data</a>
+                    <a href="/us-export" class="td-none text-uppercase text-hover">USA import data</a>
                 </p>
                 <p>
-                    <a href="/us-export" class="td-none text-uppercase text-hover">USA import data</a>
+                    <a href="/us-import" class="td-none text-uppercase text-hover">USA export data</a>
                 </p>
                 <p>
                     <a href="/russia-import" class="td-none text-uppercase text-hover">Russia import data</a>
