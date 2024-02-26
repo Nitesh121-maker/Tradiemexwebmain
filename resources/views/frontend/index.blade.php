@@ -1847,7 +1847,7 @@
 
         <!-- Client floating list -->
         <div class="container-fluid bg-bluish" style="padding-top: 8%;padding-bottom: 0.5%;">
-            <div class="container" id="clientsserved">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-6">
                         <div class="text-content">

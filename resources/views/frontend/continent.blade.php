@@ -632,7 +632,7 @@
                                 <br>
                                 @foreach ($countrydata as $country)
                                     @if ($country->country=='Zimbabwe' && $country->Datatype =='import')
-                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover custom">
+                                        <a href="{{ route('countryalldata', [ strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                             <h4>{{ $country->country }}</h4>
                                         </a>
                                     @endif
