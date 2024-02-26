@@ -210,20 +210,24 @@
                                     </td>
                                 </tr>
                             @endforeach
+                        @elseif (isset($chapters))
+                            @foreach ($chapters as $chapterCode => $chapter)
+                                @php
+                                    $description = $chapter['description']
+                                @endphp
+                                <tr>
+                                    <th class="tbl-grey">
+                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode , 'description' => Str::lower($description)]) }}">Chapter {{ $chapterCode }}</a>
+                                    </th>
+                                    <th class="tbl-dark">
+                                        <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode, 'description' => Str::lower($description)]) }}">{{ $chapter['description'] }}</a>
+                                    </th>
+                                </tr>
+                            @endforeach   
                         @else
-                        @foreach ($chapters as $chapterCode => $chapter)
-                        @php
-                            $description = $chapter['description']
-                        @endphp
-                        <tr>
-                            <th class="tbl-grey">
-                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode , 'description' => Str::lower($description)]) }}">Chapter {{ $chapterCode }}</a>
-                            </th>
-                            <th class="tbl-dark">
-                                <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode, 'description' => Str::lower($description)]) }}">{{ $chapter['description'] }}</a>
-                            </th>
-                        </tr>
-                        @endforeach   
+                                <div class="text-content ">
+                                    <h3 class="text-center">HS-Code ends here...</h3>
+                                </div>
                         @endif
 
                     </tbody>
