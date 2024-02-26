@@ -13,7 +13,7 @@
         @include('frontend.link')
         <style>
             .tbl-grey {
-                color: #425466;
+                background-color: lightgrey !important;
             }
         </style>
     </head>
