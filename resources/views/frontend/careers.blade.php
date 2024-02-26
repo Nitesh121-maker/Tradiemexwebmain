@@ -342,9 +342,9 @@
                                         </div>
                                         <div class="text-content">
                                             <h3>Advantages &amp; Benefits</h3>
-                                            <li class="list">Career Amplifier.</li>
-                                            <li class="list">Performance-Based Good Hikes and incentives.</li>
-                                            <li class="list">Holiday Benefits.</li>
+                                            <li class="list">Career Amplifier</li>
+                                            <li class="list">Performance-Based Good Hikes and incentives</li>
+                                            <li class="list">Holiday Benefits</li>
                                         </div>
                                     </div>
                                     <div class="department-jobs bg-bluish">
@@ -365,12 +365,45 @@
                                     </button>
                                 </div>
                                 <div id="react" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <!-- <div class="accordion-body" style="font-size: 20px;">
-                                        We provide a stable infrastructure for our merchants, their customers, 
-                                        and the Recharge team. Our technical challenges include supporting billions 
-                                        of dollars in recurring payments while expanding our capabilities to meet 
-                                        the growing demands of ecommerce. Our culture proudly balances speed and quality.
-                                    </div> -->
+                                    <div class="text-content">
+                                        <h3>Duties and skills</h3>
+                                        <li class="list">
+                                            Excellent understanding of JavaScript, HTML5, and CSS3 familiarity with and expertise
+                                            using REST APIs.
+                                        </li>
+                                        <li class="list">
+                                            Practical experience with Node.js and React.js with JavaScript.
+                                        </li>
+                                        <li class="list">Proficient in analysis, problem-solving, and mathematics.</li>
+                                        <li class="list">
+                                            The capacity to pick things up fast and function successfully on one&#39;s own.
+                                        </li>
+                                        <li class="list">
+                                            Prepared to work with little supervision in an unstructured setting.
+                                        </li>
+                                        <li class="list">
+                                            Excellent attention to detail and the capacity to comprehend, decipher, and carry out
+                                            specifications.
+                                        </li>
+                                        <li class="list">
+                                            A readiness to work on multi-technology, scalable, client-ready, end-to-end product
+                                            development, and implementation.
+                                        </li>
+                                        <li class="list">
+                                            Demonstrated proficiency with front-end frameworks, such as ReactJS.
+                                        </li>
+                                        <li class="list">Practical knowledge of NodeJS frameworks such as ExpressJS.</li>
+                                        <li class="list">
+                                            Expertise in developing MongoDB databases -Expertise in creating safe APIs and
+                                            websites.
+                                        </li>
+                                    </div>
+                                    <div class="text-content">
+                                        <h3>Benefits &amp; Perquisites</h3>
+                                        <li class="list">Career Enhancers</li>
+                                        <li class="list">Benefits of Performance-Based Good Hikes and incentives</li>
+                                        <li class="list">Holiday</li>
+                                    </div>
                                     <div class="department-jobs bg-bluish">
                                         <button class="department-box" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <h4 class="department-job__title">
