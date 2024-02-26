@@ -421,7 +421,6 @@
                     @else
                         <a href="/africa-trade-data">Data Fetching error</a>
                     @endif 
-                
                 </p>
                 <p>
                     <a href="/hs-code" class="td-none text-uppercase text-hover">HS CODE</a>
