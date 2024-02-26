@@ -324,12 +324,32 @@
                                     </button>
                                 </div>
                                 <div id="seo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <!-- <div class="accordion-body" style="font-size: 20px;">
-                                        We provide a stable infrastructure for our merchants, their customers, 
-                                        and the Recharge team. Our technical challenges include supporting billions 
-                                        of dollars in recurring payments while expanding our capabilities to meet 
-                                        the growing demands of ecommerce. Our culture proudly balances speed and quality.
-                                    </div> -->
+                                    <div class="accordion-body" style="font-size: 20px;">
+                                        <div class="text-content">
+                                            <h4>Duties and skills</h4>
+                                            <p>
+                                                 Expertise in optimizing Meta tags, URLs, keyword density, and prominence both on and
+                                                off the page.
+                                                 Conducting continuous keyword research, which includes expanding and finding
+                                                keyword opportunities.
+                                                 Create and carry out a link-building plan.
+                                                 Do research and put search engine optimization advice into practice.
+
+                                                 Make recommendations for modifications to the architecture, content, linking, and
+                                                other elements of websites to optimize SEO positions for target keywords.
+                                                 Optimize landing pages and content on websites.
+                                                 Complete Google Ads and Analytics quickly.
+                                                 Determine which sections of the website receive more visitors and analyze site
+                                                analytics.
+                                            </p>
+                                            <h4>Advantages &amp; Benefits</h4>
+                                            <p>
+                                                 Career Amplifier
+                                                 Performance-Based Good Hikes and incentives
+                                                 Holiday Benefits
+                                            </p>
+                                        </div>
+                                    </div>
                                     <div class="department-jobs bg-bluish">
                                         <button class="department-box" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <h4 class="department-job__title">
