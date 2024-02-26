@@ -326,22 +326,19 @@
                                 <div id="seo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body" style="font-size: 20px;">
                                         <div class="text-content">
-                                            <h4>Duties and skills</h4>
-                                            <p>
-                                                 Expertise in optimizing Meta tags, URLs, keyword density, and prominence both on and
-                                                off the page.
-                                                 Conducting continuous keyword research, which includes expanding and finding
-                                                keyword opportunities.
-                                                 Create and carry out a link-building plan.
-                                                 Do research and put search engine optimization advice into practice.
-
-                                                 Make recommendations for modifications to the architecture, content, linking, and
-                                                other elements of websites to optimize SEO positions for target keywords.
-                                                 Optimize landing pages and content on websites.
-                                                 Complete Google Ads and Analytics quickly.
-                                                 Determine which sections of the website receive more visitors and analyze site
-                                                analytics.
-                                            </p>
+                                            <h3>Duties and skills</h3>
+                                            <li>Expertise in optimizing Meta tags, URLs, keyword density, and prominence both on and
+                                            off the page.</li>
+                                            <li>Conducting continuous keyword research, which includes expanding and finding
+                                            keyword opportunities.</li>
+                                            <li>Create and carry out a link-building plan.</li>
+                                            <li>Do research and put search engine optimization advice into practice.</li>
+                                            <li>Make recommendations for modifications to the architecture, content, linking, and
+                                            other elements of websites to optimize SEO positions for target keywords.</li>
+                                            <li>Optimize landing pages and content on websites.</li>
+                                            <li>Complete Google Ads and Analytics quickly.</li>
+                                            <li>Determine which sections of the website receive more visitors and analyze site
+                                            analytics.</li>
                                             <h4>Advantages &amp; Benefits</h4>
                                             <p>
                                                  Career Amplifier
