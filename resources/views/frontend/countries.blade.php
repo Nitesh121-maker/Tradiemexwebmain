@@ -471,17 +471,36 @@
                     <p class="text-white">
                         {!! strip_tags(html_entity_decode($country->sd_para)) !!}
                     </p>
-                    <div class="buttons-holder download-sample">
-                        <a class="ybtn ybtn-accent-color">
-                            Download Sample &nbsp;
-                            <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
-                        </a>
-                    </div>
+                    @if ($country->data_file)
+                        @php
+                            // Construct the full image URL using the base URL and the image filename.
+                            $samplefileURL = asset('http://192.168.1.7:8000/frontend/files/' . $country->data_file);
+                            
+                        @endphp
+     
+                        <div class="buttons-holder download-sample">
+                            <a href="{{ $samplefileURL }}" download="sample_data.jpg" class="ybtn ybtn-accent-color">
+                                Download Sample &nbsp;
+                                <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
+                            </a>
+                        </div>
+                   @endif
                 </div>
             </div>
             <div class="container" style="padding-top: 1%;">
                 <div class="flex" style="justify-content: center;">
-                    <img class="sample-img" src="frontend/image/img/Statistical Data.png" style="border-radius: 12px;">
+                    {{-- <img class="sample-img" src="frontend/image/img/Statistical Data.png" style="border-radius: 12px;"> --}}
+                    
+                    @if ($country->slider_images_one)
+                            @php
+                                // Construct the full image URL using the base URL and the image filename.
+                                $sampleURL = asset('http://192.168.1.7:8000/frontend/img/others/' . $country->slider_images_one);
+                                
+                            @endphp
+                        @endif
+                        @if (!empty($sampleURL))
+                        <img src="{{ $sampleURL }}"  style="width: 100%">
+                        @endif
                 </div>
             </div>
         </div>
