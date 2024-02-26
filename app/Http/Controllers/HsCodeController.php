@@ -59,7 +59,7 @@ class HsCodeController extends Controller
         $subchapterslist = DB::table('taric')
         ->select('hs_code', 'Description')
         ->where('hs_code', 'like', $subchaptercode . '%')
-        ->whereRaw('LENGTH(hs_code) >= 6 AND LENGTH(hs_code) <= 8')
+        ->whereRaw('LENGTH(hs_code) >= 6 AND LENGTH(hs_code) <= 12')
         ->distinct()
         ->get();
          
@@ -110,7 +110,7 @@ class HsCodeController extends Controller
         $results = DB::table('taric')
         ->select('hs_code', 'Description')
         ->where('hs_code', 'like', $hsCode . '%')
-        ->whereRaw('LENGTH(hs_code) >= 2 AND LENGTH(hs_code) <= 8')
+        ->whereRaw('LENGTH(hs_code) >= 2 AND LENGTH(hs_code) <= 12')
         ->distinct()
         ->get();
          

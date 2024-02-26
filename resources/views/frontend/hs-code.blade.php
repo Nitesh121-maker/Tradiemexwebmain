@@ -205,7 +205,7 @@
                                     <th class="table-primary">
                                         <a class="text-hover" href="{{ route('search.list', ['hsCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->hs_code }}</a>
                                     </th>
-                                    <td>
+                                    <td class="tbl-dark">
                                         <a class="text-hover" href="{{ route('search.list', ['hsCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->Description }}</a>
                                     </td>
                                 </tr>
