@@ -11,6 +11,11 @@
         <title>Harmonised System (HS) Code | HSC - TradeImeX</title>
         <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
         @include('frontend.link')
+        <style>
+            .tbl-grey {
+                color: #425466;
+            }
+        </style>
     </head>
     <body>
         @include('frontend.header')
@@ -173,7 +178,7 @@
                 <table class="table table-responsive table-hover table-rounded">
                     <thead>
                         <tr>
-                            <th scope="col" class="table-primary">
+                            <th scope="col" class="tbl-grey">
                                 <h4>
                                     <b>HS Code</b>
                                 </h4>
