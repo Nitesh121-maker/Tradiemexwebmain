@@ -59,7 +59,8 @@ Route::get('/{country}-{Datatype}', [CountriesdataController::class, 'countryall
     ->name('countryalldata');
 
 // Search HS Code (POST method)
-Route::post('/search', [HsCodeController::class, 'searchHSCode'])->name('searchHSCode');
+Route::get('/search/{description}-{hs-code}', [HsCodeController::class, 'searchHSCode'])->name('searchHSCode');
+
 
 // Contact Form
 Route::post('/contact', [ContactFormController::class, 'sendContactForm'])->name('contact.send');

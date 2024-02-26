@@ -491,11 +491,10 @@
                 <div class="flex" style="justify-content: center;">
                     {{-- <img class="sample-img" src="frontend/image/img/Statistical Data.png" style="border-radius: 12px;"> --}}
                     
-                    @if ($country->slider_images_one)
+                       @if ($country->slider_images_one)
                             @php
                                 // Construct the full image URL using the base URL and the image filename.
-                                $sampleURL = asset('http://192.168.1.7:8000/frontend/img/others/' . $country->slider_images_one);
-                                
+                                $sampleURL = asset('http://192.168.1.7:8000/frontend/img/others/' . $country->slider_images_one);                              
                             @endphp
                         @endif
                         @if (!empty($sampleURL))
