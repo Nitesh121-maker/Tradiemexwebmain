@@ -214,10 +214,10 @@
                             $description = $chapter['description']
                         @endphp
                         <tr>
-                            <th class="table-primary">
+                            <th class="tbl-grey">
                                 <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode , 'description' => Str::lower($description)]) }}">Chapter {{ $chapterCode }}</a>
                             </th>
-                            <th>
+                            <th class="tbl-dark">
                                 <a class="text-hover" href="{{ route('subchapter.list', ['chapterCode' => $chapterCode, 'description' => Str::lower($description)]) }}">{{ $chapter['description'] }}</a>
                             </th>
                         </tr>
