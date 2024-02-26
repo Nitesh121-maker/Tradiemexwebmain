@@ -327,24 +327,24 @@
                                     <div class="accordion-body" style="font-size: 20px;">
                                         <div class="text-content">
                                             <h3>Duties and skills</h3>
-                                            <li>Expertise in optimizing Meta tags, URLs, keyword density, and prominence both on and
+                                            <li class="list">Expertise in optimizing Meta tags, URLs, keyword density, and prominence both on and
                                             off the page.</li>
-                                            <li>Conducting continuous keyword research, which includes expanding and finding
+                                            <li class="list">Conducting continuous keyword research, which includes expanding and finding
                                             keyword opportunities.</li>
-                                            <li>Create and carry out a link-building plan.</li>
-                                            <li>Do research and put search engine optimization advice into practice.</li>
-                                            <li>Make recommendations for modifications to the architecture, content, linking, and
+                                            <li class="list">Create and carry out a link-building plan.</li>
+                                            <li class="list">Do research and put search engine optimization advice into practice.</li>
+                                            <li class="list">Make recommendations for modifications to the architecture, content, linking, and
                                             other elements of websites to optimize SEO positions for target keywords.</li>
-                                            <li>Optimize landing pages and content on websites.</li>
-                                            <li>Complete Google Ads and Analytics quickly.</li>
-                                            <li>Determine which sections of the website receive more visitors and analyze site
+                                            <li class="list">Optimize landing pages and content on websites.</li>
+                                            <li class="list">Complete Google Ads and Analytics quickly.</li>
+                                            <li class="list">Determine which sections of the website receive more visitors and analyze site
                                             analytics.</li>
-                                            <h4>Advantages &amp; Benefits</h4>
-                                            <p>
-                                                 Career Amplifier
-                                                 Performance-Based Good Hikes and incentives
-                                                 Holiday Benefits
-                                            </p>
+                                        </div>
+                                        <div class="text-content">
+                                            <h3>Advantages &amp; Benefits</h3>
+                                            <li class="list">Career Amplifier.</li>
+                                            <li class="list">Performance-Based Good Hikes and incentives.</li>
+                                            <li class="list">Holiday Benefits.</li>
                                         </div>
                                     </div>
                                     <div class="department-jobs bg-bluish">
