@@ -172,7 +172,7 @@
             <div class="container padding-tb">
                 <div class="text-content text-center bg-color">
                     <h1 style="font-size: 38px;">
-                        HS Code for {{$description}} {{$chapterCode}}
+                        HS Code for {{$description}} {{$chapterCode}} testing 
                     </h1>
                 </div>
                 <table class="table table-responsive table-hover table-rounded">
@@ -180,7 +180,7 @@
                         <tr>
                             <th scope="col" class="table-primary">
                                 <h4>
-                                    <b>HS Code-</b>
+                                    <b>HS Code</b>
                                 </h4>
                             </th>
                             <th scope="col">
