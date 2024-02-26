@@ -68,17 +68,16 @@ class HsCodeController extends Controller
 
     // Search function
 
-    function searchHSCode(Request $request, $description, $hsCode){
+    function searchHSCode(Request $request){
         $results = [];
-        $hscode = $request['hs-code'];
-        $desc = $request['description'];
         $validate = $request->validate([
             'hs-code' => 'nullable',
             'description' => 'nullable'
         ]);
 
         if ($request['hs-code'] && $request['description']) {
-
+            $hscode = $request['hs-code'];
+            $desc = $request['description'];
             
             $results = DB::table('taric')
             ->select('*')
