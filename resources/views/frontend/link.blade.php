@@ -11,6 +11,7 @@
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6Ld1Ax8pAAAAAJWU_TaW2gMhMvAOeRl885SXqVPT"></script>
 
+{{-- Copy/Paste Diable 2.0 by css --}}
 <style>
     * {
         user-select: none;

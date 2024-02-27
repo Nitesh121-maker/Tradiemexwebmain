@@ -13,15 +13,24 @@
         @include('frontend.link')
     </head>
     <style>
-            .card {
-        margin-bottom: 20px;
-    }
-
-    @media (min-width: 768px) and (max-width: 1024px) {
-        .center-on-ipad-mini {
-            justify-content: center;
+        .card {
+            margin-bottom: 20px;
         }
-    }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .center-on-ipad-mini {
+                justify-content: center;
+            }
+        }
+        .alert-sr {
+            display:none;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            .fa {
+                margin-right:.5em;
+            }
+        }
     </style>
     <body>
         @include('frontend.header')
