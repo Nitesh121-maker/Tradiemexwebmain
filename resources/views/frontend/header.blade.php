@@ -144,10 +144,3 @@
         </div>
     </nav>
 </div>
-
-<div class="alert-sr alert-success alert-dismissible fade show" role="alert">
-  <button type="button" class="close" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-  <p><i class="fa fa-check-circle"></i>Thanks for sending message! I will get back to you shortly.</p>
-</div>
