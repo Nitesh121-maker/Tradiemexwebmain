@@ -7,7 +7,23 @@
                 <h5 class="text-uppercase mb-4 col-xs-12" style="font-weight: 600;">
                     Contact us
                 </h5>
+                @if(session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
+
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
                 <form action="{{ route('contact.send') }}" method="POST"id="contact-form" enctype="multipart/form-data">
+
                     @csrf
 
                     <div class="input-group mb-3">

@@ -32,7 +32,7 @@ Route::get('/faqs', [LinkController::class,'FAQ']);
 Route::get('/disclaimer', [LinkController::class,'disclaimer']);
 Route::get('/terms-of-use', [LinkController::class,'tou']);
 Route::get('/privacy-policy', [LinkController::class,'privacy']);
-Route::get('/thankyou', [LinkController::class,'thankyou']);
+Route::get('/thankyou', [LinkController::class,'thankyou'])->name('thankyou');
 Route::get('/contact-us', [LinkController::class,'contactus']);
 Route::get('/products', [LinkController::class,'products']);
 Route::get('/customs-data', [CountriesdataController::class,'customsdata']);
@@ -45,12 +45,9 @@ Route::get('/global-trade-data', [CountriesdataController::class,'globaltradedat
 
 // HS - Code
 Route::get('/hs-code', [HsCodeController::class, 'hscode']);
-
 Route::get('/hs-code-subchapter-list/{subchapterdescription}-{subchaptercode}', [HsCodeController::class, 'subchapterListPage'])->name('subchapterlist.list');
-
 Route::get('/hs-code-subchapter/{description}-{chapterCode}', [HsCodeController::class, 'subchapterPage'])->name('subchapter.list');
 
-Route::get('/{description}-{hsCode}', [HsCodeController::class, 'searchlist'])->name('search.list');
 
 // Continent data
 Route::get('/{continent}-trade-data', [ContinentDataController::class, 'continentData'])
@@ -62,6 +59,7 @@ Route::get('/{country}-{Datatype}', [CountriesdataController::class, 'countryall
     ->where('country', '[a-zA-Z\-]+')
     ->name('countryalldata');
 
+Route::get('/hscode-search-data/{description}-{hsCode}', [HsCodeController::class, 'searchlist'])->name('search.list');
 // Search HS Code (POST method)
 Route::post('/hscode-search-data', [HsCodeController::class, 'searchHSCode'])->name('searchHSCode');
 
