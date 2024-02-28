@@ -172,7 +172,7 @@
             <div class="container padding-tb">
                 <div class="text-content text-center bg-color">
                     <h1 style="font-size: 38px;">
-                        HS Code for {{$description}} {{$chapterCode}} testing 
+                        HS Code for {{$description}} {{$chapterCode}} 
                     </h1>
                 </div>
                 <table class="table table-responsive table-hover table-rounded">
@@ -202,6 +202,7 @@
                             </th>
                             <th class="tbl-dark">
                                 <a class="text-hover" href="{{ route('subchapterlist.list', ['subchapterdescription' => $subchapterdescription, 'subchaptercode' => $subchaptercode]) }}">{{$subchapter->Description}}</a>
+                                
                             </th>
                         </tr>
                         @endforeach

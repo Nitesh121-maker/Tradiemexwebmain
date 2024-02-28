@@ -110,7 +110,7 @@
                                     TradeImeX offers detailed profiles of buyers, including information on their 
                                     previous purchases, and product preferences. These profiles provide valuable 
                                     insights into buyer behavior and help you tailor your marketing strategies accordingly. 
-                                    Having potential buyers
+                                    
                                 </p>
                             </div>
                         </div>

@@ -13,7 +13,7 @@
 
         @include('frontend.link')
 
-        <script src="globe.js"></script>
+
     </head>
     <body>
        @include('frontend.header')

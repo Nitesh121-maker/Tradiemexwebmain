@@ -172,7 +172,7 @@
             <div class="container padding-tb">
                 <div class="text-content text-center bg-color">
                     <h1 style="font-size: 38px;">
-                        HS Code for {{$subchapterdescription}} {{$subchaptercode}} test1
+                        HS Code for {{$subchapterdescription}} {{$subchaptercode}} 
                     </h1>
                 </div>
                 <table class="table table-responsive table-hover table-rounded">
@@ -211,7 +211,7 @@
         <div class="container-fluid pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">
-                    <h2>Discover World By Trade Data</h2>
+                    <h2>Discover  World By Trade Data</h2>
                     <p>
                         The importance of accurate HS code or Harmonized System code classification cannot be
                         overstated in international trade. With the complexity and vastness of global trade, using a
