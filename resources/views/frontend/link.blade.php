@@ -12,13 +12,13 @@
 <script src="https://www.google.com/recaptcha/api.js?render=6Ld1Ax8pAAAAAJWU_TaW2gMhMvAOeRl885SXqVPT"></script>
 
 {{-- Copy/Paste Diable 2.0 by css --}}
-<style>
+{{-- <style>
     * {
         user-select: none;
         -webkit-user-select: none;/*IE,etc*/
         -moz-user-select: none; /*Mozzila Firefox*/
     }
-</style>
+</style> --}}
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -30,7 +30,7 @@
 <!-- End Google Tag Manager -->
 
 {{-- Disabling Copy/Paset From Website --}}
-<script type="text/JavaScript">
+{{-- <script type="text/JavaScript">
     //courtesy of BoogieJack.com
     function killCopy(e){
     return false
@@ -43,10 +43,10 @@
     document.onmousedown=killCopy
     document.onclick=reEnable
     }
-</script>
+</script> --}}
 
 {{-- Disabling Inspect by buttons --}}
-<script>
+{{-- <script>
     document.onkeydown = (e) => {
         if (e.key == 123) {
             e.preventDefault();
@@ -64,11 +64,11 @@
             e.preventDefault();
         }
     };
-</script>
+</script> --}}
 
 {{-- Disabling Right Click --}}
-<script>
+{{-- <script>
     document.addEventListener('contextmenu', function(e) {
         e.preventDefault();
     })
-</script>
+</script> --}}
