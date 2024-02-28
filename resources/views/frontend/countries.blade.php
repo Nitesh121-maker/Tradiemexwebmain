@@ -499,7 +499,7 @@
                             @endphp
                         @endif
                         @if (!empty($sampleURL))
-                        <img src="{{ $sampleURL }}"  style="width: 100%">
+                        <img src="{{ $sampleURL }}"  style="width: 70%">
                         @endif
                 </div>
             </div>
