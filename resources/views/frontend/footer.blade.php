@@ -494,7 +494,7 @@
             <div class="text-content text-center">
                 <h5 style="font-weight: 600;text-align: center;">SOCIAL MEDIA</h5>
             </div>
-            <div class="icon-container flex" style="text-align: center;">
+            <div class="icon-container" style="text-align: center;">
                 <a href="https://twitter.com/tradeimex" style="color: #55ACEE;" id="fp" >
                     <i class="fa-brands fa-twitter fa-2xl"></i>
                 </a>
