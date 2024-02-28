@@ -29,7 +29,7 @@
                             <p>
                                 Enter TradeImeX – a leading trade intelligence company that has been transforming the way
                                 businesses conduct global trade for over 5 years. With a client base of over 10000 companies
-                                representing more than 80 countries, TradeImeX has established itself as a trusted and
+                                representing more than several countries around the world, TradeImeX has established itself as a trusted and
                                 invaluable resource for businesses of all sizes. A wide range of prestigious brands put their faith
                                 and trust in TradeImeX so that they can make informed decisions and stay ahead in the global
                                 market. Some of our renowned clients include Nikon, Samsung, LG, Hyundai, Tata, Aditya Birla,

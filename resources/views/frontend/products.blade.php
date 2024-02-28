@@ -263,7 +263,7 @@
                             <p style="color: #fff;">
                                 TradeImeX B/L Data offers detailed insights into Bill of Lading (B/L) 
                                 records, which serve as an essential document in international trade. 
-                                B/L records provide information about the shipping carrier, consignee, 
+                                B/L records provide information about the shipping carrier, consigner/consignee, 
                                 and the precise movement of goods.
                             </p>
                         </div>
