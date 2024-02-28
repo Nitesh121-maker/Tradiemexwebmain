@@ -10,7 +10,7 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- form js -->
+    <!-- Google recaptcha verfication Code form js -->
     <script>
         grecaptcha.ready(() => {
             grecaptcha.execute('6Ld1Ax8pAAAAAJWU_TaW2gMhMvAOeRl885SXqVPT', { action: 'contact' }).then(token => {
@@ -26,41 +26,11 @@
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <script>
-        function textareaValue() 
-        {
-            let get = document.getElementById("txt").value;
-            if( get == "1"){
-                alert(get)
-                // Get the snackbar DIV
-                var x = document.getElementById("snackbar");
-
-                // Add the "show" class to DIV
-                x.className = "show";
-
-                // After 3 seconds, remove the show class from DIV
-                setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-            }
-        }
-    </script>
-
-
     <script src="frontend/js/slider2.js" defer></script>
-    {{-- <script src="frontend/js/countries.js"></script> --}}
-    {{-- <script src="frontend/js/globe.js"></script> --}}
-    {{-- <script src="frontend/js/slick.min.js"></script> --}}
     <script src="frontend/js/main.js"></script>
-    {{-- <script src="frontend/js/search.js"></script> --}}
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            delay: 500,
-            duration: 800
-
-        });
-    </script>
-     <script type="application/ld+json">
+    {{-- Schema Tags --}}
+    <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "Organization",

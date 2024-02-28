@@ -12,7 +12,6 @@
         <title>Import Export Data, Global Trade Data of 80+ Countries - TradeImeX</title>
         <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
         @include('frontend.link')
-        {{-- <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script> --}}
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
         <link rel="icon" href="frontend/image/img/favicon.png">
         <link rel="stylesheet" type="text/css" href={{ asset('index.css') }}>
