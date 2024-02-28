@@ -222,7 +222,7 @@
                                     @endphp
                                 @endif
                                 @if (!empty($imageURL))
-                                    <img src="{{ $imageURL }}" style="width: 20%">
+                                    <img src="{{ $imageURL }}" style="width: 16%">
                                 @endif
                             </div>
                             <div class="head">
@@ -499,7 +499,7 @@
                             @endphp
                         @endif
                         @if (!empty($sampleURL))
-                        <img src="{{ $sampleURL }}"  style="width: 100%">
+                        <img src="{{ $sampleURL }}"  style="width: 70%">
                         @endif
                 </div>
             </div>

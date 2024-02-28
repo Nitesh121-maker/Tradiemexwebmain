@@ -10,7 +10,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
         <title>Terms Of Use - Tradeimex</title>
         <link rel="icon" href="frontend/image/img/favicon.png">
-
         @include('frontend.link')
     </head>
     <body>
