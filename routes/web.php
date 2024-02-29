@@ -46,7 +46,7 @@ Route::get('/global-trade-data', [CountriesdataController::class,'globaltradedat
 // HS - Code
 Route::get('/hs-code', [HsCodeController::class, 'hscode']);
 Route::get('/hs-code-subchapter-list/{subchapterdescription}/{subchaptercode}', [HsCodeController::class, 'subchapterListPage'])->name('subchapterlist.list');
-Route::get('/hs-code-subchapter/{description}-{chapterCode}', [HsCodeController::class, 'subchapterPage'])->name('subchapter.list');
+Route::get('/hs-code-subchapter/{description}/{chapterCode}', [HsCodeController::class, 'subchapterPage'])->name('subchapter.list');
 
 
 // Continent data

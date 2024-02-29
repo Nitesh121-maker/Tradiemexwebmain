@@ -43,7 +43,7 @@ class HsCodeController extends Controller
 
     function subchapterPage($description,$chapterCode)
     {
-
+    //    dd($chapterCode);
         $subchapters = DB::table('taric')
             ->select('hs_code', 'Description')
             ->where('hs_code', 'like', $chapterCode . '__')

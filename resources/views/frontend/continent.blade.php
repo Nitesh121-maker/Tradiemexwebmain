@@ -1317,7 +1317,7 @@
         <div class="container-fluid pdt-2 pdb-2">                     
             <div class="container">
                 <div class="text-content">
-                    <span>Use Case</span>
+                    <span>Imports</span>
                     <h2>
                         {{$continent->ci_heading}}
                     </h2>
@@ -1353,7 +1353,7 @@
         <div class="container-fluid pdb-5 pdt-2">
             <div class="container">
                 <div class="text-content">
-                    <span>Top 10 Partners </span>
+                    <span>Partners </span>
                     <h2>
                        {{$continent->cp_heading}}
                     </h2>
