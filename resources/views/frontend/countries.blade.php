@@ -477,13 +477,11 @@
                             <button class="btn btn-primary me-md-2" type="button">Statistical Data</button>
                             <button class="btn btn-primary" type="button">B/L Data</button>
                         </div>   
-                        <table class="table table-responsive table-hover table-rounded pdt-2">
+                        <table class="table table-responsive table-hover table-rounded" style="margin-top: 2rem;background-color: white;">
                             <thead>
                                 <tr>
-                                    <th colspan="4">
-                                        <h4>
-                                            <b>Japan Import</b>
-                                        </h4>
+                                    <th colspan="4" style="text-align: center;">
+                                        <b>Japan Import</b>
                                     </th>
                                 </tr>
                             </thead>
