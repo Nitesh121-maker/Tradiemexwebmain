@@ -480,8 +480,8 @@
 
                     <div class="container pdt-2">
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button onclick="stats()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
-                            <button onclick="bl()" class="btn btn-primary" type="button">B/L Data</button>
+                            <button id="stats-sample-btn" onclick="stats()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
+                            <button id="bl-sample-btn" onclick="bl()" class="btn btn-primary" type="button">B/L Data</button>
                         </div>
 
                         {{-- B/L Sample Data Tab --}}
@@ -971,15 +971,15 @@
                 document.getElementById("stats-sample").style.display="block";
                 document.getElementById("bl-sample").style.display="none";
                 
-                document.getElementById("stats-sample").classList.add('btn btn-primary');
-                document.getElementById("bl-sample").classList.remove('btn btn-outline');
+                document.getElementById("stats-sample-btn").class.add('btn btn-primary');
+                document.getElementById("bl-sample-btn").class.remove('btn btn-outline');
             } 
             function bl(){
                 document.getElementById("stats-sample").style.display="none";
                 document.getElementById("bl-sample").style.display="block";
                 
-                document.getElementById("bl-sample").classList.add('btn btn-primary');
-                document.getElementById("stats-sample").classList.remove('btn btn-outline');
+                document.getElementById("bl-sample-btn").class.add('btn btn-primary');
+                document.getElementById("stats-sample-btn").class.remove('btn btn-outline');
             }
         </script>
      
