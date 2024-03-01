@@ -472,6 +472,12 @@
                     <p class="text-white">
                         {!! strip_tags(html_entity_decode($country->sd_para)) !!}
                     </p>
+                    <div class="container pdt-2">
+                        <div class="flex">
+                            <button class="btn btn-primary">Statistical Data</button>    
+                            <button class="btn btn-primary">B/L Data</button>    
+                        </div>    
+                    </div> 
                     @if ($country->data_file)
                         @php
                             // Construct the full image URL using the base URL and the image filename.
