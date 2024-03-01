@@ -476,7 +476,122 @@
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button class="btn btn-primary me-md-2" type="button">Statistical Data</button>
                             <button class="btn btn-primary" type="button">B/L Data</button>
-                        </div>    
+                        </div>   
+                        <table class="table table-responsive table-hover table-rounded pdt-2">
+                            <thead>
+                                <tr>
+                                    <th colspan="4">
+                                        <h4>
+                                            <b>Japan Import</b>
+                                        </h4>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody> 
+                                <tr>
+                                    <th scope="col" class="table-primary">
+                                        <b>Date</b>
+                                    </th>
+                                    <th>
+                                        1-March-2024
+                                    </th>
+                                    <th scope="col" class="table-primary">
+                                        <b>B/L Number</b>
+                                    </th>
+                                    <th>
+                                        1-March-2024
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="table-primary">
+                                        <b>Importer Name</b>
+                                    </th>
+                                    <th colspan="3">
+                                        BASF JAPAN LTD.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="table-primary">
+                                        <b>Exporter Name</b>
+                                    </th>
+                                    <th colspan="3">
+                                        BASF SOUTH EAST ASIA PTE LTD
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="table-primary">
+                                        <b>HS Code</b>
+                                    </th>
+                                    <th colspan="3">
+                                        380129
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="table-primary">
+                                        <b>PRODUCT DESCRIPTION</b>
+                                    </th>
+                                    <th colspan="3">
+                                        NEOL NEOPENTYLGLYCOL FLAKES
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="table-primary">
+                                        <b>PACKAGE NUMBER</b>
+                                    </th>
+                                    <th>
+                                        723
+                                    </th>
+                                    <th scope="col" class="table-primary">
+                                        <b>PACKAGE UNIT</b>
+                                    </th>
+                                    <th>
+                                        BAG
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="table-primary">
+                                        <b>TEU</b>
+                                    </th>
+                                    <th>
+                                        0
+                                    </th>
+                                    <th scope="col" class="table-primary">
+                                        <b>FEU</b>
+                                    </th>
+                                    <th>
+                                       1
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="table-primary">
+                                        <b>PORT OF LOADING</b>
+                                    </th>
+                                    <th>
+                                        PUSAN
+                                    </th>
+                                    <th scope="col" class="table-primary">
+                                        <b>PORT OF UNLOADING</b>
+                                    </th>
+                                    <th>
+                                        TOKYO
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="table-primary">
+                                        <b>ORIGIN COUNTRY</b>
+                                    </th>
+                                    <th>
+                                        SOUTH KOREA
+                                    </th>
+                                    <th scope="col" class="table-primary">
+                                        <b>DESTINATION COUNTRY</b>
+                                    </th>
+                                    <th>
+                                        Japan
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table> 
                     </div> 
                     @if ($country->data_file)
                         @php
