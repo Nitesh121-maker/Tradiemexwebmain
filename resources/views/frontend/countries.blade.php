@@ -484,8 +484,8 @@
                     </p>
                     <div class="container pdt-2">
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button id="bl-data" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
-                            <button id="stat-data" class="btn btn-primary" type="button">B/L Data</button>
+                            <button onclick="bldata()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
+                            <button onclick="statdata()" class="btn btn-primary" type="button">B/L Data</button>
                         </div>
 
                         {{-- B/L Sample Data Tab --}}
@@ -969,7 +969,7 @@
         <script src="https://code.highcharts.com/modules/export-data.js"></script>
         <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
-        <script>
+        {{-- <script>
             function stats(){
                 document.getElementById("stats-sample").style.display="block";
                 document.getElementById("bl-sample").style.display="none";
@@ -980,11 +980,11 @@
                 document.getElementById("bl-sample").style.display="block";
                 
             }
-        </script>
+        </script> --}}
 
         <script>
-            const buttons = document.querySelectorAll("bl-data");
-            const content = document.querySelectorAll("stat-data");
+            const buttons = document.querySelectorAll("bldata");
+            const content = document.querySelectorAll("statdata");
 
             buttons.forEach(button=>{
                 button.addEventListener("click", function(e) {
