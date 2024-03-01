@@ -20,13 +20,8 @@
         @include('frontend.link')
         <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
         <style>
-            .smple-data-tab {
-                visibility: hidden;
-            }
-
-            .smple-data-tab > .active {
-                visibility: visible;
-                background-color: blue;
+            #bl-sample{
+                display: none;
             }
         </style>
     </head>
@@ -482,14 +477,15 @@
                     <p class="text-white">
                         {!! strip_tags(html_entity_decode($country->sd_para)) !!}
                     </p>
+
                     <div class="container pdt-2">
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button onclick="bldata()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
-                            <button onclick="statdata()" class="btn btn-primary" type="button">B/L Data</button>
+                            <button onclick="stats()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
+                            <button onclick="bl()" class="btn btn-primary" type="button">B/L Data</button>
                         </div>
 
                         {{-- B/L Sample Data Tab --}}
-                        <div class="smple-data-tab container pdt-2" data-target="#bl-data">
+                        <div class="container pdt-2" id="bl-sample">
                             <table class="table table-responsive table-hover table-rounded" style="background-color: white;">
                                 <thead>
                                     <tr>
@@ -606,7 +602,7 @@
                         </div>
 
                         {{-- Statistical Sample Data Tab --}}
-                        <div class="smple-data-tab container pdt-2" data-target="#stat-data">
+                        <div class="container pdt-2" id="stats-sample">
                             <table class="table table-responsive table-hover table-rounded" style="background-color: white;">
                                 <thead>
                                     <tr>
@@ -706,6 +702,7 @@
                             </table>
                         </div>
                     </div> 
+
                     @if ($country->data_file)
                         @php
                             // Construct the full image URL using the base URL and the image filename.
@@ -969,7 +966,7 @@
         <script src="https://code.highcharts.com/modules/export-data.js"></script>
         <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
-        {{-- <script>
+        <script>
             function stats(){
                 document.getElementById("stats-sample").style.display="block";
                 document.getElementById("bl-sample").style.display="none";
@@ -980,22 +977,6 @@
                 document.getElementById("bl-sample").style.display="block";
                 
             }
-        </script> --}}
-
-        <script>
-            const buttons = document.querySelectorAll("bldata");
-            const content = document.querySelectorAll("statdata");
-
-            buttons.forEach(button=>{
-                button.addEventListener("click", function(e) {
-                    const id = this.dataset.target;
-                    const target = document.querySelector(id);
-                    content.forEach(ele=>{
-                        if(ele === target) ele.classList.add("active");
-                        else ele.classList.remove("active");
-                    });
-                });
-            });
         </script>
      
         <!-- Top 10 imports of country (Pie Chart) -->
