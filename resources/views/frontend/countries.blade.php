@@ -646,7 +646,7 @@
                                         <th scope="col" class="table-primary">
                                             <b>QUANTITY</b>
                                         </th>
-                                        <th colspan="3">
+                                        <th scope="col">
                                             133
                                         </th>
                                         <th scope="col" class="table-primary">
