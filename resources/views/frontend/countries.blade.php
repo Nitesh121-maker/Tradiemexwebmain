@@ -481,10 +481,10 @@
                     {{-- B/L Sample Data Tab --}}
                     <div class="container pdt-2" id="bl-sample">
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button onclick="stats()" class="btn btn-primary" type="button">Statistical Data</button>
-                            <button onclick="bl()" class="btn btn-outline" type="button" style="color: white;">B/L Data</button>
+                            <button onclick="stats()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
+                            <button onclick="bl()" class="btn btn-primary" type="button">B/L Data</button>
                         </div>
-                        <table class="table table-responsive table-hover table-rounded" style="background-color: white;">
+                        <table class="table table-responsive table-hover table-rounded" style="background-color: white;margin-top:2rem;">
                             <thead>
                                 <tr>
                                     <th colspan="4" style="text-align: center;">
@@ -602,10 +602,10 @@
                     {{-- Statistical Sample Data Tab --}}
                     <div class="container pdt-2" id="stats-sample">
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button onclick="stats()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
-                            <button onclick="bl()" class="btn btn-primary" type="button">B/L Data</button>
+                            <button onclick="stats()" class="btn btn-primary" type="button">Statistical Data</button>
+                            <button onclick="bl()" class="btn btn-outline" type="button" style="color: white;">B/L Data</button>
                         </div>
-                        <table class="table table-responsive table-hover table-rounded" style="background-color: white;">
+                        <table class="table table-responsive table-hover table-rounded" style="background-color: white;margin-top:2rem;">
                             <thead>
                                 <tr>
                                     <th colspan="4" style="text-align: center;">
