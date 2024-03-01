@@ -484,7 +484,7 @@
                             <button onclick="stats()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
                             <button onclick="bl()" class="btn btn-primary" type="button">B/L Data</button>
                         </div>
-                        <table class="table table-responsive table-hover table-rounded" style="background-color: white;margin-top:2rem;">
+                        <table class="table table-responsive table-hover table-rounded" style="background-color: white;margin-top:1rem;">
                             <thead>
                                 <tr>
                                     <th colspan="4" style="text-align: center;">
@@ -605,7 +605,7 @@
                             <button onclick="stats()" class="btn btn-primary" type="button">Statistical Data</button>
                             <button onclick="bl()" class="btn btn-outline" type="button" style="color: white;">B/L Data</button>
                         </div>
-                        <table class="table table-responsive table-hover table-rounded" style="background-color: white;margin-top:2rem;">
+                        <table class="table table-responsive table-hover table-rounded" style="background-color: white;margin-top:1rem;">
                             <thead>
                                 <tr>
                                     <th colspan="4" style="text-align: center;">
