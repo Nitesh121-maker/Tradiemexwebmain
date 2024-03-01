@@ -19,6 +19,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         @include('frontend.link')
         <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+        <style>
+            .smple-data-tab {
+                visibility: hidden;
+            }
+
+            .smple-data-tab > .active {
+                visibility: visible;
+                background-color: blue;
+            }
+        </style>
     </head>
     <body>
         @include('frontend.header')
@@ -474,122 +484,227 @@
                     </p>
                     <div class="container pdt-2">
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button  class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
-                            <button class="btn btn-primary me-md-2" type="button">B/L Data</button>
-                        </div>   
-                        <table class="table table-responsive table-hover table-rounded" style="margin-top: 2rem;background-color: white;">
-                            <thead>
-                                <tr>
-                                    <th colspan="4" style="text-align: center;">
-                                        <b>Japan Import</b>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody> 
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>Date</b>
-                                    </th>
-                                    <th>
-                                        1-March-2024
-                                    </th>
-                                    <th scope="col" class="table-primary">
-                                        <b>B/L Number</b>
-                                    </th>
-                                    <th>
-                                        1-March-2024
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>Importer Name</b>
-                                    </th>
-                                    <th colspan="3">
-                                        BASF JAPAN LTD.
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>Exporter Name</b>
-                                    </th>
-                                    <th colspan="3">
-                                        BASF SOUTH EAST ASIA PTE LTD
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>HS Code</b>
-                                    </th>
-                                    <th colspan="3">
-                                        380129
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>PRODUCT DESCRIPTION</b>
-                                    </th>
-                                    <th colspan="3">
-                                        NEOL NEOPENTYLGLYCOL FLAKES
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>PACKAGE NUMBER</b>
-                                    </th>
-                                    <th>
-                                        723
-                                    </th>
-                                    <th scope="col" class="table-primary">
-                                        <b>PACKAGE UNIT</b>
-                                    </th>
-                                    <th>
-                                        BAG
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>TEU</b>
-                                    </th>
-                                    <th>
-                                        0
-                                    </th>
-                                    <th scope="col" class="table-primary">
-                                        <b>FEU</b>
-                                    </th>
-                                    <th>
-                                       1
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>PORT OF LOADING</b>
-                                    </th>
-                                    <th>
-                                        PUSAN
-                                    </th>
-                                    <th scope="col" class="table-primary">
-                                        <b>PORT OF UNLOADING</b>
-                                    </th>
-                                    <th>
-                                        TOKYO
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>ORIGIN COUNTRY</b>
-                                    </th>
-                                    <th>
-                                        SOUTH KOREA
-                                    </th>
-                                    <th scope="col" class="table-primary">
-                                        <b>DESTINATION COUNTRY</b>
-                                    </th>
-                                    <th>
-                                        Japan
-                                    </th>
-                                </tr>
-                            </tbody>
-                        </table> 
+                            <button id="bl-data" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
+                            <button id="stat-data" class="btn btn-primary" type="button">B/L Data</button>
+                        </div>
+
+                        {{-- B/L Sample Data Tab --}}
+                        <div class="smple-data-tab container pdt-2" data-target="#bl-data">
+                            <table class="table table-responsive table-hover table-rounded" style="background-color: white;">
+                                <thead>
+                                    <tr>
+                                        <th colspan="4" style="text-align: center;">
+                                            <b>Japan Import</b>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody> 
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>Date</b>
+                                        </th>
+                                        <th>
+                                            1-March-2024
+                                        </th>
+                                        <th scope="col" class="table-primary">
+                                            <b>B/L Number</b>
+                                        </th>
+                                        <th>
+                                            1-March-2024
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>Importer Name</b>
+                                        </th>
+                                        <th colspan="3">
+                                            BASF JAPAN LTD.
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>Exporter Name</b>
+                                        </th>
+                                        <th colspan="3">
+                                            BASF SOUTH EAST ASIA PTE LTD
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>HS Code</b>
+                                        </th>
+                                        <th colspan="3">
+                                            380129
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>PRODUCT DESCRIPTION</b>
+                                        </th>
+                                        <th colspan="3">
+                                            NEOL NEOPENTYLGLYCOL FLAKES
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>PACKAGE NUMBER</b>
+                                        </th>
+                                        <th>
+                                            723
+                                        </th>
+                                        <th scope="col" class="table-primary">
+                                            <b>PACKAGE UNIT</b>
+                                        </th>
+                                        <th>
+                                            BAG
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>TEU</b>
+                                        </th>
+                                        <th>
+                                            0
+                                        </th>
+                                        <th scope="col" class="table-primary">
+                                            <b>FEU</b>
+                                        </th>
+                                        <th>
+                                           1
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>PORT OF LOADING</b>
+                                        </th>
+                                        <th>
+                                            PUSAN
+                                        </th>
+                                        <th scope="col" class="table-primary">
+                                            <b>PORT OF UNLOADING</b>
+                                        </th>
+                                        <th>
+                                            TOKYO
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>ORIGIN COUNTRY</b>
+                                        </th>
+                                        <th>
+                                            SOUTH KOREA
+                                        </th>
+                                        <th scope="col" class="table-primary">
+                                            <b>DESTINATION COUNTRY</b>
+                                        </th>
+                                        <th>
+                                            Japan
+                                        </th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        {{-- Statistical Sample Data Tab --}}
+                        <div class="smple-data-tab container pdt-2" data-target="#stat-data">
+                            <table class="table table-responsive table-hover table-rounded" style="background-color: white;">
+                                <thead>
+                                    <tr>
+                                        <th colspan="4" style="text-align: center;">
+                                            <b>Japan Import</b>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody> 
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>YEAR</b>
+                                        </th>
+                                        <th>
+                                            2022
+                                        </th>
+                                        <th scope="col" class="table-primary">
+                                            <b>MONTH</b>
+                                        </th>
+                                        <th>
+                                            AUG
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>HS CODE</b>
+                                        </th>
+                                        <th colspan="3">
+                                            870310000
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>HS CODE DESCRIPTION</b>
+                                        </th>
+                                        <th colspan="3">
+                                            VEHICLES SPECIALLY DESIGNED FOR TRAVELLING ON SNOW; GOLF CARS AND SIMILAR VEHICLES
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>QUANTITY</b>
+                                        </th>
+                                        <th colspan="3">
+                                            133
+                                        </th>
+                                        <th scope="col" class="table-primary">
+                                            <b>UNIT</b>
+                                        </th>
+                                        <th colspan="3">
+                                            NOS
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>TOTAL CIF VALUE</b>
+                                        </th>
+                                        <th>
+                                            108395
+                                        </th>
+                                        <th scope="col" class="table-primary">
+                                            <b>MODE OF TRANSPORT</b>
+                                        </th>
+                                        <th>
+                                            SEA
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>CUSTOMS</b>
+                                        </th>
+                                        <th>
+                                            TOKYO
+                                        </th>
+                                        <th scope="col" class="table-primary">
+                                            <b>CUSTOMS OFFICE</b>
+                                        </th>
+                                        <th>
+                                            HANEDA
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="table-primary">
+                                            <b>ORIGIN COUNTRY</b>
+                                        </th>
+                                        <th>
+                                            Japan
+                                        </th>
+                                        <th scope="col" class="table-primary">
+                                            <b>DESTINATION COUNTRY</b>
+                                        </th>
+                                        <th>
+                                            MALI
+                                        </th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div> 
                     @if ($country->data_file)
                         @php
@@ -853,6 +968,35 @@
         <script src="https://code.highcharts.com/modules/exporting.js"></script>
         <script src="https://code.highcharts.com/modules/export-data.js"></script>
         <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+        <script>
+            function stats(){
+                document.getElementById("stats-sample").style.display="block";
+                document.getElementById("bl-sample").style.display="none";
+                
+            } 
+            function bl(){
+                document.getElementById("stats-sample").style.display="none";
+                document.getElementById("bl-sample").style.display="block";
+                
+            }
+        </script>
+
+        <script>
+            const buttons = document.querySelectorAll("bl-data");
+            const content = document.querySelectorAll("stat-data");
+
+            buttons.forEach(button=>{
+                button.addEventListener("click", function(e) {
+                    const id = this.dataset.target;
+                    const target = document.querySelector(id);
+                    content.forEach(ele=>{
+                        if(ele === target) ele.classList.add("active");
+                        else ele.classList.remove("active");
+                    });
+                });
+            });
+        </script>
      
         <!-- Top 10 imports of country (Pie Chart) -->
         <script type="text/javascript">
