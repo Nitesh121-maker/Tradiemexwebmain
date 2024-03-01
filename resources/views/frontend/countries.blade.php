@@ -971,11 +971,15 @@
                 document.getElementById("stats-sample").style.display="block";
                 document.getElementById("bl-sample").style.display="none";
                 
+                document.getElementById("stats-sample").classList.add('btn btn-primary');
+                document.getElementById("bl-sample").classList.remove('btn btn-outline');
             } 
             function bl(){
                 document.getElementById("stats-sample").style.display="none";
                 document.getElementById("bl-sample").style.display="block";
                 
+                document.getElementById("bl-sample").classList.add('btn btn-primary');
+                document.getElementById("stats-sample").classList.remove('btn btn-outline');
             }
         </script>
      
