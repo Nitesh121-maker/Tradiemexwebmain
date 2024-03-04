@@ -170,7 +170,7 @@
                             </div>
                             <div class="col-sm-12 col-md-6 col-lg-7 flex" style="align-items: center;">
                                 <div class="card-text-content">
-                                    <h3 class="text-white">Advanced Search and Filtering Capabilities</h3>
+                                    <h3 class="text-white">Advanced Search and <br> Filtering Capabilities</h3>
                                     <p class="text-white">
                                         TradeImeX and its intuitive search and filtering capabilities allow 
                                         you to refine your search according to your specific requirements. 
