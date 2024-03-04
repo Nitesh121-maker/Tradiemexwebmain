@@ -202,7 +202,6 @@
                             </th>
                             <th class="tbl-dark">
                                 <a class="text-hover" href="{{ route('subchapterlist.list', ['subchapterdescription' => $subchapterdescription, 'subchaptercode' => $subchaptercode]) }}">{{$subchapter->Description}}</a>
-                                
                             </th>
                         </tr>
                         @endforeach

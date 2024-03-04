@@ -162,7 +162,7 @@
                     </div>
                     <div class="row col-sm-12 col-xs-12 col-md-12 col-lg-12">
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="core-content content-highlight">
+                            <div class="core-content content-highlight" style="height: 10rem;">
                                 <div class="image">
                                     <img src="frontend/image/img/growth (1).png" style="width: 15%;">
                                 </div>
@@ -175,7 +175,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="core-content content-highlight">
+                            <div class="core-content content-highlight" style="height: 10rem;">
                                 <div class="image">
                                     <img src="frontend/image/img/link.png" style="width: 15%;">
                                 </div>
@@ -188,7 +188,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="core-content content-highlight">
+                            <div class="core-content content-highlight" style="height: 10rem;">
                                 <div class="image">
                                     <img src="frontend/image/img/data-report.png" style="width: 15%;">
                                 </div>
@@ -200,7 +200,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="core-content content-highlight">
+                            <div class="core-content content-highlight" style="height: 10rem;">
                                 <div class="image">
                                     <img src="frontend/image/img/working.png" style="width: 15%;">
                                 </div>

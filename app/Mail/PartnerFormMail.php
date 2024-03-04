@@ -27,7 +27,7 @@ class PartnerFormMail extends Mailable
 
     public function build()
     {
-        return $this->subject('New Contact Form Submission')
+        return $this->subject('New Partners Form Submission')
                     ->view('emails.partnerformmail');
     }
 }
