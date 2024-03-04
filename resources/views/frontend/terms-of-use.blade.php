@@ -21,8 +21,8 @@
                 </div>
                 <div class="hero-subtitle">
                     <p>
-                        Your accessing and using the site affirms that you have read and accepted t
-                        he Terms of Use. The Terms of Use listed below are applicable to all the 
+                        Your accessing and using the site affirms that you have read and accepted 
+                        the Terms of Use. The Terms of Use listed below are applicable to all the 
                         viewers, users and anyone who access this site.
                     </p>
                 </div>
