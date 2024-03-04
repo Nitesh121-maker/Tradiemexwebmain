@@ -9,14 +9,7 @@
         <meta name="description" content="TradeImeX is a leading Import Export Trade Data Provider. We Cover 70+ Countries Import Export Trade Data online. Discover the Growth Trend." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
         <title>Terms Of Use - Tradeimex</title>
-<<<<<<< HEAD
-
         <link rel="icon" type="image/x-icon" href="/frontend/image/img/Favicon Logo.png">
-
-        <link rel="icon" href="frontend/image/img/favicon.png">
-=======
-        <link rel="icon" type="image/x-icon" href="/frontend/image/img/Favicon Logo.png">
->>>>>>> dfaf21fd9522c3ee4afb93a16a40843ab1df0bce
         @include('frontend.link')
     </head>
     <body>
