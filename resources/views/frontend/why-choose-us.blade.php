@@ -30,7 +30,7 @@
                                 the complexity of global trade, however, may be difficult. This is where TradeImeX comes in as
                                 a trusted partner to simplify the process and provide a seamless experience. At TradeImeX, we
                                 understand the diverse needs and requirements of businesses when it comes to international
-                                trade. With over 5 years of experience, 10000 satisfied clients, and comprehensive trade data
+                                trade. With over 5 years of experience, 10,000 satisfied clients, and comprehensive trade data
                                 information for more than 80 countries and across 6 continents, our platform offers a thorough
                                 suite of solutions tailored to meet every aspect of your trade journey. Here&#39;s why you should
                                 choose TradeImeX:
