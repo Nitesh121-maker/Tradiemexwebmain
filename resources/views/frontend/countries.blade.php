@@ -130,7 +130,7 @@
                             @if ($country->mf_content_images)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
-                                    $imageURL = asset('http://192.168.1.5:8000/frontend/img/import/' . $country->mf_content_images);
+                                    $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->mf_content_images);
                                     
                                 @endphp
                             @endif
@@ -154,7 +154,7 @@
                                 {{-- @if ($country->kpimages)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.5:8000/frontend/img/import/' . $country->kpimages);
+                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages);
                                         
                                     @endphp
                                 @endif
@@ -177,7 +177,7 @@
                                 {{-- @if ($country->kpimages_two)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.5:8000/frontend/img/import/' . $country->kpimages_two);
+                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages_two);
                                         
                                     @endphp
                                 @endif
@@ -200,7 +200,7 @@
                                 @if ($country->kpimages_three)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.5:8000/frontend/img/import/' . $country->kpimages_three);
+                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages_three);
                                         
                                     @endphp
                                 @endif
@@ -223,7 +223,7 @@
                                 @if ($country->kpimages_four)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.5:8000/frontend/img/import/' . $country->kpimages_four);
+                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages_four);
                                     @endphp
                                 @endif
                                 @if (!empty($imageURL))
@@ -484,7 +484,7 @@
                             <button onclick="stats()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
                             <button onclick="bl()" class="btn btn-primary" type="button">B/L Data</button>
                         </div>
-                        <table class="table table-responsive table-hover table-rounded" style="background-color: white;margin-top:1rem;">
+                        {{-- <table class="table table-responsive table-hover table-rounded" style="background-color: white;margin-top:1rem;">
                             <thead>
                                 <tr>
                                     <th colspan="4" style="text-align: center;">
@@ -596,7 +596,16 @@
                                     </th>
                                 </tr>
                             </tbody>
-                        </table>
+                        </table> --}}
+                        @if ($country->kpimages_four)
+                        @php
+                            // Construct the full image URL using the base URL and the image filename.
+                            $slideimageURL = asset('http://192.168.1.3:8000/frontend/img/others/' . $country->slider_images_one);
+                        @endphp
+                        @endif
+                        @if (!empty($slideimageURL))
+                            <img src="{{ $slideimageURL }}" style="width: 16%">
+                        @endif
                     </div>
 
                     {{-- Statistical Sample Data Tab --}}
@@ -707,7 +716,7 @@
                     @if ($country->data_file)
                         @php
                             // Construct the full image URL using the base URL and the image filename.
-                            $samplefileURL = asset('http://192.168.1.5:8000/frontend/files/' . $country->data_file);
+                            $samplefileURL = asset('http://192.168.1.3:8000/frontend/files/' . $country->data_file);
                             
                         @endphp
      
@@ -727,7 +736,7 @@
                        @if ($country->slider_images_one)
                             @php
                                 // Construct the full image URL using the base URL and the image filename.
-                                $sampleURL = asset('http://192.168.1.5:8000/frontend/img/others/' . $country->slider_images_one);                              
+                                $sampleURL = asset('http://192.168.1.3:8000/frontend/img/others/' . $country->slider_images_one);                              
                             @endphp
                         @endif
                         @if (!empty($sampleURL))
