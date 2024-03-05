@@ -304,7 +304,7 @@
         <!-- End Overview Of HS Code -->
 
         <!-- Significance -->
-        <div class="container-fluid pdt-2 pdb-2">
+        <div class="container-fluid bg-bluish pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">
                     <h2>
@@ -361,14 +361,14 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
-                        <img src="assets/img/hs-1.png">
+                        <img src="frontend/image/img/HS Code.png" width="100%">
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Last Content : simplifying -->
-        <div class="container-fluid">
+        <div class="container-fluid pdt-2">
             <div class="container">
                 <div class="text-content">
                     <h2>TradeImeX: Simplifying HS Codes</h2>

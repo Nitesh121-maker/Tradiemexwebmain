@@ -329,7 +329,7 @@
         <!-- End Overview Of HS Code -->
 
         <!-- Significance -->
-        <div class="container-fluid pdt-2 pdb-2">
+        <div class="container-fluid bg-bluish pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">
                     <h2>
@@ -393,7 +393,7 @@
         </div>
 
         <!-- Last Content : simplifying -->
-        <div class="container-fluid">
+        <div class="container-fluid pdt-2">
             <div class="container">
                 <div class="text-content">
                     <h2>TradeImeX: Simplifying HS Codes</h2>
