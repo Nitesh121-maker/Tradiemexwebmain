@@ -386,7 +386,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
-                        <img src="assets/img/hs-1.png">
+                        <img src="frontend/image/img/HS Code.png" width="100%">
                     </div>
                 </div>
             </div>
