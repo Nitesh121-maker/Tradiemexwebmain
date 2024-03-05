@@ -161,7 +161,7 @@
                                 <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Supplier Search
                                 </h5>
-                                <p class="card-text text-white-p text-adjust-16">
+                                <p class="card-text text-white-p">
                                     TradeImeX allows you to search for suppliers based on specific criteria such 
                                     as product type,country, or company name. This helps you narrow down your 
                                     options and find suppliers who meet your specific requirements. We provide a 
@@ -180,7 +180,7 @@
                                 <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Verified Supplier Information
                                 </h5>
-                                <p class="card-text text-white-p text-adjust-16">
+                                <p class="card-text text-white-p">
                                     TradeImeX provides verified information on suppliers, including their product 
                                     portfolios, and certification status. This ensures that you're dealing with 
                                     secure suppliers and minimizes the threat of fraudulent deals. With TradeImeX, 
@@ -199,7 +199,7 @@
                                 <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Competitive Analysis
                                 </h5>
-                                <p class="card-text text-white-p text-adjust-16">
+                                <p class="card-text text-white-p">
                                     TradeImeX offers a comprehensive analysis of pricing, market trends, 
                                     and supplier performance.This information enables you to compare different 
                                     suppliers and make informed decisions. Choose the right supplier to ensure 
@@ -218,7 +218,7 @@
                                 <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Final selection of possible suppliers and buyers
                                 </h5>
-                                <p class="card-text text-white-p text-adjust-16">
+                                <p class="card-text text-white-p">
                                     We conduct the final screening tests once we have compiled a list 
                                     of the world's top prospects for you. To ensure that you can continue 
                                     trading without experiencing any lag, we further filter down the list 
