@@ -225,9 +225,9 @@
                                 </tr>
                             @endforeach   
                         @else
-                                <div class="text-content ">
-                                    <h3 class="text-center">HS-Code ends here...</h3>
-                                </div>
+                            <div class="text-content ">
+                                <h3 class="text-center">HS-Code ends here...</h3>
+                            </div>
                         @endif
 
                     </tbody>
