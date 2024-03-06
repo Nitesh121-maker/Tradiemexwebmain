@@ -495,143 +495,58 @@
                 </div>
             </div>
 
-            {{-- B/L Sample Data Tab --}}
-            <div class="container pdt-2" id="bl-sample">
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button onclick="stats()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
-                    <button onclick="bl()" class="btn btn-primary" type="button">B/L Data</button>
+            @if ($country->country == "japan"||$country->country == "singapore"||$country->country == "Taiwan"||$country->country == "balgium"||$country->country == "germany"||$country->country == "japan"||$country->country == "greece"||$country->country == "italy"||$country->country == "netherlands"||$country->country == "spain"||$country->country == "uk"||$country->country == "canada"||$country->country == "australia")
+                {{-- B/L Sample Data Tab --}}
+                <div class="container pdt-2" id="bl-sample">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button onclick="stats()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
+                        <button onclick="bl()" class="btn btn-primary" type="button">B/L Data</button>
+                    </div>
+                    @if ($country->kpimages_four)
+                    @php
+                        // Construct the full image URL using the base URL and the image filename.
+                        $slideimageURL = asset('http://192.168.1.3:8000/frontend/img/others/' . $country->slider_images_one);
+                    @endphp
+                    @endif
+                    @if (!empty($slideimageURL))
+                        <img src="{{ $slideimageURL }}" style="width: 100%; margin-top: 1%;">
+                    @endif
                 </div>
-                @if ($country->kpimages_four)
-                @php
-                    // Construct the full image URL using the base URL and the image filename.
-                    $slideimageURL = asset('http://192.168.1.3:8000/frontend/img/others/' . $country->slider_images_one);
-                @endphp
-                @endif
-                @if (!empty($slideimageURL))
-                    <img src="{{ $slideimageURL }}" style="width: 16%">
-                @endif
-            </div>
 
-                    {{-- Statistical Sample Data Tab --}}
-                    <div class="container pdt-2" id="stats-sample">
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button onclick="stats()" class="btn btn-primary" type="button">Statistical Data</button>
-                            <button onclick="bl()" class="btn btn-outline" type="button" style="color: white;">B/L Data</button>
-                        </div>
-                        <table class="table table-responsive table-hover table-rounded" style="background-color: white;margin-top:1rem;">
-                            <thead>
-                                <tr>
-                                    <th colspan="4" style="text-align: center;">
-                                        <b>Japan Import</b>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody> 
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>YEAR</b>
-                                    </th>
-                                    <th>
-                                        2022
-                                    </th>
-                                    <th scope="col" class="table-primary">
-                                        <b>MONTH</b>
-                                    </th>
-                                    <th>
-                                        AUG
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>HS CODE</b>
-                                    </th>
-                                    <th colspan="3">
-                                        870310000
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>HS CODE DESCRIPTION</b>
-                                    </th>
-                                    <th colspan="3">
-                                        VEHICLES SPECIALLY DESIGNED FOR TRAVELLING ON SNOW; GOLF CARS AND SIMILAR VEHICLES
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>QUANTITY</b>
-                                    </th>
-                                    <th scope="col">
-                                        133
-                                    </th>
-                                    <th scope="col" class="table-primary">
-                                        <b>UNIT</b>
-                                    </th>
-                                    <th colspan="3">
-                                        NOS
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>TOTAL CIF VALUE</b>
-                                    </th>
-                                    <th>
-                                        108395
-                                    </th>
-                                    <th scope="col" class="table-primary">
-                                        <b>MODE OF TRANSPORT</b>
-                                    </th>
-                                    <th>
-                                        SEA
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>CUSTOMS</b>
-                                    </th>
-                                    <th>
-                                        TOKYO
-                                    </th>
-                                    <th scope="col" class="table-primary">
-                                        <b>CUSTOMS OFFICE</b>
-                                    </th>
-                                    <th>
-                                        HANEDA
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="col" class="table-primary">
-                                        <b>ORIGIN COUNTRY</b>
-                                    </th>
-                                    <th>
-                                        Japan
-                                    </th>
-                                    <th scope="col" class="table-primary">
-                                        <b>DESTINATION COUNTRY</b>
-                                    </th>
-                                    <th>
-                                        MALI
-                                    </th>
-                                </tr>
-                            </tbody>
-                        </table>
+                {{-- Statistical Sample Data Tab --}}
+                <div class="container pdt-2" id="stats-sample">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button onclick="stats()" class="btn btn-primary" type="button">Statistical Data</button>
+                        <button onclick="bl()" class="btn btn-outline" type="button" style="color: white;">B/L Data</button>
                     </div>
 
-            <div class="container" style="padding-top: 1%;">
-                <div class="flex" style="justify-content: center;">
-                    {{-- <img class="sample-img" src="frontend/image/img/Statistical Data.png" style="border-radius: 12px;"> --}}
-                    
-                       @if ($country->slider_images_one)
-                            @php
-                                // Construct the full image URL using the base URL and the image filename.
-                                $sampleURL = asset('http://192.168.1.3:8000/frontend/img/others/' . $country->slider_images_one);                              
-                            @endphp
-                        @endif
-                        @if (!empty($sampleURL))
-                        <img src="{{ $sampleURL }}"  style="width: 70%">
-                        @endif
+                    @if ($country->kpimages_four)
+                    @php
+                        // Construct the full image URL using the base URL and the image filename.
+                        $slideimageURL = asset('http://192.168.1.3:8000/frontend/img/others/' . $country->slider_images_one);
+                    @endphp
+                    @endif
+                    @if (!empty($slideimageURL))
+                        <img src="{{ $slideimageURL }}" style="width: 100% ; margin-top: 1%;">
+                    @endif
                 </div>
-            </div>
+            @else
+                <div class="container" style="padding-top: 1%;">
+                    <div class="flex" style="justify-content: center;">
+                        {{-- <img class="sample-img" src="frontend/image/img/Statistical Data.png" style="border-radius: 12px;"> --}}
+                        
+                        @if ($country->slider_images_one)
+                                @php
+                                    // Construct the full image URL using the base URL and the image filename.
+                                    $sampleURL = asset('http://192.168.1.3:8000/frontend/img/others/' . $country->slider_images_one);                              
+                                @endphp
+                            @endif
+                            @if (!empty($sampleURL))
+                            <img src="{{ $sampleURL }}"  style="width: 70%">
+                            @endif
+                    </div>
+                </div>
+            @endif
         </div>
 
         <!-- Benefits -->

@@ -77,6 +77,7 @@ class CountriesdataController extends Controller
     }
     function countryalldata($country, $Datatype) {
         try {
+
             $countrydata = DB::table('import')
             -> select('*')
             -> where('country'     , $country)
