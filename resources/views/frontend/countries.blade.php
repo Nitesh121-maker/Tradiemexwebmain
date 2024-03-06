@@ -509,7 +509,7 @@
                     @endphp
                     @endif
                     @if (!empty($slideimageURL))
-                        <img src="{{ $slideimageURL }}" style="width: 100%; margin-top: 1%;">
+                        <img src="{{ $slideimageURL }}" class="sample-img" style="margin-top: 1%;">
                     @endif
                 </div>
 
@@ -527,7 +527,7 @@
                     @endphp
                     @endif
                     @if (!empty($slideimageURL))
-                        <img src="{{ $slideimageURL }}" style="width: 100% ; margin-top: 1%;">
+                        <img src="{{ $slideimageURL }}" class="sample-img" style="margin-top: 1%;">
                     @endif
                 </div>
             @else
@@ -542,7 +542,7 @@
                                 @endphp
                             @endif
                             @if (!empty($sampleURL))
-                            <img src="{{ $sampleURL }}"  style="width: 70%">
+                            <img src="{{ $sampleURL }}"  class="sample-img">
                             @endif
                     </div>
                 </div>
