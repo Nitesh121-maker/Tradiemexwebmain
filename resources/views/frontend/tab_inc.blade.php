@@ -1,4 +1,4 @@
-<div id="message1" class="container-fluid bg-gradient-custom pdt-2 pdb-2">
+<div id="message1" class="container-fluid message-area bg-gradient-custom pdt-2 pdb-2">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6">
