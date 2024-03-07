@@ -24,8 +24,8 @@
                 display: none;
             }
             .image-container {
-                max-width: 88%;
-                min-height: 14rem;
+                max-width: 100%;
+                min-height: 15rem;
                 object-fit: fill;
             }
 
