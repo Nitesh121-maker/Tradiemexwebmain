@@ -61,16 +61,18 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                        @if ($continent->mf_content_images)
+                        <div class="data-img img-aspect">
+                            @if ($continent->mf_content_images)
                             @php
                                 // Construct the full image URL using the base URL and the image filename.
                                 $imageURL = asset('http://192.168.1.3:8000/frontend/img/continent/' . $continent->mf_content_images);
                                 
                             @endphp
-                        @endif
-                        @if (!empty($imageURL))
-                        <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="80%" style="border-radius: 12px;">
-                        @endif
+                            @endif
+                            @if (!empty($imageURL))
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="80%" style="border-radius: 12px;">
+                            @endif
+                        </div>
                     </div>
                 </div>
             </div>
