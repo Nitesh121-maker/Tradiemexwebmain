@@ -65,7 +65,7 @@
                             @if ($continent->mf_content_images)
                             @php
                                 // Construct the full image URL using the base URL and the image filename.
-                                $imageURL = asset('http://192.168.1.3:8000/frontend/img/continent/' . $continent->mf_content_images);
+                                $imageURL = asset('http://192.168.1.7:8000/frontend/img/continent/' . $continent->mf_content_images);
                                 
                             @endphp
                             @endif
@@ -1417,12 +1417,12 @@
                              @if ($continent->slider_images_one)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
-                                    $imageURL = asset('http://192.168.1.3:8000/frontend/img/continent/' . $continent->slider_images_one);
-                                    
+                                    $imageURL = asset('http://192.168.1.7:8000/frontend/img/continent/' . $continent->slider_images_one);
+                                
                                 @endphp
                             @endif
                             @if (!empty($imageURL))
-                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="60%" style="border-radius: 12px;">
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="100%" style="border-radius: 12px;">
                             @endif
                             </div>
                         </div>
@@ -1431,7 +1431,7 @@
                              @if ($continent->slider_images_two)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
-                                    $imageURL = asset('http://192.168.1.3:8000/frontend/img/continent/' . $continent->slider_images_two);
+                                    $imageURL = asset('http://192.168.1.7:8000/frontend/img/continent/' . $continent->slider_images_two);
                                     
                                 @endphp
                             @endif
@@ -1445,7 +1445,7 @@
                              @if ($continent->slider_images_three)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
-                                    $imageURL = asset('http://192.168.1.3:8000/frontend/img/continent/' . $continent->slider_images_three);
+                                    $imageURL = asset('http://192.168.1.7:8000/frontend/img/continent/' . $continent->slider_images_three);
                                     
                                 @endphp
                             @endif
@@ -1459,7 +1459,7 @@
                             @if ($continent->slider_images_four)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
-                                    $imageURL = asset('http://192.168.1.3:8000/frontend/img/continent/' . $continent->slider_images_four);
+                                    $imageURL = asset('http://192.168.1.7:8000/frontend/img/continent/' . $continent->slider_images_four);
                                     
                                 @endphp
                             @endif
@@ -1473,7 +1473,7 @@
                             @if ($continent->slider_images_five)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
-                                    $imageURL = asset('http://192.168.1.3:8000/frontend/img/continent/' . $continent->slider_images_five);
+                                    $imageURL = asset('http://192.168.1.7:8000/frontend/img/continent/' . $continent->slider_images_five);
                                     
                                 @endphp
                             @endif

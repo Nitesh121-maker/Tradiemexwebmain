@@ -130,7 +130,7 @@
                             @if ($country->mf_content_images)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
-                                    $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->mf_content_images);
+                                    $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->mf_content_images);
                                     
                                 @endphp
                             @endif
@@ -154,7 +154,7 @@
                                 {{-- @if ($country->kpimages)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages);
+                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages);
                                         
                                     @endphp
                                 @endif
@@ -177,7 +177,7 @@
                                 {{-- @if ($country->kpimages_two)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages_two);
+                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_two);
                                         
                                     @endphp
                                 @endif
@@ -200,7 +200,7 @@
                                 @if ($country->kpimages_three)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages_three);
+                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_three);
                                         
                                     @endphp
                                 @endif
@@ -223,7 +223,7 @@
                                 @if ($country->kpimages_four)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.3:8000/frontend/img/import/' . $country->kpimages_four);
+                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_four);
                                     @endphp
                                 @endif
                                 @if (!empty($imageURL))
@@ -490,7 +490,7 @@
                     @if ($country->kpimages_four)
                     @php
                         // Construct the full image URL using the base URL and the image filename.
-                        $slideimageURL = asset('http://192.168.1.3:8000/frontend/img/others/' . $country->slider_images_one);
+                        $slideimageURL = asset('http://192.168.1.7:8000/frontend/img/others/' . $country->slider_images_one);
                     @endphp
                     @endif
                     @if (!empty($slideimageURL))
@@ -508,7 +508,7 @@
                     @if ($country->kpimages_four)
                     @php
                         // Construct the full image URL using the base URL and the image filename.
-                        $slideimageURL = asset('http://192.168.1.3:8000/frontend/img/others/' . $country->slider_images_one);
+                        $slideimageURL = asset('http://192.168.1.7:8000/frontend/img/others/' . $country->slider_images_one);
                     @endphp
                     @endif
                     @if (!empty($slideimageURL))
@@ -523,7 +523,7 @@
                         @if ($country->slider_images_one)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
-                                    $sampleURL = asset('http://192.168.1.3:8000/frontend/img/others/' . $country->slider_images_one);                              
+                                    $sampleURL = asset('http://192.168.1.7:8000/frontend/img/others/' . $country->slider_images_one);                              
                                 @endphp
                             @endif
                             @if (!empty($sampleURL))
@@ -533,7 +533,7 @@
                     @if ($country->data_file)
                     @php
                         // Construct the full image URL using the base URL and the image filename.
-                        $samplefileURL = asset('http://192.168.1.3:8000/frontend/files/' . $country->data_file);
+                        $samplefileURL = asset('http://192.168.1.7:8000/frontend/files/' . $country->data_file);
                         
                     @endphp
  

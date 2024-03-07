@@ -395,7 +395,7 @@
                                     <img src="frontend/image/flags/qatar_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
-                                        @if ($country->country=='Russia' && $country->Datatype =='import')
+                                        @if ($country->country=='qatar' && $country->Datatype =='import')
                                             <a href="{{ route('countryalldata', [  strtolower($country->country), $country->Datatype]) }}" class="text-hover text-white">
                                                 <h4>{{ $country->country }}</h4>
                                             </a>

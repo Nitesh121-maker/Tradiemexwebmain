@@ -6,19 +6,22 @@ use Illuminate\Http\Request;
 use App\Mail\PartnerFormMail;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\PartnersFormController;
+use App\Rules\NoUrls;
+use Illuminate\Validation\Rule;
 class PartnersFormController extends Controller
 {
     //
     public function PartnerForm(Request $request)
     {
         // try {
-          
+        //   Faltu hai
             $validate = $request->validate([
                 'fname'              => ['required', 'string'],
                 'lname'              => ['required', 'string'],
                 'email'              => ['required', 'email'],
                 'number'              => ['required', 'numeric'],
-                'msg'                => ['required'],
+                'msg' => ['required', 'string', new NoUrls],
+                // 'msg'                => ['required'],
                 'apply'              => ['required'],
                 'recaptcha_response' => ['required']
             ]);
