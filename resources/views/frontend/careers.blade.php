@@ -350,7 +350,7 @@
                                     <div class="department-jobs bg-bluish">
                                         <button class="department-box" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <h4 class="department-job__title">
-                                                <b>SEO</b>
+                                                <b>Apply Here</b>
                                             </h4>
                                             <span class="department-job__location">OFFICE</span>
                                         </button>
@@ -409,7 +409,7 @@
                                     <div class="department-jobs bg-bluish">
                                         <button class="department-box" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <h4 class="department-job__title">
-                                                <b>React developer</b>
+                                                <b>Apply Here</b>
                                             </h4>
                                             <span class="department-job__location">OFFICE</span>
                                         </button>
