@@ -1544,7 +1544,7 @@
         </div>
 
         <!-- Global Trade Data -->
-        <div class="container-fluid padding-tb bg-white">
+        <div class="container-fluid pdt-2 pdb-2 bg-white">
             <div class="container">
                 <div class="text-content">
                     <span>Global Trade Data</span>
