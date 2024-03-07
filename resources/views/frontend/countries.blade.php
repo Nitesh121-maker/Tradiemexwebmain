@@ -34,6 +34,8 @@
                 .image-container {
                     width: calc(100vw - 20px); /* Adjust as needed */
                     max-width: 100%; /* Ensure image does not exceed container width */
+                    height: auto; /* Maintain aspect ratio */
+                    padding-top: 100%; /* Set height equal to width to create a square */
                 }
             }
         </style>
