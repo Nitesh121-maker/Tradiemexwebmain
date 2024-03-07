@@ -538,7 +538,7 @@
                             <img src="{{ $sampleURL }}"  class="sample-img">
                             @endif
                     </div>
-                    <div class="buttons-holder download-sample">
+                    <div class="buttons-holder download-sample" style="margin-top: 2%;">
                         <a href="{{ $samplefileURL }}" download="sample_data.jpg" class="ybtn ybtn-accent-color">
                             Download Sample &nbsp;
                             <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
