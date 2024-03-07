@@ -477,14 +477,6 @@
                     <p class="text-white">
                         {!! strip_tags(html_entity_decode($country->sd_para)) !!}
                     </p>
-
-                    @if ($country->data_file)
-                        @php
-                            // Construct the full image URL using the base URL and the image filename.
-                            $samplefileURL = asset('http://192.168.1.3:8000/frontend/files/' . $country->data_file);
-                            
-                        @endphp
-                   @endif
                 </div>
             </div>
 
@@ -536,14 +528,22 @@
                             @endif
                             @if (!empty($sampleURL))
                             <img src="{{ $sampleURL }}"  class="sample-img">
-                            @endif
+                        @endif
                     </div>
+                    @if ($country->data_file)
+                    @php
+                        // Construct the full image URL using the base URL and the image filename.
+                        $samplefileURL = asset('http://192.168.1.3:8000/frontend/files/' . $country->data_file);
+                        
+                    @endphp
+ 
                     <div class="buttons-holder download-sample" style="margin-top: 2%;">
                         <a href="{{ $samplefileURL }}" download="sample_data.jpg" class="ybtn ybtn-accent-color">
                             Download Sample &nbsp;
                             <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
                         </a>
                     </div>
+               @endif
                 </div>
             @endif
         </div>
