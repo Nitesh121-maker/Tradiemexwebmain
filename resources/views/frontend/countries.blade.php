@@ -684,7 +684,7 @@
                         @endif    
                         @if (\Illuminate\Support\Str::before($country->country_code, '-') == 'TAF')
                             @foreach ($countryname as $countries)
-                                @if ($countries->country == 'South-Africa'||$countries->country == "Ghana"||$countries->country == "Kenya"||$countries->country == "Ivory-Coast"||$countries->country == "Algeria"||$countries->country == "Ethiopia"||$countries->country == "Nigeria")
+                                @if ($countries->country == 'South-Africa'||$countries->country == "Ghana"||$countries->country == "Kenya"||$countries->country == "ivorycoast"||$countries->country == "Algeria"||$countries->country == "Ethiopia"||$countries->country == "Nigeria")
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                                     <div class="searchbox">
                                         <a href="/{{Str::lower($countries->country)}}-import" class="ybtn ybtn-header-color" style="width: 100%;text-align: center;padding: 18px 0px 18px 0px;">
