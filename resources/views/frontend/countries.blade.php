@@ -484,13 +484,6 @@
                             $samplefileURL = asset('http://192.168.1.3:8000/frontend/files/' . $country->data_file);
                             
                         @endphp
-     
-                        <div class="buttons-holder download-sample">
-                            <a href="{{ $samplefileURL }}" download="sample_data.jpg" class="ybtn ybtn-accent-color">
-                                Download Sample &nbsp;
-                                <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
-                            </a>
-                        </div>
                    @endif
                 </div>
             </div>
@@ -544,6 +537,12 @@
                             @if (!empty($sampleURL))
                             <img src="{{ $sampleURL }}"  class="sample-img">
                             @endif
+                    </div>
+                    <div class="buttons-holder download-sample">
+                        <a href="{{ $samplefileURL }}" download="sample_data.jpg" class="ybtn ybtn-accent-color">
+                            Download Sample &nbsp;
+                            <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
+                        </a>
                     </div>
                 </div>
             @endif
