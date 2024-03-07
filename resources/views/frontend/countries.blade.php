@@ -23,21 +23,21 @@
             #bl-sample{
                 display: none;
             }
-            .image-container {
+            /* .image-container {
                 width: 1037px; /* Adjust as needed */
                 max-width: 100%; /* Ensure image does not exceed container width */
                 height: auto; /* Maintain aspect ratio */
             }
 
-            /* Media query for mobile devices */
+            /* Media query for mobile devices
             @media (max-width: 767px) {
                 .image-container {
-                    width: calc(100vw - 20px); /* Adjust as needed */
-                    max-width: 100%; /* Ensure image does not exceed container width */
-                    height: auto; /* Maintain aspect ratio */
-                    padding-top: 100%; /* Set height equal to width to create a square */
+                    width: calc(100vw - 20px);
+                    max-width: 100%; 
+                    height: auto; 
+                    padding-top: 100%; 
                 }
-            }
+            } */
         </style>
     </head>
     <body>
@@ -532,7 +532,7 @@
                 </div>
             @else
                 <div class="container" style="padding-top: 1%;">
-                    <div class="flex" style="justify-content: center;">
+                    <div class="flex" style="justify-content: center;aspect-ratio: 3/3 !important;">
                         {{-- <img class="image-container" src="frontend/image/img/Statistical Data.png" style="border-radius: 12px;"> --}}
                         
                         @if ($country->slider_images_one)
@@ -542,7 +542,7 @@
                                 @endphp
                             @endif
                             @if (!empty($sampleURL))
-                            <img src="{{ $sampleURL }}"  class="image-container">
+                            <img src="{{ $sampleURL }}"  class="image-container" style="object-fit: fill">
                         @endif
                     </div>
                     @if ($country->data_file)
