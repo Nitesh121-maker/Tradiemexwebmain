@@ -24,7 +24,9 @@
                 display: none;
             }
             .image-container {
-                max-width: 110%; /* Ensure image does not exceed container width */
+                max-width: 88%;
+                min-height: 14rem;
+                object-fit: fill;
             }
 
         </style>
