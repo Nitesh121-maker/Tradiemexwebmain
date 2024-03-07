@@ -23,12 +23,6 @@
             #bl-sample{
                 display: none;
             }
-            .image-container {
-                max-width: 100%;
-                min-height: 15rem;
-                object-fit: fill;
-            }
-
         </style>
     </head>
     <body>
@@ -533,7 +527,7 @@
                                 @endphp
                             @endif
                             @if (!empty($sampleURL))
-                            <img src="{{ $sampleURL }}"  class="image-container">
+                            <img src="{{ $sampleURL }}" style="width: 40% !important"  class="image-container">
                         @endif
                     </div>
                     @if ($country->data_file)
