@@ -24,20 +24,9 @@
                 display: none;
             }
             .image-container {
-                width: 1037px; /* Adjust as needed */
-                max-width: 100%; /* Ensure image does not exceed container width */
-                height: auto; /* Maintain aspect ratio */
+                max-width: 110%; /* Ensure image does not exceed container width */
             }
 
-            /* Media query for mobile devices */
-            @media (max-width: 767px) {
-                .image-container {
-                    width: calc(100vw - 20px); /* Adjust as needed */
-                    max-width: 100%; /* Ensure image does not exceed container width */
-                    height: auto; /* Maintain aspect ratio */
-                    padding-top: 100%; /* Set height equal to width to create a square */
-                }
-            }
         </style>
     </head>
     <body>
