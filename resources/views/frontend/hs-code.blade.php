@@ -21,7 +21,7 @@
         @include('frontend.header')
 
         <!-- Search Live Import Export -->
-        <div class="container-fluid pdt-2 pdt-2">
+        <div class="container-fluid pdt-2 pdt-2 bg-bluish">
             <div class="text-content text-center bg-color">
                 <h1 style="font-size: 38px;">
                     Search By Harmonized Code System
@@ -236,7 +236,7 @@
         </div>
 
         <!-- Discover World Trade Data -->
-        <div class="container-fluid pdt-2 pdb-2">
+        <div class="container-fluid pdt-2 pdb-2 bg-bluish">
             <div class="container">
                 <div class="text-content">
                     <h2>Discover World By Trade Data</h2>
@@ -259,7 +259,7 @@
         <!-- End Of Discover World Trade Data -->
 
         <!-- Overview Of HS Code -->
-        <div class="container-fluid pdt-2 pdb-2">
+        <div class="container-fluid pdt-2 pdb-2 bg-bluish">
             <div class="container">
                 <div class="text-content">
                     <span>OverView Of HS Code</span>
@@ -329,7 +329,7 @@
         <!-- End Overview Of HS Code -->
 
         <!-- Significance -->
-        <div class="container-fluid bg-bluish pdt-2 pdb-2">
+        <div class="container-fluid bg-bluish pdt-2 pdb-2 bg-bluish">
             <div class="container">
                 <div class="text-content">
                     <h2>
@@ -393,7 +393,7 @@
         </div>
 
         <!-- Last Content : simplifying -->
-        <div class="container-fluid pdt-2">
+        <div class="container-fluid pdt-2 bg-bluish">
             <div class="container">
                 <div class="text-content">
                     <h2>TradeImeX: Simplifying HS Codes</h2>
@@ -411,7 +411,7 @@
         </div>
 
         <!-- FAQ section -->
-        <div class="container-fluid padding-tb">
+        <div class="container-fluid padding-tb bg-bluish">
             <div class="container">
                 <div  class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
