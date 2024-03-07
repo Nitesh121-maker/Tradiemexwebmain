@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                        <div class="data-img img-aspect">
+                        <div class="data-img img-aspect" style="aspect-ratio: 5/4 !important;">
                             @if ($continent->mf_content_images)
                             @php
                                 // Construct the full image URL using the base URL and the image filename.
