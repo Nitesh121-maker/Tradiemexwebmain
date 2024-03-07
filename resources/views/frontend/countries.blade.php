@@ -23,6 +23,19 @@
             #bl-sample{
                 display: none;
             }
+            .image-container {
+                width: 1037px; /* Adjust as needed */
+                max-width: 100%; /* Ensure image does not exceed container width */
+                height: auto; /* Maintain aspect ratio */
+            }
+
+            /* Media query for mobile devices */
+            @media (max-width: 767px) {
+                .image-container {
+                    width: calc(100vw - 20px); /* Adjust as needed */
+                    max-width: 100%; /* Ensure image does not exceed container width */
+                }
+            }
         </style>
     </head>
     <body>
@@ -494,7 +507,7 @@
                     @endphp
                     @endif
                     @if (!empty($slideimageURL))
-                        <img src="{{ $slideimageURL }}" class="sample-img" style="margin-top: 1%;">
+                        <img src="{{ $slideimageURL }}" class="image-container" style="margin-top: 1%;">
                     @endif
                 </div>
 
@@ -512,13 +525,13 @@
                     @endphp
                     @endif
                     @if (!empty($slideimageURL))
-                        <img src="{{ $slideimageURL }}" class="sample-img" style="margin-top: 1%;">
+                        <img src="{{ $slideimageURL }}" class="image-container" style="margin-top: 1%;">
                     @endif
                 </div>
             @else
                 <div class="container" style="padding-top: 1%;">
                     <div class="flex" style="justify-content: center;">
-                        {{-- <img class="sample-img" src="frontend/image/img/Statistical Data.png" style="border-radius: 12px;"> --}}
+                        {{-- <img class="image-container" src="frontend/image/img/Statistical Data.png" style="border-radius: 12px;"> --}}
                         
                         @if ($country->slider_images_one)
                                 @php
@@ -527,7 +540,7 @@
                                 @endphp
                             @endif
                             @if (!empty($sampleURL))
-                            <img src="{{ $sampleURL }}"  class="sample-img">
+                            <img src="{{ $sampleURL }}"  class="image-container">
                         @endif
                     </div>
                     @if ($country->data_file)
