@@ -177,40 +177,46 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="core-content content-highlight" style="height: 20rem;">
-                                <div class="image">
+                            <div class="card card-bg cdh-20">
+                                <div class="card-img">
                                     <img src="frontend/image/img/link.png" style="width: 15%;">
                                 </div>
-                                <h2 class="text-white">Establishing Links</h2>
-                                <p class="text-white" style="padding: 0px 0px 0px 0px;">
-                                    To accomplish the goals and targets set by the organization, you must establish connections
-                                    with different international market leaders, collaborate with your team, and stay up to date on
-                                    the most recent developments and insights about the worldwide market.
-                                </p>
+                                <div class="card-body">
+                                    <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">Establishing Links</h5>
+                                    <p class="card-text text-white-p">
+                                        To accomplish the goals and targets set by the organization, you must establish connections
+                                        with different international market leaders, collaborate with your team, and stay up to date on
+                                        the most recent developments and insights about the worldwide market.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="core-content content-highlight" style="height: 20rem;">
-                                <div class="image">
+                            <div class="card card-bg cdh-20">
+                                <div class="card-img">
                                     <img src="frontend/image/img/data-report.png" style="width: 15%;">
                                 </div>
-                                <h2 class="text-white">Achieve business exposure</h2>
-                                <p class="text-white" style="padding: 0px 0px 0px 0px;">
-                                    Collaborating with your colleagues under one roof will provide you with corporate experience,
-                                    which will teach you to follow rules and develop into a responsible individual.
-                                </p>
+                                <div class="card-body">
+                                    <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">Achieve business exposure</h2>
+                                    <p class="card-text text-white-p">
+                                        Collaborating with your colleagues under one roof will provide you with corporate experience,
+                                        which will teach you to follow rules and develop into a responsible individual.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="core-content content-highlight" style="height: 20rem;">
-                                <div class="image">
+                            <div class="card card-bg cdh-20">
+                                <div class="card-img">
                                     <img src="frontend/image/img/working.png" style="width: 15%;">
                                 </div>
-                                <h2 class="text-white">Exciting and Challenging Work</h2>
-                                <p class="text-white" style="padding: 0px 0px 0px 0px;">
-                                    At TradeImeX, no days are the same. You will always be encouraged to adapt and be on your
-                                    toes in our line of work because it moves quickly and is always changing.
-                                </p>
+                                <div class="card-body">
+                                    <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">Exciting and Challenging Work</h2>
+                                    <p class="card-text text-white-p">
+                                        At TradeImeX, no days are the same. You will always be encouraged to adapt and be on your
+                                        toes in our line of work because it moves quickly and is always changing.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
