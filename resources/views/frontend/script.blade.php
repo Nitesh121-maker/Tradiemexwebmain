@@ -15,7 +15,7 @@
             const form = document.querySelector('contact-form');
     
             form.addEventListener('submit', function(event) {
-                const messageInput = document.querySelector('textarea[name="msg"]');
+                const messageInput = document.querySelector('textarea[name="message"]');
                 const message = messageInput.value;
     
                 if (containsURL(message)) {
