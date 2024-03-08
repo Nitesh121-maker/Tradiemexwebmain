@@ -358,7 +358,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/exclusive-trade-data.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/exclusive-trade-data.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Exclusive trade data</h3>
@@ -373,7 +373,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/intelligence-trade-data.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/intelligence-trade-data.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Trade Intelligence Data Platform</h3>
@@ -388,7 +388,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/Growth-I.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/Growth-I.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Growth of the international network</h3>
@@ -403,7 +403,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/data-source.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/data-source.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Data Sourcing and accuracy</h3>

@@ -236,7 +236,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
-                        <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
+                        <div class="card card-bg cdh-16">
+                            <div class="card-img">
+                                <img src="frontend/image/img/vlogger.png" width="50%">
+                            </div>
+                            <div class="card-body">
+                                <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                    Opportunities for Travel and Networking
+                                </h2>
+                                <p class="card-text text-white-p">
+                                    TradeImeX operates on a global scale, and as an employee, you may have the opportunity to
+                                    travel to different countries and interact with professionals from various industries and
+                                    backgrounds. This exposure to international markets and networking opportunities can
+                                    broaden your horizons, expand your professional network, and provide valuable insights and
+                                    experiences.
+                                </p>
+                            </div>
+                        </div>
+                        {{-- <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
                             <div class="image">
                                 <img src="frontend/image/img/vlogger.png" width="50%">
                             </div>
@@ -248,7 +265,7 @@
                                 broaden your horizons, expand your professional network, and provide valuable insights and
                                 experiences.
                             </p>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
                         <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
