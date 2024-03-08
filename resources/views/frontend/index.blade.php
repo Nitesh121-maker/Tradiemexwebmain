@@ -1995,52 +1995,50 @@
 
                         <!-- For Mobile -->
                         <div id="client_mobile" class="container-fluid padding-tb" style="display: none;">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="frontend/image/client_transparent/Realme.png">
-                                        </div>
+                            <div class="row">
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="frontend/image/client_transparent/Realme.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="frontend/image/client_transparent/Nikon.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="frontend/image/client_transparent/Nikon.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="frontend/image/client_transparent/Samsung.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="frontend/image/client_transparent/Samsung.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="frontend/image/client_transparent/LG.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="frontend/image/client_transparent/LG.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="frontend/image/client_transparent/Hyundai.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="frontend/image/client_transparent/Hyundai.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="frontend/image/client_transparent/Mahindra.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="frontend/image/client_transparent/Mahindra.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="frontend/image/client_transparent/Tata.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="frontend/image/client_transparent/Tata.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="frontend/image/client_transparent/TVS.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="frontend/image/client_transparent/TVS.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="frontend/image/client_transparent/Deloitte.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="frontend/image/client_transparent/Deloitte.png">
                                     </div>
                                 </div>
                             </div>
@@ -2157,14 +2155,6 @@
         <!-- Last Contact Us -->
         @include('frontend.tab_inc')
         
-        <!-- Alert For Link Detection -->
-        <div id="snackbar">
-            <svg class="bi flex-shrink-0 me-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
-                    <style>svg{fill:#842029}</style>
-                    <path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/>
-                </svg>
-            <b>Link Detected!</b> Form cannot be submitted.
-        </div>
         @include('frontend.footer')
 
         @include('frontend.script')
