@@ -125,7 +125,7 @@
                         <h3>Benefits of Customized Analytical Reports from TradeImeX</h3>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-16">
+                        <div class="card-content cdh-19">
                             <div class="icon">
                                 <img src="frontend/image/img/process.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -141,7 +141,10 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-16"> 
+                        <div class="card-content cdh-19"> 
+                            <div class="icon">
+                                <img src="frontend/image/img/process.png" width="25%" style="padding: 0px 0px 0px 10px;">
+                            </div>
                             <div class="head">
                                 <h3>Comprehensive Insights</h3>
                             </div>
@@ -154,7 +157,10 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-16">
+                        <div class="card-content cdh-19">
+                            <div class="icon">
+                                <img src="frontend/image/img/process.png" width="25%" style="padding: 0px 0px 0px 10px;">
+                            </div>
                             <div class="head">
                                 <h3>Timesaving</h3>
                             </div>
@@ -167,7 +173,10 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-16">
+                        <div class="card-content cdh-19">
+                            <div class="icon">
+                                <img src="frontend/image/img/process.png" width="25%" style="padding: 0px 0px 0px 10px;">
+                            </div>
                             <div class="head">
                                 <h3>Cost-Effective</h3>
                             </div>
@@ -200,7 +209,10 @@
                 <!-- Key Points -->
                 <div class="row">
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-22">
+                            <div class="icon">
+                                <img src="frontend/image/img/process.png" width="25%" style="padding: 0px 0px 0px 10px;">
+                            </div>
                             <div class="head">
                                 <h3>
                                     BE AWARE OF THE COMPANY&#39;S NATURE AND POSITION IN THE MARKET
@@ -215,7 +227,10 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-22">
+                            <div class="icon">
+                                <img src="frontend/image/img/process.png" width="25%" style="padding: 0px 0px 0px 10px;">
+                            </div>
                             <div class="head">
                                 <h3>LEARN MORE ABOUT A PRODUCT&#39;S GLOBAL TRADE</h3>  
                             </div>
@@ -226,7 +241,10 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-22">
+                            <div class="icon">
+                                <img src="frontend/image/img/process.png" width="25%" style="padding: 0px 0px 0px 10px;">
+                            </div>
                             <div class="head">
                                 <h3>DATA EFFICIENCY</h3>
                             </div>
@@ -238,7 +256,10 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-22">
+                            <div class="icon">
+                                <img src="frontend/image/img/process.png" width="25%" style="padding: 0px 0px 0px 10px;">
+                            </div>
                             <div class="head">
                                 <h3>BETTER ANALYSIS IS ASSISTED BY INTERACTIVE PLATFORMS</h3>
                             </div>
