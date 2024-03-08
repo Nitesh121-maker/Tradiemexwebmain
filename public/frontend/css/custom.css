@@ -885,7 +885,7 @@ h1 {
 }
 
 .card-img {
-    justify-content: center;
+    justify-content: start;
     display: flex
 }
 
