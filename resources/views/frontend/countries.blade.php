@@ -487,14 +487,28 @@
                         <button onclick="stats()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
                         <button onclick="bl()" class="btn btn-primary" type="button">B/L Data</button>
                     </div>
-                    @if ($country->kpimages_four)
+                    @if ($country->bl_data_img)
                     @php
                         // Construct the full image URL using the base URL and the image filename.
-                        $slideimageURL = asset('http://192.168.1.9:8000/frontend/img/bldata/' . $country->bl_data_img);
+                        $blimageURL = asset('http://192.168.1.9:8000/frontend/img/bldata/' . $country->bl_data_img);
                     @endphp
                     @endif
-                    @if (!empty($slideimageURL))
-                        <img src="{{ $slideimageURL }}" class="image-container" style="margin-top: 1%;">
+                    @if (!empty($blimageURL))
+                        <img src="{{ $blimageURL }}" class="image-container" style="margin-top: 1%;">
+                    @endif
+                    @if ($country->bl_data_file)
+                        @php
+                            // Construct the full image URL using the base URL and the image filename.
+                            $blfileURL = asset('http://192.168.1.9:8000/frontend/files/' . $country->bl_data_file);
+                            
+                        @endphp
+
+                        <div class="buttons-holder download-sample" style="margin-top: 2%;">
+                            <a href="{{ $blfileURL }}" download="sample_data.jpg" class="ybtn ybtn-accent-color">
+                                Download Sample &nbsp;
+                                <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
+                            </a>
+                        </div>
                     @endif
                 </div>
 
@@ -505,16 +519,31 @@
                         <button onclick="bl()" class="btn btn-outline" type="button" style="color: white;">B/L Data</button>
                     </div>
 
-                    @if ($country->kpimages_four)
+                    @if ($country->stats_data_img)
                     @php
                         // Construct the full image URL using the base URL and the image filename.
                         $slideimageURL = asset('http://192.168.1.9:8000/frontend/img/stasticaldata/' . $country->stats_data_img);
                     @endphp
                     @endif
-                    @if (!empty($slideimageURL))
-                        <img src="{{ $slideimageURL }}" class="image-container" style="margin-top: 1%;">
+                    @if (!empty($statsimageURL))
+                        <img src="{{ $statsimageURL }}" class="image-container" style="margin-top: 1%;">
+                    @endif
+                    @if ($country->stats_data_file)
+                        @php
+                            // Construct the full image URL using the base URL and the image filename.
+                            $samplefileURL = asset('http://192.168.1.9:8000/frontend/files/' . $country->data_file);
+                            
+                        @endphp
+
+                        <div class="buttons-holder download-sample" style="margin-top: 2%;">
+                            <a href="{{ $samplefileURL }}" download="sample_data.jpg" class="ybtn ybtn-accent-color">
+                                Download Sample &nbsp;
+                                <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
+                            </a>
+                        </div>
                     @endif
                 </div>
+
             @else
                 <div class="container" style="padding-top: 1%;">
                     <div class="flex" style="justify-content: center;">
@@ -527,15 +556,15 @@
                                 @endphp
                             @endif
                             @if (!empty($sampleURL))
-                            <img src="{{ $sampleURL }}" style="width: 100% !important"  class="image-container">
+                            <img src="{{ $sampleURL }}" style="width: 40% ;"  class="image-container">
                         @endif
                     </div>
                     @if ($country->data_file)
-                    @php
-                        // Construct the full image URL using the base URL and the image filename.
-                        $samplefileURL = asset('http://192.168.1.9:8000/frontend/files/' . $country->data_file);
-                        
-                    @endphp
+                        @php
+                            // Construct the full image URL using the base URL and the image filename.
+                            $samplefileURL = asset('http://192.168.1.9:8000/frontend/files/' . $country->data_file);
+                            
+                        @endphp
         
                         <div class="buttons-holder download-sample" style="margin-top: 2%;">
                             <a href="{{ $samplefileURL }}" download="sample_data.jpg" class="ybtn ybtn-accent-color">
