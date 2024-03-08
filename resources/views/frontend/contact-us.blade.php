@@ -56,7 +56,7 @@
                                 </div>
                         
                             @endif
-                            <form action="{{ route('contact.send') }}" method="POST" id="contact-form" class="form-control" method="post" style="border: 0px;">
+                            <form action="{{ route('contact.send') }}" method="POST" onsubmit="return validateForm()" id="contact-form" class="form-control" method="post" style="border: 0px;">
                                 @csrf
 
                                 <div class="form-floating mb-3 col-xs-12 col-sm-12 col-md-12 col-lg-12">
