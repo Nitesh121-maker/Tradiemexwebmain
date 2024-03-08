@@ -162,7 +162,7 @@
                     </div>
                     <div class="row col-sm-12 col-xs-12 col-md-12 col-lg-12">
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="card card-bg cdh-20">
+                            <div class="card card-bg cdh-16">
                                 <div class="card-img">
                                     <img src="frontend/image/img/growth (1).png" style="width: 15%;">
                                 </div>
@@ -177,7 +177,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="card card-bg cdh-20">
+                            <div class="card card-bg cdh-16">
                                 <div class="card-img">
                                     <img src="frontend/image/img/link.png" style="width: 15%;">
                                 </div>
@@ -192,7 +192,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="card card-bg cdh-20">
+                            <div class="card card-bg cdh-16">
                                 <div class="card-img">
                                     <img src="frontend/image/img/data-report.png" style="width: 15%;">
                                 </div>
@@ -206,7 +206,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="card card-bg cdh-20">
+                            <div class="card card-bg cdh-16">
                                 <div class="card-img">
                                     <img src="frontend/image/img/working.png" style="width: 15%;">
                                 </div>
