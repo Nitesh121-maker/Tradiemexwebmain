@@ -78,7 +78,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/globe.png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/globe.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Comprehensive Coverage</h3>
@@ -93,7 +93,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/real-time-strategy.png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/real-time-strategy.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>  
                             <div class="head">
                                 <h3>Real-Time Updates</h3>
@@ -108,7 +108,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/presentation.png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/presentation.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Advanced Analytics for In-Depth Insights</h3>
@@ -123,7 +123,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/market-research (1).png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/market-research (1).png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Market Research and Trend Analysis</h3>
@@ -163,7 +163,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-21">
                             <div class="icon">
-                                <img src="frontend/image/img/market -intelligence.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/market -intelligence.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Market Intelligence</h3>
@@ -178,7 +178,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-21">
                             <div class="icon">
-                                <img src="frontend/image/img/potential-partner.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/potential-partner.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>  
                             <div class="head">
                                 <h3>Identifying Potential Partners</h3>
@@ -193,7 +193,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-21">
                             <div class="icon">
-                                <img src="frontend/image/img/Managing Supply Chain.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/Managing Supply Chain.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Managing Supply Chain</h3>
@@ -208,7 +208,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-21">
                             <div class="icon">
-                                <img src="frontend/image/img/mitigating-risk.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/mitigating-risk.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Mitigating Risks</h3>
