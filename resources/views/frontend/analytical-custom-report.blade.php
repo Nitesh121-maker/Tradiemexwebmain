@@ -175,7 +175,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-19">
                             <div class="icon">
-                                <img src="frontend/image/img/Cost-Effectives.png" width="25%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/Cost-Effective.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Cost-Effective</h3>
