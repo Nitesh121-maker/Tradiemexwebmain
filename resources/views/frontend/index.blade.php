@@ -2204,8 +2204,8 @@
                 evt.currentTarget.className += " active-1"
             }
 
-            // autoplay tab
-            var currentIndex = 0; // Initialize the index of the active tab
+             // autoplay tab
+             var currentIndex = 0; // Initialize the index of the active tab
             var intervalId; // Variable to store the interval ID
             var progressBarInterval; // Variable to store the progress bar interval ID
 
@@ -2227,19 +2227,22 @@
             }
 
             function startAutoPlay() {
-                intervalId = setInterval(openLinkAutomatically, 5000); // Adjust the interval as needed
+                // Check if the screen width is greater than 768 pixels (adjust as needed)
+                if (window.innerWidth > 768) {
+                    intervalId = setInterval(openLinkAutomatically, 5000); // Adjust the interval as needed
 
-                // Start progress bar
-                var progressBar = document.getElementById("progress-bar");
-                var width = 1; // Initial width
-                progressBarInterval = setInterval(function () {
-                    if (width >= 100) {
-                        clearInterval(progressBarInterval);
-                    } else {
-                        width++;
-                        progressBar.style.width = width + "%";
-                    }
-                }, 30); // Adjust the interval as needed
+                    // Start progress bar
+                    var progressBar = document.getElementById("progress-bar");
+                    var width = 1; // Initial width
+                    progressBarInterval = setInterval(function () {
+                        if (width >= 100) {
+                            clearInterval(progressBarInterval);
+                        } else {
+                            width++;
+                            progressBar.style.width = width + "%";
+                        }
+                    }, 30); // Adjust the interval as needed
+                }
             }
 
             function stopAutoPlay() {
@@ -2255,31 +2258,32 @@
             startAutoPlay();
 
             // For Tab Containers
-                // Add event listeners for stopping on hover
-                document.getElementById("custom").addEventListener("mouseenter", stopAutoPlay);
-                document.getElementById("custom").addEventListener("mouseleave", startAutoPlay);
+            // Add event listeners for stopping on hover
+            document.getElementById("custom").addEventListener("mouseenter", stopAutoPlay);
+            document.getElementById("custom").addEventListener("mouseleave", startAutoPlay);
 
-                // Add event listeners for stopping on hover
-                document.getElementById("stat").addEventListener("mouseenter", stopAutoPlay);
-                document.getElementById("stat").addEventListener("mouseleave", startAutoPlay);
+            // Add event listeners for stopping on hover
+            document.getElementById("stat").addEventListener("mouseenter", stopAutoPlay);
+            document.getElementById("stat").addEventListener("mouseleave", startAutoPlay);
 
-                // Add event listeners for stopping on hover
-                document.getElementById("bl").addEventListener("mouseenter", stopAutoPlay);
-                document.getElementById("bl").addEventListener("mouseleave", startAutoPlay);
+            // Add event listeners for stopping on hover
+            document.getElementById("bl").addEventListener("mouseenter", stopAutoPlay);
+            document.getElementById("bl").addEventListener("mouseleave", startAutoPlay);
 
             // For Tab Buttons
-                // Add event listeners for stopping on hover
-                document.getElementById("btn-custom").addEventListener("mouseenter", stopAutoPlay);
-                document.getElementById("btn-custom").addEventListener("mouseleave", startAutoPlay);
+            // Add event listeners for stopping on hover
+            document.getElementById("btn-custom").addEventListener("mouseenter", stopAutoPlay);
+            document.getElementById("btn-custom").addEventListener("mouseleave", startAutoPlay);
 
-                // Add event listeners for stopping on hover
-                document.getElementById("btn-stat").addEventListener("mouseenter", stopAutoPlay);
-                document.getElementById("btn-stat").addEventListener("mouseleave", startAutoPlay);
+            // Add event listeners for stopping on hover
+            document.getElementById("btn-stat").addEventListener("mouseenter", stopAutoPlay);
+            document.getElementById("btn-stat").addEventListener("mouseleave", startAutoPlay);
 
-                // Add event listeners for stopping on hover
-                document.getElementById("btn-bl").addEventListener("mouseenter", stopAutoPlay);
-                document.getElementById("btn-bl").addEventListener("mouseleave", startAutoPlay);
+            // Add event listeners for stopping on hover
+            document.getElementById("btn-bl").addEventListener("mouseenter", stopAutoPlay);
+            document.getElementById("btn-bl").addEventListener("mouseleave", startAutoPlay);
         </script>
+
 
         <!-- Google Tag Manager (noscript) -->
         <noscript>
