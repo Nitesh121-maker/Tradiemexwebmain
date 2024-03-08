@@ -884,9 +884,15 @@ h1 {
     box-shadow: -1px 4px 37px 2px rgba(0, 0, 0, .75)
 }
 
+.card-body {
+    padding: 10px !important;
+    flex: 1 1 auto;
+}
+
 .card-img {
     justify-content: start;
-    display: flex
+    display: flex;
+    padding: 10px;
 }
 
 .card-shadow {
