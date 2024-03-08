@@ -954,7 +954,7 @@ table tbody tr th a {
 
 .card-content-bg img {
     display: block;
-    justify-content: left;
+    justify-content: start;
     width: 20%
 }
 
