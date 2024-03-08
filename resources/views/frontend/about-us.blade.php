@@ -58,8 +58,8 @@
                                 <img src="frontend/image/img/one_step.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title text-white text-center" style="font-size: 18px;font-weight: 600;">A One-Stop Solution</h5>
-                                <p class="card-text text-white-p text-center">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">A One-Stop Solution</h5>
+                                <p class="card-text text-white-p">
                                     TradeImeX is a user-friendly platform that acts as a one-stop solution for all your
                                     import-export data needs. From navigating trade flows and tracking specific products to
                                     analyzing market trends and custom activities, TradeImeX provides a comprehensive
@@ -74,10 +74,10 @@
                                 <img src="frontend/image/img/access.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title text-white text-center" style="font-size: 18px;font-weight: 600;">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Real-time Access
                                 </h5>
-                                <p class="card-text text-white-p text-center">
+                                <p class="card-text text-white-p">
                                     With TradeImeX, you can access real-time import-export data, ensuring that you are
                                     constantly updated with the latest changes in the market. By staying ahead of the curve,
                                     businesses can capitalize on emerging trends and opportunities before their
@@ -92,8 +92,8 @@
                                 <img src="frontend/image/img/advance_analytics.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title text-white text-center" style="font-size: 18px;font-weight: 600;">Advanced Analytics</h5>
-                                <p class="card-text text-white-p text-center">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">Advanced Analytics</h5>
+                                <p class="card-text text-white-p">
                                     TradeImeX goes beyond providing raw data. It offers advanced analytics tools, 
                                     enabling businesses to transform data into actionable insights. From visualizations 
                                     and charts to interactive maps and trend analysis, TradeImeX empowers businesses 
@@ -108,8 +108,8 @@
                                 <img src="frontend/image/img/support.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title text-white text-center" style="font-size: 18px;font-weight: 600;">Comprehensive Support</h5>
-                                <p class="card-text text-white-p text-center">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">Comprehensive Support</h5>
+                                <p class="card-text text-white-p">
                                     TradeImeX understands the importance of excellent customer support. With a team 
                                     of industry experts always ready to assist users, TradeImeX ensures that businesses 
                                     receive timely responses to their inquiries and have access to the guidance needed to 
