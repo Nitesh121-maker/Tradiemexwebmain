@@ -74,7 +74,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/strategic-planning.png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/strategic-planning.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Strategic Decision Making</h3>
@@ -90,7 +90,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/data-processing.png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/data-processing.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>  
                             <div class="head">
                                 <h3>Streamlined Documentation Processes</h3>
@@ -106,7 +106,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/process.png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/process.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Data-Driven Decision Making</h3>
@@ -121,7 +121,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="frontend/image/img/survey.png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/survey.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Enhanced Supply Chain Visibility and Tracking</h3>

@@ -75,7 +75,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-18">
                             <div class="icon">
-                                <img src="/frontend/image/img/enhanced-market-updates.png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="/frontend/image/img/enhanced-market-updates.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Enhanced Market Updates</h3>
@@ -91,7 +91,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-18">
                             <div class="icon">
-                                <img src="frontend/image/img/market-trends.png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/market-trends.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>  
                             <div class="head">
                                 <h3>Identifying Market Trends</h3>
@@ -106,7 +106,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-18">
                             <div class="icon">
-                                <img src="frontend/image/img/informing-strategic.png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/informing-strategic.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Informing Strategic Planning</h3>
@@ -121,7 +121,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-18">
                             <div class="icon">
-                                <img src="frontend/image/img/supply-chain.png" width="30%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/supply-chain.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Optimized Supply Chain</h3>
