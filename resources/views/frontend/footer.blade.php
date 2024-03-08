@@ -22,7 +22,7 @@
                         </ul>
                     </div>
                 @endif
-                <form action="{{ route('contact.send') }}" method="POST" id="contact-form" enctype="multipart/form-data">
+                <form action="{{ route('contact.send') }}" onsubmit="return validateForm()" method="POST" id="contact-form" enctype="multipart/form-data">
 
                     @csrf
 
@@ -302,7 +302,7 @@
                         <label class="input-group-text" for="inputGroupSelect02">Options</label>
                     </div>
                     <div class="input-group">
-                        <textarea name="message" required class="form-control" placeholder="Your Message" aria-label="With textarea" id= "txt" ></textarea>
+                        <textarea name="message" required class="form-control" placeholder="Your Message" aria-label="With textarea" id= "floatingTextarea2" ></textarea>
                     </div>
                     <div class="btn col-md-12">
                         <button type="Submit" id="submit" class="btn btn-primary flex">

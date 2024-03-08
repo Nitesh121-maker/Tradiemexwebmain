@@ -30,6 +30,26 @@
             }
         });
     </script>
+    <script>
+        // Function to validate the form
+        function validateForm() {
+            // Get the value of the message field
+            var message = document.getElementById('floatingTextarea2').value;
+            
+            // Regular expression to match URLs
+            var urlRegex = /(https?:\/\/[^\s]+)/g;
+            
+            // Check if the message contains a URL
+            if (urlRegex.test(message)) {
+                // Alert the user and prevent form submission
+                alert('Please do not include URLs in the message.');
+                return false;
+            }
+            
+            // If the message does not contain a URL, allow form submission
+            return true;
+        }
+    </script>
 
     <!-- Google recaptcha verfication Code form js -->
     <script>
