@@ -130,7 +130,7 @@
                             @if ($country->mf_content_images)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
-                                    $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->mf_content_images);
+                                    $imageURL = asset('http://192.168.1.9:8000/frontend/img/import/' . $country->mf_content_images);
                                     
                                 @endphp
                             @endif
@@ -154,7 +154,7 @@
                                 {{-- @if ($country->kpimages)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages);
+                                        $imageURL = asset('http://192.168.1.9:8000/frontend/img/import/' . $country->kpimages);
                                         
                                     @endphp
                                 @endif
@@ -177,7 +177,7 @@
                                 {{-- @if ($country->kpimages_two)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_two);
+                                        $imageURL = asset('http://192.168.1.9:8000/frontend/img/import/' . $country->kpimages_two);
                                         
                                     @endphp
                                 @endif
@@ -200,7 +200,7 @@
                                 @if ($country->kpimages_three)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_three);
+                                        $imageURL = asset('http://192.168.1.9:8000/frontend/img/import/' . $country->kpimages_three);
                                         
                                     @endphp
                                 @endif
@@ -223,7 +223,7 @@
                                 @if ($country->kpimages_four)
                                     @php
                                         // Construct the full image URL using the base URL and the image filename.
-                                        $imageURL = asset('http://192.168.1.7:8000/frontend/img/import/' . $country->kpimages_four);
+                                        $imageURL = asset('http://192.168.1.9:8000/frontend/img/import/' . $country->kpimages_four);
                                     @endphp
                                 @endif
                                 @if (!empty($imageURL))
@@ -480,7 +480,7 @@
                 </div>
             </div>
 
-            @if ($country->country == "japan"||$country->country == "singapore"||$country->country == "Taiwan"||$country->country == "balgium"||$country->country == "germany"||$country->country == "japan"||$country->country == "greece"||$country->country == "italy"||$country->country == "netherlands"||$country->country == "spain"||$country->country == "uk"||$country->country == "canada"||$country->country == "australia")
+            @if ($country->country == "Japan"||$country->country == "Singapore"||$country->country == "Taiwan"||$country->country == "Balgium"||$country->country == "Germany"||$country->country == "greece"||$country->country == "Italy"||$country->country == "Netherlands"||$country->country == "Spain"||$country->country == "UK"||$country->country == "Canada"||$country->country == "Australia")
                 {{-- B/L Sample Data Tab --}}
                 <div class="container pdt-2" id="bl-sample">
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -490,7 +490,7 @@
                     @if ($country->kpimages_four)
                     @php
                         // Construct the full image URL using the base URL and the image filename.
-                        $slideimageURL = asset('http://192.168.1.7:8000/frontend/img/others/' . $country->slider_images_one);
+                        $slideimageURL = asset('http://192.168.1.9:8000/frontend/img/bldata/' . $country->bl_data_img);
                     @endphp
                     @endif
                     @if (!empty($slideimageURL))
@@ -508,7 +508,7 @@
                     @if ($country->kpimages_four)
                     @php
                         // Construct the full image URL using the base URL and the image filename.
-                        $slideimageURL = asset('http://192.168.1.7:8000/frontend/img/others/' . $country->slider_images_one);
+                        $slideimageURL = asset('http://192.168.1.9:8000/frontend/img/stasticaldata/' . $country->stats_data_img);
                     @endphp
                     @endif
                     @if (!empty($slideimageURL))
@@ -523,27 +523,27 @@
                         @if ($country->slider_images_one)
                                 @php
                                     // Construct the full image URL using the base URL and the image filename.
-                                    $sampleURL = asset('http://192.168.1.7:8000/frontend/img/others/' . $country->slider_images_one);                              
+                                    $sampleURL = asset('http://192.168.1.9:8000/frontend/img/others/' . $country->slider_images_one);                              
                                 @endphp
                             @endif
                             @if (!empty($sampleURL))
-                            <img src="{{ $sampleURL }}" style="width: 40% !important"  class="image-container">
+                            <img src="{{ $sampleURL }}" style="width: 100% !important"  class="image-container">
                         @endif
                     </div>
                     @if ($country->data_file)
                     @php
                         // Construct the full image URL using the base URL and the image filename.
-                        $samplefileURL = asset('http://192.168.1.7:8000/frontend/files/' . $country->data_file);
+                        $samplefileURL = asset('http://192.168.1.9:8000/frontend/files/' . $country->data_file);
                         
                     @endphp
- 
-                    <div class="buttons-holder download-sample" style="margin-top: 2%;">
-                        <a href="{{ $samplefileURL }}" download="sample_data.jpg" class="ybtn ybtn-accent-color">
-                            Download Sample &nbsp;
-                            <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
-                        </a>
-                    </div>
-               @endif
+        
+                        <div class="buttons-holder download-sample" style="margin-top: 2%;">
+                            <a href="{{ $samplefileURL }}" download="sample_data.jpg" class="ybtn ybtn-accent-color">
+                                Download Sample &nbsp;
+                                <i class="fa-solid fa-file-arrow-down fa-xl" style="color: #fbfbfe;"></i>
+                            </a>
+                        </div>
+                    @endif
                 </div>
             @endif
         </div>
