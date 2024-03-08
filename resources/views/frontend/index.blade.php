@@ -116,7 +116,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 kp-width">
                         <div class="card-content cdh-16 bg-none">
                             <div class="icon">
-                                <img src="frontend/image/img/reliable-data.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/reliable-data.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3 class="text-white">100% RELIABLE DATA</h3>
@@ -132,7 +132,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 kp-width">
                         <div class="card-content cdh-16 bg-none">
                             <div class="icon">
-                                <img src="frontend/image/img/updated-database.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/updated-database.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3 class="text-white">A NEW AND UPDATED DATABASE</h3>
@@ -148,7 +148,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 kp-width">
                         <div class="card-content cdh-17 bg-none">
                             <div class="icon">
-                                <img src="frontend/image/img/reliability.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/reliability.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3 class="text-white">TOP BRANDS TRUST US</h3>
@@ -164,7 +164,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 kp-width">
                         <div class="card-content cdh-16 bg-none">
                             <div class="icon">
-                                <img src="frontend/image/img/devaluation.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="frontend/image/img/devaluation.png" width="25%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3 class="text-white">AFFORDABLE PACKAGES</h3>
