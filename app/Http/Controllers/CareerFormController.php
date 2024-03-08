@@ -29,7 +29,8 @@ class CareerFormController extends Controller
             Mail::to('info@tradeimex.in')->send(new CareerFormMail($validatedData, $cvContent));
        
             // Redirect back with success message
-            return redirect()->back()->with('success', 'Your application has been submitted.');
+            return redirect()->route('thankyou')->with('success', 'Your application has been submitted.');
+            
         } catch (\Exception $e) {
             // Log the error
           

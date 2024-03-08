@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\PartnerFormMail;
 use Illuminate\Support\Facades\Mail;
+use App\Rules\NoUrls;
+use Illuminate\Validation\Rule;
 class PartnerFormController extends Controller
 {
     //
@@ -17,7 +19,7 @@ class PartnerFormController extends Controller
                 'lname'              => ['required', 'string'],
                 'email'              => ['required', 'email'],
                 'number'              => ['required', 'numeric'],
-                'msg'                => ['required'],
+                'msg' => ['required', 'string', new NoUrls],
                 'apply'              => ['required'],
                 'recaptcha_response' => ['required']
             ]);
