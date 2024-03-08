@@ -2137,7 +2137,7 @@ table tbody tr th a:hover {
 @media (max-width:576px) {
     .img-aspect {
         display: flex;
-        aspect-ratio: 2/2 !important;
+        aspect-ratio: 3/2 !important;
     }
 
     .data-img img {
