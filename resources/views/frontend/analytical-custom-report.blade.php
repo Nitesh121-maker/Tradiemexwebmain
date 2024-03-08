@@ -126,6 +126,9 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-16">
+                            <div class="icon">
+                                <img src="frontend/image/img/process.png" width="25%" style="padding: 0px 0px 0px 10px;">
+                            </div>
                             <div class="head">
                                 <h3>Tailored to Specific Needs</h3>
                             </div>
