@@ -10,6 +10,27 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('contact-form');
+    
+            form.addEventListener('submit', function(event) {
+                const messageInput = document.querySelector('textarea[name="msg"]');
+                const message = messageInput.value;
+    
+                if (containsURL(message)) {
+                    alert('Please avoid including URLs in the message field.');
+                    event.preventDefault();
+                }
+            });
+    
+            function containsURL(message) {
+                const urlPattern = /(http(s)?:\/\/)?(www\.)?[\w-]+\.[a-z]{2,}(\.[a-z]{2,})?(\S*)?/gi;
+                return urlPattern.test(message);
+            }
+        });
+    </script>
+
     <!-- Google recaptcha verfication Code form js -->
     <script>
         grecaptcha.ready(() => {
