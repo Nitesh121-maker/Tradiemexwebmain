@@ -162,16 +162,18 @@
                     </div>
                     <div class="row col-sm-12 col-xs-12 col-md-12 col-lg-12">
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
-                            <div class="core-content content-highlight" style="height: 20rem;">
-                                <div class="image">
+                            <div class="card card-bg cdh-20">
+                                <div class="card-img">
                                     <img src="frontend/image/img/growth (1).png" style="width: 15%;">
                                 </div>
-                                <h2 class="text-white">Support and enhance the company’s growth</h2>
-                                <p class="text-white" style="padding: 0px 0px 0px 0px;">
-                                    Along with learning about a completely new trade environment, you will be collaborating and
-                                    working with your designated team of professionals. You will gain knowledge of worldwide
-                                    market trends and analysis, which will enable you to support the business&#39;s expansion.
-                                </p>
+                                <div class="card-body">
+                                    <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">Support and enhance the company’s growth</h5>
+                                    <p class="card-text text-white-p">
+                                        Along with learning about a completely new trade environment, you will be collaborating and
+                                        working with your designated team of professionals. You will gain knowledge of worldwide
+                                        market trends and analysis, which will enable you to support the business&#39;s expansion.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
