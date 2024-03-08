@@ -236,9 +236,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
-                        <div class="card card-bg cdh-16">
+                        <div class="card card-bg cdh-22">
                             <div class="card-img">
-                                <img src="frontend/image/img/vlogger.png" width="50%">
+                                <img src="frontend/image/img/vlogger.png" width="25%">
                             </div>
                             <div class="card-body">
                                 <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
@@ -253,48 +253,43 @@
                                 </p>
                             </div>
                         </div>
-                        {{-- <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
-                            <div class="image">
-                                <img src="frontend/image/img/vlogger.png" width="50%">
-                            </div>
-                            <h1 class="text-white">Opportunities for Travel and Networking</h1>
-                            <p class="text-white">
-                                TradeImeX operates on a global scale, and as an employee, you may have the opportunity to
-                                travel to different countries and interact with professionals from various industries and
-                                backgrounds. This exposure to international markets and networking opportunities can
-                                broaden your horizons, expand your professional network, and provide valuable insights and
-                                experiences.
-                            </p>
-                        </div> --}}
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
-                        <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
-                            <div class="image">
-                                <img src="frontend/image/img/incentive.png" width="50%">
+                        <div class="card card-bg cdh-22">
+                            <div class="card-img">
+                                <img src="frontend/image/img/incentive.png" width="25%">
                             </div>
-                            <h1 class="text-white">Employee Recognition and Incentives</h1>
-                            <p class="text-white">
-                                TradeImeX values excellence and recognizes the achievements of its employees. The
-                                company has a robust employee recognition program in place to celebrate individual and
-                                team accomplishments by providing incentives. TradeImeX acknowledges and rewards hard
-                                work, dedication, and outstanding performance, creating a culture of appreciation and
-                                motivation.
-                            </p>
+                            <div class="card-body">
+                                <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                    Employee Recognition and Incentives
+                                </h2>
+                                <p class="card-text text-white-p">
+                                    TradeImeX values excellence and recognizes the achievements of its employees. The
+                                    company has a robust employee recognition program in place to celebrate individual and
+                                    team accomplishments by providing incentives. TradeImeX acknowledges and rewards hard
+                                    work, dedication, and outstanding performance, creating a culture of appreciation and
+                                    motivation.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
-                        <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
-                            <div class="image">
-                                <img src="frontend/image/img/development.png" width="50%">
+                        <div class="card card-bg cdh-22">
+                            <div class="card-img">
+                                <img src="frontend/image/img/development.png" width="25%">
                             </div>
-                            <h1 class="text-white">Dynamic and Innovative Work Environment</h1>
-                            <p class="text-white">
-                                Joining TradeImeX means being a part of a dynamic and innovative work environment. The
-                                company embraces new technologies, encourages creative thinking, and fosters an
-                                entrepreneurial spirit. By being a part of TradeImeX, you will have the opportunity to work
-                                on challenging projects, contribute to innovative solutions, and be at the forefront of industry
-                                advancements.
-                            </p>
+                            <div class="card-body">
+                                <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                    Dynamic and Innovative Work Environment
+                                </h2>
+                                <p class="card-text text-white-p">
+                                    Joining TradeImeX means being a part of a dynamic and innovative work environment. The
+                                    company embraces new technologies, encourages creative thinking, and fosters an
+                                    entrepreneurial spirit. By being a part of TradeImeX, you will have the opportunity to work
+                                    on challenging projects, contribute to innovative solutions, and be at the forefront of industry
+                                    advancements.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
