@@ -933,7 +933,8 @@ table tbody tr th a {
     min-height: 40px;
     display: flex;
     align-items: flex-end;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    justify-content: center;
 }
 
 .card-content h3,
@@ -954,7 +955,7 @@ table tbody tr th a {
 .card-content-bg img {
     display: block;
     justify-content: left;
-    width: 30%
+    width: 20%
 }
 
 .bg-none,
