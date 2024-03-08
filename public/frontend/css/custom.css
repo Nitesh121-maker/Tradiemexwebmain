@@ -156,12 +156,6 @@ button:not(:disabled) {
     line-height: 1.8
 }
 
-.hero-subtitle p,
-.highlight p {
-    color: #425466;
-    line-height: 1.6
-}
-
 .text-content h3 {
     line-height: 1.4;
     text-align: start;
@@ -186,6 +180,30 @@ button:not(:disabled) {
 }
 
 @media (max-width:576px) {
+
+    .text-content span {
+        text-align: center !important;
+    }
+    
+    .text-content p {
+        text-align: center !important;
+    }
+    
+    .text-content h1 {
+        text-align: center !important;
+    }
+    
+    .text-content h2 {
+        text-align: center !important;
+    }
+    
+    .text-content h3 {
+        text-align: center !important;
+    }
+    
+    .text-content h4 {
+        text-align: center !important;
+    }
 
     .card-text-content p,
     .text-content p {
@@ -239,30 +257,6 @@ button:not(:disabled) {
     }
 }
 
-.hero-title h1 {
-    font-size: 50px;
-    text-align: center;
-    font-weight: 900
-}
-
-.hero-title h2 {
-    font-size: 36px;
-    text-align: center;
-    font-weight: 900
-}
-
-.hero-title span {
-    font-size: 34px;
-    display: flex;
-    justify-content: center;
-    text-transform: capitalize
-}
-
-.hero-subtitle p {
-    text-align: center;
-    font-size: 22px;
-    margin-bottom: 2.5rem
-}
 
 @media (max-width:375px) {
 
