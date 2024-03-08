@@ -114,14 +114,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 kp-width">
-                        <div class="card-content cdh-16 bg-none">
-                            <div class="icon">
+                        <div class="card cdh-16 bg-none">
+                            <div class="card-img">
                                 <img src="frontend/image/img/reliable-data.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
-                            <div class="head">
-                                <h3 class="text-white">100% RELIABLE DATA</h3>
+                            <div class="card-body">
+                                <h3 class="card-title text-white">100% RELIABLE DATA</h3>
                             </div>
-                            <p class="text-white" style="font-size: 14px;">
+                            <p class="card-text text-white-p" style="font-size: 14px;">
                                 We promise to offer a 100% trustworthy database. We have acquired
                                 detailed and accurate shipping information from databases of more than 80 nations
                                 and across 6 continents. With TradeImeX you get completely reliable data for your
