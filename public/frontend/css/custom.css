@@ -153,7 +153,6 @@ button:not(:disabled) {
     color: #202020;
     font-size: 26px;
     font-weight: 600;
-    line-height: 1.8
 }
 
 .text-content h3 {
@@ -224,7 +223,6 @@ button:not(:disabled) {
     .text-content h2 {
         font-size: 28px;
         font-weight: 600;
-        line-height: 1.8
     }
 
     .card-text-content p {
