@@ -370,83 +370,81 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6" style="padding-top: 3%;">
-                        <div class="row">
-                            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
-                                <div class="core-content">
-                                    <div class="image" style="display: flex;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 576 512" style="fill:#0b5ed7;">
-                                        <path d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120zm8 80.4c3.5-6.9 6.7-13.8 9.6-20.6c.5-1.2 1-2.5 1.5-3.7l116-46.4C558.9 123.4 576 135 576 152V422.8c0 9.8-6 18.6-15.1 22.3L416 503V200.4zM137.6 138.3c2.4 14.1 7.2 28.3 12.8 41.5c2.9 6.8 6.1 13.7 9.6 20.6V451.8L32.9 502.7C17.1 509 0 497.4 0 480.4V209.6c0-9.8 6-18.6 15.1-22.3l122.6-49zM327.8 332c13.9-17.4 35.7-45.7 56.2-77V504.3L192 449.4V255c20.5 31.3 42.3 59.6 56.2 77c20.5 25.6 59.1 25.6 79.6 0zM288 152a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"/>
+                    <div class="row col-sm-12 col-xs-12 col-md-6 col-lg-6" style="padding-top: 3%;">
+                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
+                            <div class="core-content">
+                                <div class="image" style="display: flex;">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 576 512" style="fill:#0b5ed7;">
+                                    <path d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120zm8 80.4c3.5-6.9 6.7-13.8 9.6-20.6c.5-1.2 1-2.5 1.5-3.7l116-46.4C558.9 123.4 576 135 576 152V422.8c0 9.8-6 18.6-15.1 22.3L416 503V200.4zM137.6 138.3c2.4 14.1 7.2 28.3 12.8 41.5c2.9 6.8 6.1 13.7 9.6 20.6V451.8L32.9 502.7C17.1 509 0 497.4 0 480.4V209.6c0-9.8 6-18.6 15.1-22.3l122.6-49zM327.8 332c13.9-17.4 35.7-45.7 56.2-77V504.3L192 449.4V255c20.5 31.3 42.3 59.6 56.2 77c20.5 25.6 59.1 25.6 79.6 0zM288 152a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"/>
+                                </svg>
+                                </div>
+                                <h2>Address:</h2>
+                                <p class="fw-600" style="padding: 0px 0px 0px 0px;">
+                                    372, 3rd floor, RU BLOCK, <br> Pitampura 110034, New Delhi
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
+                            <div class="core-content">
+                                <div class="image" style="display: flex;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512" style="fill:#0b5ed7;">
+                                        <path d="M80 0C44.7 0 16 28.7 16 64V448c0 35.3 28.7 64 64 64H304c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
                                     </svg>
-                                    </div>
-                                    <h2>Address:</h2>
-                                    <p class="fw-600" style="padding: 0px 0px 0px 0px;">
-                                        372, 3rd floor, RU BLOCK, <br> Pitampura 110034, New Delhi
-                                    </p>
                                 </div>
+                                <h2>Phone:</h2>
+                                <p class="fw-600" style="padding: 0px 0px 0px 0px;">
+                                    <a class="text-hover" href="tel:+91-9319646667">+91-9319646667</a><br>
+                                    <a class="text-hover" href="tel:+91-7042034462">+91-7042034462</a>
+                                </p>
                             </div>
-                            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
-                                <div class="core-content">
-                                    <div class="image" style="display: flex;">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512" style="fill:#0b5ed7;">
-                                            <path d="M80 0C44.7 0 16 28.7 16 64V448c0 35.3 28.7 64 64 64H304c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
-                                        </svg>
-                                    </div>
-                                    <h2>Phone:</h2>
-                                    <p class="fw-600" style="padding: 0px 0px 0px 0px;">
-                                        <a class="text-hover" href="tel:+91-9319646667">+91-9319646667</a><br>
-                                        <a class="text-hover" href="tel:+91-7042034462">+91-7042034462</a>
-                                    </p>
+                        </div>
+                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
+                            <div class="core-content">
+                                <div class="image" style="display: flex;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512" style="fill:#0b5ed7;">
+                                        <path d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256v32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32v80 32c0 17.7 14.3 32 32 32s32-14.3 32-32V256c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"/>
+                                    </svg>
                                 </div>
+                                <h2>Email</h2>
+                                <p class="fw-600" style="padding: 0px 0px 0px 0px;">
+                                    <a class="text-hover" href="mailto:info@tradeimex.in">
+                                        info@tradeimex.in 
+                                    </a>
+                                    <br>
+                                    <a class="text-hover" href="mailto:sales@tradeimex.in">
+                                        sales@tradeimex.in
+                                    </a>
+                                </p>
                             </div>
-                            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
-                                <div class="core-content">
-                                    <div class="image" style="display: flex;">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512" style="fill:#0b5ed7;">
-                                            <path d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256v32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32v80 32c0 17.7 14.3 32 32 32s32-14.3 32-32V256c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"/>
-                                        </svg>
-                                    </div>
-                                    <h2>Email</h2>
-                                    <p class="fw-600" style="padding: 0px 0px 0px 0px;">
-                                        <a class="text-hover" href="mailto:info@tradeimex.in">
-                                            info@tradeimex.in 
-                                        </a>
-                                        <br>
-                                        <a class="text-hover" href="mailto:sales@tradeimex.in">
-                                            sales@tradeimex.in
-                                        </a>
-                                    </p>
+                        </div>
+                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
+                            <div class="core-content">
+                                <div class="image" style="display: flex;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512" style="fill:#0b5ed7;">
+                                        <path d="M181.3 32.4c17.4 2.9 29.2 19.4 26.3 36.8L197.8 128h95.1l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3s29.2 19.4 26.3 36.8L357.8 128H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H347.1L325.8 320H384c17.7 0 32 14.3 32 32s-14.3 32-32 32H315.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l9.8-58.7H155.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8L90.2 384H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l21.3-128H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3zM187.1 192L165.8 320h95.1l21.3-128H187.1z"/>
+                                    </svg>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
-                                <div class="core-content">
-                                    <div class="image" style="display: flex;">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512" style="fill:#0b5ed7;">
-                                            <path d="M181.3 32.4c17.4 2.9 29.2 19.4 26.3 36.8L197.8 128h95.1l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3s29.2 19.4 26.3 36.8L357.8 128H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H347.1L325.8 320H384c17.7 0 32 14.3 32 32s-14.3 32-32 32H315.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l9.8-58.7H155.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8L90.2 384H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l21.3-128H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3zM187.1 192L165.8 320h95.1l21.3-128H187.1z"/>
-                                        </svg>
-                                    </div>
-                                    <h2>Social Icons</h2>
-                                    <div class="icon-container">
-                                        <a href="https://twitter.com/tradeimex" style="color: #55ACEE;" id="fp" >
-                                            <i  class="fab fa-2x fa-twitter"></i>
-                                        </a>
-                                        <a href="https://www.facebook.com/tradeimex" style="color: #3B5998;" id="fp">
-                                            <i  class="fab fa-2x fa-facebook"></i>
-                                        </a>    
-                                        <a href="https://www.linkedin.com/company/tradeimex/?viewAsMember=true" style="color: #0077B5;" id="fp">
-                                            <i  class="fab fa-2x fa-linkedin"></i>
-                                        </a>
-                                        <br>
-                                        <a href="https://www.youtube.com/channel/UCTHU41uHt6xOub4XDy2Egxw" style="color: red;" id="fp">  
-                                            <i  class="fab fa-2x fa-youtube"></i>
-                                        </a>
-                                        <a href="https://www.instagram.com/tradeimexinfo?igshid=OGQ5ZDc2ODk2ZA==" style="color: #bc2a8d;" id="fp">  
-                                            <i  class="fab fa-2x fa-instagram"></i>
-                                        </a>
-                                        <a href="https://pin.it/63T7r73" style="color: red;" id="fp">  
-                                            <i  class="fab fa-2x fa-pinterest"></i>
-                                        </a>
-                                    </div>
+                                <h2>Social Icons</h2>
+                                <div class="icon-container">
+                                    <a href="https://twitter.com/tradeimex" style="color: #55ACEE;" id="fp" >
+                                        <i  class="fab fa-2x fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com/tradeimex" style="color: #3B5998;" id="fp">
+                                        <i  class="fab fa-2x fa-facebook"></i>
+                                    </a>    
+                                    <a href="https://www.linkedin.com/company/tradeimex/?viewAsMember=true" style="color: #0077B5;" id="fp">
+                                        <i  class="fab fa-2x fa-linkedin"></i>
+                                    </a>
+                                    <br>
+                                    <a href="https://www.youtube.com/channel/UCTHU41uHt6xOub4XDy2Egxw" style="color: red;" id="fp">  
+                                        <i  class="fab fa-2x fa-youtube"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/tradeimexinfo?igshid=OGQ5ZDc2ODk2ZA==" style="color: #bc2a8d;" id="fp">  
+                                        <i  class="fab fa-2x fa-instagram"></i>
+                                    </a>
+                                    <a href="https://pin.it/63T7r73" style="color: red;" id="fp">  
+                                        <i  class="fab fa-2x fa-pinterest"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
