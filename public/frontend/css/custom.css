@@ -2108,10 +2108,7 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:573px) {
-    .breadcrumb-mobile {
-        display: flex;
-        justify-content: center
-    }
+    
 
     .slanted-bottom {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
@@ -2126,6 +2123,14 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:576px) {
+    .card-content .icon {
+        justify-content: center !important;
+    }
+    .card-content h3,
+    .card-content-bg h3 {
+        text-align: center !important;
+    }
+
     .img-aspect {
         display: flex;
         aspect-ratio: 2/2 !important;
@@ -2390,15 +2395,6 @@ table tbody tr th a:hover {
     .nav-center {
         justify-content: center !important;
         display: flex !important
-    }
-    .d-md-block {
-        display: grid !important;
-    }
-}
-
-@media (min-width:768px) {
-    .d-md-block {
-        display: grid !important; 
     }
 }
 
