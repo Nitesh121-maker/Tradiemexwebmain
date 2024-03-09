@@ -2126,7 +2126,9 @@ table tbody tr th a:hover {
     .card-content .icon {
         justify-content: center !important;
     }
-    .card-content h3,
+    .card-content h3 {
+        text-align: center !important;
+    }
     .card-content-bg h3 {
         text-align: center !important;
     }
