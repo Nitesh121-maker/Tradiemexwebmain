@@ -2399,6 +2399,9 @@ table tbody tr th a:hover {
         justify-content: center !important;
         display: flex !important
     }
+    .d-md-block {
+        display: grid !important;
+    }
 }
 
 @media (min-width:820px) {
