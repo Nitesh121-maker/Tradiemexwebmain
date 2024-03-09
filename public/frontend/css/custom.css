@@ -2108,10 +2108,7 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:573px) {
-    .breadcrumb-mobile {
-        display: flex;
-        justify-content: center
-    }
+    
 
     .slanted-bottom {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
@@ -2126,8 +2123,9 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:576px) {
-    .breadcrumb {
-        justify-content: center !important;
+    .breadcrumb-mobile {
+        display: flex;
+        justify-content: center
     }
     .card-content .icon {
         justify-content: center !important;
