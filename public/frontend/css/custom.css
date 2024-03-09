@@ -2126,6 +2126,9 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:576px) {
+    .breadcrumb {
+        justify-content: center !important;
+    }
     .card-content .icon {
         justify-content: center !important;
     }
