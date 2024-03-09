@@ -54,7 +54,6 @@
                                 <div class="alert alert-success"id="success-alert">
                                     {{ session('success') }}
                                 </div>
-                        
                             @endif
                             <form action="{{ route('contact.send') }}" method="POST" onsubmit="return validateForm()" id="contact-form" class="form-control" method="post" style="border: 0px;">
                                 @csrf

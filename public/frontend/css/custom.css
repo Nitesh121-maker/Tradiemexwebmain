@@ -938,7 +938,6 @@ table tbody tr th a {
 .card-content h3,
 .card-content-bg h3 {
     color: #fff;
-    text-align: start;
     font-size: 18px;
     line-height: 1.4;
     text-align: start;
@@ -2127,12 +2126,9 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:576px) {
-    .image-container{
-        width: 100% !important;
-    }
     .img-aspect {
         display: flex;
-        aspect-ratio: 3/2 !important;
+        aspect-ratio: 2/2 !important;
     }
 
     .data-img img {
