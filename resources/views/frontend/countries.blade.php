@@ -487,15 +487,17 @@
                         <button onclick="stats()" class="btn btn-outline" type="button" style="color: white;">Statistical Data</button>
                         <button onclick="bl()" class="btn btn-primary" type="button">B/L Data</button>
                     </div>
-                    @if ($country->bl_data_img)
-                    @php
-                        // Construct the full image URL using the base URL and the image filename.
-                        $blimageURL = asset('http://192.168.1.5:8000/frontend/img/bldata/' . $country->bl_data_img);
-                    @endphp
-                    @endif
-                    @if (!empty($blimageURL))
-                        <img src="{{ $blimageURL }}" class="image-container" style="margin-top: 1%;">
-                    @endif
+                    <div class="flex" style="justify-content: center;">
+                        @if ($country->bl_data_img)
+                        @php
+                            // Construct the full image URL using the base URL and the image filename.
+                            $blimageURL = asset('http://192.168.1.5:8000/frontend/img/bldata/' . $country->bl_data_img);
+                        @endphp
+                        @endif
+                        @if (!empty($blimageURL))
+                            <img src="{{ $blimageURL }}" class="image-container" style="margin-top: 1%;">
+                        @endif
+                    </div>
                     @if ($country->bl_data_file)
                         @php
                             // Construct the full image URL using the base URL and the image filename.
@@ -518,16 +520,17 @@
                         <button onclick="stats()" class="btn btn-primary" type="button">Statistical Data</button>
                         <button onclick="bl()" class="btn btn-outline" type="button" style="color: white;">B/L Data</button>
                     </div>
-
-                    @if ($country->stats_data_img)
-                    @php
-                        // Construct the full image URL using the base URL and the image filename.
-                        $slideimageURL = asset('http://192.168.1.5:8000/frontend/img/stasticaldata/' . $country->stats_data_img);
-                    @endphp
-                    @endif
-                    @if (!empty($statsimageURL))
-                        <img src="{{ $statsimageURL }}" class="image-container" style="margin-top: 1%;">
-                    @endif
+                    <div class="flex" style="justify-content: center;">
+                        @if ($country->stats_data_img)
+                        @php
+                            // Construct the full image URL using the base URL and the image filename.
+                            $statsimageURL = asset('http://192.168.1.5:8000/frontend/img/stasticaldata/' . $country->stats_data_img);
+                        @endphp
+                        @endif
+                        @if (!empty($statsimageURL))
+                            <img src="{{ $statsimageURL }}" class="image-container" style="margin-top: 1%;">
+                        @endif
+                    </div>
                     @if ($country->stats_data_file)
                         @php
                             // Construct the full image URL using the base URL and the image filename.
