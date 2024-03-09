@@ -2132,6 +2132,12 @@ table tbody tr th a:hover {
     .card-content-bg h3 {
         text-align: center !important;
     }
+    .card-content p{
+        text-align: center !important;
+    }
+    .card-content-bg p{
+        text-align: center !important;
+    }
 
     .img-aspect {
         display: flex;
