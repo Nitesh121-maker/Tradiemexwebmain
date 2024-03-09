@@ -86,7 +86,7 @@
                     {{-- @dd("countrydata",$countrydata) --}}
                     @foreach ($countrydata as $country)
                     <!-- Import Export Button -->
-                    <div class="col-sm-6 col-md-6 col-lg-6 breadcrumb-mobile">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="btn btn-group">
                              @if ($country->Datatype == 'import')
                                 <a href="{{ route('countryalldata', [strtolower($country->country), 'import']) }}" class="btn btn-primary">
