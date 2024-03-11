@@ -60,7 +60,7 @@ Route::get('/{country}-{Datatype}', [CountriesdataController::class, 'countryall
     ->where('country', '[a-zA-Z\-]+')
     ->name('countryalldata');
 
-Route::get('/hscode-search-data/{description}-{hsCode}', [HsCodeController::class, 'searchlist'])->name('search.list');
+Route::get('/hscode-search-data/{description}/{hsCode}', [HsCodeController::class, 'searchlist'])->name('search.list');
 // Search HS Code (POST method)
 
 

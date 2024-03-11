@@ -171,12 +171,21 @@
             <!-- Table Of HS Code -->
             <div class="container padding-tb">
                 <div class="text-content text-center bg-color">
+                    @if(isset($error_hscode))
+                        <div class="alert alert-danger">
+                            {{ $error_hscode }}
+                        </div>
+                    @endif
                     @if (!empty($hscode))
                         <h1 style="font-size: 38px;">
                             HS Code - {{ $hscode }}
                         </h1>
                     @endif
-                    
+                    @if (!empty($desc))
+                        <h1 style="font-size: 38px;">
+                            HS Description - {{ $desc }}
+                        </h1>
+                    @endif
                 </div>
                 <table class="table table-responsive table-hover table-rounded">
                     <thead>

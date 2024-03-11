@@ -106,15 +106,23 @@ class HsCodeController extends Controller
         return view ('frontend.hs-code', ['results'=>$results , 'hscode' => $hscode, 'desc' => $desc]);
     }
     // Data Table after Search 
-    function searchlist($description,$hsCode)
+    function searchlist($description, $hsCode)
     {
-        $results = DB::table('taric')
-        ->select('hs_code', 'Description')
-        ->where('hs_code', 'like', $hsCode . '%')
-        ->whereRaw('LENGTH(hs_code) >= 2 AND LENGTH(hs_code) <= 12')
-        ->distinct()
-        ->get();
-         
-         return view('frontend.hs-code', ['results' => $results]);
+    
+        try {
+            $results = DB::table('taric')
+            ->select('hs_code', 'Description')
+            ->where('hs_code', $hsCode)
+            ->get();
+      
+            if ($results->isEmpty()) {
+              return view('frontend.hs-code')->with('error-hscode', 'Your message has not been sent, please check the form and try again!');
+            }
+    
+            return view('frontend.hs-code', ['results' => $results]);
+        } catch (Exception $e) {
+            // Handle the exception (e.g., log, display error message)
+            dd($e->getMessage());
+        }
     }
 }

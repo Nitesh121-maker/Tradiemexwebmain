@@ -151,7 +151,7 @@
                             <option class="form-control" value="">Export</option>
                         </select>
                     </div> --}}
-                    <form class="form-flex" action="{{ route('searchHSCode') }}" method="post" enctype="multipart/form-data">
+                    <form class="form-flex" action="{{ url('/search') }}" method="get" enctype="multipart/form-data">
                         @csrf
                         <div class="searchbox col-sm-5 col-md-5 col-lg-5">
                             <input type="text" name="hs-code" placeholder="Search By HS Code" class="form-control">
@@ -164,7 +164,7 @@
                                 Search
                             </button>
                         </div>
-                    </form>
+                    </form> 
                 </div>
             </div>
 
