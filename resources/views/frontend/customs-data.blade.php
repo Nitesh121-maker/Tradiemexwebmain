@@ -662,7 +662,7 @@
                                     @endforeach
                                 </div>
                                 <div class="col-sm-4 col-md-3 col-lg-2 Flag">
-                                    <img src="frontend/image/flags/kuwait_rectangular_icon_with_shadow_64 (1).png">
+                                    <img src="frontend/image/flags/kuwait_rectangular_icon_with_shadow_64.png">
                                     <br>
                                     @foreach ($countrydata as $country)
                                         @if ($country->country=='kuwait' && $country->Datatype =='import')
