@@ -438,8 +438,12 @@
             <div class="container pdt-2">
                 <div  class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                        <div class="text-content">
+                            <p>
+                                Value In Percentage(%)
+                            </p>
+                        </div>
                         <div style="justify-content: center;display: flex;">
-                            <h2>Value In Percentage(%)</h2>
                             <canvas id="10_partners"></canvas>
                         </div>
                     </div>
