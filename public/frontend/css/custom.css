@@ -2155,7 +2155,7 @@ table tbody tr th a:hover {
 
 @media (max-width:576px) {
     .hero-title h1 {
-        font-size: 28px;
+        font-size: 23px;
         text-align: center;
         font-weight: 900;
     }
@@ -2464,6 +2464,9 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:768px) {
+    .hero-title span {
+        font-size: 23px;
+    }
     .mt-8-sample {
         margin-top: 8%;
     }
