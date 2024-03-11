@@ -192,12 +192,16 @@
                     </thead>
                     <tbody>
                         @foreach ($subchapterslist as $subchapterlist)
+                        @php
+                            $listhscode =$subchapterlist->hs_code;
+                            $listdescription = $subchapterlist->Description;
+                        @endphp
                             <tr>
                                 <th class="table-primary">
-                                    <a class="text-hover" href="#">{{ $subchapterlist->hs_code }}</a>
+                                    <a class="text-hover" href="{{ route('list', ['listdescription' => $listdescription, 'listhscode' =>  $listhscode]) }}">{{ $subchapterlist->hs_code }}</a>
                                 </th>
                                 <th class="tbl-dark">
-                                    <a class="text-hover" href="#">{{ $subchapterlist->Description }}</a>
+                                    <a class="text-hover" href="{{ route('list', ['listdescription' => $listdescription, 'listhscode' =>  $listhscode]) }}">{{ $subchapterlist->Description }}</a>
                                 </th>
                             </tr>
                         @endforeach

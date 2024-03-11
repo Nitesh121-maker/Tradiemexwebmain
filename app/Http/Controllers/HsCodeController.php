@@ -66,7 +66,19 @@ class HsCodeController extends Controller
         //  dd($subchapterslist);
          return view('frontend.hscode-subchapterlist', ['subchapterslist' => $subchapterslist, 'subchaptercode' =>$subchaptercode, 'subchapterdescription' => $subchapterdescription]);
     }
-
+    // Subchapter list perticular page
+    function ListPage($listdescription,$listhscode)
+    {
+  
+        $subchapterslist = DB::table('taric')
+        ->select('hs_code', 'Description')
+        ->where('hs_code', 'like', $listhscode . '%')
+        ->whereRaw('LENGTH(hs_code) >= 4 AND LENGTH(hs_code) <= 12')
+        ->distinct()
+        ->get();
+        //  dd($subchapterslist);
+         return view('frontend.hscode-subchapterlist', ['subchapterslist' => $subchapterslist, 'subchaptercode' =>$listhscode, 'subchapterdescription' => $listdescription]);
+    }
     // Search function
 
     function searchHSCode(Request $request){
