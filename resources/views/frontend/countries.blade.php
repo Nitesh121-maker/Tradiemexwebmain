@@ -913,7 +913,7 @@
                     @endphp
                 @endforeach
             ];
-            console.log(percentageValues)
+            console.log('percentageValues',percentageValues)
  
             Highcharts.chart('container', {
                 chart: {
@@ -1002,20 +1002,20 @@
         <!-- Top 10 partners of country (Bar Chart) -->
         <script>
             const ctx = document.getElementById('10_partners');
-          
             var percentageValues = [
-                    @foreach($countrydata as $country)
-                        @php
-                            $percentages = [];
-                            preg_match_all('/([A-Za-z\s]+):\s([\d\.]+%)/', $country->country_partner_name, $matches, PREG_SET_ORDER);
-                            foreach ($matches as $match) {
-                                $countryName = $match[1];
-                                $percentage = $match[2];
-                                $percentages[] = ['countryName' => $countryName, 'percentage' => (float) $percentage];
-                            }
-                            echo json_encode($percentages) . ",";
-                        @endphp
-                    @endforeach
+                @foreach($countrydata as $country)
+                    @php
+                        $percentages = [];
+                        preg_match_all('/([A-Za-z\s]+):\s([\d\.]+%)\s\(([\d\.]+ billion US\$)\)/', $country->country_partner_name, $matches, PREG_SET_ORDER);
+                        foreach ($matches as $match) {
+                            $countryName = $match[1];
+                            $percentage = $match[2];
+                            $value = $match[3];
+                            $percentages[] = ['countryName' => $countryName, 'percentage' => (float) $percentage, 'value' => $value];
+                        }
+                        echo json_encode($percentages) . ",";
+                    @endphp
+                @endforeach
                 ];
                 var countryNames = percentageValues.map(function(item) {
                     return item.map(function(subItem) {
@@ -1028,9 +1028,13 @@
                         return subItem.percentage;
                     });
                 }).flat();
-
+                var value = value.map(function(item) {
+                    return item.map(function(subItem) {
+                        return subItem.value;
+                    });
+                }).flat();
                 console.log('countryNames', countryNames);
-                console.log('percentageData', percentageData[0]);
+                console.log('value', value[0]);
             new Chart(ctx, {
                 type: 'bar',
                 data: {
