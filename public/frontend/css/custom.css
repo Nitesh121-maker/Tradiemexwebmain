@@ -2054,6 +2054,30 @@ table tbody tr th a:hover {
     display: block;
 }
 
+.hero-title h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+.hero-title h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+}
+.hero-title span {
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.hero-subtitle p{
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    color: #425466;
+}
+
 /* media responsive mobile view */
 
 @media screen and (max-width:280px) {
@@ -2128,6 +2152,22 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:576px) {
+    .hero-title h1 {
+        font-size: 28px;
+        text-align: center;
+        font-weight: 900;
+    }
+    .hero-title span {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        text-transform: capitalize;
+    }
+    .hero-title h2 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 900;
+    }
     .core-content h2 {
         text-align: center;
     }
