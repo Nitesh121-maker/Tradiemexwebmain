@@ -360,7 +360,7 @@
         <div class="container-fluid bg-bluish padding-tb">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
                         <div class="text-content">
                             <h1>Reach out to us and get in touch!</h1>
                             <p>
@@ -370,8 +370,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="row col-sm-12 col-xs-12 col-md-6 col-lg-6" style="padding-top: 3%;">
-                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
+                    <div class="row col-sm-12 col-xs-12 col-md-12 col-lg-12" style="padding-top: 3%;">
+                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-3" style="padding-bottom: 2%;">
                             <div class="core-content">
                                 <div class="image" style="display: flex;">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 576 512" style="fill:#0b5ed7;">
@@ -384,7 +384,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
+                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-3" style="padding-bottom: 2%;">
                             <div class="core-content">
                                 <div class="image" style="display: flex;">
                                     <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512" style="fill:#0b5ed7;">
@@ -398,7 +398,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
+                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-3" style="padding-bottom: 2%;">
                             <div class="core-content">
                                 <div class="image" style="display: flex;">
                                     <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512" style="fill:#0b5ed7;">
@@ -417,7 +417,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-bottom: 2%;">
+                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-3" style="padding-bottom: 2%;">
                             <div class="core-content">
                                 <div class="image" style="display: flex;">
                                     <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512" style="fill:#0b5ed7;">
