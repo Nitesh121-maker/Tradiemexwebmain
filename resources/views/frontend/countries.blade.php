@@ -494,7 +494,7 @@
                         @endphp
                         @endif
                         @if (!empty($blimageURL))
-                            <img src="{{ $blimageURL }}" class="image-container" style="margin-top: 1%;">
+                            <img src="{{ $blimageURL }}" class="image-container-sample" style="margin-top: 1%;width: 40%;">
                         @endif
                     </div>
                     @if ($country->bl_data_file)
@@ -527,7 +527,7 @@
                         @endphp
                         @endif
                         @if (!empty($statsimageURL))
-                            <img src="{{ $statsimageURL }}" class="image-container" style="margin-top: 1%;">
+                            <img src="{{ $statsimageURL }}" class="image-container-sample" style="margin-top: 1%;width: 40%;">
                         @endif
                     </div>
                     @if ($country->stats_data_file)
@@ -558,7 +558,7 @@
                                 @endphp
                             @endif
                             @if (!empty($sampleURL))
-                            <img src="{{ $sampleURL }}" style="width: 40% ;"  class="image-container">
+                            <img src="{{ $sampleURL }}" style="width: 40%;"  class="image-container-sample">
                         @endif
                     </div>
                     @if ($country->data_file)
