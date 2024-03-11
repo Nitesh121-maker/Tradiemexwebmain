@@ -1188,7 +1188,7 @@
                         @if ($continent->continent_code === 'SA-11')
                         <div class="row padding-tb">
                             <div class="text-content">
-                                <h2 class="text-white text-center">Countries Covered Under South Africa Trade Data</h2>
+                                <h2 class="text-white text-center">Countries Covered Under South America Trade Data</h2>
                             </div>
                             <div class="col-sm-4 col-md-3 col-lg-3 Flag">
                                 <img src="frontend/image/flags/argentina_rectangular_icon_with_shadow_64.png">
