@@ -20,7 +20,7 @@
         <div class="container-fluid padding-tb bg-bluish">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="text-content">
                             <h1>
                                 Speak with an expert
@@ -48,7 +48,7 @@
                         </div>
                     </div> 
                     <!-- Contact Form -->
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="contact-form">
                             @if(session('success'))
                                 <div class="alert alert-success"id="success-alert">
