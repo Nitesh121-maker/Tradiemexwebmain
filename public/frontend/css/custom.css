@@ -1133,19 +1133,19 @@ table tbody tr th a {
 .core-content h2 {
     font-size: 25px;
     font-weight: 600;
-    line-height: 1.4
+    line-height: 1.4;
 }
 
 .core-content h3 {
     font-size: 18px;
     font-weight: 600;
-    line-height: 1.4
+    line-height: 1.4;
 }
 
 .core-content p {
     color: #425466;
     font-size: 14px;
-    line-height: 1.6
+    line-height: 1.6;
 }
 
 .form-content h1 {
@@ -2128,6 +2128,20 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:576px) {
+    .core-content h2 {
+        text-align: center;
+    }
+    .core-content .image{
+        justify-content: center;
+    }
+    .core-content h3 {
+        text-align: center;
+    }
+    
+    .core-content p {
+        text-align: center;
+    }
+    
     .image-container-sample {
         width: 100% !important;
     }
