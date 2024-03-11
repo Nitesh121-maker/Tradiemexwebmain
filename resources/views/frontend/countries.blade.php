@@ -439,8 +439,8 @@
                 <div  class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
                         <div class="text-content">
-                            <p>
-                                Value In Percentage(%)
+                            <p style="color: black;">
+                                <b>Value In Percentage(%)</b>
                             </p>
                         </div>
                         <div style="justify-content: center;display: flex;">
