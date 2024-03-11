@@ -2160,13 +2160,13 @@ table tbody tr th a:hover {
         font-weight: 900;
     }
     .hero-title span {
-        font-size: 23px;
+        font-size: 20px;
         display: flex;
         justify-content: center;
         text-transform: capitalize;
     }
     .hero-title h2 {
-        font-size: 20px;
+        font-size: 28px;
         text-align: center;
         font-weight: 900;
     }
