@@ -1422,7 +1422,7 @@
                                 @endphp
                             @endif
                             @if (!empty($imageURL))
-                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="100%" style="border-radius: 12px;">
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="50%" style="border-radius: 12px;">
                             @endif
                             </div>
                         </div>
@@ -1436,7 +1436,7 @@
                                 @endphp
                             @endif
                             @if (!empty($imageURL))
-                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="60%" style="border-radius: 12px;">
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="50%" style="border-radius: 12px;">
                             @endif
                             </div>
                         </div>
@@ -1450,7 +1450,7 @@
                                 @endphp
                             @endif
                             @if (!empty($imageURL))
-                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="60%" style="border-radius: 12px;">
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="50%" style="border-radius: 12px;">
                             @endif
                             </div>
                         </div>
@@ -1464,7 +1464,7 @@
                                 @endphp
                             @endif
                             @if (!empty($imageURL))
-                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="60%" style="border-radius: 12px;">
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="50%" style="border-radius: 12px;">
                             @endif
                             </div>
                         </div>
@@ -1478,7 +1478,7 @@
                                 @endphp
                             @endif
                             @if (!empty($imageURL))
-                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="60%" style="border-radius: 12px;">
+                            <img src="{{ $imageURL }}" alt=" {{$continent->mf_content_metatitle}}" width="50%" style="border-radius: 12px;">
                             @endif
                             </div>
                         </div>
