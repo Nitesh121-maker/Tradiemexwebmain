@@ -132,7 +132,7 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="d-grid gap-2 breadcrumb-mobile" style="display: block !important;">
+                <div class="breadcrumb-mobile">
                     <button class="btn btn-outline text-black fw-600" type="button">
                         <a class="text-hover" href="/contact-us">Contact Us</a>
                     </button>
