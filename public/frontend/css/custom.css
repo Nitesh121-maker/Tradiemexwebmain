@@ -2037,9 +2037,6 @@ table tbody tr th a:hover {
     display: none !important
 }
 
-.breadcrumb-mobile {
-    display: flex;
-}
 
 .download-sample {
     display: flex;
@@ -2051,6 +2048,10 @@ table tbody tr th a:hover {
 }
 .image-container-sample {
     width: 40%;
+}
+
+.breadcrumb-mobile {
+    display: block;
 }
 
 /* media responsive mobile view */
@@ -2407,6 +2408,11 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:768px) {
+    
+    .breadcrumb-mobile {
+        display: grid !important;
+    }
+
     .nav-center {
         justify-content: center !important;
         display: flex !important
