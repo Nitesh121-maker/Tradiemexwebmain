@@ -23,7 +23,7 @@
                             <h1 class="gradient-h2">
                                 TradeImeX ® Info Solution Pvt. Ltd.
                             </h1>
-                            <p class="lh-8 text-black">
+                            <p>
                                 In an increasingly interconnected world, businesses cannot afford to overlook the value of
                                 import-export data. With TradeImeX serving as the gateway to a wealth of import-export data
                                 and global data, businesses can unlock significant growth opportunities, navigate complex trade
