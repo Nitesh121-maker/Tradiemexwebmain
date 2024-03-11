@@ -2076,6 +2076,9 @@ table tbody tr th a:hover {
     margin-bottom: 2.5rem;
     color: #425466;
 }
+.mt-8-sample {
+    margin-top: 2%;
+}
 
 /* media responsive mobile view */
 
@@ -2461,7 +2464,9 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:768px) {
-    
+    .mt-8-sample {
+        margin-top: 8%;
+    }
     .breadcrumb-mobile {
         display: grid !important;
     }
