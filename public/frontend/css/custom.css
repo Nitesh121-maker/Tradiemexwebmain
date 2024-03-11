@@ -949,10 +949,12 @@ table tbody tr th a {
     border-left: 2px solid #00d4ff
 }
 
-.card-content-bg img {
-    display: block;
+.card-content-bg .image {
+    display: flex;
     justify-content: start;
-    width: 20%
+}
+.card-content-bg .image img{
+    width: 20%;
 }
 
 .bg-none,
@@ -2154,6 +2156,10 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:576px) {
+    .card-content-bg .image {
+        display: flex;
+        justify-content: center;
+    }
     .hero-title h1 {
         font-size: 34px;
         text-align: center;

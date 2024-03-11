@@ -73,7 +73,9 @@
                         <div class="row">
                             <div class="col-sm-6 col-xs-12 col-md-4 col-lg-4">
                                 <div class="card-content-bg">
-                                    <img src="frontend/image/img/connection.png" width="100%">
+                                    <div class="image">
+                                        <img src="frontend/image/img/connection.png" width="100%">
+                                    </div>
                                     <div class="head-bg"> 
                                         <h3>
                                             Expanding Your Reach
