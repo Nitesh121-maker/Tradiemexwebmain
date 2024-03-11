@@ -1006,26 +1006,16 @@
             const ctx = document.getElementById('10_partners');
             var percentageValues = [
                 @foreach($countrydata as $country)
-                    @php
-                        $percentages = [];
-                        preg_match_all('/([A-Za-z\s]+):\s([\d\.]+%)\s\(([\d\.]+)\s?(billion|million)?\s?US\$\)/', $country->country_partner_name, $matches, PREG_SET_ORDER);
-                        foreach ($matches as $match) {
-                            $countryName = $match[1];
-                            $percentage = $match[2];
-                            $value = $match[3];
-                            $unit = isset($match[4]) ? $match[4] : ''; // Check if the unit (billion/million) is present
-
-                            // Convert value to billion or million
-                            if ($unit === 'billion') {
-                                $value *= 1000; // Convert to billion
-                            } elseif ($unit === 'million') {
-                                // No need to convert
+                        @php
+                            $percentages = [];
+                            preg_match_all('/([A-Za-z\s]+):\s([\d\.]+%)/', $country->country_partner_name, $matches, PREG_SET_ORDER);
+                            foreach ($matches as $match) {
+                                $countryName = $match[1];
+                                $percentage = $match[2];
+                                $percentages[] = ['countryName' => $countryName, 'percentage' => (float) $percentage];
                             }
-
-                            $percentages[] = ['countryName' => $countryName, 'percentage' => (float) $percentage, 'value' => (float) $value];
-                        }
-                        echo json_encode($percentages) . ",";
-                    @endphp
+                            echo json_encode($percentages) . ",";
+                        @endphp
                 @endforeach
 
                 ];
@@ -1053,7 +1043,7 @@
                 labels: [countryNames[0], countryNames[1], countryNames[2], countryNames[3], countryNames[4], countryNames[5], countryNames[6], countryNames[7], countryNames[8],countryNames[9]],
                 datasets: [{
                     label: '{{$country->cp_heading}}',
-                    data: [value[0], value[1], value[2], value[3], value[4],value[5], value[6], value[7],value[8], value[9]],
+                    data: [percentageData[0], percentageData[1], percentageData[2], percentageData[3], percentageData[4],percentageData[5], percentageData[6], percentageData[7],percentageData[8], percentageData[9]],
                     borderWidth: 1
                 }]
                 },

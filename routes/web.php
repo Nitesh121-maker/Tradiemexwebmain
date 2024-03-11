@@ -44,6 +44,7 @@ Route::get('/analytical-custom-report', [LinkController::class,'customizedanalyt
 Route::get('/global-trade-data', [CountriesdataController::class,'globaltradedata']);
 
 // HS - Code
+Route::get('/search', [HsCodeController::class, 'searchHSCode'])->name('searchHSCode');
 Route::get('/hs-code', [HsCodeController::class, 'hscode']);
 Route::get('/hs-code-subchapter-list/{subchapterdescription}/{subchaptercode}', [HsCodeController::class, 'subchapterListPage'])->name('subchapterlist.list');
 Route::get('/hs-code-subchapter/{description}/{chapterCode}', [HsCodeController::class, 'subchapterPage'])->name('subchapter.list');
@@ -61,7 +62,7 @@ Route::get('/{country}-{Datatype}', [CountriesdataController::class, 'countryall
 
 Route::get('/hscode-search-data/{description}-{hsCode}', [HsCodeController::class, 'searchlist'])->name('search.list');
 // Search HS Code (POST method)
-Route::post('/hscode-search-data', [HsCodeController::class, 'searchHSCode'])->name('searchHSCode');
+
 
 // Contact Form
 Route::post('/contact', [ContactFormController::class, 'sendContactForm'])->name('contact.send');
