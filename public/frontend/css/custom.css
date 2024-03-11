@@ -2301,10 +2301,6 @@ table tbody tr th a:hover {
         min-height: auto
     }
 
-    .hero-title h2 {
-        font-size: 28px
-    }
-
     .career-img {
         display: flex;
         height: auto;
@@ -2454,7 +2450,7 @@ table tbody tr th a:hover {
 
 @media (max-width:768px) {
     .hero-title span {
-        font-size: 23px;
+        font-size: 23px !important;
     }
     .mt-8-sample {
         margin-top: 8%;
