@@ -486,7 +486,7 @@
                 </div>
             </div>
 
-            @if ($country->country == "Japan"||$country->country == "Singapore"||$country->country == "Taiwan"||$country->country == "Balgium"||$country->country == "Germany"||$country->country == "greece"||$country->country == "Italy"||$country->country == "Netherlands"||$country->country == "Spain"||$country->country == "UK"||$country->country == "Canada"||$country->country == "Australia")
+            @if ($country->country == "Japan"||$country->country == "Singapore"||$country->country == "Taiwan"||$country->country == "Malaysia"||$country->country == "Belgium"||$country->country == "Germany"||$country->country == "Greece"||$country->country == "Italy"||$country->country == "Netherlands"||$country->country == "Spain"||$country->country == "UK"||$country->country == "Canada"||$country->country == "Australia")
                 {{-- B/L Sample Data Tab --}}
                 <div class="container pdt-2" id="bl-sample">
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -501,7 +501,7 @@
                         @endphp
                         @endif
                         @if (!empty($blimageURL))
-                            <img src="{{ $blimageURL }}" class="image-container-sample" style="margin-top: 1%;width: 40%;">
+                            <img src="{{ $blimageURL }}" class="image-container-sample" style="margin-top: 8%;width: 40%;">
                         @endif
                     </div>
                     @if ($country->bl_data_file)
@@ -534,7 +534,7 @@
                         @endphp
                         @endif
                         @if (!empty($statsimageURL))
-                            <img src="{{ $statsimageURL }}" class="image-container-sample" style="margin-top: 1%;width: 40%;">
+                            <img src="{{ $statsimageURL }}" class="image-container-sample" style="margin-top: 8%;width: 40%;">
                         @endif
                     </div>
                     @if ($country->stats_data_file)
