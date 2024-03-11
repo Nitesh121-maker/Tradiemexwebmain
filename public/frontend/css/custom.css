@@ -2049,6 +2049,11 @@ table tbody tr th a:hover {
 .sample-img {
     width: 80%
 }
+.image-container-sample {
+    width: 40%;
+}
+
+/* media responsive mobile view */
 
 @media screen and (max-width:280px) {
     .question {
@@ -2122,6 +2127,9 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:576px) {
+    .image-container-sample {
+        width: 100% !important;
+    }
     .card-content .icon {
         justify-content: center !important;
     }
