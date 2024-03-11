@@ -2155,12 +2155,12 @@ table tbody tr th a:hover {
 
 @media (max-width:576px) {
     .hero-title h1 {
-        font-size: 23px;
+        font-size: 34px;
         text-align: center;
         font-weight: 900;
     }
     .hero-title span {
-        font-size: 18px;
+        font-size: 23px;
         display: flex;
         justify-content: center;
         text-transform: capitalize;
@@ -2292,17 +2292,6 @@ table tbody tr th a:hover {
 
     .text-adjust {
         font-size: 18px
-    }
-
-    .hero-title h1 {
-        font-size: 34px
-    }
-
-    .hero-title span {
-        font-size: 28px;
-        display: flex;
-        justify-content: center;
-        text-transform: capitalize
     }
 
     .continent-tab,
