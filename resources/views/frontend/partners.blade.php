@@ -319,7 +319,7 @@
                         <label for="floatingInput" style="padding: 1rem 1.75rem !important;">Email ID</label>
                     </div>
                     <div class="form-floating mb-3 col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <input required autocomplete="off" name="number" type="tel" class="form-control" id="floatingInput" placeholder="Contact Number">
+                        <input required autocomplete="off" max="10" maxlength="10" name="number" type="tel" class="form-control" id="floatingInput" placeholder="Contact Number">
                         <label for="floatingInput" style="padding: 1rem 1.75rem !important;">Contact Number</label>
                     </div>
                     <div class="form-floating mb-3 col-xs-12 col-sm-12 col-md-12 col-lg-12">
