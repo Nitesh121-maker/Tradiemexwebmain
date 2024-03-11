@@ -149,7 +149,7 @@
                             <div class="col-sm-12 col-md-6 col-lg-7 flex" style="align-items: center;">
                                 <div class="card-text-content">
                                     <h3 class="text-white">Extensive Global Trade Database</h3>
-                                    <p class="text-white">
+                                    <p class="text-white-p">
                                         To make informed business decisions, reliable data is crucial. TradeImeX provides access to an
                                         extensive global trade database, empowering you with accurate information on exports,
                                         imports, suppliers, buyers, and much more. Equipped with this knowledge, you can recognize
@@ -171,7 +171,7 @@
                             <div class="col-sm-12 col-md-6 col-lg-7 flex" style="align-items: center;">
                                 <div class="card-text-content">
                                     <h3 class="text-white">Advanced Search and <br> Filtering Capabilities</h3>
-                                    <p class="text-white">
+                                    <p class="text-white-p">
                                         TradeImeX and its intuitive search and filtering capabilities allow 
                                         you to refine your search according to your specific requirements. 
                                         You can constrict your search by product, country, company, or indeed 
@@ -194,7 +194,7 @@
                             <div class="col-sm-12 col-md-6 col-lg-7 flex" style="align-items: center;">
                                 <div class="card-text-content">
                                     <h3 class="text-white">Real-Time Notifications</h3>
-                                    <p class="text-white">
+                                    <p class="text-white-p">
                                         Staying up to date with the latest trade opportunities is crucial in 
                                         today’s rapid world of international trade. TradeImeX provides real-time 
                                         notifications, enabling you to seize potential leads and be the first to 
@@ -218,7 +218,7 @@
                             <div class="col-sm-12 col-md-6 col-lg-7 flex" style="align-items: center;">
                                 <div class="card-text-content">
                                     <h3 class="text-white">Buyers & Suppliers</h3>
-                                    <p class="text-white">
+                                    <p class="text-white-p">
                                         Finding reliable buyers and suppliers is a critical aspect of successful international trade.
                                         TradeImeX ensures that all buyers and suppliers listed on the platform undergo a stringent
                                         verification process. This ensures that you can confidently connect with trusted partners,
@@ -240,7 +240,7 @@
                             <div class="col-sm-12 col-md-6 col-lg-7 flex" style="align-items: center;">
                                 <div class="card-text-content">
                                     <h3 class="text-white">Dedicated Customer Support</h3>
-                                    <p class="text-white">
+                                    <p class="text-white-p">
                                         We value our customers and understand the importance of prompt and 
                                         reliable support. TradeImeX offers dedicated customer support to
                                         address any queries or concerns you may have. Our team of professionals 
