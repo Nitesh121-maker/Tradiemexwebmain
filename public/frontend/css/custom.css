@@ -303,7 +303,7 @@ button:not(:disabled) {
 }
 
 .text-white-p {
-    color: #adbdcc;
+    color: #adbdcc !important;
     font-size: 13px
 }
 
