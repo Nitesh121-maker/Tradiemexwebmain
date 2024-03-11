@@ -87,23 +87,25 @@
                     @foreach ($countrydata as $country)
                     <!-- Import Export Button -->
                     <div class="col-sm-6 col-md-6 col-lg-6">
-                        <div class="btn btn-group" style="display: flex;justify-content: end">
-                             @if ($country->Datatype == 'import')
+                        @if ($country->country != 'Iraq' && $country->country != 'Kenya')
+                            <div class="btn btn-group" style="display: flex;justify-content: end">
+                                @if ($country->Datatype == 'import')
                                 <a href="{{ route('countryalldata', [strtolower($country->country), 'import']) }}" class="btn btn-primary">
                                     IMPORT
                                 </a>
                                 <a href="{{ route('countryalldata', [strtolower($country->country), 'export']) }}" class="btn btn-outline">
                                     EXPORT
                                 </a>                                  
-                             @else
+                                @else
                                 <a href="{{ route('countryalldata', [strtolower($country->country), 'import']) }}" class="btn btn-outline">
                                     IMPORT
                                 </a>
                                 <a href="{{ route('countryalldata', [strtolower($country->country), 'export']) }}" class="btn btn-primary">
                                     EXPORT
                                 </a>
-                             @endif
-                        </div>
+                                @endif
+                            </div>
+                       @endif
                     </div>
                 </div>
             </div>
@@ -1006,7 +1008,7 @@
                 @foreach($countrydata as $country)
                     @php
                         $percentages = [];
-                        preg_match_all('/([A-Za-z\s]+):\s([\d\.]+%)\s\(([\d\.]+)\s+(billion|million)?\s?US\$\)/', $country->country_partner_name, $matches, PREG_SET_ORDER);
+                        preg_match_all('/([A-Za-z\s]+):\s([\d\.]+%)\s\(([\d\.]+)\s?(billion|million)?\s?US\$\)/', $country->country_partner_name, $matches, PREG_SET_ORDER);
                         foreach ($matches as $match) {
                             $countryName = $match[1];
                             $percentage = $match[2];
