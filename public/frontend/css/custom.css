@@ -2156,6 +2156,17 @@ table tbody tr th a:hover {
 }
 
 @media (max-width:576px) {
+    .card-body h5{
+        text-align: center;
+    }
+    .card-body p{
+        text-align: center;
+    }
+    .card-img {
+        justify-content: center;
+        display: flex;
+        padding: 10px;
+    }
     .card-content-bg .image {
         display: flex;
         justify-content: center;
