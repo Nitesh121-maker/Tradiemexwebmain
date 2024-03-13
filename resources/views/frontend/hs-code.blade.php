@@ -9,7 +9,7 @@
         <meta name="description" content="We specialize in providing HS codes, offering comprehensive insights to empower your business decisions. TradeImeX simplifies the process of finding and utilizing HS code by providing a comprehensive and updated database. Explore our extensive customs database to get access to HS codes for over 80 countries and unlock the potential of international trade with TradeImeX." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
         <title>Harmonised System (HS) Code | HSC - TradeImeX</title>
-        <link rel="icon" type="image/x-icon" href="frontend/image/img/Favicon Logo.png">
+        <link rel="icon" type="image/x-icon" href="/frontend/image/img/Favicon Logo.png">
         @include('frontend.link')
         <style>
             .tbl-dark {
