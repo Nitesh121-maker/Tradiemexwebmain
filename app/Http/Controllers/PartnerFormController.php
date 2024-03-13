@@ -18,15 +18,15 @@ class PartnerFormController extends Controller
                 'fname'              => ['required', 'string'],
                 'lname'              => ['required', 'string'],
                 'email'              => ['required', 'email'],
-                'number'              => ['required', 'numeric'],
-                'msg' => ['required', 'string', new NoUrls],
+                'number'             => ['required', 'numeric'],
+                'msg'                => ['required', 'string', new NoUrls],
                 'apply'              => ['required'],
                 'recaptcha_response' => ['required']
             ]);
            
             if ($validate) {
                 Mail::to('info@tradeimex.in')->send(new PartnerFormMail($validate));
-                return redirect()->back()->with('success', 'Your message has been sent!');
+                return redirect()->route('thankyou')->with('partner-success', 'Your message has been sent!');
             } else {
                 return redirect()->back()->with('error', 'Your message has not been sent, please check the form and try again!');
             }
