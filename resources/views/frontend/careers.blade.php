@@ -248,8 +248,7 @@
                                     TradeImeX operates on a global scale, and as an employee, you may have the opportunity to
                                     travel to different countries and interact with professionals from various industries and
                                     backgrounds. This exposure to international markets and networking opportunities can
-                                    broaden your horizons, expand your professional network, and provide valuable insights and
-                                    experiences.
+                                    broaden your horizons and expand your professional network.
                                 </p>
                             </div>
                         </div>
@@ -266,9 +265,8 @@
                                 <p class="card-text text-white-p">
                                     TradeImeX values excellence and recognizes the achievements of its employees. The
                                     company has a robust employee recognition program in place to celebrate individual and
-                                    team accomplishments by providing incentives. TradeImeX acknowledges and rewards hard
-                                    work, dedication, and outstanding performance, creating a culture of appreciation and
-                                    motivation.
+                                    team accomplishments by providing incentives. TradeImeX acknowledges and rewards your
+                                    hard work and dedication.
                                 </p>
                             </div>
                         </div>
@@ -286,8 +284,24 @@
                                     Joining TradeImeX means being a part of a dynamic and innovative work environment. The
                                     company embraces new technologies, encourages creative thinking, and fosters an
                                     entrepreneurial spirit. By being a part of TradeImeX, you will have the opportunity to work
-                                    on challenging projects, contribute to innovative solutions, and be at the forefront of industry
-                                    advancements.
+                                    on challenging projects and contribute to innovative solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
+                        <div class="card card-bg cdh-22">
+                            <div class="card-img">
+                                <img src="frontend/image/img/development.png" width="25%">
+                            </div>
+                            <div class="card-body">
+                                <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                    Social Events and Team-Building Activities
+                                </h2>
+                                <p class="card-text text-white-p">
+                                    TradeImeX understands the value of fostering a strong sense of community among its
+                                    employees. To promote team cohesion and camaraderie, the company regularly hosts social
+                                    events and team-building activities.
                                 </p>
                             </div>
                         </div>
