@@ -289,7 +289,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 pdb-2">
                         <div class="card card-bg cdh-22">
                             <div class="card-img">
                                 <img src="frontend/image/img/development.png" width="25%">
