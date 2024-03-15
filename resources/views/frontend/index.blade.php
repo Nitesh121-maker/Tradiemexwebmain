@@ -2045,6 +2045,16 @@
                                         <img src="frontend/image/client_transparent/Reckitt_Benckiser.png">
                                     </div>
                                 </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="frontend/image/client_transparent/Dow.png">
+                                    </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="frontend/image/client_transparent/KPMG.png">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2199,7 +2209,7 @@
             }
 
              // autoplay tab
-             var currentIndex = 0; // Initialize the index of the active tab
+            var currentIndex = 0; // Initialize the index of the active tab
             var intervalId; // Variable to store the interval ID
             var progressBarInterval; // Variable to store the progress bar interval ID
 
@@ -2248,8 +2258,16 @@
                 progressBar.style.width = "0%";
             }
 
-            // Set interval to change tabs automatically
-            startAutoPlay();
+            // Set interval to change tabs automatically if the screen size is greater than 768 pixels
+            if (window.innerWidth > 840) {
+                startAutoPlay();
+            }
+
+            // Stop autoplay for screen sizes less than or equal to 768 pixels (tab and mobile view)
+            if (window.innerWidth < 840 && window.innerWidth > 576) {
+                stopAutoPlay();
+            }
+
 
             // For Tab Containers
             // Add event listeners for stopping on hover
