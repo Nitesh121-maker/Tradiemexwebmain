@@ -89,6 +89,8 @@ class HsCodeController extends Controller
         ]);
         $hscode = $request['hs-code'];
         $desc = $request['description'];
+
+  
         if ($request['hs-code'] && $request['description']) {
 
             
@@ -106,11 +108,19 @@ class HsCodeController extends Controller
             ->get();
 
         } elseif ($request['description']) {
-            $desc = $request['description'];
-            $results = DB::table('taric')
-            ->select('*')
-            ->where('Description', 'LIKE', '%' . $desc . '%')
-            ->get();
+                $desc = $request['description'];
+                $results = DB::table('taric')
+                    ->select('*')
+                    ->where('Description', $desc) // Search for exact match
+                    ->orWhere('Description', 'LIKE', '% ' . $desc . ' %') // Search for related rows
+                    ->orWhere('Description', 'LIKE', $desc . ' %')
+                    ->orWhere('Description', 'LIKE', '% ' . $desc)
+                    ->get();
+            
+                if ($results->isEmpty()) {
+                    // If no results found, return a message or handle as needed
+                    return redirect()->back()->with('searcherror', 'Data not found related to search');
+                }
 
         } else{
             $results = DB::table('taric')->select('*')->where('hs_code','description')->get();

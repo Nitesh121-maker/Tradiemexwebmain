@@ -2086,85 +2086,37 @@
 
         <!-- Blog Cards -->
         <div class="container pdt-2">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="blog_card">
-                        <div class="blog_card_image">
-                            <img src="/frontend/image/img/blog_1.jpg" alt="">
-                        </div>
-                        <div class="blog_card_content">
-                            <h3>
-                                India’s Ambitious Interim
-                                Union Budget 2024-25
-                            </h3>
-                            <p>
-                                Discover everything you need to know about the highly anticipated Interim Union 
-                                Budget 2024-25 presented by Finance Minister Nirma...
-                            </p>
-                            <a class="text-hover" href="https://tradeimex.in/blogs/us-mexico-trade-relations">
-                                <h6>Read More</h6>
-                            </a>
-                        </div>
-                    </div>
+            @if(session('blogerror'))
+                <div class="alert alert-danger" id="error-alert">
+                    <h3 style="text-align: center;"> {{ session('searcherror') }}</h3>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="blog_card">
-                        <div class="blog_card_image">
-                            <img src="/frontend/image/img/blog_2.jpg" alt="">
-                        </div>
-                        <div class="blog_card_content">
-                            <h3>Corn exports and imports in 2023</h3>
-                            <p>
-                                The total amount of corn produced globally in 2023 was 1.17 billion metric tons 
-                                with the USA leading the corn exports, while China...
-                            </p>
-                            <a class="text-hover" href="https://tradeimex.in/blogs/medical-equipment-export">
-                                <h6>Read More</h6>
-                            </a>
-                        </div>
-                    </div>
+            @endif
+            @if($recentPosts->isEmpty())
+                <div class="alert alert-warning" id="error-alert">
+                    <h3 style="text-align: center;">No recent posts found.</h3>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="blog_card">
-                        <div class="blog_card_image">
-                            <img src="/frontend/image/img/blog_3.jpg" alt="">
+            @else
+                <div class="row">
+                    @foreach($recentPosts as $post)
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="blog_card">
+                                <div class="blog_card_image">
+                                    <img src="https://tradeimex.in/blogs/{{ $post->image_big }}" alt="">
+                                </div>
+                                <div class="blog_card_content">
+                                    <h3>{{ $post->title }}</h3>
+                                    <p>{{ Str::limit($post->summary, 150) }}</p>
+                                    <a class="text-hover" href="https://tradeimex.in/blogs/{{ $post->title_slug }}">
+                                        <h6>Read More</h6>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="blog_card_content">
-                            <h3>
-                                Rice Import-Export Trade Statistics of 2023
-                            </h3>
-                            <p>
-                                Discover the latest trends and projections for Rice trade statistics 
-                                in 2023. get the global trade data statistics of rice, Acqui...
-                            </p>
-                            <a class="text-hover" href="https://tradeimex.in/blogs/top-electronic-exports-of-the-philippines">
-                                <h6>Read More</h6>
-                            </a>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
-                <!-- <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="blog_card">
-                        <div class="blog_card_image">
-                            <img src="/frontend/image/img/blog_1.jpg" alt="">
-                        </div>
-                        <div class="blog_card_content">
-                            <h3>
-                                India’s Ambitious Interim
-                                Union Budget 2024-25
-                            </h3>
-                            <p>
-                                Discover everything you need to know about the highly anticipated Interim Union 
-                                Budget 2024-25 presented by Finance Minister Nirma...
-                            </p>
-                            <a class="text-hover" href="https://tradeimex.in/blogs/us-mexico-trade-relations">
-                                <h6>Read More</h6>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
+            @endif
         </div>
+        
 
         <!-- Last Contact Us -->
         @include('frontend.tab_inc')

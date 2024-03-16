@@ -203,13 +203,18 @@
                         </tr>
                     </thead>
                     <tbody>
-                     
+                        @if(session('searcherror'))
+                            <div class="alert alert-danger" id="error-alert">
+                               <h3 style="text-align: center;"> {{ session('searcherror') }}</h3>
+                            </div>
+                        @endif
                         @if (isset($results) && $results->count() > 0)
                
                             @foreach ($results as $result)
                                 @php
                                     $description = $result->Description;
                                 @endphp
+
                                 <tr>
                                     <th class="table-primary">
                                         <a class="text-hover" href="{{ route('search.list', ['hsCode' => $result->hs_code,  'description' => Str::lower($description)]) }}">{{ $result->hs_code }}</a>

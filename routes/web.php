@@ -9,6 +9,7 @@ use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\CareerFormController;
 use App\Http\Controllers\PartnersFormController;
 use App\Http\Controllers\HsCodeController;
+use App\Http\Controllers\BlogData;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,6 +23,7 @@ use App\Http\Controllers\HsCodeController;
 
 // Route::get('/', [LinkController::class,'index']);
 Route::get('/', [CountriesdataController::class, 'countrydata'])->name('countrydata');
+
 Route::get('/about-us', [LinkController::class,'aboutus']);
 Route::get('/why-choose-us', [LinkController::class,'whychooseus']);
 Route::get('/find-buyer-supplier', [LinkController::class,'fbs']);
