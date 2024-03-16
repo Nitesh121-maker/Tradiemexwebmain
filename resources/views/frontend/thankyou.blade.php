@@ -30,6 +30,13 @@
                 font-size: 38px;
                 color: #fff;
             }
+            .thankyou-img {
+                display: flex;
+                justify-content: center;
+            } 
+            .thankyou-img img {
+                width: 70%;
+            }
         </style>
     </head>
     <body>
@@ -37,6 +44,9 @@
         
         <section class="thank-you-section">
             <div class="thank-you-container">
+                <div class="thankyou-img">
+                    <img src="frontend/image/img/mail.png">
+                </div>
                 <h1 class="thank-you-heading">
                     Thank you for Reaching Out <br>
                     We Will Get Back To You Soon!!
