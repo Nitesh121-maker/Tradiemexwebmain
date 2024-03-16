@@ -56,7 +56,7 @@
         </section>
 
         <!-- Blog Cards -->
-        <div class="container pdt-2">
+        <div class="container pdt-2 bg-bluish">
             <div class="row">
                 <div class="text-content text-center">
                     <h2>Get More Insights From Our Blogs</h2>
@@ -141,7 +141,7 @@
         </div>
 
         <!-- Clients Tab -->
-        <div class="container-fluid pdt-2 pdb-5">
+        <div class="container-fluid pdt-2 pdb-5 bg-bluish">
             <div class="container">
                 <div class="text-content text-center">
                     <h2>Our Happy Customers</h2>
