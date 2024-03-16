@@ -2451,7 +2451,7 @@ table tbody tr th a:hover {
 
 @media (min-width:820px) {
     .breadcrumb-mobile {
-        display: grid !important
+        display: grid;
     }
     .tab-fix {
         display: flex !important;
