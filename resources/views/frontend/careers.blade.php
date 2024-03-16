@@ -197,7 +197,7 @@
                                     <img src="frontend/image/img/data-report.png" style="width: 15%;">
                                 </div>
                                 <div class="card-body">
-                                    <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">Achieve business exposure</h2>
+                                    <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">Achieve business exposure</h5>
                                     <p class="card-text text-white-p">
                                         Collaborating with your colleagues under one roof will provide you with corporate experience,
                                         which will teach you to follow rules and develop into a responsible individual.
@@ -211,7 +211,7 @@
                                     <img src="frontend/image/img/working.png" style="width: 15%;">
                                 </div>
                                 <div class="card-body">
-                                    <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">Exciting and Challenging Work</h2>
+                                    <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">Exciting and Challenging Work</h5>
                                     <p class="card-text text-white-p">
                                         At TradeImeX, no days are the same. You will always be encouraged to adapt and be on your
                                         toes in our line of work because it moves quickly and is always changing.
@@ -241,9 +241,9 @@
                                 <img src="frontend/image/img/vlogger.png" width="25%">
                             </div>
                             <div class="card-body">
-                                <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Opportunities for Travel and Networking
-                                </h2>
+                                </h5>
                                 <p class="card-text text-white-p">
                                     TradeImeX operates on a global scale, and as an employee, you may have the opportunity to
                                     travel to different countries and interact with professionals from various industries and
@@ -259,9 +259,9 @@
                                 <img src="frontend/image/img/incentive.png" width="25%">
                             </div>
                             <div class="card-body">
-                                <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Employee Recognition and Incentives
-                                </h2>
+                                </h5>
                                 <p class="card-text text-white-p">
                                     TradeImeX values excellence and recognizes the achievements of its employees. The
                                     company has a robust employee recognition program in place to celebrate individual and
@@ -277,9 +277,9 @@
                                 <img src="frontend/image/img/development.png" width="25%">
                             </div>
                             <div class="card-body">
-                                <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Dynamic and Innovative Work Environment
-                                </h2>
+                                </h5>
                                 <p class="card-text text-white-p">
                                     Joining TradeImeX means being a part of a dynamic and innovative work environment. The
                                     company embraces new technologies, encourages creative thinking, and fosters an
@@ -295,9 +295,9 @@
                                 <img src="frontend/image/img/social-events.png" width="25%">
                             </div>
                             <div class="card-body">
-                                <h2 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     Social Events and Team-Building Activities
-                                </h2>
+                                </h5>
                                 <p class="card-text text-white-p">
                                     TradeImeX understands the value of fostering a strong sense of community among its
                                     employees. To promote team cohesion and camaraderie, the company regularly hosts social
