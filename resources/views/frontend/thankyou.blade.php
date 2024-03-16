@@ -143,7 +143,7 @@
         <!-- Clients Tab -->
         <div class="container-fluid pdt-2 pdb-5">
             <div class="container">
-                <div class="text-content">
+                <div class="text-content text-center">
                     <h2>Our Happy Customers</h2>
                 </div>
                 <div class="row">
