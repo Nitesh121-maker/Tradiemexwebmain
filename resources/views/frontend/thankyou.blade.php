@@ -35,7 +35,8 @@
                 justify-content: center;
             } 
             .thankyou-img img {
-                width: 70%;
+                width: 40%;
+                padding: 15px;
             }
         </style>
     </head>
