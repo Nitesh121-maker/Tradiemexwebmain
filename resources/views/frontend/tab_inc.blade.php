@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="text-other-color1" style="color: white !important;">
-                    Are you ready to skyrocket your profits?Contact us. 
+                    Are you ready to skyrocket your profits? Contact us. 
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6" style="display: flex;justify-content: center;">
