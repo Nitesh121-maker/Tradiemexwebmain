@@ -2208,7 +2208,7 @@
                 evt.currentTarget.className += " active-1"
             }
 
-             // autoplay tab
+            // autoplay tab
             var currentIndex = 0; // Initialize the index of the active tab
             var intervalId; // Variable to store the interval ID
             var progressBarInterval; // Variable to store the progress bar interval ID
@@ -2231,8 +2231,8 @@
             }
 
             function startAutoPlay() {
-                // Check if the screen width is greater than 768 pixels (adjust as needed)
-                if (window.innerWidth > 768) {
+                // Check if the screen width is greater than 840 pixels (adjust as needed)
+                if (window.innerWidth > 840) {
                     intervalId = setInterval(openLinkAutomatically, 5000); // Adjust the interval as needed
 
                     // Start progress bar
@@ -2258,16 +2258,20 @@
                 progressBar.style.width = "0%";
             }
 
-            // Set interval to change tabs automatically if the screen size is greater than 768 pixels
-            if (window.innerWidth > 840) {
-                startAutoPlay();
+            // Set interval to change tabs automatically if the screen size is greater than 840 pixels
+            startAutoPlay(); // Call it initially
+
+            // Function to handle window resize event
+            function handleResize() {
+                if (window.innerWidth <= 840) {
+                    stopAutoPlay();
+                } else {
+                    startAutoPlay();
+                }
             }
 
-            // Stop autoplay for screen sizes less than or equal to 768 pixels (tab and mobile view)
-            if (window.innerWidth < 840 && window.innerWidth > 576) {
-                stopAutoPlay();
-            }
-
+            // Add event listener for window resize event
+            window.addEventListener("resize", handleResize);
 
             // For Tab Containers
             // Add event listeners for stopping on hover
