@@ -36,7 +36,7 @@
             } 
             .thankyou-img img {
                 width: 40%;
-                padding: 15px;
+                padding: 22px;
             }
         </style>
     </head>
@@ -137,6 +137,99 @@
                         </div>
                     </div>
                 </div> -->
+            </div>
+        </div>
+
+        <!-- Clients Tab -->
+        <div class="container-fluid pdt-2 pdb-5">
+            <div class="container">
+                <div class="text-content">
+                    <h2>Our Happy Customers</h2>
+                </div>
+                <div class="row">
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/Aditya_Birla.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/BASF.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/Counterpoint.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/Deloitte.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/DHL.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/Dow.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/Exxon_Mobil.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/EY.png" width="60%">
+                        </div>
+                    </div>
+
+                    <!-- Second row -->
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/Realme.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/Nikon.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/Samsung.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/LG.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/Hyundai.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/Mahindra.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/Tata.png" width="60%">
+                        </div>
+                    </div>
+                    <div class="client-mb col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="client-img zoom">
+                            <img src="frontend/image/client_transparent/TVS.png" width="60%">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
