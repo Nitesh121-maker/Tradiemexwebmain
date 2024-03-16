@@ -2106,6 +2106,8 @@
                                 <div class="blog_card_content">
                                     <h3>{{ $post->title }}</h3>
                                     <p>{{ Str::limit($post->summary, 150) }}</p>
+                                </div>
+                                <div class="container">
                                     <a class="text-hover" href="https://tradeimex.in/blogs/{{ $post->title_slug }}">
                                         <h6>Read More</h6>
                                     </a>
