@@ -2453,6 +2453,9 @@ table tbody tr th a:hover {
     .breadcrumb-mobile {
         display: grid;
     }
+    .breadcrumb-mobile button a {
+        font-size: 18px !important;
+    }
 }
 
 @media (min-width:820px) {
