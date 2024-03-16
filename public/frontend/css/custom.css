@@ -897,6 +897,7 @@ h1 {
 .card-content-bg p {
     color: #fff;
     font-size: 13px;
+    padding: 0 0 0 10px;
     line-height: 1.6;
 }
 

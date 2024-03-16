@@ -38,11 +38,96 @@
         <section class="thank-you-section">
             <div class="thank-you-container">
                 <h1 class="thank-you-heading">
-                    Thank you for Reaching Out
+                    Thank you for Reaching Out <br>
                     We Will Get Back To You Soon!!
                 </h1>
             </div>
         </section>
+
+        <!-- Blog Cards -->
+        <div class="container pdt-2">
+            <div class="row">
+                <div class="text-content text-center">
+                    <h2>Get More Insights From Our Blogs</h2>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="blog_card">
+                        <div class="blog_card_image">
+                            <img src="/frontend/image/img/blog_1.jpg" alt="">
+                        </div>
+                        <div class="blog_card_content">
+                            <h3>
+                                India’s Ambitious Interim
+                                Union Budget 2024-25
+                            </h3>
+                            <p>
+                                Discover everything you need to know about the highly anticipated Interim Union 
+                                Budget 2024-25 presented by Finance Minister Nirma...
+                            </p>
+                            <a class="text-hover" href="https://tradeimex.in/blogs/us-mexico-trade-relations">
+                                <h6>Read More</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="blog_card">
+                        <div class="blog_card_image">
+                            <img src="/frontend/image/img/blog_2.jpg" alt="">
+                        </div>
+                        <div class="blog_card_content">
+                            <h3>Corn exports and imports in 2023</h3>
+                            <p>
+                                The total amount of corn produced globally in 2023 was 1.17 billion metric tons 
+                                with the USA leading the corn exports, while China...
+                            </p>
+                            <a class="text-hover" href="https://tradeimex.in/blogs/medical-equipment-export">
+                                <h6>Read More</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="blog_card">
+                        <div class="blog_card_image">
+                            <img src="/frontend/image/img/blog_3.jpg" alt="">
+                        </div>
+                        <div class="blog_card_content">
+                            <h3>
+                                Rice Import-Export Trade Statistics of 2023
+                            </h3>
+                            <p>
+                                Discover the latest trends and projections for Rice trade statistics 
+                                in 2023. get the global trade data statistics of rice, Acqui...
+                            </p>
+                            <a class="text-hover" href="https://tradeimex.in/blogs/top-electronic-exports-of-the-philippines">
+                                <h6>Read More</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="blog_card">
+                        <div class="blog_card_image">
+                            <img src="/frontend/image/img/blog_1.jpg" alt="">
+                        </div>
+                        <div class="blog_card_content">
+                            <h3>
+                                India’s Ambitious Interim
+                                Union Budget 2024-25
+                            </h3>
+                            <p>
+                                Discover everything you need to know about the highly anticipated Interim Union 
+                                Budget 2024-25 presented by Finance Minister Nirma...
+                            </p>
+                            <a class="text-hover" href="https://tradeimex.in/blogs/us-mexico-trade-relations">
+                                <h6>Read More</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
 
         @include('frontend.footer')
         @include('frontend.script')
