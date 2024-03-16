@@ -16,46 +16,19 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: auto;
-                background-image: url('thank-you-bg.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #f6f9fc;
+                height: auto;             
+                background: rgb(0,80,110);
+                background: linear-gradient(90deg, rgba(0,80,110,1) 12%, rgba(0,80,110,1) 56%, rgba(0,126,137,1) 90%);
             }
-
             .thank-you-container {
                 text-align: center;
                 padding: 50px;
-                background-color: #f6f9fc;
                 border-radius: 10px;
                 /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
             }
-
             .thank-you-heading {
-                font-size: 48px;
-                margin-bottom: 30px;
-                color: #3fbf08;
-            }
-
-            .thank-you-message {
-                font-size: 24px;
-                margin-bottom: 50px;
-                color: #585858;
-            }
-
-            .back-to-home-button {
-                display: inline-block;
-                padding: 15px 30px;
-                border-radius: 10px;
-                background-color: #585858;
-                color: #ffffff;
-                text-decoration: none;
-                transition: background-color 0.3s ease;
-            }
-
-            .back-to-home-button:hover {
-                background-color: #3b3b3b;
+                font-size: 38px;
+                color: #fff;
             }
         </style>
     </head>
@@ -65,11 +38,9 @@
         <section class="thank-you-section">
             <div class="thank-you-container">
                 <h1 class="thank-you-heading">
-                    Thank you for submitting the form!
+                    Thank you for Reaching Out
+                    We Will Get Back To You Soon!!
                 </h1>
-                <p class="thank-you-message">
-                    We Will Connect With You Soon.
-                </p>
             </div>
         </section>
 
