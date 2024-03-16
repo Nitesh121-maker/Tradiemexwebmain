@@ -134,7 +134,7 @@
                 </ul>
                 <div class="breadcrumb-mobile">
                     <button class="btn btn-outline text-black fw-600" type="button">
-                        <a class="text-hover" href="/contact-us">Contact Us</a>
+                        <a class="text-hover" href="/contact-us" style="color: #0a58ca !important;">Contact Us</a>
                     </button>
                     <button class="btn btn-primary" type="button">
                         <a href="/blog.php" style="color: #fff !important;">Blog</a>
