@@ -18,6 +18,7 @@ class ContinentDataController extends Controller
             -> select('country','country_code','Datatype')
             -> union(DB::table('export')->select('country','country_code','Datatype'))
             -> get();
+  
             return view('frontend.continent', ['continentdata' => $result,'countrydata'=>$countrydata]);
         } catch (\Throwable $th) {
             Log::error('Error in continentData method: ' . $th->getMessage());
