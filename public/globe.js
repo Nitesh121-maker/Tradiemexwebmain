@@ -1,4 +1,5 @@
-import*as e from"three";import{OrbitControls as t}from"three/addons/controls/OrbitControls.js";let vertex=`
+import*as e from"three";import{OrbitControls as t}from"three/addons/controls/OrbitControls.js";
+let vertex=`
   #ifdef GL_ES
   precision mediump float;
   #endif
