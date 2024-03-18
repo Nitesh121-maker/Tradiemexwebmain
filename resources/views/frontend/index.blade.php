@@ -56,6 +56,8 @@
                     margin-top: 0em !important;
                 }
             }
+
+            
         </style>
     </head>
     <body>
@@ -2085,7 +2087,7 @@
         </div>
 
         <!-- Blog Cards -->
-        <div class="container pdt-2">
+        {{-- <div class="container pdt-2">
             @if(session('blogerror'))
                 <div class="alert alert-danger" id="error-alert">
                     <h3 style="text-align: center;"> {{ session('searcherror') }}</h3>
@@ -2117,7 +2119,7 @@
                     @endforeach
                 </div>
             @endif
-        </div>
+        </div> --}}
         
 
         <!-- Last Contact Us -->
