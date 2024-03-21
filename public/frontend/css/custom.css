@@ -2479,9 +2479,9 @@ table tbody tr th a:hover {
         display: none
     }
 }
-@media (min-width:1024px) {
+@media (min-width: 1244px) {
     .PartnersHeroGraphic {
-        left: 31% !important;
+        left: 10% !important;
     }
 }
 @media (min-width:1028px) {
