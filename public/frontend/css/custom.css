@@ -2479,7 +2479,11 @@ table tbody tr th a:hover {
         display: none
     }
 }
-
+@media (min-width:1024px) {
+    .PartnersHeroGraphic {
+        left: 31% !important;
+    }
+}
 @media (min-width:1028px) {
     #datas {
         text-align: center;
@@ -2547,7 +2551,7 @@ table tbody tr th a:hover {
     }
 
     .PartnersHeroGraphic {
-        left: 31% !important
+        left: 31% !important;
     }
 }
 
