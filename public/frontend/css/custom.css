@@ -1732,7 +1732,7 @@ table tbody tr th a:hover {
     z-index: 1;
     justify-self: end;
     width: calc(100% + var(--partnersHeroGraphicGutter));
-    height: 500px;
+    height: 518px;
     max-width: 640px;
     margin-right: calc(var(--columnPaddingNormal)*-1);
     margin-left: calc(var(--partnersHeroGraphicGutter)*-1);
@@ -2479,7 +2479,7 @@ table tbody tr th a:hover {
         display: none
     }
 }
-@media (min-width: 1244px) {
+@media (max-width: 1244px) {
     .PartnersHeroGraphic {
         left: 10% !important;
     }
