@@ -16,23 +16,33 @@ class ContactFormController extends Controller
         $validatedData = $request->validate([
             'name'    => 'required',
             'email'   => 'required|email',
-            'country_region'=> 'required',
+            'country_region' => 'required',
             'number'  => 'required',
             'company' => 'required',
             'role'    => 'required',
             'message' => ['required', 'string', new NoUrls],
-            'recaptcha_response' => 'required|recaptchav3:contact,0.5',
+            'user_ip' => 'required|ip',
+            'recaptcha_response' => 'required',
         ]);
-
-        if ($validatedData) {
-            # code...
+    
+        // Send the token to Google for verification
+        $response = Http::post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret' => config('services.recaptcha.secret'),
+            'response' => $request->input('recaptcha_response'),
+            'remoteip' => $request->ip(),
+        ]);
+    
+        // Handle the verification response
+        $responseData = $response->json();
+        if ($responseData['success'] && $responseData['score'] >= 0.5) {
+            // Token is valid and has a score above the threshold
+            // Proceed with form submission and sending email
             Mail::to('info@tradeimex.in')->send(new ContactFormMail($validatedData));
-
             return redirect()->route('thankyou')->with('success', 'Your message has been sent!');
+        } else {
+            // Token is invalid or score is too low
+            // Reject the form submission and display an error message
+            return redirect()->back()->withErrors(['error' => 'Your message could not be sent. Please check the reCAPTCHA checkbox and try again.']);
         }
-        else {
-            return redirect()->back()->withErrors(['error' => 'Your message could not be sent. Please check the form fields and try again.']);
-        }
-
     }
 }
