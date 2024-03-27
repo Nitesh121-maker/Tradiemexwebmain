@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactFormMail;
 use App\Rules\NoUrls;
 use Illuminate\Validation\Rule;
+
 class ContactFormController extends Controller
 {
     //
@@ -20,6 +21,7 @@ class ContactFormController extends Controller
             'company' => 'required',
             'role'    => 'required',
             'message' => ['required', 'string', new NoUrls],
+            'recaptcha' => 'required|recaptchav3:contact,0.5',
         ]);
 
         if ($validatedData) {
