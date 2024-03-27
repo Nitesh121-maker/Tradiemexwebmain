@@ -21,7 +21,7 @@ class ContactFormController extends Controller
             'company' => 'required',
             'role'    => 'required',
             'message' => ['required', 'string', new NoUrls],
-            'recaptcha' => 'required|recaptchav3:contact,0.5',
+            'recaptcha_response' => 'required|recaptchav3:contact,0.5',
         ]);
 
         if ($validatedData) {

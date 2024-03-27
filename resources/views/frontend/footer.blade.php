@@ -305,6 +305,7 @@
                         <textarea name="message" required class="form-control" placeholder="Your Message" aria-label="With textarea" id= "txt" ></textarea>
                     </div>
                     <div class="btn col-md-12">
+                        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                         <button type="Submit" id="submit" class="btn btn-primary flex">
                             Submit 
                         </button>
