@@ -55,7 +55,7 @@
                                     {{ session('success') }}
                                 </div>
                             @endif
-                            <form action="{{ route('contact.send') }}" method="POST" onsubmit="return validateForm()" id="contact-form" class="form-control" method="post" style="border: 0px;">
+                            <form action="{{ route('contact.send') }}" method="POST"  onsubmit="return validatecontactForm()" id="contact-form" class="form-control"  style="border: 0px;">
                                 @csrf
 
                                 <div class="form-floating mb-3 col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -340,7 +340,7 @@
                                     <label for="floatingTextarea2">Message</label>
                                 </div>
                                 <div class="btn col-md-12">
-                                    <button type="Submit" class="btn btn-primary">
+                                    <button type="submit" class="btn btn-primary">
                                         Submit 
                                     </button>   
                                 </div>

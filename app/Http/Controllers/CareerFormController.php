@@ -21,15 +21,20 @@ class CareerFormController extends Controller
                 'cv' => 'required|file|mimes:pdf',
                 'recaptcha_response'=>'required',
             ]);
-             
-            // Get the CV file content
-            $cvContent = $request->file('cv')->get();
+            if ($validatedData) {
+                 // Get the CV file content
+                $cvContent = $request->file('cv')->get();
           
-            // Send email with career application data and CV attachment
-            Mail::to('info@tradeimex.in')->send(new CareerFormMail($validatedData, $cvContent));
-       
-            // Redirect back with success message
-            return redirect()->route('thankyou')->with('success', 'Your application has been submitted.');
+                // Send email with career application data and CV attachment
+                Mail::to('info@tradeimex.in')->send(new CareerFormMail($validatedData, $cvContent));
+           
+                // Redirect back with success message
+                return redirect()->route('thankyou')->with('success', 'Your application has been submitted.');
+            }
+            else {
+                # code...
+                return redirect()->back()->with('carrererror', 'Sorry, your application could not be submitted. Please try again.');
+            }
             
         } catch (\Exception $e) {
             // Log the error

@@ -30,6 +30,51 @@
             // If the message does not contain a URL, allow form submission
             return true;
         }
+
+        function validateForm() {
+            // Get the value of the message field
+            var message = document.getElementById('txt').value;
+            
+            // Regular expression to match URLs
+            var urlRegex = /(https?:\/\/[^\s]+)/g;
+            
+            // Check if the message contains a URL
+            if (urlRegex.test(message)) {
+                // Alert the user and prevent form submission
+                alert('Please do not include URLs in the message.');
+                return false;
+            }
+            
+            // If the message does not contain a URL, allow form submission
+            return true;
+        }
+
+        // Function to validate Contact form
+        function validatecontactForm() {
+             console.log('Entered in function:');
+            // Get the value of the message field
+            var message = document.getElementsByName("message")[0].value;
+            var nameInput = document.getElementsByName('name')[0].value;
+            var companyInput = document.getElementsByName('company')[0].value;
+            var numberInput = document.getElementsByName('number')[0].value;
+            
+            console.log('message',message);
+            
+            // Regular expression to match URLs
+            var urlRegex = /(https?:\/\/[^\s]+)/g;
+             // Regular expression to check for links
+         
+            
+            // Check if the message contains a URL
+            if (urlRegex.test(message)|| urlRegex.test(nameInput) || urlRegex.test(companyInput) || urlRegex.test(numberInput)) {
+                // Alert the user and prevent form submission
+                alert('Please do not include URLs in Form.');
+                return false;
+            }
+            
+            // If the message does not contain a URL, allow form submission
+            return true;
+        }
     </script>
 
     <!-- Google recaptcha verfication Code form js -->
